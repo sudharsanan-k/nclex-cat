@@ -1,0 +1,4239 @@
+{
+  "u": "Chapters 32 & 33: Pediatric Oncological, Metabolic, and Endocrine Problems",
+  "confidence": {
+    "score": 100,
+    "sections_covered": [
+      "Ch. 32 Section I.A-B & Box 32.1: Leukemia Pathophysiology, Phases, Diagnostics & Increased ICP [Items 1-9]",
+      "Ch. 32 Section I.C-D & Boxes 32.2-32.3: Leukemia Infection Prevention, Vaccines & Bleeding Precautions [Items 10-17]",
+      "Ch. 32 Section I.E-F & Chemo Safety Alert: Leukemia Fatigue, Nutrition & Chemotherapy Adverse Effects [Items 18-22]",
+      "Ch. 32 Section II, Fig. 32.1, Clinical Judgment Box & Table 32.1: Hodgkin's Disease & Radiation Therapy [Items 23-29]",
+      "Ch. 32 Section III & Safety Alert: Nephroblastoma (Wilms' Tumor) Pre/Postoperative Care [Items 30-35]",
+      "Ch. 32 Section IV: Neuroblastoma Diagnostics, Manifestations & Parental Support [Items 36-40]",
+      "Ch. 32 Section V: Osteosarcoma (Osteogenic Sarcoma) & Amputation/Phantom Limb Care [Items 41-44]",
+      "Ch. 32 Section VI, Safety Alert & Box 32.4: Pediatric Brain Tumors & Post-Craniotomy Care/Positioning [Items 45-52]",
+      "Ch. 33 Section I: Pediatric Fever Thresholds, Neonatal Emergency & Reye's Syndrome [Items 53-57]",
+      "Ch. 33 Section II, Safety Alert & Table 33.1: Pediatric Dehydration (Mild/Moderate/Severe) & Rehydration [Items 58-65]",
+      "Ch. 33 Section III & Clinical Judgment Box: Phenylketonuria (PKU) Screening & Dietary Evaluation [Items 66-71]",
+      "Ch. 33 Section IV: Childhood Obesity CDC BMI Percentiles & Comorbidities [Items 72-75]",
+      "Ch. 33 Section V.A-F, Fig. 33.1, Alert & Box 33.1: Diabetes Mellitus Types 1 & 2, Diet, Exercise & Prevention [Items 76-82]",
+      "Ch. 33 Section V.G-I, Box 33.2 & Ketone Alert: Insulin Therapy, HbA1c, Blood Glucose & Urine Ketones [Items 83-88]",
+      "Ch. 33 Section V.J-K & Boxes 33.3-33.6: Hypoglycemia, Hyperglycemia & Sick Day Rules [Items 89-94]",
+      "Ch. 33 Section V.L & DKA Safety Alert: Diabetic Ketoacidosis (DKA) Fluid, Insulin & Potassium Care [Items 95-100]",
+      "End-of-Chapter Practice Questions (Ch. 32 PQ 1-10 & Ch. 33 PQ 1-9 integrated proportionally across items)"
+    ],
+    "missed_topics": [],
+    "summary": "All sections of Chapter 32 (Sections I-VI, Boxes 32.1-32.4, Table 32.1, Fig. 32.1, Clinical Judgment box, 3 safety alerts, PQ 1-10) and Chapter 33 (Sections I-V, Boxes 33.1-33.6, Table 33.1, Fig. 33.1, Clinical Judgment box, 4 safety alerts, PQ 1-9) are evenly covered across 100 validated NCLEX-RN items."
+  },
+  "q": [
+    {
+      "i": 1,
+      "t": "m",
+      "d": 1,
+      "c": 8,
+      "j": 2,
+      "st": "A nursing student is reviewing the pathophysiology of childhood leukemia. Which cellular mechanism accounts for the anemia, infection, and bleeding seen at diagnosis?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Proliferating immature blast cells crowd and depress normal bone marrow hematopoiesis",
+          "Immature leukocytes depress bone marrow production of erythrocytes, neutrophils, and platelets."
+        ],
+        [
+          "B",
+          "Excessive splenic destruction of mature lymphocytes triggers autoimmune hemolysis",
+          "Bone marrow depression by immature blast cells causes pancytopenia rather than isolated splenic hemolysis."
+        ],
+        [
+          "C",
+          "Elevated erythropoietin levels inhibit platelet maturation in peripheral blood vessels",
+          "Decreased erythrocyte production causes anemia rather than elevated erythropoietin levels inhibiting platelets."
+        ],
+        [
+          "D",
+          "Hyperactive megakaryocytes consume circulating clotting factors and white blood cells",
+          "Platelet production is decreased in leukemia, causing thrombocytopenia rather than megakaryocyte hyperactivity."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Proliferating immature blast cells depress the bone marrow, causing anemia, neutropenia-related infection, and thrombocytopenia.",
+      "fc": [
+        "Leukemia Pathophysiology",
+        "Malignant increase in immature leukocytes (blast cells) in bone marrow | Depresses marrow: anemia (low RBCs), infection (neutropenia), bleeding (thrombocytopenia) | Acute lymphocytic leukemia (ALL) is most frequent childhood cancer",
+        "Ch. 32 Section I.A"
+      ]
+    },
+    {
+      "i": 2,
+      "t": "m",
+      "d": 1,
+      "c": 8,
+      "j": 1,
+      "st": "The nurse is conducting an educational session on pediatric oncology epidemiology. Which malignancy is the most frequent type of cancer occurring in children?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Acute lymphocytic leukemia",
+          "Acute lymphocytic leukemia is the most common malignant neoplasm diagnosed in pediatric clients."
+        ],
+        [
+          "B",
+          "Osteogenic sarcoma",
+          "Osteosarcoma is the most common childhood bone cancer but occurs less frequently than leukemia."
+        ],
+        [
+          "C",
+          "Nephroblastoma (Wilms' tumor)",
+          "Wilms' tumor is the most common pediatric kidney tumor rather than the overall most frequent cancer."
+        ],
+        [
+          "D",
+          "Hodgkin's lymphoma",
+          "Hodgkin's disease peaks in midadolescence and is less common overall than acute lymphocytic leukemia."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Acute lymphocytic leukemia is the most frequent type of cancer in children.",
+      "fc": [
+        "Pediatric Cancer Epidemiology",
+        "Acute lymphocytic leukemia (ALL): most frequent cancer in children | Wilms' tumor: most common intra-abdominal/kidney tumor (peak age 3) | Osteosarcoma: most common pediatric bone cancer (peak age 13-16)",
+        "Ch. 32 Section I.A.5"
+      ]
+    },
+    {
+      "i": 3,
+      "t": "m",
+      "d": 4,
+      "c": 6,
+      "j": 2,
+      "st": "The parent of a 5-year-old child newly diagnosed with acute lymphocytic leukemia asks why the chemotherapy protocol includes intrathecal medication during central nervous system prophylactic therapy. What is the nurse's best explanation?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "It prevents leukemic blast cells from invading the central nervous system",
+          "Central nervous system prophylactic therapy specifically prevents leukemic cells from invading the CNS."
+        ],
+        [
+          "B",
+          "It achieves initial complete remission by eliminating systemic bone marrow blasts",
+          "Induction therapy achieves initial complete remission, whereas CNS prophylaxis prevents central nervous invasion."
+        ],
+        [
+          "C",
+          "It reduces residual systemic tumor burden immediately following initial induction",
+          "Intensification or consolidation therapy further decreases systemic tumor burden after induction remission."
+        ],
+        [
+          "D",
+          "It serves as long-term low-dose therapy over several years to sustain remission",
+          "Maintenance therapy preserves long-term remission after induction, consolidation, and CNS prophylaxis."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Leukemia chemotherapy phases include induction (remission), intensification/consolidation (reduce tumor burden), CNS prophylaxis (prevent CNS invasion), and maintenance.",
+      "fc": [
+        "Four Phases of Leukemia Chemotherapy",
+        "1. Induction: achieves complete remission | 2. Intensification/consolidation: decreases tumor burden further | 3. CNS prophylaxis: prevents CNS invasion | 4. Maintenance: sustains remission",
+        "Ch. 32 Section I.A.8"
+      ]
+    },
+    {
+      "i": 4,
+      "t": "m",
+      "d": 1,
+      "c": 7,
+      "j": 2,
+      "st": "A 4-year-old child is admitted with pallor, fatigue, easy bruising, lymphadenopathy, and hepatosplenomegaly. Which diagnostic test result confirms the suspected diagnosis of acute lymphocytic leukemia?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Bone marrow biopsy specimen demonstrating leukemic blast-phase cells",
+          "A positive bone marrow biopsy identifying immature blast-phase cells confirms the diagnosis of leukemia."
+        ],
+        [
+          "B",
+          "Lumbar puncture showing clear cerebrospinal fluid without blast cells",
+          "A lumbar puncture evaluates central nervous system involvement rather than confirming primary leukemia."
+        ],
+        [
+          "C",
+          "Complete blood count showing a white blood cell count of 4,500 mm3",
+          "White blood cell counts may be normal, high, or low in leukemia and are not diagnostic."
+        ],
+        [
+          "D",
+          "Peripheral blood smear showing a platelet count of 350,000 mm3",
+          "Platelet counts are typically decreased in leukemia and cannot independently establish a definitive diagnosis."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "A positive bone marrow biopsy identifying leukemic blast cells confirms leukemia; a lumbar puncture assesses for CNS involvement.",
+      "fc": [
+        "Leukemia Diagnostic Evaluation",
+        "Confirmatory test: bone marrow biopsy positive for leukemic blast cells | Lumbar puncture: detects blast cells in CSF (CNS involvement) | CBC: low Hgb/Hct, low platelets, normal/high/low WBC",
+        "Ch. 32 Section I.B.4-7 & PQ 7"
+      ]
+    },
+    {
+      "i": 5,
+      "t": "s",
+      "d": 2,
+      "c": 8,
+      "j": 1,
+      "st": "The nurse is assessing a 6-year-old child admitted with newly diagnosed acute lymphocytic leukemia. Which clinical manifestations are consistent with malignant bone marrow infiltration? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Fever, pallor, and persistent fatigue",
+          "Anemia and neutropenia from marrow replacement produce characteristic pallor, fatigue, and fever."
+        ],
+        [
+          "B",
+          "Petechiae and easy bruising on the extremities",
+          "Thrombocytopenia from marrow depression leads to mucocutaneous hemorrhage such as petechiae and bruising."
+        ],
+        [
+          "C",
+          "Bone and joint pain with risk for pathological fractures",
+          "Infiltration of leukemic cells into bone marrow causes bone pain and weakens skeletal integrity."
+        ],
+        [
+          "D",
+          "Hypertension caused by excessive renin secretion",
+          "Renin-mediated hypertension is characteristic of Wilms' tumor rather than leukemic marrow infiltration."
+        ],
+        [
+          "E",
+          "Musty urine odor and hypopigmentation of the hair",
+          "Musty urine odor and hypopigmentation occur in untreated phenylketonuria rather than childhood leukemia."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Bone marrow infiltration in leukemia causes fever, pallor, fatigue, anorexia, hemorrhage (petechiae), bone/joint pain, and pathological fractures.",
+      "fc": [
+        "Leukemia Clinical Manifestations",
+        "Marrow infiltration: fever, pallor, fatigue, anorexia, petechiae, bone/joint pain | Organ invasion: hepatosplenomegaly, lymphadenopathy, CNS, kidneys, testes | Cranial nerve VII (facial) most commonly affected",
+        "Ch. 32 Section I.B.1-10"
+      ]
+    },
+    {
+      "i": 6,
+      "t": "m",
+      "d": 4,
+      "c": 8,
+      "j": 1,
+      "st": "A child with central nervous system involvement from acute lymphocytic leukemia is evaluated for cranial nerve deficits. Which cranial nerve is most commonly affected in childhood leukemia?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Cranial nerve VII (facial nerve)",
+          "Cranial nerve VII, the facial nerve, is the most frequently affected cranial nerve in leukemia."
+        ],
+        [
+          "B",
+          "Cranial nerve I (olfactory nerve)",
+          "The olfactory nerve is rarely involved compared with the facial nerve in CNS leukemia."
+        ],
+        [
+          "C",
+          "Cranial nerve XI (spinal accessory nerve)",
+          "Spinal accessory nerve palsy is uncommon relative to cranial nerve VII involvement in leukemia."
+        ],
+        [
+          "D",
+          "Cranial nerve XII (hypoglossal nerve)",
+          "Hypoglossal nerve dysfunction occurs far less frequently than facial nerve involvement in CNS leukemia."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "In childhood leukemia with central nervous system involvement, cranial nerve VII (the facial nerve) is most commonly affected.",
+      "fc": [
+        "CNS Leukemia & Cranial Nerves",
+        "Lumbar puncture checks spinal fluid for leukemic blast cells | Most commonly affected cranial nerve: CN VII (facial nerve) | Monitor closely for signs of increased ICP (Box 32.1)",
+        "Ch. 32 Section I.B.7-9"
+      ]
+    },
+    {
+      "i": 7,
+      "t": "s",
+      "d": 4,
+      "c": 8,
+      "j": 1,
+      "st": "The nurse is assessing a 5-month-old infant with central nervous system leukemia for increased intracranial pressure (ICP). Which infant-specific signs indicate increased ICP? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Tense, bulging anterior fontanel and separated cranial sutures",
+          "Open cranial sutures in infants expand under rising intracranial pressure, causing a bulging fontanel."
+        ],
+        [
+          "B",
+          "Macewen's sign (cracked-pot sound on skull percussion) and high-pitched cry",
+          "Skull percussion resonance and a shrill high-pitched cry are classic infant cues of increased ICP."
+        ],
+        [
+          "C",
+          "Setting sun sign with sclera visible above the downward-deviated iris",
+          "Downward eye deviation exposing upper sclera is a hallmark neurological sign of infant ICP."
+        ],
+        [
+          "D",
+          "Complaints of severe frontal headache and diplopia",
+          "Infants cannot verbalize subjective complaints of frontal headache or double vision."
+        ],
+        [
+          "E",
+          "Decline in school performance and inability to follow written commands",
+          "School performance decline applies to older children rather than a 5-month-old infant."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Infant signs of increased ICP include tense bulging fontanel, separated sutures, Macewen's sign, high-pitched cry, increased head circumference, distended scalp veins, and setting sun sign.",
+      "fc": [
+        "Infant Increased ICP Signs (Box 32.1)",
+        "Tense bulging fontanel, separated sutures, increased head circumference | Macewen's sign (cracked-pot sound), distended scalp veins | High-pitched cry, irritability, poor feeding, setting sun sign",
+        "Ch. 32 Box 32.1"
+      ]
+    },
+    {
+      "i": 8,
+      "t": "m",
+      "d": 4,
+      "c": 8,
+      "j": 1,
+      "st": "The nurse is monitoring a 3-year-old child following a craniotomy for early signs of increased intracranial pressure (ICP). Which clinical finding should the nurse monitor for as an early indicator in this toddler?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Vomiting",
+          "Because fontanels are closed by age 3, vomiting from medullary pressure is an early sign."
+        ],
+        [
+          "B",
+          "Bulging anterior fontanel",
+          "The anterior fontanel closes between 12 and 18 months and no longer bulges at age 3."
+        ],
+        [
+          "C",
+          "Increasing head circumference",
+          "Cranial sutures fuse after infancy, preventing head circumference enlargement in a 3-year-old child."
+        ],
+        [
+          "D",
+          "Decerebrate posturing with bradycardia",
+          "Decerebrate posturing and bradycardia represent late, life-threatening signs of brainstem compression."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Once fontanels close (posterior at 2-3 months; anterior at 12-18 months), early signs of increased ICP include vomiting, nausea, headache, diplopia, and seizures.",
+      "fc": [
+        "Childhood Early Increased ICP Signs (Box 32.1 & PQ 6)",
+        "Fontanel closure: posterior 2-3 mo, anterior 12-18 mo | Child early ICP signs: headache, nausea, forceful vomiting, diplopia, seizures | Behavioral signs: irritability, drowsiness, school decline, lethargy",
+        "Ch. 32 Box 32.1 & PQ 6"
+      ]
+    },
+    {
+      "i": 9,
+      "t": "s",
+      "d": 5,
+      "c": 8,
+      "j": 3,
+      "st": "A 9-year-old child with central nervous system leukemia becomes acutely unresponsive in the pediatric intensive care unit. Which assessment findings indicate late, life-threatening increased intracranial pressure? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Bradycardia and Cheyne-Stokes respirations",
+          "Brainstem compression produces slowing heart rate and periodic Cheyne-Stokes respiratory patterns in late ICP."
+        ],
+        [
+          "B",
+          "Decerebrate (extension) or decorticate (flexion) posturing",
+          "Abnormal motor posturing indicates severe descending cerebral and brainstem herniation."
+        ],
+        [
+          "C",
+          "Alterations in pupil size and reaction with papilledema",
+          "Cranial nerve III compression and optic disc swelling reflect dangerously elevated intracranial pressure."
+        ],
+        [
+          "D",
+          "Restlessness with mild irritability and decreased school focus",
+          "Restlessness and declining school performance are early behavioral cues rather than late decompensation."
+        ],
+        [
+          "E",
+          "Nausea with occasional morning diplopia",
+          "Nausea and diplopia represent early childhood manifestations rather than late brainstem herniation."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Late signs of increased ICP include bradycardia, Cheyne-Stokes respirations, pupil alterations, papilledema, decorticate/decerebrate posturing, decreased consciousness, and coma.",
+      "fc": [
+        "Late Signs of Increased ICP (Box 32.1)",
+        "Bradycardia and Cheyne-Stokes respirations | Pupil size/reaction changes and papilledema | Decorticate or decerebrate posturing, decreased consciousness, coma",
+        "Ch. 32 Box 32.1"
+      ]
+    },
+    {
+      "i": 10,
+      "t": "m",
+      "d": 5,
+      "c": 6,
+      "j": 5,
+      "st": "A 7-year-old child receiving induction chemotherapy for acute lymphocytic leukemia develops a temperature of 38.4 C (101.1 F) while severely neutropenic. Which sequence of actions should the nurse implement?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Obtain blood cultures and a CBC with differential, then initiate prescribed antibiotics",
+          "Cultures and a CBC with differential must be drawn before starting broad-spectrum antibiotics."
+        ],
+        [
+          "B",
+          "Administer oral acetaminophen and recheck the temperature in 4 hours before notifying the provider",
+          "Neutropenic fever is a life-threatening emergency requiring immediate cultures and antibiotic therapy."
+        ],
+        [
+          "C",
+          "Obtain a rectal temperature to confirm core fever before drawing laboratory specimens",
+          "Rectal thermometers are strictly contraindicated in neutropenic children due to mucosal trauma and sepsis."
+        ],
+        [
+          "D",
+          "Administer prescribed granulocyte colony-stimulating factor and withhold antibiotics until cultures finalize",
+          "Antibiotics are initiated immediately after cultures are obtained rather than delayed for final results."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "If a child with cancer develops a fever while neutropenic, cultures and a CBC with differential are drawn first, then antibiotics are started.",
+      "fc": [
+        "Neutropenic Fever Protocol",
+        "Common infection sites: skin, respiratory tract, gastrointestinal tract | Neutropenic fever action: draw cultures + CBC with differential FIRST | Start prescribed antibiotics immediately afterward",
+        "Ch. 32 Section I.C.1-3"
+      ]
+    },
+    {
+      "i": 11,
+      "t": "s",
+      "d": 2,
+      "c": 2,
+      "j": 5,
+      "st": "The nurse is implementing protective isolation precautions for a hospitalized child with severe chemotherapy-induced neutropenia. Which interventions help protect the child from infection? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Maintain the child in a private room with HEPA filtration and strict handwashing",
+          "Private rooms with HEPA filtration and thorough handwashing minimize airborne and contact pathogen transmission."
+        ],
+        [
+          "B",
+          "Eliminate raw fruits, raw vegetables, fresh flowers, and standing water from the room",
+          "Raw produce, soil, and standing water harbor molds and bacteria such as Aspergillus and Pseudomonas."
+        ],
+        [
+          "C",
+          "Ensure anyone entering the room wears a mask and use strict aseptic technique",
+          "Masking entrants and maintaining strict asepsis protect the immunosuppressed child from cross-contamination."
+        ],
+        [
+          "D",
+          "Place the child in a semiprivate room with another afebrile pediatric client",
+          "Sharing a room exposes the neutropenic child to contagious pathogens from roommates and visitors."
+        ],
+        [
+          "E",
+          "Measure core body temperature rectally every 4 hours for accuracy",
+          "Rectal temperatures risk mucosal tears and life-threatening bacteremia in neutropenic pediatric clients."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Protective isolation includes a private HEPA-filtered room, handwashing, masks, strict asepsis, no raw fruits/vegetables/flowers/standing water, and avoiding invasive procedures.",
+      "fc": [
+        "Protecting the Child from Infection (Box 32.2)",
+        "Private room with HEPA/laminar airflow; masks for entrants; strict asepsis | No raw fruits/vegetables, fresh flowers, or standing water | Daily antimicrobial bath, oral hygiene, avoid rectal/invasive procedures",
+        "Ch. 32 Box 32.2 & PQ 10"
+      ]
+    },
+    {
+      "i": 12,
+      "t": "m",
+      "d": 4,
+      "c": 2,
+      "j": 5,
+      "st": "The grandparent of a 6-year-old neutropenic child in protective isolation brings a fresh bouquet of garden flowers and asks the nurse for a vase. Which response by the nurse is most appropriate?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Your flowers are lovely, but fresh flowers cannot be kept in the room due to infection risk",
+          "Standing water and damp soil harbor Aspergillus and Pseudomonas aeruginosa, posing lethal infection risks."
+        ],
+        [
+          "B",
+          "I will wash a vase with antimicrobial soap so the flowers can stay by the window",
+          "Washing the vase does not eliminate fungal spores and bacteria present on fresh flowers."
+        ],
+        [
+          "C",
+          "You may place the flowers on the far bedside stand at least 6 feet from the bed",
+          "Fresh flowers and standing water are completely prohibited anywhere inside a neutropenic client's room."
+        ],
+        [
+          "D",
+          "Only potted plants with dry soil are permitted in protective isolation rooms",
+          "Both potted plants and cut flowers harbor molds and bacteria and must be excluded."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Fresh flowers, plants, and standing water must not be kept in a neutropenic child's room because they harbor Aspergillus and Pseudomonas aeruginosa.",
+      "fc": [
+        "Environmental Pathogen Restriction (Box 32.2 & PQ 8)",
+        "No fresh flowers or potted plants (harbor Aspergillus & Pseudomonas) | No standing water in the child's room | Eliminate raw fruits and vegetables from diet (harbor molds)",
+        "Ch. 32 Box 32.2 & PQ 8"
+      ]
+    },
+    {
+      "i": 13,
+      "t": "m",
+      "d": 5,
+      "c": 3,
+      "j": 4,
+      "st": "The parents of a 4-year-old child receiving chemotherapy for acute lymphocytic leukemia ask which routine childhood immunizations are safe to administer during immunosuppression. Which vaccine may be safely administered?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Salk inactivated poliomyelitis vaccine",
+          "The inactivated Salk polio vaccine contains killed virus and may be safely given during immunosuppression."
+        ],
+        [
+          "B",
+          "Measles, mumps, and rubella (MMR) vaccine",
+          "Live attenuated MMR virus can cause life-threatening systemic infection in an immunosuppressed child."
+        ],
+        [
+          "C",
+          "Varicella live attenuated vaccine",
+          "Varicella is a live virus vaccine and is strictly contraindicated while the immune system is depressed."
+        ],
+        [
+          "D",
+          "Oral live attenuated poliovirus vaccine",
+          "Live oral polio vaccine risks vaccine-associated paralytic infection in an immunocompromised child."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Immunosuppressed children must not receive live virus vaccines (MMR, live polio, varicella), whereas the Salk inactivated polio vaccine may be administered.",
+      "fc": [
+        "Immunizations in Immunosuppressed Children (Box 32.2)",
+        "CONTRAINDICATED live vaccines: MMR, live polio, varicella (risk life-threatening infection) | SAFE: Salk (inactivated) vaccine for poliomyelitis | Notify school teacher to report communicable diseases immediately",
+        "Ch. 32 Box 32.2"
+      ]
+    },
+    {
+      "i": 14,
+      "t": "m",
+      "d": 1,
+      "c": 2,
+      "j": 4,
+      "st": "The nurse reviews morning laboratory results for a child receiving chemotherapy and notes a platelet count of 19,500 mm3 (19.5 x 10^9/L). Which priority intervention should the nurse incorporate into the plan of care?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Initiate bleeding precautions",
+          "A platelet count below 50,000 mm3 places the child at high risk for spontaneous hemorrhage."
+        ],
+        [
+          "B",
+          "Initiate airborne protective isolation precautions",
+          "Airborne protective isolation addresses severe neutropenia rather than isolated low platelet counts."
+        ],
+        [
+          "C",
+          "Administer ibuprofen every 6 hours for bone discomfort",
+          "NSAIDs and aspirin impair platelet aggregation and are strictly avoided in thrombocytopenic children."
+        ],
+        [
+          "D",
+          "Encourage vigorous daily flossing to prevent gingival hyperplasia",
+          "Dental floss causes gingival trauma and bleeding and must be avoided during thrombocytopenia."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "A platelet count below 50,000 mm3 (50.0 x 10^9/L) requires immediate bleeding precautions to prevent hemorrhage.",
+      "fc": [
+        "Thrombocytopenia Threshold & Action (PQ 5)",
+        "Platelet count < 50,000 mm3 -> initiate bleeding precautions | Platelet transfusions generally reserved for active bleeding unresponsive to local care | Packed RBCs prescribed for severe blood loss",
+        "Ch. 32 Section I.D & PQ 5"
+      ]
+    },
+    {
+      "i": 15,
+      "t": "s",
+      "d": 4,
+      "c": 2,
+      "j": 5,
+      "st": "The nurse is caring for a 9-year-old child with severe chemotherapy-induced thrombocytopenia. Which interventions should be included in the bleeding precautions plan? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Use a soft toothbrush, avoid dental floss, and serve cool-to-warm soft foods",
+          "Gentle oral care and non-irritating soft foods prevent mucosal trauma and gingival hemorrhage."
+        ],
+        [
+          "B",
+          "Apply firm, gentle pressure to any needlestick site for at least 10 minutes",
+          "Prolonged direct pressure for at least 10 minutes ensures stable clot formation after venipuncture."
+        ],
+        [
+          "C",
+          "Measure abdominal girth daily and examine all body fluids and excrement for blood",
+          "Increasing abdominal girth signals occult internal hemorrhage, while inspecting excretions detects early bleeding."
+        ],
+        [
+          "D",
+          "Administer rectal acetaminophen suppositories if mild fever develops",
+          "Rectal suppositories, enemas, and thermometers risk mucosal injury and severe hemorrhage."
+        ],
+        [
+          "E",
+          "Encourage the child to blow the nose forcefully to clear nasal crusts",
+          "Forceful nose blowing disrupts fragile nasal capillaries and precipitates severe epistaxis."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Bleeding precautions include soft toothbrush, no floss, cool/warm soft foods, 10-minute needlestick pressure, padded rails, no NSAIDs/aspirin, no nose blowing, and no rectal procedures.",
+      "fc": [
+        "Protecting the Child from Bleeding (Box 32.3)",
+        "Soft toothbrush, no floss, cool-to-warm soft foods; no nose blowing | Avoid injections; hold firm pressure on needlesticks >= 10 minutes | Measure abdominal girth; check all excrement for blood; avoid NSAIDs/aspirin/rectal items",
+        "Ch. 32 Box 32.3"
+      ]
+    },
+    {
+      "i": 16,
+      "t": "m",
+      "d": 4,
+      "c": 6,
+      "j": 4,
+      "st": "The nurse is providing home discharge teaching to the parents of a 10-year-old child with leukemia who has a platelet count of 32,000 mm3 (32 x 10^9/L). Which instruction regarding over-the-counter medications is essential?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Avoid administering nonsteroidal antiinflammatory drugs and products containing aspirin",
+          "NSAIDs and aspirin inhibit platelet function and dramatically increase the risk of severe hemorrhage."
+        ],
+        [
+          "B",
+          "Give low-dose chewable aspirin for mild bone aches to prevent clot formation",
+          "Aspirin is strictly contraindicated in thrombocytopenic children due to irreversible platelet inhibition."
+        ],
+        [
+          "C",
+          "Administer ibuprofen before bedtime to prevent nocturnal joint stiffness",
+          "Ibuprofen is an NSAID that impairs hemostasis and must be avoided during thrombocytopenia."
+        ],
+        [
+          "D",
+          "Use bismuth subsalicylate liquid if mild nausea or loose stools occur",
+          "Bismuth subsalicylate contains salicylate (aspirin-related compound) and must be avoided in bleeding risk."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Parents of a thrombocytopenic child must avoid administering NSAIDs and any products containing aspirin.",
+      "fc": [
+        "Medication Safety in Thrombocytopenia (Box 32.3)",
+        "Avoid NSAIDs (e.g., ibuprofen) and all aspirin-containing products | Count pads/tampons if adolescent is menstruating | Pad sharp furniture corners and avoid tight/constrictive clothing",
+        "Ch. 32 Box 32.3"
+      ]
+    },
+    {
+      "i": 17,
+      "t": "m",
+      "d": 4,
+      "c": 6,
+      "j": 2,
+      "st": "A child with acute lymphocytic leukemia has a platelet count of 28,000 mm3 (28 x 10^9/L) and no active bleeding. The parent asks why the health care provider has not ordered a prophylactic platelet transfusion today. What is the nurse's best explanation?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Platelet transfusions are generally reserved for active bleeding episodes unresponsive to local treatment",
+          "Platelet transfusions are typically reserved for active bleeding not controlled by local measures."
+        ],
+        [
+          "B",
+          "Platelet transfusions are contraindicated during induction and relapse chemotherapy phases",
+          "Platelet transfusions are specifically utilized when active bleeding occurs during induction or relapse therapy."
+        ],
+        [
+          "C",
+          "Packed red blood cells are always transfused first to stimulate endogenous platelet release",
+          "Packed red blood cells treat severe blood loss anemia rather than stimulating platelet production."
+        ],
+        [
+          "D",
+          "Platelet transfusions cannot be administered until the white blood cell count exceeds 10,000 mm3",
+          "Platelet transfusion decisions depend on active bleeding status rather than white blood cell thresholds."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Platelet transfusions are generally reserved for active bleeding episodes that do not respond to local treatment and may occur during induction or relapse.",
+      "fc": [
+        "Transfusion Therapy in Leukemia",
+        "Platelet transfusions: reserved for active bleeding unresponsive to local measures (induction/relapse) | Packed RBCs: prescribed for severe blood loss | Monitor closely for transfusion reactions",
+        "Ch. 32 Section I.D.1-2"
+      ]
+    },
+    {
+      "i": 18,
+      "t": "s",
+      "d": 2,
+      "c": 5,
+      "j": 4,
+      "st": "A 6-year-old child receiving chemotherapy for leukemia experiences severe fatigue and oral mucositis. Which nursing interventions best promote energy conservation and adequate nutrition? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Provide small meals that require minimal chewing and do not irritate oral mucosa",
+          "Small, soft, non-irritating meals reduce energy expenditure and prevent pain from oral mucositis."
+        ],
+        [
+          "B",
+          "Cluster essential care activities and allow frequent, uninterrupted rest periods",
+          "Eliminating nonessential tasks and spacing care preserves limited energy reserves during marrow suppression."
+        ],
+        [
+          "C",
+          "Administer frequent prescribed mouth rinses and local oral anesthetics as ordered",
+          "Soothing mouth rinses and topical anesthetics promote mucosal healing, prevent infection, and ease eating."
+        ],
+        [
+          "D",
+          "Serve three large, high-fiber raw vegetable meals daily to boost caloric intake",
+          "Large meals exhaust the fatigued child, and raw vegetables pose a bacterial/fungal infection hazard."
+        ],
+        [
+          "E",
+          "Wake the child every 2 hours throughout the night to perform routine hygiene",
+          "Interrupting sleep for nonessential care worsens exhaustion and impairs recovery."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "For fatigue and mucositis, provide small non-irritating meals, frequent mouth rinses, clustered essential care with rest periods, and enteral/parenteral nutrition if needed.",
+      "fc": [
+        "Leukemia Fatigue, Nutrition & Mucositis Care",
+        "Small meals requiring little chewing; non-irritating to mucosa | Allow adequate rest periods; perform only essential nursing care | Frequent mouth rinses and prescribed local oral anesthetics for mucositis",
+        "Ch. 32 Section I.E & I.F.11"
+      ]
+    },
+    {
+      "i": 19,
+      "t": "m",
+      "d": 3,
+      "c": 6,
+      "j": 1,
+      "st": "The nurse is monitoring a child 10 days after receiving high-dose combination chemotherapy and notes that blood cell counts have dropped to their lowest point (the nadir). Which complication poses the greatest immediate threat to the child's life?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Overwhelming infection without typical inflammatory signs due to severe immunosuppression",
+          "Infection is a major cause of death, and immunosuppressed children may lack classic symptoms."
+        ],
+        [
+          "B",
+          "Permanent alopecia that fails to regrow after chemotherapy completion",
+          "Chemotherapy-induced alopecia is temporary, with hair regrowing within 3 to 6 months."
+        ],
+        [
+          "C",
+          "Acute hypertension caused by excessive red blood cell overproduction",
+          "Bone marrow suppression at the nadir causes anemia and hypotension rather than polycythemia."
+        ],
+        [
+          "D",
+          "Rapid weight gain caused by increased gastrointestinal motility",
+          "Chemotherapy typically causes nausea, vomiting, and anorexia rather than rapid weight gain."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Children receiving chemotherapy may not show typical signs of infection due to immunosuppression; infection is a major cause of death.",
+      "fc": [
+        "Chemotherapy Nadir & Infection Safety Alert",
+        "Nadir: period of greatest bone marrow suppression (blood counts lowest) | Immunosuppressed children may NOT present with typical signs of infection | Infection is a major cause of death -> monitor closely",
+        "Ch. 32 Section I.F.1-3 & Safety Alert"
+      ]
+    },
+    {
+      "i": 20,
+      "t": "s",
+      "d": 4,
+      "c": 6,
+      "j": 5,
+      "st": "The nurse is caring for a child receiving intravenous cyclophosphamide and vincristine chemotherapy. Which adverse effects should the nurse specifically monitor for during treatment? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Hemorrhagic cystitis",
+          "Chemotherapeutic agents can irritate the bladder mucosa, requiring close monitoring for hematuria and dysuria."
+        ],
+        [
+          "B",
+          "Peripheral neuropathy",
+          "Neurotoxic chemotherapy requires monitoring for paresthesias, foot drop, constipation, and diminished reflexes."
+        ],
+        [
+          "C",
+          "Dehydration and constipation",
+          "Chemotherapy-induced vomiting, poor intake, and slowed bowel motility require hydration and stool softeners."
+        ],
+        [
+          "D",
+          "Permanent irreversible blindness",
+          "Ocular blindness is not a standard routine monitoring parameter listed for childhood leukemia chemotherapy."
+        ],
+        [
+          "E",
+          "Excessive bone overgrowth of the cranial vault",
+          "Chemotherapy suppresses rapidly dividing cells rather than causing cranial bone hypertrophy."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "During chemotherapy, monitor for nadir myelosuppression, infection, bleeding, dehydration, hemorrhagic cystitis, peripheral neuropathy, mucositis, and constipation.",
+      "fc": [
+        "Chemotherapy Adverse Effect Monitoring",
+        "Monitor for hemorrhagic cystitis and peripheral neuropathy | Administer antiemetics before, during, and after chemotherapy | Administer stool softeners to prevent straining; gentle rectal hygiene",
+        "Ch. 32 Section I.F.4-11"
+      ]
+    },
+    {
+      "i": 21,
+      "t": "m",
+      "d": 1,
+      "c": 4,
+      "j": 5,
+      "st": "An 11-year-old girl scheduled to begin chemotherapy for acute lymphocytic leukemia cries and asks the nurse if her hair will ever grow back once it falls out. What is the nurse's most accurate response?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Your hair will regrow in about 3 to 6 months, though it may be a slightly different color or texture",
+          "Hair loss from chemotherapy is temporary and regrows in 3 to 6 months, often altered."
+        ],
+        [
+          "B",
+          "Your hair will grow back completely within 2 weeks of your very first chemotherapy dose",
+          "Hair regrowth requires completion of intensive marrow-suppressive cycles and takes 3 to 6 months."
+        ],
+        [
+          "C",
+          "Chemotherapy causes permanent hair loss, so we will help you select a permanent wig",
+          "Chemotherapy-induced alopecia in children is temporary and regrows within 3 to 6 months."
+        ],
+        [
+          "D",
+          "Your hair will only fall out if cranial radiation is given alongside oral medications",
+          "Systemic chemotherapy agents commonly cause temporary alopecia even without cranial radiation."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Parents and children should be informed that hair loss from chemotherapy is temporary and regrows in about 3 to 6 months, possibly with a slightly different color or texture.",
+      "fc": [
+        "Chemotherapy Alopecia Teaching",
+        "Inform parents and child that hair loss may occur | Hair regrows in about 3 to 6 months | Regrown hair may have a slightly different color or texture",
+        "Ch. 32 Section I.F.13"
+      ]
+    },
+    {
+      "i": 22,
+      "t": "m",
+      "d": 3,
+      "c": 4,
+      "j": 4,
+      "st": "The parents of a 5-year-old child newly diagnosed with leukemia express overwhelming fear and isolation as treatment begins. Which psychosocial interventions should the nurse implement?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Encourage them to verbalize feelings, introduce them to other families, and consult social services",
+          "Active listening, peer family support, and social services or chaplaincy help families cope with diagnosis."
+        ],
+        [
+          "B",
+          "Discourage discussion of fears in front of the child to maintain a cheerful environment",
+          "Suppressing emotional expression increases family anxiety and prevents therapeutic psychosocial support."
+        ],
+        [
+          "C",
+          "Isolate the family from other oncology parents to prevent emotional distress",
+          "Connecting with other families of children with cancer provides valuable peer validation and support."
+        ],
+        [
+          "D",
+          "Delay social work referrals until the child enters the maintenance phase of therapy",
+          "Early social services and chaplain consultations provide essential emotional and financial resources from diagnosis."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Psychosocial support for families of children with cancer includes active listening, peer family introductions, and social services/chaplain consultations.",
+      "fc": [
+        "Psychosocial Care in Pediatric Oncology",
+        "Listen and encourage child and family to verbalize feelings/concerns | Introduce family to other families of children with cancer | Consult social services and chaplains as necessary",
+        "Ch. 32 Section I.F.15-17"
+      ]
+    },
+    {
+      "i": 23,
+      "t": "m",
+      "d": 1,
+      "c": 7,
+      "j": 1,
+      "st": "A 15-year-old adolescent is undergoing diagnostic evaluation for suspected Hodgkin's disease after presenting with painless cervical lymphadenopathy. Which diagnostic test result confirms Hodgkin's disease?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Lymph node biopsy specimen demonstrating giant, multinucleated Reed-Sternberg cells",
+          "The presence of characteristic Reed-Sternberg cells on lymph node biopsy confirms Hodgkin's disease."
+        ],
+        [
+          "B",
+          "Elevated 24-hour urine vanillylmandelic acid and homovanillic acid levels",
+          "Elevated urinary catecholamine metabolites (VMA and HVA) indicate neuroblastoma rather than Hodgkin's disease."
+        ],
+        [
+          "C",
+          "Bone marrow aspirate containing greater than 25% immature lymphoblasts",
+          "Immature lymphoblasts in bone marrow confirm acute lymphocytic leukemia rather than Hodgkin's lymphoma."
+        ],
+        [
+          "D",
+          "Positive heterophile antibody test confirming acute Epstein-Barr mononucleosis",
+          "Epstein-Barr virus is associated with mononucleosis and does not confirm malignant Hodgkin's disease."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Hodgkin's disease is a malignancy of the lymph nodes characterized by the presence of Reed-Sternberg cells in a lymph node biopsy specimen.",
+      "fc": [
+        "Hodgkin's Disease Overview (Fig. 32.1 & PQ 9)",
+        "Malignancy of lymph nodes; peak incidence in midadolescence | Confirmatory finding: Reed-Sternberg cells on lymph node biopsy | Spreads predictably to spleen, liver, bone marrow, lungs, mediastinum",
+        "Ch. 32 Section II.A & PQ 9"
+      ]
+    },
+    {
+      "i": 24,
+      "t": "s",
+      "d": 4,
+      "c": 8,
+      "j": 1,
+      "st": "The nurse is reviewing the admission physical examination of a 14-year-old adolescent with advanced Hodgkin's disease. Which clinical cues are characteristic of this condition? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Painless, firm, movable lymph nodes in the cervical and supraclavicular areas",
+          "Enlarged, firm, nontender, movable nodes—often starting at the left supraclavicular sentinel node—are classic."
+        ],
+        [
+          "B",
+          "Intermittent low-grade fevers, night sweats, weight loss, and pruritus",
+          "Advanced nodal and extralymphatic involvement produces systemic B-symptoms including fever, night sweats, and pruritus."
+        ],
+        [
+          "C",
+          "Nonproductive cough from mediastinal adenopathy and abdominal pain from retroperitoneal nodes",
+          "Enlarged mediastinal and retroperitoneal nodes compress adjacent airways and abdominal structures."
+        ],
+        [
+          "D",
+          "Painful, warm, fluctuant axillary nodes that drain purulent material",
+          "Tender, purulent lymph nodes indicate acute bacterial lymphadenitis rather than painless Hodgkin's nodes."
+        ],
+        [
+          "E",
+          "Supraorbital ecchymosis and exophthalmos from retrobulbar mass invasion",
+          "Periorbital ecchymosis and exophthalmos are classic metastatic signs of neuroblastoma rather than Hodgkin's."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Hodgkin's disease cues include painless firm movable cervical/left supraclavicular ('sentinel') nodes, nonproductive cough, abdominal pain, fever, night sweats, weight loss, and pruritus.",
+      "fc": [
+        "Hodgkin's Disease Cues (Clinical Judgment Box)",
+        "Painless, firm, movable cervical/left supraclavicular ('sentinel') nodes | Nonproductive cough (mediastinal), abdominal pain (retroperitoneal) | Systemic: low-grade fever, night sweats, weight loss, anorexia, pruritus",
+        "Ch. 32 Section II.B & Clinical Judgment Box"
+      ]
+    },
+    {
+      "i": 25,
+      "t": "m",
+      "d": 2,
+      "c": 4,
+      "j": 2,
+      "st": "A 16-year-old adolescent receiving extensive radiation therapy for Hodgkin's disease reports profound exhaustion and lack of motivation to attend school or see friends. Which radiation adverse effect does the nurse recognize as the most common cause?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Malaise, which is physically and psychologically difficult for adolescents to tolerate",
+          "Malaise is the most common adverse effect of extensive irradiation and strongly impacts adolescents."
+        ],
+        [
+          "B",
+          "Acute hemorrhagic cystitis caused by bladder mucosal ulceration",
+          "Bladder cystitis causes hematuria and dysuria rather than systemic exhaustion and social withdrawal."
+        ],
+        [
+          "C",
+          "Dry desquamation of the irradiated supraclavicular skin field",
+          "Local skin desquamation causes cutaneous dryness rather than systemic adolescent fatigue and malaise."
+        ],
+        [
+          "D",
+          "Cranial nerve VII palsy resulting from cerebellar radiation edema",
+          "Facial nerve palsy is associated with CNS leukemia or brainstem tumors rather than Hodgkin's radiation."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "The most common adverse effect of extensive irradiation is malaise, which can be difficult for older children and adolescents to tolerate physically and psychologically.",
+      "fc": [
+        "Hodgkin's Radiation Therapy & Malaise",
+        "Treatment: chemotherapy alone or combined with radiation therapy | Most common adverse effect of extensive irradiation: malaise | Malaise is physically and psychologically difficult for older children/adolescents",
+        "Ch. 32 Section II.C.1-6"
+      ]
+    },
+    {
+      "i": 26,
+      "t": "s",
+      "d": 4,
+      "c": 5,
+      "j": 5,
+      "st": "The nurse is caring for a child receiving external beam radiation therapy who develops dry desquamation and erythema over the irradiated chest skin. Which skin care interventions should the nurse implement? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Keep the skin clean and wash daily using a mild soap sparingly",
+          "Gentle cleansing with mild soap preserves fragile irradiated epidermis without causing chemical irritation."
+        ],
+        [
+          "B",
+          "Leave all radiation skin markings intact and avoid sun or extreme temperature exposure",
+          "Radiation markings guide precise beam alignment, while sun and temperature extremes damage sensitized skin."
+        ],
+        [
+          "C",
+          "Apply prescribed topical lubricants for skin dryness",
+          "Prescribed lubricants soothe dry desquamation without interfering with radiation beam delivery."
+        ],
+        [
+          "D",
+          "Wash off the purple radiation ink markings daily with alcohol swabs",
+          "Removing radiation markings disrupts treatment targeting, and alcohol severely dries irradiated skin."
+        ],
+        [
+          "E",
+          "Apply a heating pad directly over the irradiated skin to relieve tightness",
+          "Extreme heat exposure causes severe thermal injury to radiation-sensitized skin."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "For radiation skin desquamation, wash daily with mild soap sparingly, do not remove radiation markings, avoid sun/temperature extremes, and apply prescribed lubricants.",
+      "fc": [
+        "Radiation Skin & Scalp Care (Table 32.1)",
+        "Skin: wash daily with mild soap sparingly; DO NOT remove radiation markings | Avoid sun exposure and extreme temperatures; apply prescribed lubricant | Alopecia: introduce wig/head wraps; stress head covering in cold weather",
+        "Ch. 32 Table 32.1"
+      ]
+    },
+    {
+      "i": 27,
+      "t": "m",
+      "d": 4,
+      "c": 5,
+      "j": 4,
+      "st": "A school-age child undergoing pelvic and abdominal radiation therapy develops anorexia, mucosal ulcerations, and frequent diarrhea. Which nursing interventions align with radiation gastrointestinal care?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Provide small frequent meals, soothing oral rinses, prescribed antidiarrheals, and monitor hydration",
+          "Small meals, soothing oral hygiene, antidiarrheals, and dehydration monitoring manage GI radiation effects."
+        ],
+        [
+          "B",
+          "Restrict oral fluid intake to 500 mL daily to slow gastrointestinal peristalsis",
+          "Diarrhea and vomiting cause dehydration, requiring adequate fluid intake rather than fluid restriction."
+        ],
+        [
+          "C",
+          "Administer rectal antispasmodic suppositories before each radiation session",
+          "Rectal suppositories and enemas are contraindicated during radiation-induced bone marrow myelosuppression."
+        ],
+        [
+          "D",
+          "Brush oral mucosal ulcers vigorously with lemon-glycerin swabs after meals",
+          "Lemon-glycerin swabs irritate ulcerated mucosa; soothing oral hygiene and prescribed rinses are indicated."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "For radiation GI adverse effects, provide small frequent meals, around-the-clock antiemetics, soothing mouth rinses, prescribed antidiarrheals, and dehydration monitoring.",
+      "fc": [
+        "Radiation GI & Bladder Care (Table 32.1)",
+        "GI: small frequent meals, around-the-clock antiemetics, soothing mouth rinses, antidiarrheals | Monitor closely for weight loss and dehydration | Bladder cystitis: encourage fluid intake, frequent voiding, monitor hematuria",
+        "Ch. 32 Table 32.1"
+      ]
+    },
+    {
+      "i": 28,
+      "t": "m",
+      "d": 2,
+      "c": 7,
+      "j": 5,
+      "st": "A child receiving pelvic irradiation is at risk for radiation-induced urinary bladder cystitis. Which nursing interventions best prevent and detect this complication?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Encourage generous fluid intake, promote frequent voiding, and monitor urine for hematuria",
+          "High fluid intake and frequent voiding dilute bladder irritants, while hematuria monitoring detects cystitis."
+        ],
+        [
+          "B",
+          "Insert an indwelling urinary catheter to keep the bladder continuously empty",
+          "Indwelling catheterization increases infection risk during myelosuppression and is unnecessary for routine cystitis prevention."
+        ],
+        [
+          "C",
+          "Limit fluids after 4 PM so the child holds urine overnight during sleep",
+          "Holding concentrated urine in the bladder prolongs mucosal irritation and worsens radiation cystitis."
+        ],
+        [
+          "D",
+          "Administer daily aspirin to prevent bladder microvascular thrombosis",
+          "Aspirin increases bleeding risk during radiation-induced myelosuppression and worsens hematuria."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "To manage radiation-induced urinary bladder cystitis, the nurse encourages fluid intake, promotes frequent voiding, and monitors for hematuria.",
+      "fc": [
+        "Radiation-Induced Bladder Cystitis (Table 32.1)",
+        "Encourage generous oral/IV fluid intake | Promote frequent voiding to minimize mucosal contact | Monitor urine closely for hematuria",
+        "Ch. 32 Table 32.1"
+      ]
+    },
+    {
+      "i": 29,
+      "t": "m",
+      "d": 4,
+      "c": 2,
+      "j": 4,
+      "st": "A child receiving extensive irradiation develops radiation-induced bone marrow myelosuppression. Which intervention is mandatory in the nursing plan of care?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Avoid suppositories, enemas, and rectal temperatures while instituting neutropenic/bleeding precautions",
+          "Rectal trauma can cause fatal hemorrhage or sepsis during radiation-induced bone marrow myelosuppression."
+        ],
+        [
+          "B",
+          "Encourage outdoor sunbathing to stimulate vitamin D-mediated marrow recovery",
+          "Sun exposure causes severe cutaneous burns on irradiated skin and must be strictly avoided."
+        ],
+        [
+          "C",
+          "Discontinue temperature monitoring unless the child reports chills",
+          "Fever monitoring is essential to detect early infection during radiation-induced myelosuppression."
+        ],
+        [
+          "D",
+          "Administer rectal acetaminophen if low-grade evening fever develops",
+          "Suppositories are strictly contraindicated in myelosuppressed clients due to bleeding and infection risk."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "For radiation-induced bone marrow myelosuppression, monitor for fever and anemia, administer prescribed antibiotics, institute neutropenic/bleeding precautions, and avoid rectal procedures.",
+      "fc": [
+        "Radiation Bone Marrow Myelosuppression (Table 32.1)",
+        "Monitor for fever and signs of anemia; give prescribed antibiotics | Avoid suppositories, enemas, and rectal temperatures | Institute neutropenic and bleeding precautions as needed",
+        "Ch. 32 Table 32.1"
+      ]
+    },
+    {
+      "i": 30,
+      "t": "m",
+      "d": 1,
+      "c": 8,
+      "j": 1,
+      "st": "A 3-year-old child is admitted with a firm, nontender, unilateral flank mass suspected to be nephroblastoma (Wilms' tumor). Which epidemiological and clinical description accurately characterizes Wilms' tumor?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "It is the most common intra-abdominal and kidney tumor of childhood, peaking at age 3",
+          "Wilms' tumor is the most common childhood kidney tumor, peaking at 3 years old."
+        ],
+        [
+          "B",
+          "It is a malignant bone tumor of the distal femur peaking between ages 13 and 16",
+          "Malignant distal femur tumors peaking in adolescence describe osteosarcoma rather than renal Wilms' tumor."
+        ],
+        [
+          "C",
+          "It originates from embryonic neural crest cells and typically crosses the abdominal midline",
+          "Neural crest tumors crossing the midline describe neuroblastoma rather than unilateral encapsulated Wilms' tumor."
+        ],
+        [
+          "D",
+          "It is a lymph node malignancy confirmed by multinucleated Reed-Sternberg cells",
+          "Reed-Sternberg cells in lymph nodes characterize Hodgkin's disease rather than nephroblastoma."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Wilms' tumor is the most common intra-abdominal and kidney tumor of childhood (peak age 3), associated with genetic inheritance and congenital anomalies.",
+      "fc": [
+        "Wilms' Tumor (Nephroblastoma) Overview",
+        "Most common intra-abdominal and kidney tumor of childhood | Peak incidence: 3 years of age; unilateral or bilateral | Associated with genetic inheritance and congenital anomalies",
+        "Ch. 32 Section III.A"
+      ]
+    },
+    {
+      "i": 31,
+      "t": "s",
+      "d": 4,
+      "c": 8,
+      "j": 1,
+      "st": "The nurse is assessing a 3-year-old child admitted with suspected Wilms' tumor. Which clinical manifestations should the nurse expect to observe? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Firm, nontender abdominal flank mass confined to one side",
+          "Wilms' tumor typically presents as a firm, nontender, unilateral mass deep within the flank."
+        ],
+        [
+          "B",
+          "Hypertension caused by tumor secretion of excess renin",
+          "Renal compression and excess renin secretion by the tumor frequently produce systemic hypertension."
+        ],
+        [
+          "C",
+          "Hematuria, urinary retention, and pallor from intratumoral hemorrhage anemia",
+          "Tumor bleeding and renal involvement cause hematuria, urinary retention, anemia, pallor, and lethargy."
+        ],
+        [
+          "D",
+          "Irregular abdominal mass that characteristically crosses the midline",
+          "A midline-crossing irregular mass is typical of neuroblastoma rather than unilateral Wilms' tumor."
+        ],
+        [
+          "E",
+          "Carpopedal spasm and positive Chvostek's sign from hypocalcemia",
+          "Neuromuscular tetany is not a characteristic presenting feature of pediatric nephroblastoma."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Wilms' tumor manifestations include a firm nontender unilateral flank mass, hematuria, urinary retention, anemia (pallor, lethargy), renin-induced hypertension, fever, and weight loss.",
+      "fc": [
+        "Wilms' Tumor Assessment Cues",
+        "Firm, nontender, unilateral mass deep in flank | Hypertension (excess renin secretion by tumor) | Hematuria, urinary retention, anemia (intratumoral hemorrhage), fever, weight loss",
+        "Ch. 32 Section III.B"
+      ]
+    },
+    {
+      "i": 32,
+      "t": "m",
+      "d": 5,
+      "c": 2,
+      "j": 5,
+      "st": "A 3-year-old child is hospitalized awaiting surgical resection of a suspected Wilms' tumor. Which preoperative nursing intervention is the highest priority for client safety?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Avoid palpating the abdomen and post a bedside sign reading 'Do Not Palpate Abdomen'",
+          "Palpating or handling the abdomen risks rupturing the encapsulated tumor and seeding cancer cells."
+        ],
+        [
+          "B",
+          "Palpate the flank mass every shift to monitor for rapid tumor enlargement",
+          "Abdominal palpation is strictly contraindicated because mechanical pressure can rupture the tumor capsule."
+        ],
+        [
+          "C",
+          "Perform deep abdominal percussion daily to assess for shifting ascites dullness",
+          "Percussion or manipulation of the abdomen can disrupt the tumor capsule and spread malignant cells."
+        ],
+        [
+          "D",
+          "Encourage rough-and-tumble play in the playroom to reduce preoperative anxiety",
+          "Physical trauma to the abdomen during active play risks rupturing the encapsulated renal tumor."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Never palpate the abdomen of a child with Wilms' tumor; place a 'Do Not Palpate Abdomen' sign at the bedside to keep the encapsulated tumor intact.",
+      "fc": [
+        "Wilms' Tumor Preoperative Safety Alert (PQ 3)",
+        "DO NOT palpate the abdomen; post 'Do Not Palpate Abdomen' sign | Handle/bathe carefully to keep encapsulated tumor intact | Tumor rupture spreads cancer cells to abdomen, lymph, and bloodstream",
+        "Ch. 32 Section III.C, Safety Alert & PQ 3"
+      ]
+    },
+    {
+      "i": 33,
+      "t": "m",
+      "d": 1,
+      "c": 7,
+      "j": 1,
+      "st": "The nurse is caring for a 3-year-old child preoperatively with Wilms' tumor. How should the nurse safely monitor for changes in tumor size without risking tumor rupture?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Measure abdominal girth gently at least once daily",
+          "Measuring abdominal girth once daily noninvasively tracks abdominal enlargement without compressing the tumor."
+        ],
+        [
+          "B",
+          "Gently outline the tumor borders using firm fingertip palpation each morning",
+          "Fingertip palpation applies direct pressure to the tumor capsule and is strictly contraindicated."
+        ],
+        [
+          "C",
+          "Measure postvoid residual bladder volume using suprapubic ultrasound compression",
+          "Applying abdominal transducer pressure risks rupturing the fragile encapsulated nephroblastoma."
+        ],
+        [
+          "D",
+          "Weigh the child before and after every meal to detect tumor growth",
+          "Daily weight tracks fluid balance rather than safe noninvasive measurement of abdominal tumor expansion."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Preoperative care for Wilms' tumor includes monitoring vital signs (especially blood pressure), avoiding abdominal palpation, and measuring abdominal girth at least once daily.",
+      "fc": [
+        "Preoperative Monitoring in Wilms' Tumor",
+        "Monitor vital signs, particularly blood pressure (renin hypertension) | Avoid palpation of the abdomen (bedside sign) | Measure abdominal girth at least once daily",
+        "Ch. 32 Section III.C.1-3"
+      ]
+    },
+    {
+      "i": 34,
+      "t": "s",
+      "d": 4,
+      "c": 8,
+      "j": 1,
+      "st": "A 4-year-old child returns to the pediatric unit following a total nephrectomy for Wilms' tumor. Which postoperative assessments are essential for detecting complications? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Monitor strict intake and urine output closely to evaluate remaining renal function",
+          "After nephrectomy, strict intake and output monitoring verifies adequate function of the remaining kidney."
+        ],
+        [
+          "B",
+          "Assess bowel sounds and abdominal distention for signs of intestinal obstruction",
+          "Retroperitoneal surgery places the child at high postoperative risk for paralytic ileus or intestinal obstruction."
+        ],
+        [
+          "C",
+          "Monitor temperature, blood pressure, and signs of hemorrhage or infection",
+          "Close hemodynamic and temperature surveillance detects postoperative bleeding, infection, or blood pressure shifts."
+        ],
+        [
+          "D",
+          "Expect persistent severe hypertension caused by ongoing tumor renin secretion",
+          "Surgical removal of the renin-secreting tumor typically resolves tumor-induced hypertension postoperatively."
+        ],
+        [
+          "E",
+          "Keep the child NPO for 7 days regardless of returning bowel sounds",
+          "Diet is advanced once bowel sounds and gastrointestinal motility return rather than arbitrary prolonged fasting."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Postoperative Wilms' tumor interventions include monitoring temperature, blood pressure, hemorrhage, infection, strict I&O, and bowel sounds/distention for intestinal obstruction.",
+      "fc": [
+        "Postoperative Care After Nephrectomy (Wilms' Tumor)",
+        "Monitor temperature, blood pressure, hemorrhage, and infection | Monitor strict intake and urine output closely | Monitor bowel sounds and abdominal distention (risk for intestinal obstruction)",
+        "Ch. 32 Section III.D.1-4"
+      ]
+    },
+    {
+      "i": 35,
+      "t": "m",
+      "d": 3,
+      "c": 7,
+      "j": 2,
+      "st": "A 3-year-old child diagnosed with Wilms' tumor develops new-onset dyspnea, shortness of breath, and chest pain. How should the nurse interpret these respiratory findings?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Potential pulmonary metastasis requiring immediate provider notification",
+          "Dyspnea, shortness of breath, and chest pain in Wilms' tumor indicate possible metastasis to the lungs."
+        ],
+        [
+          "B",
+          "Normal preoperative anxiety response common in preschool-age children",
+          "Chest pain and dyspnea are concerning indicators of lung metastasis rather than benign anxiety."
+        ],
+        [
+          "C",
+          "Expected side effect of preoperative renin-induced hypertension",
+          "Hypertension does not cause acute pleuritic chest pain and dyspnea without cardiopulmonary pathology."
+        ],
+        [
+          "D",
+          "Transient diaphragmatic spasm from daily abdominal girth measurement",
+          "Gentle abdominal girth measurement does not cause dyspnea or chest pain."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "In Wilms' tumor, symptoms of lung involvement such as dyspnea, shortness of breath, and chest pain indicate potential metastasis.",
+      "fc": [
+        "Wilms' Tumor Metastasis Cues",
+        "Common metastatic site: lungs | Pulmonary cues: dyspnea, shortness of breath, chest pain | Treatment: combined surgery (partial/total nephrectomy) + chemo +/- radiation",
+        "Ch. 32 Section III.A.4 & III.B.7"
+      ]
+    },
+    {
+      "i": 36,
+      "t": "m",
+      "d": 2,
+      "c": 7,
+      "j": 1,
+      "st": "A 2-year-old child is evaluated for a suspected neuroblastoma originating in the adrenal medulla. Which diagnostic urine test supports the diagnosis and monitors post-treatment response?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Urinary catecholamine breakdown products including vanillylmandelic acid and homovanillic acid",
+          "Neuroblastoma tumors excrete elevated urinary vanillylmandelic acid, homovanillic acid, dopamine, and norepinephrine."
+        ],
+        [
+          "B",
+          "24-hour urine collection for Bence Jones monoclonal immunoglobulin light chains",
+          "Bence Jones proteins are associated with adult multiple myeloma rather than pediatric neuroblastoma."
+        ],
+        [
+          "C",
+          "First-morning urine specimen for elevated phenylalanine metabolites",
+          "Urinary phenylpyruvic acid is associated with phenylketonuria rather than embryonic neural crest tumors."
+        ],
+        [
+          "D",
+          "Urine specific gravity and osmolality following water deprivation testing",
+          "Water deprivation testing evaluates diabetes insipidus rather than catecholamine-secreting neuroblastoma."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Diagnostic evaluation for neuroblastoma includes analyzing urinary breakdown products: vanillylmandelic acid (VMA), homovanillic acid (HVA), dopamine, and norepinephrine.",
+      "fc": [
+        "Neuroblastoma Pathophysiology & Diagnostics",
+        "Originates from embryonic neural crest cells (adrenal medulla, sympathetic ganglia) | Most children present before age 10; often diagnosed after metastasis | Urine tests: VMA, homovanillic acid, dopamine, norepinephrine",
+        "Ch. 32 Section IV.A.1-6"
+      ]
+    },
+    {
+      "i": 37,
+      "t": "s",
+      "d": 3,
+      "c": 8,
+      "j": 1,
+      "st": "The nurse is assessing a 3-year-old child admitted with metastatic neuroblastoma. Which clinical manifestations are characteristic of this tumor? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Firm, nontender, irregular abdominal mass that crosses the midline",
+          "Unlike unilateral Wilms' tumor, an abdominal neuroblastoma characteristically crosses the midline."
+        ],
+        [
+          "B",
+          "Supraorbital ecchymosis, periorbital edema, and exophthalmos",
+          "Invasion of retrobulbar soft tissue produces characteristic periorbital bruising, edema, and eye protrusion."
+        ],
+        [
+          "C",
+          "Lower extremity weakness or paralysis from spinal cord compression",
+          "Paraspinal tumor extension can compress the spinal cord, causing neurological deficits and paralysis."
+        ],
+        [
+          "D",
+          "Smooth, encapsulated unilateral flank mass that never crosses the midline",
+          "A smooth, unilateral, encapsulated flank mass describes Wilms' tumor rather than irregular neuroblastoma."
+        ],
+        [
+          "E",
+          "Painless, movable left supraclavicular 'sentinel' node with Reed-Sternberg cells",
+          "Reed-Sternberg cells in a left supraclavicular node characterize Hodgkin's lymphoma rather than neuroblastoma."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Neuroblastoma cues include a firm irregular midline-crossing abdominal mass, urinary frequency/retention, cervical/supraclavicular nodes, bone pain, periorbital ecchymosis/exophthalmos, and cord paralysis.",
+      "fc": [
+        "Neuroblastoma Clinical Manifestations",
+        "Firm, nontender, irregular abdominal mass crossing the midline | Supraorbital ecchymosis, periorbital edema, exophthalmos (retrobulbar invasion) | Urinary frequency/retention, bone pain, respiratory/neuro signs, spinal cord paralysis",
+        "Ch. 32 Section IV.B"
+      ]
+    },
+    {
+      "i": 38,
+      "t": "m",
+      "d": 3,
+      "c": 8,
+      "j": 2,
+      "st": "The parents of a 4-year-old child newly diagnosed with stage IV neuroblastoma ask why the prognosis is guarded. Which factor primarily explains the poor overall prognosis of neuroblastoma?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "The tumor is highly invasive and most diagnoses are not made until after metastasis occurs",
+          "Frequent invasiveness and late diagnosis after metastasis contribute to the poor prognosis in neuroblastoma."
+        ],
+        [
+          "B",
+          "Neuroblastoma cells are completely resistant to all radiation and chemotherapy agents",
+          "Radiation provides palliation and chemotherapy treats disseminated disease, though metastasis limits cure."
+        ],
+        [
+          "C",
+          "Children diagnosed under 1 year of age have the lowest survival rates",
+          "The younger the child at diagnosis, the better the survival rate in neuroblastoma."
+        ],
+        [
+          "D",
+          "Surgical biopsy causes immediate fatal catecholamine hypertensive crisis in all cases",
+          "Surgical biopsy and resection are standard diagnostic and therapeutic procedures rather than universally fatal."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Neuroblastoma prognosis is poor because of tumor invasiveness and diagnosis after metastasis; however, the younger the child at diagnosis, the better the survival rate.",
+      "fc": [
+        "Neuroblastoma Prognosis & Treatment",
+        "Prognosis poor due to invasiveness and diagnosis after metastasis | Younger age at diagnosis = better survival rate | Early stage: complete surgical removal; Late stage: biopsy, palliative radiation, chemo",
+        "Ch. 32 Section IV.A.6-7"
+      ]
+    },
+    {
+      "i": 39,
+      "t": "m",
+      "d": 4,
+      "c": 4,
+      "j": 4,
+      "st": "During postoperative care for a 3-year-old child who underwent biopsy of an advanced metastatic neuroblastoma, the parents tearfully state, 'We feel so guilty that we did not notice these signs sooner.' Which nursing response is most therapeutic?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Encourage them to express their feelings and reassure them that early signs are often silent until metastasis",
+          "Many parents feel guilt for missing signs; encouraging emotional expression and offering support is essential."
+        ],
+        [
+          "B",
+          "Remind them that earlier pediatric checkups would have prevented metastatic spread",
+          "Blaming parents intensifies overwhelming guilt and is nontherapeutic during a devastating diagnosis."
+        ],
+        [
+          "C",
+          "Change the subject immediately to postoperative vital signs to distract them from crying",
+          "Avoiding parental grief prevents therapeutic processing and emotional adjustment to the child's illness."
+        ],
+        [
+          "D",
+          "Tell them not to worry because neuroblastoma is always cured with palliative radiation",
+          "Offering false reassurance undermines trust; later-stage radiation provides palliation rather than guaranteed cure."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Postoperatively, the nurse provides emotional support to parents of children with neuroblastoma, encouraging them to express feelings and addressing parental guilt.",
+      "fc": [
+        "Neuroblastoma Postoperative & Parental Care",
+        "Monitor organ-specific postoperative complications and chemo/radiation effects | Encourage parents to express feelings (many feel guilt for not recognizing signs earlier) | Refer parents to appropriate community services",
+        "Ch. 32 Section IV.D.1-4"
+      ]
+    },
+    {
+      "i": 40,
+      "t": "m",
+      "d": 3,
+      "c": 8,
+      "j": 3,
+      "st": "A 2-year-old child with a retroperitoneal neuroblastoma compressing the lumbar spine suddenly stops moving both legs and has urinary retention. Which priority action should the nurse take?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Notify the primary health care provider immediately of suspected spinal cord compression",
+          "New lower extremity paralysis indicates acute spinal cord compression from tumor extension requiring urgent intervention."
+        ],
+        [
+          "B",
+          "Encourage the toddler to walk in the hallway to prevent muscle atrophy",
+          "Ambulation is impossible with acute paralysis and risks falls and spinal injury."
+        ],
+        [
+          "C",
+          "Document the finding as expected fatigue following chemotherapy administration",
+          "Acute paralysis is a neurological emergency rather than generalized chemotherapy-induced fatigue."
+        ],
+        [
+          "D",
+          "Apply warm compresses to the lower extremities and reassess in 4 hours",
+          "Delaying notification during acute spinal cord compression risks permanent irreversible paralysis."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Neuroblastoma can cause paralysis from compression of the spinal cord and urinary frequency or retention from urinary tract compression.",
+      "fc": [
+        "Neuroblastoma Compression Emergencies",
+        "Most signs result from tumor compressing adjacent normal organs | Spinal cord compression -> paralysis (neurological emergency) | Kidney/ureter/bladder compression -> urinary frequency or retention",
+        "Ch. 32 Section IV.A.4 & IV.B.2, 9"
+      ]
+    },
+    {
+      "i": 41,
+      "t": "m",
+      "d": 2,
+      "c": 8,
+      "j": 6,
+      "st": "The nurse conducts an educational session for pediatric nurses on osteosarcoma. Which statement by a staff nurse indicates a need for further instruction?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "The child does not experience pain at the primary tumor site",
+          "Osteosarcoma causes progressive localized pain at the tumor site, often initially mistaken for growing pains."
+        ],
+        [
+          "B",
+          "The femur is the most common anatomical site of this sarcoma",
+          "Osteosarcoma typically arises in the metaphysis of lower extremity long bones, most commonly the femur."
+        ],
+        [
+          "C",
+          "Limping is a clinical manifestation when a weight-bearing limb is affected",
+          "Pain and mass in a lower extremity commonly produce a limp and curtailed physical activity."
+        ],
+        [
+          "D",
+          "Early-stage symptoms are almost always attributed to injury or normal growing pains",
+          "Early localized bone pain is frequently misattributed to sports trauma or normal adolescent growing pains."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Osteosarcoma (most common childhood bone cancer; peak age 13-16) occurs most often in the distal femur metaphysis and causes localized pain, limping, and pathological fractures.",
+      "fc": [
+        "Osteosarcoma Overview (PQ 4)",
+        "Most common bone cancer in children; peak age 13-16 | Most common site: metaphysis of long bones, especially femur | Manifestations: localized pain (relieved by flexed position), palpable mass, limp, fractures",
+        "Ch. 32 Section V.A-B & PQ 4"
+      ]
+    },
+    {
+      "i": 42,
+      "t": "s",
+      "d": 3,
+      "c": 8,
+      "j": 1,
+      "st": "A 15-year-old adolescent is evaluated for persistent right distal thigh pain and swelling that has worsened over 2 months. Which assessment findings support a suspected diagnosis of osteosarcoma? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Localized bone pain relieved by holding the extremity in a flexed position",
+          "Pain in osteosarcoma is typically localized to the metaphysis and partially relieved by limb flexion."
+        ],
+        [
+          "B",
+          "Palpable mass with progressive limited range of motion and limping",
+          "Tumor expansion creates a palpable mass, restricts joint motion, and causes limping in weight-bearing limbs."
+        ],
+        [
+          "C",
+          "Inability to hold heavy objects and occurrence of pathological fractures",
+          "Cortical bone destruction weakens the limb, causing pain with weight bearing and pathological fractures."
+        ],
+        [
+          "D",
+          "Painless, freely movable cervical lymphadenopathy with night sweats",
+          "Painless cervical adenopathy and night sweats characterize Hodgkin's disease rather than osteosarcoma."
+        ],
+        [
+          "E",
+          "Hypertension and hematuria accompanied by a unilateral flank mass",
+          "Hypertension, hematuria, and a flank mass indicate Wilms' tumor rather than primary bone sarcoma."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Osteosarcoma assessment reveals localized pain (often relieved by flexion), palpable mass, limping, limited ROM, inability to hold heavy objects, and pathological fractures.",
+      "fc": [
+        "Osteosarcoma Assessment Findings",
+        "Localized pain at affected site (often relieved by flexed position) | Palpable mass, limping, progressive limited ROM, curtailed activity | Inability to hold heavy objects; pathological fractures at tumor site",
+        "Ch. 32 Section V.B.1-6"
+      ]
+    },
+    {
+      "i": 43,
+      "t": "m",
+      "d": 3,
+      "c": 4,
+      "j": 5,
+      "st": "A 14-year-old adolescent scheduled for an above-the-knee amputation for femoral osteosarcoma expresses distress about losing the leg and asks what phantom limb pain feels like. How should the nurse explain phantom limb pain?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "It is a tingling, itching, and painful sensation felt in the area where the limb was amputated",
+          "Phantom limb pain is characterized by tingling, itching, and pain perceived in the amputated limb area."
+        ],
+        [
+          "B",
+          "It is a psychological hallucination caused by preoperative chemotherapy medications",
+          "Phantom limb pain is a real neuropathic sensation originating from severed peripheral nerves rather than hallucination."
+        ],
+        [
+          "C",
+          "It only occurs if the surgical incision becomes infected after prosthetic fitting",
+          "Phantom limb sensations can occur after any amputation regardless of surgical wound infection."
+        ],
+        [
+          "D",
+          "It indicates local recurrence of osteosarcoma inside the remaining stump",
+          "Phantom limb pain is an expected post-amputation phenomenon rather than proof of tumor recurrence."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Preoperative amputation teaching includes honest communication, self-image support, prosthetic preparation, and explaining phantom limb pain (tingling, itching, and pain in the amputated area).",
+      "fc": [
+        "Osteosarcoma Surgical & Amputation Care",
+        "Treatment: limb salvage resection or amputation + pre/post-op chemotherapy | Support adolescent self-image and prepare for prosthetic fitting | Teach phantom limb pain: tingling, itching, and pain in amputated area",
+        "Ch. 32 Section V.A.5-6 & V.C"
+      ]
+    },
+    {
+      "i": 44,
+      "t": "m",
+      "d": 1,
+      "c": 2,
+      "j": 4,
+      "st": "A 15-year-old client with osteosarcoma of the left distal femur is awaiting neoadjuvant chemotherapy and limb-salvage surgery. Which nursing intervention is most important to prevent injury?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Instruct the adolescent to avoid weight-bearing on the affected leg and use crutches as prescribed",
+          "Tumor invasion weakens the femur, placing the adolescent at high risk for a pathological fracture."
+        ],
+        [
+          "B",
+          "Encourage daily jogging and stair climbing to maintain quadriceps muscle strength",
+          "High-impact weight-bearing activity on a tumor-weakened femur can precipitate an acute pathological fracture."
+        ],
+        [
+          "C",
+          "Perform vigorous passive hip and knee stretching exercises every shift",
+          "Forceful passive manipulation of the affected bone risks causing a pathological fracture at the tumor site."
+        ],
+        [
+          "D",
+          "Apply tight elastic compression wraps to force the knee into full extension",
+          "Forcing full extension increases pain (often relieved by flexion) and risks neurovascular compromise."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Because pathological fractures occur at the osteosarcoma tumor site, the affected extremity must be protected from trauma and weight-bearing stress.",
+      "fc": [
+        "Pathological Fracture Prevention in Osteosarcoma",
+        "Pathological fractures occur at the primary metaphyseal tumor site | Protect affected extremity from weight-bearing stress and trauma | Communicate honestly and support adolescent body image",
+        "Ch. 32 Section V.B.6 & V.C.2"
+      ]
+    },
+    {
+      "i": 45,
+      "t": "m",
+      "d": 3,
+      "c": 8,
+      "j": 2,
+      "st": "An 8-year-old child is diagnosed with an infratentorial brain tumor. Which anatomical location and clinical presentation are most characteristic of infratentorial tumors in children?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Located in the cerebellum or brainstem (posterior third), frequently causing increased ICP and ataxia",
+          "Infratentorial tumors are the most common pediatric brain tumors and frequently cause increased ICP and ataxia."
+        ],
+        [
+          "B",
+          "Located in the anterior cerebral cortex, rarely causing symptoms of increased intracranial pressure",
+          "Anterior cerebral tumors are supratentorial, whereas posterior fossa infratentorial tumors commonly cause ICP."
+        ],
+        [
+          "C",
+          "Located exclusively in the lumbar spinal canal, causing isolated lower extremity flaccidity",
+          "Infratentorial tumors reside below the tentorium cerebelli in the cerebellum or brainstem rather than lumbar spine."
+        ],
+        [
+          "D",
+          "Located in the adrenal medulla, causing catecholamine-induced episodic hypertension",
+          "Adrenal medullary tumors describe neuroblastoma rather than infratentorial pediatric brain tumors."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Infratentorial tumors (below the tentorium cerebelli, in the cerebellum/brainstem) are the most common pediatric brain tumors and frequently cause increased ICP.",
+      "fc": [
+        "Infratentorial vs. Supratentorial Brain Tumors",
+        "Infratentorial (most common): posterior third (cerebellum/brainstem) -> high ICP risk | Supratentorial: anterior two-thirds (cerebrum) | Most common diagnostic procedure: MRI",
+        "Ch. 32 Section VI.A.1-3"
+      ]
+    },
+    {
+      "i": 46,
+      "t": "s",
+      "d": 3,
+      "c": 8,
+      "j": 1,
+      "st": "The nurse is assessing a 7-year-old child with a suspected cerebellar brain tumor. Which clinical manifestations are characteristic of pediatric brain tumors? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Headache that is worse upon awakening and improves during the day",
+          "Recumbent sleeping increases intracranial venous pressure, making brain tumor headaches worst upon morning awakening."
+        ],
+        [
+          "B",
+          "Vomiting that is unrelated to feeding or eating",
+          "Direct medullary vomiting center stimulation causes sudden vomiting unrelated to meals or nausea."
+        ],
+        [
+          "C",
+          "Ataxia, clumsiness, awkward gait, diplopia, and facial weakness",
+          "Cerebellar and brainstem compression produce gait ataxia, clumsiness, diplopia, and cranial nerve weakness."
+        ],
+        [
+          "D",
+          "Localized distal femur pain relieved by knee flexion",
+          "Localized distal femur pain describes osteosarcoma rather than an intracranial neoplasm."
+        ],
+        [
+          "E",
+          "Painless unilateral flank mass accompanied by hematuria",
+          "A unilateral flank mass with hematuria indicates Wilms' tumor rather than a cerebellar brain tumor."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Pediatric brain tumor cues include morning headache improving during the day, vomiting unrelated to eating, ataxia, seizures, behavioral changes, clumsiness, diplopia, and facial weakness.",
+      "fc": [
+        "Pediatric Brain Tumor Assessment",
+        "Headache worse on awakening, improves during day; vomiting unrelated to eating | Ataxia, clumsiness, awkward gait, diplopia, facial weakness | Seizures and behavioral changes; notify PHCP immediately if ICP signs occur",
+        "Ch. 32 Section VI.B & Safety Alert"
+      ]
+    },
+    {
+      "i": 47,
+      "t": "s",
+      "d": 3,
+      "c": 2,
+      "j": 4,
+      "st": "The nurse is preparing a 6-year-old child for a craniotomy to resect a brain tumor. Which preoperative nursing interventions are appropriate? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Perform neurological assessments at least every 4 hours and institute seizure precautions",
+          "Frequent baseline neurological checks and seizure precautions detect deterioration and prevent injury."
+        ],
+        [
+          "B",
+          "Prepare the child for waking up with a large head dressing and provide a favorite cap",
+          "Age-appropriate preparation for head shaving and a bulky dressing reduces postoperative fear."
+        ],
+        [
+          "C",
+          "Assess baseline weight loss and nutritional status",
+          "Evaluating nutritional status and weight loss identifies preoperative deficits requiring support."
+        ],
+        [
+          "D",
+          "Administer a preoperative cleansing enema to reduce intracranial pressure",
+          "Enemas increase intra-abdominal and intracranial pressure and are avoided before craniotomy."
+        ],
+        [
+          "E",
+          "Place the child in Trendelenburg position overnight to promote cerebral perfusion",
+          "Trendelenburg position elevates intracranial pressure and is strictly contraindicated before or after craniotomy."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Preoperative craniotomy care includes neurological checks every 4 hours, seizure precautions, nutritional assessment, head-shaving preparation with a favorite cap, and dressing teaching.",
+      "fc": [
+        "Preoperative Craniotomy Care",
+        "Perform neurological assessment at least every 4 hours | Institute seizure precautions and safety measures; assess weight/nutrition | Provide favorite cap/hat after head shave; prepare child for large head dressing",
+        "Ch. 32 Section VI.C.1-5"
+      ]
+    },
+    {
+      "i": 48,
+      "t": "m",
+      "d": 5,
+      "c": 8,
+      "j": 5,
+      "st": "While checking the head dressing of a child 4 hours after craniotomy for brain tumor removal, the nurse notes a ring of colorless drainage on the back of the dressing. Which action should the nurse perform immediately?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Notify the surgeon immediately",
+          "Colorless drainage indicates cerebrospinal fluid leakage, risking meningitis and herniation, requiring immediate surgeon notification."
+        ],
+        [
+          "B",
+          "Reinforce the dressing with sterile gauze and reassess in 2 hours",
+          "Reinforcing without notifying the surgeon delays urgent intervention for an active cerebrospinal fluid leak."
+        ],
+        [
+          "C",
+          "Remove the entire surgical head dressing to inspect the underlying suture line",
+          "Nurses must never change or remove a craniotomy dressing without a specific surgeon prescription."
+        ],
+        [
+          "D",
+          "Circle the colorless drainage with a pen and document it as normal serous exudate",
+          "Colorless cranial or ear/nose drainage represents cerebrospinal fluid (test for glucose) rather than benign exudate."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Colorless drainage on a craniotomy dressing or from the ears/nose indicates cerebrospinal fluid (positive for glucose) and must be reported to the surgeon immediately.",
+      "fc": [
+        "Post-Craniotomy CSF Leak & Dressing Care (PQ 1)",
+        "Colorless drainage on dressing, ears, or nose = CSF leak (test with glucose dipstick) | Action: notify the surgeon IMMEDIATELY | Check back of dressing for blood pooling; mark edges; DO NOT change dressing without order",
+        "Ch. 32 Section VI.D.6, 8 & PQ 1"
+      ]
+    },
+    {
+      "i": 49,
+      "t": "m",
+      "d": 5,
+      "c": 8,
+      "j": 5,
+      "st": "During the postoperative period following surgical removal of a brain tumor, a child becomes restless with an elevated pulse rate and a markedly decreased blood pressure from baseline. Suspecting shock, what is the nurse's most appropriate action?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Notify the surgeon immediately",
+          "Suspected postoperative shock requires immediate surgeon notification while avoiding ICP-elevating positions or fluid boluses."
+        ],
+        [
+          "B",
+          "Place the child in Trendelenburg's position to restore cerebral blood pressure",
+          "Trendelenburg's position dangerously increases intracranial pressure and hemorrhage risk after craniotomy."
+        ],
+        [
+          "C",
+          "Rapidly increase the intravenous fluid infusion rate to 200 mL/hr",
+          "Increasing intravenous fluid rates without a prescription can precipitate life-threatening cerebral edema and ICP."
+        ],
+        [
+          "D",
+          "Lower the head of the bed to a completely flat supine position",
+          "Lowering a post-craniotomy child supine can increase intracranial pressure; the surgeon must be notified immediately."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "If shock is suspected after craniotomy, notify the surgeon immediately; never use Trendelenburg's position or increase IV fluids unprescribed, which elevate ICP.",
+      "fc": [
+        "Post-Craniotomy Shock Management (PQ 2)",
+        "Suspected shock (restlessness, tachycardia, falling BP) -> notify surgeon IMMEDIATELY | NEVER place in Trendelenburg's position (increases ICP and bleeding) | NEVER increase IV fluid rate without prescription (worsens cerebral edema)",
+        "Ch. 32 Box 32.4 & PQ 2"
+      ]
+    },
+    {
+      "i": 50,
+      "t": "s",
+      "d": 5,
+      "c": 7,
+      "j": 5,
+      "st": "The nurse is reviewing postoperative positioning prescriptions for children recovering from craniotomy procedures. Which positioning principles are correct? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "After supratentorial surgery, elevate the head above heart level to promote CSF drainage",
+          "Head elevation above heart level facilitates cerebrospinal fluid drainage and reduces cerebral blood flow."
+        ],
+        [
+          "B",
+          "After infratentorial surgery, position the child flat or on either side as prescribed",
+          "Infratentorial craniotomies typically require flat or side-lying positioning rather than high head elevation."
+        ],
+        [
+          "C",
+          "Never place the child on the operative side if a large tumor was removed",
+          "Turning onto the operative cavity after large tumor removal can cause sudden dangerous brain shift."
+        ],
+        [
+          "D",
+          "Place the child in Trendelenburg's position to prevent postoperative orthostatic hypotension",
+          "Trendelenburg's position is strictly contraindicated because it raises intracranial pressure and hemorrhage risk."
+        ],
+        [
+          "E",
+          "Flex the child's chin tightly onto the chest to stabilize the cervical spine",
+          "Extreme neck flexion obstructs jugular venous outflow and increases intracranial pressure."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Post-craniotomy positioning: follow surgeon's neck flexion order; never use Trendelenburg; avoid operative side if large tumor removed; flat/side-lying for infratentorial; head elevated for supratentorial.",
+      "fc": [
+        "Positioning After Craniotomy (Box 32.4)",
+        "Supratentorial: head elevated above heart level (promotes CSF drainage, decreases bleeding) | Infratentorial: flat or on either side | Never Trendelenburg; do not place on operative side if large tumor removed",
+        "Ch. 32 Box 32.4"
+      ]
+    },
+    {
+      "i": 51,
+      "t": "m",
+      "d": 5,
+      "c": 8,
+      "j": 1,
+      "st": "A child recovering from brainstem tumor resection develops a temperature of 39.6 C (103.3 F) 6 hours postoperatively despite clean surgical dressings and clear lungs. What is the most likely physiological cause of this fever?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Hypothalamic or brainstem temperature-regulation disturbance caused by surgical manipulation",
+          "Hypothalamus or brainstem involvement during surgery causes central hyperthermia, requiring a bedside cooling blanket."
+        ],
+        [
+          "B",
+          "Late-onset surgical wound cellulitis requiring immediate dressing removal",
+          "Surgical wound infections rarely develop within 6 hours, and dressings are not removed without orders."
+        ],
+        [
+          "C",
+          "Anaphylactic reaction to preoperative head shaving soap",
+          "Anaphylaxis presents with bronchospasm and hypotension rather than isolated central postoperative hyperthermia."
+        ],
+        [
+          "D",
+          "Expected thermogenic response to postoperative fasting and fluid restriction",
+          "Fasting does not cause a high fever of 39.6 C; central thermoregulatory disruption is responsible."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Post-craniotomy temperature may become elevated from hypothalamus or brainstem involvement during surgery; maintain a cooling blanket at the bedside.",
+      "fc": [
+        "Post-Craniotomy Hyperthermia & Infection Monitoring",
+        "Monitor temperature closely (may rise from hypothalamus/brainstem surgical involvement) | Maintain a cooling blanket by the bedside | Also monitor for respiratory infection and meningitis (opisthotonos, Kernig's, Brudzinski's)",
+        "Ch. 32 Section VI.D.2-4"
+      ]
+    },
+    {
+      "i": 52,
+      "t": "s",
+      "d": 5,
+      "c": 8,
+      "j": 3,
+      "st": "The nurse is monitoring a child 12 hours after craniotomy for neurological complications. Which findings require immediate reporting to the primary health care provider? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Sluggish, dilated, or unequal pupils",
+          "Pupillary asymmetry or sluggish reactivity signals rising intracranial pressure and impending brainstem herniation."
+        ],
+        [
+          "B",
+          "Opisthotonos with positive Kernig's and Brudzinski's signs",
+          "Nuchal rigidity, opisthotonos, and positive Kernig's/Brudzinski's signs indicate acute postoperative meningitis."
+        ],
+        [
+          "C",
+          "Persistent retching and forceful vomiting",
+          "Vomiting sharply elevates intracranial pressure and places the child at risk for incisional rupture."
+        ],
+        [
+          "D",
+          "Alert orientation with equal 3 mm briskly reactive pupils",
+          "Alert mental status and briskly reactive equal pupils reflect stable postoperative neurological recovery."
+        ],
+        [
+          "E",
+          "Sleeping quietly in a dim room between scheduled neurological assessments",
+          "Resting calmly in a quiet environment helps prevent agitation-induced spikes in intracranial pressure."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Post-craniotomy, immediately report sluggish/dilated/unequal pupils (herniation), meningitis signs (opisthotonos, Kernig's, Brudzinski's), increased ICP, and prevent vomiting.",
+      "fc": [
+        "Post-Craniotomy Neuro & Meningitis Alerts",
+        "Sluggish, dilated, or unequal pupils -> report immediately (ICP/brainstem herniation) | Meningitis signs: opisthotonos, Kernig's and Brudzinski's signs | Prevent vomiting (increases ICP and risk for incisional rupture)",
+        "Ch. 32 Section VI.D.4, 7, 11"
+      ]
+    },
+    {
+      "i": 53,
+      "t": "m",
+      "d": 2,
+      "c": 1,
+      "j": 3,
+      "st": "A parent calls the pediatric triage clinic reporting that their 3-week-old newborn has a rectal temperature of 38.2 C (100.8 F) and is feeding poorly. Which instruction should the nurse provide immediately?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Bring the infant for immediate medical evaluation because fever under 1 month is an emergency",
+          "Fever in an infant under 1 month old is an emergency requiring immediate evaluation."
+        ],
+        [
+          "B",
+          "Administer weight-based children's ibuprofen and recheck the temperature in 4 hours",
+          "Ibuprofen is not given under 6 months, and neonatal fever requires immediate emergency evaluation."
+        ],
+        [
+          "C",
+          "Give a cool water sponge bath at home and call back tomorrow if fever persists",
+          "Neonates with fever >= 38.0 C require immediate evaluation for sepsis rather than home observation."
+        ],
+        [
+          "D",
+          "Administer half a baby aspirin dissolved in formula to lower the temperature quickly",
+          "Aspirin is contraindicated in children due to Reye's syndrome, and neonatal fever is an emergency."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Normal pediatric temperature is 36.4 C to 37.0 C (97.5 F to 98.6 F); fever is >=38.0 C (100.4 F), and fever in an infant <1 month old is an emergency.",
+      "fc": [
+        "Pediatric Fever Thresholds & Neonatal Emergency",
+        "Normal child temp: 36.4-37.0 C (97.5-98.6 F); Fever: >= 38.0 C (100.4 F) | Fever in infant < 1 month old = EMERGENCY -> contact pediatrician immediately | Signs: flushed warm skin, diaphoresis, chills, restlessness/lethargy",
+        "Ch. 33 Section I.A-B"
+      ]
+    },
+    {
+      "i": 54,
+      "t": "m",
+      "d": 1,
+      "c": 6,
+      "j": 5,
+      "st": "The nurse has just administered a prescribed dose of ibuprofen to a 2-year-old child with a temperature of 38.8 C (102.0 F). Which nursing action should the nurse implement next?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Remove excess clothing and blankets and increase room air circulation",
+          "Removing excess coverings promotes heat dissipation through evaporation and radiation without inducing shivering."
+        ],
+        [
+          "B",
+          "Sponge-bathe the child with ice-cold water to drop the temperature rapidly",
+          "Cold water sponging induces shivering, which increases metabolic oxygen demand and raises core temperature."
+        ],
+        [
+          "C",
+          "Withhold all oral fluids for 6 hours to prevent fever-induced vomiting",
+          "Fever increases insensible fluid losses, requiring adequate oral fluid intake to prevent dehydration."
+        ],
+        [
+          "D",
+          "Administer a dose of oral aspirin in 2 hours if the temperature remains elevated",
+          "Aspirin must never be administered to febrile children due to the risk of Reye's syndrome."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Fever interventions include removing excess clothing/blankets, cooling the room, giving acetaminophen or ibuprofen (>6 months), avoiding aspirin (Reye's syndrome), and encouraging fluids.",
+      "fc": [
+        "Pediatric Fever Management (PQ 7)",
+        "Remove excess clothing/blankets; reduce room temp; cool compress to forehead | Antipyretics: acetaminophen or ibuprofen (> 6 months); NO aspirin (Reye's syndrome) | Retake temperature 30-60 min after antipyretic; encourage fluids",
+        "Ch. 33 Section I.C & PQ 7"
+      ]
+    },
+    {
+      "i": 55,
+      "t": "m",
+      "d": 2,
+      "c": 6,
+      "j": 6,
+      "st": "The nurse administers oral acetaminophen to a 4-year-old child with a temperature of 39.1 C (102.4 F). When should the nurse retake the child's temperature to evaluate medication effectiveness?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "30 to 60 minutes after administering the antipyretic",
+          "Retaking the temperature 30 to 60 minutes post-administration accurately evaluates antipyretic therapeutic response."
+        ],
+        [
+          "B",
+          "5 minutes after administering the oral suspension",
+          "Five minutes is insufficient for gastrointestinal absorption and hypothalamic thermoregulatory onset."
+        ],
+        [
+          "C",
+          "4 hours after administering the antipyretic",
+          "Waiting 4 hours delays recognition of persistent hyperthermia or need for alternative cooling measures."
+        ],
+        [
+          "D",
+          "Only if the child develops visible febrile seizure activity",
+          "Scheduled reassessment 30 to 60 minutes after dosing is standard nursing evaluation practice."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "After administering an antipyretic to a febrile child, the nurse should retake the temperature 30 to 60 minutes later.",
+      "fc": [
+        "Evaluating Antipyretic Therapy",
+        "Retake temperature 30 to 60 minutes after antipyretic administration | Monitor for dehydration and electrolyte imbalances | Teach parents safe dosing and when to call PHCP",
+        "Ch. 33 Section I.C.5-8"
+      ]
+    },
+    {
+      "i": 56,
+      "t": "m",
+      "d": 1,
+      "c": 6,
+      "j": 4,
+      "st": "A parent asks the pediatric nurse why aspirin should not be given to lower a child's fever during a viral respiratory illness. What is the nurse's best explanation?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Administering aspirin to a child with a viral fever carries a risk of Reye's syndrome",
+          "Aspirin is avoided in febrile children unless specifically prescribed due to Reye's syndrome risk."
+        ],
+        [
+          "B",
+          "Aspirin causes severe irreversible tooth staining in children under 8 years old",
+          "Tooth discoloration is associated with tetracycline antibiotics rather than pediatric salicylate administration."
+        ],
+        [
+          "C",
+          "Aspirin triggers acute adrenal crisis and severe neonatal hyperkalemia",
+          "The specific life-threatening complication linked to pediatric aspirin use during fever is Reye's syndrome."
+        ],
+        [
+          "D",
+          "Aspirin is completely ineffective at reducing hypothalamic fever set points in children",
+          "Aspirin reduces fever pharmacologically but is contraindicated because of Reye's syndrome toxicity."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Aspirin is not administered to children with fever unless specifically prescribed because of the risk of Reye's syndrome.",
+      "fc": [
+        "Aspirin & Reye's Syndrome Contraindication",
+        "Never administer aspirin to a febrile child unless specifically prescribed | Reason: risk of Reye's syndrome (acute encephalopathy + fatty liver) | Use acetaminophen or ibuprofen (> 6 months old) instead",
+        "Ch. 33 Section I.C.3-4"
+      ]
+    },
+    {
+      "i": 57,
+      "t": "m",
+      "d": 3,
+      "c": 6,
+      "j": 4,
+      "st": "A mother brings her 4-month-old infant with a temperature of 38.5 C (101.3 F) to the clinic and asks if she can give over-the-counter infant ibuprofen. Which guidance should the nurse provide?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Ibuprofen is only given to infants older than 6 months; use prescribed acetaminophen instead",
+          "Ibuprofen is approved for febrile infants and children older than 6 months of age."
+        ],
+        [
+          "B",
+          "Ibuprofen is safe at any age starting at birth as long as liquid drops are used",
+          "Ibuprofen should not be administered until the infant is older than 6 months."
+        ],
+        [
+          "C",
+          "Alternate aspirin and ibuprofen every 2 hours until the fever resolves",
+          "Both aspirin (Reye's syndrome) and ibuprofen (<6 months) are inappropriate for a 4-month-old infant."
+        ],
+        [
+          "D",
+          "Bundle the infant in two warm blankets to sweat out the viral fever",
+          "Bundling traps body heat and worsens hyperthermia; excess clothing should be removed."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "For pediatric fever, administer antipyretics such as acetaminophen or, if the child is older than 6 months, ibuprofen as prescribed.",
+      "fc": [
+        "Pediatric Antipyretic Age Rules",
+        "Acetaminophen: appropriate across pediatric ages as prescribed | Ibuprofen: administer ONLY if child is older than 6 months | Aspirin: contraindicated due to Reye's syndrome",
+        "Ch. 33 Section I.C.3-4"
+      ]
+    },
+    {
+      "i": 58,
+      "t": "m",
+      "d": 2,
+      "c": 8,
+      "j": 2,
+      "st": "The nurse is explaining to parents why infants and young children develop dehydration much more rapidly than adults during gastroenteritis. Which physiological factor accounts for this heightened vulnerability?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Infants and children have immature water-conserving organs and more body water in the extracellular compartment",
+          "Immature renal conservation and a larger extracellular fluid proportion predispose children to rapid fluid deficit."
+        ],
+        [
+          "B",
+          "Infants and children have smaller body surface area relative to weight and low metabolic rates",
+          "Infants have greater body surface area and higher metabolic rates, accelerating insensible fluid losses."
+        ],
+        [
+          "C",
+          "Infants store 90% of total body water inside bone and adipose tissue",
+          "A higher proportion of pediatric body water resides in the labile extracellular fluid compartment."
+        ],
+        [
+          "D",
+          "Infants excrete concentrated urine with a baseline specific gravity above 1.040",
+          "Immature neonatal kidneys have limited concentrating ability, increasing obligatory urinary water losses."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Infants and children are more vulnerable to fluid volume deficit because water-conserving organs are immature and more body water is in the extracellular fluid compartment.",
+      "fc": [
+        "Pediatric Vulnerability to Dehydration (Safety Alert)",
+        "Water-conserving organs (kidneys) are immature in infants/children | More body water is located in the extracellular fluid (ECF) compartment | Causes: fever, poor intake, vomiting, diarrhea, DKA, extensive burns",
+        "Ch. 33 Section II.A.2-3 & Safety Alert"
+      ]
+    },
+    {
+      "i": 59,
+      "t": "m",
+      "d": 3,
+      "c": 8,
+      "j": 2,
+      "st": "An 8-month-old infant weighing 10 kg before illness is admitted with acute diarrhea and now weighs 9.3 kg (7% weight loss). Assessment shows dry mucous membranes, decreased tears, capillary refill of 3 seconds, and urine specific gravity of 1.026. Which level of dehydration is present?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Moderate dehydration",
+          "Infant weight loss of 6% to 9% with dry mucosa indicates moderate dehydration."
+        ],
+        [
+          "B",
+          "Mild dehydration",
+          "Mild dehydration in infants presents with 3% to 5% weight loss, normal mucosa, and present tears."
+        ],
+        [
+          "C",
+          "Severe dehydration",
+          "Severe infant dehydration involves >=10% weight loss, parched mucosa, absent tears, and refill >4 seconds."
+        ],
+        [
+          "D",
+          "Normal hydration status",
+          "A 7% acute weight loss with delayed capillary refill reflects significant moderate fluid volume deficit."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Moderate dehydration in infants features 6%-9% weight loss (6%-8% in children), slightly increased pulse, slight tachypnea, dry mucosa, decreased tears, and 2-4 sec capillary refill.",
+      "fc": [
+        "Moderate Dehydration Cues (Table 33.1)",
+        "Weight loss: 6%-9% (infants), 6%-8% (children) | Dry mucous membranes, decreased tears, irritable, moderate thirst | Capillary refill 2-4 sec, urine specific gravity > 1.020 with oliguria",
+        "Ch. 33 Table 33.1"
+      ]
+    },
+    {
+      "i": 60,
+      "t": "s",
+      "d": 5,
+      "c": 8,
+      "j": 1,
+      "st": "The nurse is assessing a toddler admitted with severe gastroenteritis and suspected severe dehydration (10% body weight loss). Which clinical findings confirm severe dehydration? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Very delayed capillary refill (>4 seconds) with skin tenting and cool, mottled skin",
+          "Profound peripheral vasoconstriction in severe dehydration prolongs capillary refill beyond 4 seconds with mottling."
+        ],
+        [
+          "B",
+          "Parched mucous membranes, absent tears, sunken eyes, and sunken anterior fontanel",
+          "Severe extracellular and interstitial depletion causes parched mucosa, absent tears, and sunken eyes/fontanel."
+        ],
+        [
+          "C",
+          "Hyperpnea (deep, rapid respirations), marked tachycardia, and orthostatic hypotension to shock",
+          "Metabolic acidosis and hypovolemic shock trigger Kussmaul-like hyperpnea, severe tachycardia, and falling blood pressure."
+        ],
+        [
+          "D",
+          "Normal capillary refill of 2 seconds with present tears and moist mucosa",
+          "Two-second capillary refill and present tears characterize mild dehydration rather than severe shock."
+        ],
+        [
+          "E",
+          "External jugular vein clearly visible when the child is placed supine",
+          "In severe dehydration, the external jugular vein is not visible even with supraclavicular pressure."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Severe dehydration (>=10% infant/10% child weight loss) causes marked tachycardia, hyperpnea, shock, lethargy, intense thirst, parched mucosa, absent tears, sunken eyes/fontanel, and refill >4 sec.",
+      "fc": [
+        "Severe Dehydration Cues (Table 33.1)",
+        "Weight loss: >= 10% (infants), 10% (children); oliguria/anuria | Parched mucosa, absent tears, sunken eyes/fontanel, skin tenting/mottled | Very increased pulse, hyperpnea, shock, capillary refill > 4 sec",
+        "Ch. 33 Table 33.1"
+      ]
+    },
+    {
+      "i": 61,
+      "t": "m",
+      "d": 4,
+      "c": 8,
+      "j": 2,
+      "st": "A 14-month-old toddler is admitted with hypernatremic dehydration (serum sodium 156 mEq/L). Why must the nurse exercise extra caution when evaluating skin turgor and mucous membranes in this child?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Classic skin tenting and dry mucous membrane signs are less prominent in hypernatremic dehydration",
+          "Clinical signs of dehydration in Table 33.1 are less prominent in a child with hypernatremia."
+        ],
+        [
+          "B",
+          "Hypernatremia always causes severe generalized pitting edema that masks weight loss",
+          "Hypernatremic dehydration causes intracellular water loss rather than generalized pitting fluid overload."
+        ],
+        [
+          "C",
+          "Serum sodium elevation artificially shortens capillary refill to less than 1 second",
+          "Hypernatremia preserves intravascular volume temporarily, making skin turgor signs less reliable."
+        ],
+        [
+          "D",
+          "Hypernatremic children never develop oliguria or elevated urinary specific gravity",
+          "Hypernatremic children conserve water with oliguria, though cutaneous dehydration signs appear milder."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Physical signs of dehydration (such as poor skin turgor and tenting) are less prominent in a child who has hypernatremia, potentially masking dehydration severity.",
+      "fc": [
+        "Hypernatremic Dehydration Assessment Footnote (Table 33.1)",
+        "Table 33.1 physical signs are LESS prominent in hypernatremia | Intracellular water shifts into vessels, masking skin tenting | Monitor weight, I&O, neurological status, and electrolytes closely",
+        "Ch. 33 Table 33.1 Footnote"
+      ]
+    },
+    {
+      "i": 62,
+      "t": "m",
+      "d": 3,
+      "c": 6,
+      "j": 5,
+      "st": "The parents of a 2-year-old child with mild diarrhea and dehydration ask which fluids to offer at home for oral rehydration therapy. Which fluid recommendation should the nurse provide?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Offer frequent small amounts of an oral rehydration solution such as Pedialyte",
+          "Oral rehydration solutions like Pedialyte replace water and electrolytes in balanced physiological proportions."
+        ],
+        [
+          "B",
+          "Give chilled apple juice to provide extra glucose energy during diarrhea",
+          "High-sugar fluids like apple juice exert an osmotic effect that worsens diarrhea and dehydration."
+        ],
+        [
+          "C",
+          "Offer flat ginger ale or carbonated lemon-lime soda throughout the day",
+          "Carbonated beverages are gas-producing, high in sugar, and low in electrolytes, worsening diarrhea."
+        ],
+        [
+          "D",
+          "Administer plain distilled water exclusively for 48 hours until stools firm up",
+          "Plain water lacks sodium and potassium and can precipitate dilutional hyponatremia in dehydrated children."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "For mild to moderate dehydration, provide oral rehydration therapy with Pedialyte or similar solutions; avoid carbonated beverages (gas-producing) and high-sugar fluids like apple juice.",
+      "fc": [
+        "Oral Rehydration Therapy (ORT)",
+        "Use Pedialyte or similar prescribed oral rehydration solution | AVOID carbonated beverages (gas-producing) | AVOID high-sugar fluids such as apple juice (worsens osmotic diarrhea)",
+        "Ch. 33 Section II.C.7"
+      ]
+    },
+    {
+      "i": 63,
+      "t": "m",
+      "d": 5,
+      "c": 6,
+      "j": 3,
+      "st": "A pediatrician prescribes an intravenous infusion of 5% dextrose and 0.45% sodium chloride with 40 mEq of potassium chloride for a child with hypotonic dehydration. Which priority assessment must the nurse perform before starting this infusion?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Verify that the child has voided and has adequate urine output",
+          "Intravenous potassium must never be administered until adequate renal function and voiding are confirmed."
+        ],
+        [
+          "B",
+          "Obtain an axillary temperature to rule out concurrent viral fever",
+          "Assessing temperature is routine care but is not the critical safety check before potassium infusion."
+        ],
+        [
+          "C",
+          "Measure head circumference and anterior fontanel tension",
+          "Fontanel assessment evaluates intracranial pressure rather than renal clearance of intravenous potassium."
+        ],
+        [
+          "D",
+          "Check capillary blood glucose to confirm absence of hypoglycemia",
+          "Confirming adequate urine output (>= 1-2 mL/kg/hr) is the mandatory priority before infusing potassium."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "If potassium is prescribed for IV administration in dehydration, the nurse must ensure the child has voided first and has adequate renal function.",
+      "fc": [
+        "IV Potassium Safety in Pediatric Dehydration (PQ 3)",
+        "Severe dehydration: NPO to rest bowel + IV fluid/electrolyte replacement | PRIORITY before IV potassium: ensure child has VOIDED and has adequate renal function | Never give IV potassium during oliguria or anuria (fatal hyperkalemia)",
+        "Ch. 33 Section II.C.8 & PQ 3"
+      ]
+    },
+    {
+      "i": 64,
+      "t": "m",
+      "d": 1,
+      "c": 8,
+      "j": 6,
+      "st": "A child admitted with moderate fluid volume deficit has received 6 hours of rehydration therapy. Which assessment finding indicates that the child is improving and the fluid deficit is resolving?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Capillary refill is less than 2 seconds",
+          "A capillary refill time under 2 seconds indicates restored peripheral perfusion and resolving dehydration."
+        ],
+        [
+          "B",
+          "Urine specific gravity is 1.035",
+          "A specific gravity of 1.035 exceeds the normal 1.003-1.030 range and indicates persistent dehydration."
+        ],
+        [
+          "C",
+          "Urine output is 0.5 mL/kg/hr",
+          "Adequate pediatric urine output is at least 1 mL/kg/hr; 0.5 mL/kg/hr indicates ongoing oliguria."
+        ],
+        [
+          "D",
+          "Absence of tears when crying",
+          "Lack of tears reflects persistent moderate-to-severe extracellular fluid depletion rather than resolving dehydration."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Indicators of resolving pediatric fluid volume deficit include capillary refill <2 seconds, urine specific gravity 1.003-1.030, urine output >=1 mL/kg/hr, and adequate tear production.",
+      "fc": [
+        "Evaluating Dehydration Resolution (PQ 8)",
+        "Capillary refill < 2 seconds | Urine output >= 1 mL/kg/hr and urine specific gravity 1.003 to 1.030 | Adequate tear production and moist mucous membranes; reintroduce normal diet once rehydrated",
+        "Ch. 33 Section II.C.9 & PQ 8"
+      ]
+    },
+    {
+      "i": 65,
+      "t": "m",
+      "d": 3,
+      "c": 7,
+      "j": 1,
+      "st": "A 9-month-old infant is admitted with mild dehydration secondary to decreased oral intake. Which clinical finding in Table 33.1 is consistent with mild dehydration?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Weight loss of 3% to 5%, present tears, normal mucous membranes, and urine specific gravity >1.020",
+          "Mild infant dehydration exhibits 3%-5% weight loss, normal mucosa, present tears, and concentrated urine >1.020."
+        ],
+        [
+          "B",
+          "Weight loss of 8%, sunken anterior fontanel, and delayed capillary refill of 4 seconds",
+          "An 8% weight loss with sunken fontanel and delayed refill represents moderate-to-severe dehydration."
+        ],
+        [
+          "C",
+          "Weight loss of 12%, anuria, mottled cool skin, and orthostatic shock",
+          "Twelve percent weight loss with anuria and shock represents severe life-threatening dehydration."
+        ],
+        [
+          "D",
+          "External jugular vein invisible even when supraclavicular pressure is applied",
+          "Invisible external jugular veins under supraclavicular pressure indicate severe intravascular volume depletion."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Mild dehydration involves 3%-5% infant (3%-4% child) weight loss, normal pulse/respirations/BP/mucosa, present tears, slight thirst, 2-sec refill, and urine specific gravity >1.020.",
+      "fc": [
+        "Mild Dehydration Profile (Table 33.1)",
+        "Weight loss: 3%-5% (infants), 3%-4% (children) | Normal pulse, RR, BP, behavior, mucous membranes; tears present | Slight thirst, capillary refill 2 sec, urine specific gravity > 1.020",
+        "Ch. 33 Table 33.1"
+      ]
+    },
+    {
+      "i": 66,
+      "t": "m",
+      "d": 1,
+      "c": 3,
+      "j": 2,
+      "st": "A parent brings a 2-week-old infant to the clinic for a repeat phenylketonuria (PKU) blood test, which shows a serum phenylalanine level of 1.0 mg/dL (60.5 mcmol/L). How should the nurse interpret this result?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Negative test result within the normal reference range of 0 to 2 mg/dL",
+          "Normal serum phenylalanine is 0 to 2 mg/dL; levels >20 mg/dL indicate phenylketonuria."
+        ],
+        [
+          "B",
+          "Positive diagnostic result confirming classic autosomal recessive phenylketonuria",
+          "A diagnostic positive PKU result requires a blood phenylalanine level exceeding 20 mg/dL."
+        ],
+        [
+          "C",
+          "Inconclusive specimen requiring immediate initiation of phenylalanine-free formula",
+          "A level of 1.0 mg/dL is normal and negative, requiring no dietary protein restriction."
+        ],
+        [
+          "D",
+          "Borderline elevation requiring repeat heel-stick testing at 6 months of age",
+          "Because 1.0 mg/dL is within the normal 0-2 mg/dL range, no further rescreening is needed."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Normal serum phenylalanine is 0 to 2 mg/dL (0 to 121 mcmol/L); phenylketonuria is characterized by blood phenylalanine levels greater than 20 mg/dL (1210 mcmol/L).",
+      "fc": [
+        "Phenylketonuria (PKU) Lab Thresholds (PQ 5)",
+        "Autosomal recessive disorder causing CNS damage from toxic phenylalanine | Normal serum phenylalanine: 0 to 2 mg/dL (0 to 121 mcmol/L) | Diagnostic PKU level: > 20 mg/dL (1210 mcmol/L)",
+        "Ch. 33 Section III.A.1-2 & PQ 5"
+      ]
+    },
+    {
+      "i": 67,
+      "t": "m",
+      "d": 3,
+      "c": 3,
+      "j": 5,
+      "st": "The nurse is preparing to collect a newborn screening blood specimen for phenylketonuria (PKU) prior to hospital discharge. Which pre-collection requirement and follow-up rule are essential for accurate screening?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Ensure the infant has begun formula or human milk feedings, and rescreen by 14 days if tested before 24 hours",
+          "Protein intake from milk/formula is required for phenylalanine accumulation, and early tests (<24 hr) need rescreening."
+        ],
+        [
+          "B",
+          "Collect the heel-stick blood specimen immediately after birth before the first feeding",
+          "Testing before protein ingestion produces false-negative results because phenylalanine has not yet accumulated."
+        ],
+        [
+          "C",
+          "Keep the newborn NPO on sterile water for 12 hours prior to capillary blood collection",
+          "Fasting prevents dietary protein metabolism and invalidates newborn phenylketonuria screening."
+        ],
+        [
+          "D",
+          "Delay initial newborn screening until 6 weeks of age in all 50 states",
+          "All 50 states mandate newborn screening prior to discharge, with rescreening by 14 days if early."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "For PKU screening, the newborn must have begun formula or human milk feedings before specimen collection, and infants tested before 24 hours of age must be rescreened by 14 days.",
+      "fc": [
+        "Newborn PKU Screening Protocol",
+        "Required in all 50 states; infant must receive formula or human milk first | Rescreen by 14 days of age if initial screen was done before 24 hours | Positive initial screen requires repeat test and diagnostic evaluation",
+        "Ch. 33 Section III.A.3 & III.C.1-3"
+      ]
+    },
+    {
+      "i": 68,
+      "t": "s",
+      "d": 2,
+      "c": 8,
+      "j": 1,
+      "st": "The nurse is assessing an untreated 2-year-old child recently adopted from a region without newborn screening who is diagnosed with phenylketonuria (PKU). Which clinical manifestations are associated with untreated PKU? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Musty odor of the urine, vomiting, and intellectual disability",
+          "Accumulated phenylacetic acid produces a musty urine odor alongside vomiting, seizures, and intellectual disability."
+        ],
+        [
+          "B",
+          "Eczema, hypertonia, and hypopigmentation of the hair, skin, and irises",
+          "Impaired tyrosine melanin synthesis in older untreated children causes fair hair, light skin/irises, eczema, and hypertonia."
+        ],
+        [
+          "C",
+          "Seizures and behavioral abnormalities including hyperactivity or bizarre behavior",
+          "Toxic blood phenylalanine damages the developing brain, causing seizures and severe behavioral abnormalities."
+        ],
+        [
+          "D",
+          "Fruity acetone breath odor and deep Kussmaul respirations",
+          "Fruity breath and Kussmaul respirations indicate diabetic ketoacidosis rather than phenylketonuria."
+        ],
+        [
+          "E",
+          "Generalized anasarca and coarse facial features with macroglossia",
+          "Anasarca and macroglossia are unrelated to untreated autosomal recessive phenylketonuria."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Untreated PKU causes digestive problems/vomiting, seizures, musty urine odor, intellectual disability, and in older children eczema, hypertonia, hypopigmentation, and behavioral abnormalities.",
+      "fc": [
+        "Phenylketonuria Clinical Manifestations",
+        "All children: digestive problems/vomiting, seizures, musty urine odor, intellectual disability | Older children: eczema, hypertonia, hypopigmentation (hair/skin/irises) | Behavioral abnormalities: hyperactivity, bizarre/schizoid behavior",
+        "Ch. 33 Section III.B.1-2"
+      ]
+    },
+    {
+      "i": 69,
+      "t": "s",
+      "d": 3,
+      "c": 3,
+      "j": 6,
+      "st": "The nurse is evaluating parents' understanding of dietary management for their infant newly diagnosed with phenylketonuria (PKU). Which parental statements indicate accurate understanding? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "We must avoid high-protein foods like meats and dairy products because they contain high phenylalanine",
+          "Meats and dairy products are rich in phenylalanine and must be excluded from the PKU diet."
+        ],
+        [
+          "B",
+          "We need to read food labels closely because the artificial sweetener aspartame contains phenylalanine",
+          "Aspartame breaks down into phenylalanine and must be strictly avoided by checking all food labels."
+        ],
+        [
+          "C",
+          "Cereals, pastas, rice, fruits, and vegetables are safe foods for our child to eat",
+          "Low-protein grains, fruits, and vegetables provide safe calories alongside prescribed phenylalanine-free formulas."
+        ],
+        [
+          "D",
+          "Once our child reaches age 5, a normal high-protein diet can be resumed permanently",
+          "Lifelong dietary restriction and regular follow-up appointments are required to prevent neurocognitive damage."
+        ],
+        [
+          "E",
+          "Standard cow's milk infant formula can be mixed 50-50 with water to meet protein needs",
+          "Infants with PKU require specially prepared low-phenylalanine formulas rather than standard cow's milk formulas."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "PKU dietary management restricts phenylalanine by avoiding high-protein foods (meats, dairy) and aspartame, using special formulas, and allowing cereals, pastas, rice, fruits, and vegetables.",
+      "fc": [
+        "PKU Dietary Management (Clinical Judgment Box)",
+        "Primary treatment: lifelong phenylalanine-restricted diet + special formulas | AVOID: high-protein foods (meats, dairy) and aspartame (artificial sweetener) | ALLOWED: cereals, pastas, rice, fruits, vegetables; consult social services for formula cost",
+        "Ch. 33 Section III.C.4 & Clinical Judgment Box"
+      ]
+    },
+    {
+      "i": 70,
+      "t": "m",
+      "d": 2,
+      "c": 1,
+      "j": 4,
+      "st": "The parents of an infant diagnosed with phenylketonuria express concern about the high out-of-pocket expense of purchasing specially prepared phenylalanine-free medical formulas. Which interprofessional referral should the nurse initiate?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Consult social care services to assist with the financial burden of special formulas",
+          "Social care services help families access financial assistance programs for costly prescribed PKU formulas."
+        ],
+        [
+          "B",
+          "Refer the family to physical therapy to teach exercises that metabolize phenylalanine",
+          "Exercise cannot substitute for the missing hepatic enzyme or reduce dietary phenylalanine toxicity."
+        ],
+        [
+          "C",
+          "Advise the parents to substitute soy-based commercial formula to save money",
+          "Commercial soy formulas contain high protein and phenylalanine and cause severe neurotoxicity in PKU."
+        ],
+        [
+          "D",
+          "Consult occupational therapy to introduce high-protein solid foods earlier",
+          "High-protein solid foods are contraindicated in infants and children with phenylketonuria."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "The nurse should consult with social care services to assist parents with the financial burdens of purchasing special prepared PKU formulas.",
+      "fc": [
+        "PKU Family & Genetic Support",
+        "Consult social care services for financial assistance with special formulas | Monitor physical, neurological, and intellectual development | Discuss autosomal recessive inheritance risk in future pregnancies",
+        "Ch. 33 Section III.C.4.b-f"
+      ]
+    },
+    {
+      "i": 71,
+      "t": "m",
+      "d": 3,
+      "c": 3,
+      "j": 4,
+      "st": "During genetic counseling follow-up for a toddler with phenylketonuria (PKU), the parents ask about the chance of having another child with PKU in a future pregnancy. Which genetic principle guides the nurse's discussion?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "PKU is an autosomal recessive genetic disorder carrying a recurrence risk in future children",
+          "Because PKU is autosomal recessive, carrier parents carry a recurrence risk in future children."
+        ],
+        [
+          "B",
+          "PKU is caused by a spontaneous maternal viral infection and will not recur",
+          "PKU is an inherited autosomal recessive metabolic disorder rather than a sporadic viral illness."
+        ],
+        [
+          "C",
+          "PKU is an X-linked dominant disorder that affects only male offspring",
+          "Autosomal recessive inheritance affects males and females equally rather than following X-linked transmission."
+        ],
+        [
+          "D",
+          "PKU is prevented in future pregnancies by taking prenatal vitamin B12 supplements",
+          "Autosomal recessive gene transmission cannot be prevented by maternal prenatal vitamin supplementation."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Phenylketonuria is an autosomal recessive genetic disorder; nurses should discuss the risk of phenylketonuria in future children with parents.",
+      "fc": [
+        "PKU Inheritance Counseling",
+        "Mode of inheritance: autosomal recessive genetic disorder | Encourage parents to express feelings about diagnosis | Discuss genetic risk of PKU in future children",
+        "Ch. 33 Section III.A.1 & III.C.4.d"
+      ]
+    },
+    {
+      "i": 72,
+      "t": "m",
+      "d": 1,
+      "c": 3,
+      "j": 2,
+      "st": "During a well-child visit, the nurse calculates the body mass index (BMI) percentile for a 10-year-old child and plots it at the 96th percentile for age and sex. How does the CDC classify this child's weight status?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Obesity (BMI greater than the 95th percentile)",
+          "CDC standards define childhood obesity as a BMI greater than the 95th percentile for ages 2-20."
+        ],
+        [
+          "B",
+          "Overweight (BMI between the 85th and 95th percentiles)",
+          "Overweight is defined as above the 85th percentile but less than the 95th percentile."
+        ],
+        [
+          "C",
+          "Healthy weight (BMI below the 85th percentile)",
+          "A BMI at the 96th percentile exceeds both healthy weight and overweight pediatric thresholds."
+        ],
+        [
+          "D",
+          "Severe obesity (defined strictly as BMI greater than the 50th percentile)",
+          "Severe obesity is defined as BMI >= 120% of the 95th percentile or BMI >= 35."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "For ages 2-20, CDC BMI percentiles define overweight as >85th to <95th percentile, obesity as >95th percentile, and severe obesity as >=120% of the 95th percentile or BMI >=35.",
+      "fc": [
+        "CDC Pediatric BMI Percentile Classifications (Ages 2-20)",
+        "BMI = weight (kg) / height (m)^2 | Overweight: > 85th percentile and < 95th percentile | Obesity: > 95th percentile; Severe obesity: >= 120% of 95th percentile or BMI >= 35",
+        "Ch. 33 Section IV.A.2-5"
+      ]
+    },
+    {
+      "i": 73,
+      "t": "m",
+      "d": 3,
+      "c": 3,
+      "j": 1,
+      "st": "A 14-year-old adolescent has a BMI equal to 125% of the 95th percentile for age and sex. Which classification accurately describes this adolescent's status?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Severe obesity",
+          "A BMI at or above 120% of the 95th percentile defines severe pediatric obesity."
+        ],
+        [
+          "B",
+          "Overweight",
+          "Overweight applies only to children whose BMI falls between the 85th and 95th percentiles."
+        ],
+        [
+          "C",
+          "Moderate obesity",
+          "CDC pediatric criteria categorize BMI >= 120% of the 95th percentile specifically as severe obesity."
+        ],
+        [
+          "D",
+          "Normal adolescent growth spurt",
+          "A BMI at 125% of the 95th percentile represents severe obesity requiring medical and lifestyle intervention."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Severe obesity in children and adolescents is defined as a BMI greater than or equal to 120% of the 95th percentile or a BMI >= 35.",
+      "fc": [
+        "Severe Pediatric Obesity Criteria",
+        "Severe obesity: BMI >= 120% of the 95th percentile OR BMI >= 35 | Requires screening for comorbidities (type 2 diabetes, hypertension, hyperlipidemia, sleep apnea) | Increases risk of adult obesity and metabolic syndrome",
+        "Ch. 33 Section IV.A.5 & IV.B"
+      ]
+    },
+    {
+      "i": 74,
+      "t": "s",
+      "d": 2,
+      "c": 3,
+      "j": 2,
+      "st": "The nurse is counseling the parents of an 11-year-old child diagnosed with childhood obesity about associated health risks. Which comorbidities and long-term complications are linked to childhood obesity? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Type 2 diabetes mellitus and hyperlipidemia leading to heart disease",
+          "Excess adiposity promotes insulin resistance and dyslipidemia, increasing type 2 diabetes and cardiovascular risk."
+        ],
+        [
+          "B",
+          "Obstructive sleep apnea, asthma, and bone and joint problems",
+          "Excess body weight compromises airway patency, exacerbates asthma, and places mechanical stress on growing joints."
+        ],
+        [
+          "C",
+          "Adult obesity with metabolic syndrome, cancer, and psychosocial health problems",
+          "Obese children are likely to remain obese as adults with physical, social, and emotional complications."
+        ],
+        [
+          "D",
+          "Autosomal recessive phenylketonuria and congenital hypothyroidism",
+          "Phenylketonuria and congenital hypothyroidism are congenital genetic/endocrine disorders unrelated to childhood obesity."
+        ],
+        [
+          "E",
+          "Acute lymphocytic leukemia and nephroblastoma",
+          "Leukemia and Wilms' tumor are pediatric malignancies not caused by childhood obesity."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Childhood obesity increases risks for asthma, sleep apnea, bone/joint problems, type 2 diabetes, hyperlipidemia, psychosocial issues, and adult obesity with heart disease, metabolic syndrome, and cancer.",
+      "fc": [
+        "Health Effects of Childhood Obesity",
+        "Childhood comorbidities: asthma, sleep apnea, bone/joint problems, type 2 DM, hyperlipidemia | Psychosocial: physical, social, and emotional health problems | Adult risk: adult obesity, type 2 DM, heart disease, metabolic syndrome, cancer",
+        "Ch. 33 Section IV.B.1-3"
+      ]
+    },
+    {
+      "i": 75,
+      "t": "m",
+      "d": 1,
+      "c": 3,
+      "j": 2,
+      "st": "The nurse is educating a community parent group on pediatric metabolic health. What is the number one risk factor for developing type 2 diabetes mellitus in childhood?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Being overweight",
+          "Being overweight is the leading risk factor driving the rising incidence of pediatric type 2 diabetes."
+        ],
+        [
+          "B",
+          "Autoimmune destruction of pancreatic beta cells",
+          "Autoimmune pancreatic beta-cell destruction causes absolute insulin deficiency in type 1 diabetes mellitus."
+        ],
+        [
+          "C",
+          "Recurrent viral upper respiratory infections in infancy",
+          "Viral infections do not represent the primary risk factor for insulin-resistant pediatric type 2 diabetes."
+        ],
+        [
+          "D",
+          "Excessive intake of low-phenylalanine medical formulas",
+          "Low-phenylalanine formulas treat phenylketonuria and are unrelated to childhood type 2 diabetes."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Being overweight is the number one risk factor for developing type 2 diabetes mellitus in childhood.",
+      "fc": [
+        "Type 1 vs. Type 2 Diabetes Pathophysiology",
+        "Type 1 DM: pancreatic beta-cell destruction -> absolute insulin deficiency | Type 2 DM: insulin resistance + relative insulin deficiency | #1 risk factor for childhood type 2 DM: being overweight",
+        "Ch. 33 Section V.A.1-3"
+      ]
+    },
+    {
+      "i": 76,
+      "t": "s",
+      "d": 3,
+      "c": 3,
+      "j": 5,
+      "st": "The school nurse is teaching parents and children strategies to prevent type 2 diabetes mellitus in childhood. Which lifestyle recommendations should the nurse include? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Accumulate 60 minutes of daily physical activity such as biking, dancing, or brisk walking",
+          "At least 60 minutes of daily moderate-to-vigorous physical activity improves insulin sensitivity and weight."
+        ],
+        [
+          "B",
+          "Limit recreational screen time on computers, tablets, and phones to 60 minutes per day",
+          "Restricting sedentary screen time to 60 minutes daily reduces inactivity and supports healthy weight."
+        ],
+        [
+          "C",
+          "Drink water instead of sugared beverages and choose fresh or water-packed fruits and vegetables",
+          "Eliminating sugary sodas/juices and fast food while eating produce prevents excess caloric weight gain."
+        ],
+        [
+          "D",
+          "Replace afternoon snacks with fruit-flavored sports drinks and canned fruit in heavy syrup",
+          "Sports drinks and syrup-packed fruits contain high concentrated sugars that promote obesity."
+        ],
+        [
+          "E",
+          "Encourage 3 hours of daily television viewing after school to conserve metabolic energy",
+          "Prolonged sedentary screen time increases obesity risk and contradicts type 2 diabetes prevention guidelines."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Preventing childhood type 2 diabetes involves drinking water instead of sugary drinks, eating fresh/water-packed produce, limiting fast food, 60 min daily exercise, and <=60 min screen time.",
+      "fc": [
+        "Preventing Type 2 Diabetes in Childhood (Box 33.1)",
+        "Diet: drink water (no sodas/juices/sports drinks); fresh/frozen/water-canned produce; limit fast food | Activity: 60 min/day physical activity; limit screen time to 60 min/day | Warning signs: increased thirst, nighttime urination, blurry vision, fatigue",
+        "Ch. 33 Box 33.1"
+      ]
+    },
+    {
+      "i": 77,
+      "t": "s",
+      "d": 2,
+      "c": 8,
+      "j": 1,
+      "st": "A 12-year-old girl is brought to the pediatric clinic for unexplained weight loss, fatigue, and frequent urination. Which additional assessment findings support a new diagnosis of diabetes mellitus? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Polydipsia, polyphagia, and blurred vision",
+          "Hyperglycemia causes osmotic diuresis (polyuria), compensatory thirst (polydipsia), cellular hunger (polyphagia), and lens swelling."
+        ],
+        [
+          "B",
+          "Occasional nocturnal enuresis in a previously toilet-trained child",
+          "Osmotic polyuria from glycosuria frequently causes new bedwetting in a previously toilet-trained child."
+        ],
+        [
+          "C",
+          "Recurrent Candida vaginitis and slow wound healing",
+          "Hyperglycemic tissues promote Candida yeast growth and impair microvascular wound healing."
+        ],
+        [
+          "D",
+          "Weight gain with bradycardia and cold intolerance",
+          "Weight gain and cold intolerance characterize hypothyroidism rather than insulin-deficient diabetes mellitus."
+        ],
+        [
+          "E",
+          "Hypoglycemia with blood glucose consistently below 50 mg/dL",
+          "Untreated diabetes mellitus presents with elevated blood glucose (normal fasting 70-99 mg/dL) rather than hypoglycemia."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Diabetes mellitus cues include polyuria, polydipsia, polyphagia, hyperglycemia (normal 70-99 mg/dL), weight loss, fatigue, enuresis, adolescent Candida vaginitis, fruity breath, and slow healing.",
+      "fc": [
+        "Diabetes Mellitus Assessment Cues",
+        "Classic triad: polyuria, polydipsia, polyphagia + hyperglycemia (normal 70-99 mg/dL) | Pediatric cues: weight loss, fatigue, enuresis in toilet-trained child, Candida vaginitis | Advanced: fruity breath, dehydration, blurred vision, slow healing, LOC changes",
+        "Ch. 33 Section V.A.5 & V.B"
+      ]
+    },
+    {
+      "i": 78,
+      "t": "m",
+      "d": 3,
+      "c": 8,
+      "j": 2,
+      "st": "The nurse is explaining to the parents of a child newly diagnosed with type 1 diabetes mellitus how insulin deficiency leads to diabetic ketoacidosis (Fig. 33.1). Which sequence accurately describes this pathophysiological cascade?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Insulin deficiency impairs nutrient metabolism, causing hyperglycemia, polyuria, cellular starvation, and ketone buildup",
+          "Without insulin, cells starve despite hyperglycemia and break down fats into acidic ketones."
+        ],
+        [
+          "B",
+          "Excessive insulin secretion forces glucose into cells, causing severe hypoglycemia and lactic alkalosis",
+          "Type 1 diabetes results from absolute insulin deficiency rather than excessive insulin secretion."
+        ],
+        [
+          "C",
+          "Insulin deficiency blocks renal ketone excretion, causing water intoxication and hyponatremic edema",
+          "Hyperglycemia causes osmotic polyuria and severe dehydration rather than water intoxication."
+        ],
+        [
+          "D",
+          "Cellular starvation stimulates pancreatic beta cells to release glucagon that neutralizes blood acids",
+          "Ketones accumulate because cells cannot use them without insulin, producing metabolic ketoacidosis."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Insulin deficiency impairs fat/protein/carbohydrate metabolism -> hyperglycemia -> polyuria and cellular starvation -> ketone production that cannot nourish cells -> ketoacidosis.",
+      "fc": [
+        "Pathogenesis of Ketoacidosis (Fig. 33.1)",
+        "Insulin deficiency -> impaired metabolism of fats, proteins, carbohydrates | Hyperglycemia (fatigue, hunger, weight loss) -> polyuria & cellular starvation | Ketones produced for starvation cannot nourish cells without insulin -> ketoacidosis",
+        "Ch. 33 Fig. 33.1"
+      ]
+    },
+    {
+      "i": 79,
+      "t": "m",
+      "d": 2,
+      "c": 1,
+      "j": 4,
+      "st": "A 9-year-old child is newly diagnosed with type 1 diabetes mellitus during an inpatient admission. Which interprofessional consultation is a priority for planning the child's comprehensive care?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Initiate a consultation with a diabetic specialist to plan the child's care",
+          "For a child with diabetes mellitus, the nurse plans to initiate a diabetic specialist consultation."
+        ],
+        [
+          "B",
+          "Refer the child exclusively to a pediatric surgeon for pancreatic transplantation",
+          "Medical management with exogenous insulin, nutrition, and diabetes specialist care is the standard approach."
+        ],
+        [
+          "C",
+          "Consult a speech-language pathologist to evaluate dysphagia prior to oral fluids",
+          "Routine diabetes care requires a diabetic specialist rather than speech-language pathology."
+        ],
+        [
+          "D",
+          "Schedule genetic counseling for autosomal recessive carrier testing of siblings",
+          "Diabetes specialist consultation is the priority safety action for planning pediatric diabetes management."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "For a child with diabetes mellitus, the nurse should plan to initiate a consultation with the diabetic specialist to plan the child's care.",
+      "fc": [
+        "Diabetes Care Coordination Safety Alert",
+        "Initiate consultation with the diabetic specialist to plan the child's care | Long-term effects to prevent: growth failure, delayed maturation, infections, neuropathy, CV/retinal/renal microvascular disease",
+        "Ch. 33 Section V.C & Safety Alert"
+      ]
+    },
+    {
+      "i": 80,
+      "t": "s",
+      "d": 3,
+      "c": 5,
+      "j": 5,
+      "st": "The nurse is teaching the parents of an 8-year-old child with type 1 diabetes mellitus how to structure the child's daily meal plan. Which dietary principles are appropriate? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Provide three well-balanced meals at regular intervals plus midafternoon and bedtime snacks",
+          "Consistent meal timing with midafternoon and bedtime snacks balances insulin peaks and prevents hypoglycemia."
+        ],
+        [
+          "B",
+          "Maintain consistent prescribed protein, fat (<=30% of calories), and carbohydrates while avoiding concentrated sweets",
+          "Consistent macronutrient distribution and limiting concentrated sweets stabilize blood glucose without special diet foods."
+        ],
+        [
+          "C",
+          "Incorporate cultural preferences, allow the child to make food choices, and carry glucose tablets at all times",
+          "Child participation builds autonomy, cultural adaptation supports adherence, and glucose tablets treat sudden hypoglycemia."
+        ],
+        [
+          "D",
+          "Purchase specialized sugar-free diabetic supplements to replace normal family meals",
+          "Children with diabetes need normal healthy nutrition rather than special diabetic foods or supplements."
+        ],
+        [
+          "E",
+          "Eliminate all dietary carbohydrates so exogenous insulin doses can be discontinued",
+          "Growing children require individualized carbohydrates and exogenous insulin for normal growth and development."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Pediatric diabetes nutrition includes normal healthy food (no special supplements), 3 regular meals + midafternoon/bedtime snacks, consistent macronutrients (fat <=30%), child food choices, and carrying glucose.",
+      "fc": [
+        "Pediatric Diabetes Nutritional Plan",
+        "No special diabetic foods; 3 regular balanced meals + midafternoon & bedtime snacks | Consistent protein, fat (<= 30% calories), and carbs; avoid concentrated sweets | Include child in food choices; carry glucose source (tablets) at all times",
+        "Ch. 33 Section V.E.1-6"
+      ]
+    },
+    {
+      "i": 81,
+      "t": "m",
+      "d": 3,
+      "c": 3,
+      "j": 5,
+      "st": "A school-age child with type 1 diabetes mellitus plans to participate in a 45-minute after-school soccer practice. Which instruction should the school nurse provide to prevent exercise-induced hypoglycemia?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Check blood glucose before and after practice and eat 10 to 15 g of carbohydrates (e.g., small box of raisins or juice)",
+          "Exercise increases glucose use, requiring 10 to 15 g of extra carbohydrates per session."
+        ],
+        [
+          "B",
+          "Administer half the prescribed morning insulin dose on days when soccer practice is scheduled",
+          "Insulin doses should not be arbitrarily reduced without a primary health care provider prescription."
+        ],
+        [
+          "C",
+          "Eat twice the normal amount of food at lunch and skip the bedtime snack",
+          "Doubling lunch causes postprandial hyperglycemia, and skipping the bedtime snack risks nocturnal hypoglycemia."
+        ],
+        [
+          "D",
+          "Delay morning insulin administration until immediately before afternoon soccer practice",
+          "Altering prescribed insulin timing disrupts daytime glycemic control and risks ketoacidosis."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "For exercise, children with diabetes should monitor blood glucose before and after activity and consume extra carbohydrates—usually 10 to 15 g for every 30 to 45 minutes of activity.",
+      "fc": [
+        "Diabetes Exercise Management (PQ 1)",
+        "Consume extra food: 10 to 15 g carbohydrates for every 30 to 45 minutes of activity | Examples: small box of raisins or cup of orange juice | Check blood glucose before and after exercising; do not alter insulin unprescribed",
+        "Ch. 33 Section V.F.1-4 & PQ 1"
+      ]
+    },
+    {
+      "i": 82,
+      "t": "m",
+      "d": 2,
+      "c": 8,
+      "j": 1,
+      "st": "The nurse is reviewing long-term complications of poorly controlled diabetes mellitus with an adolescent client. Which chronic microvascular and developmental complications can occur?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Failure to grow at a normal rate, delayed maturation, retinopathy, nephropathy, and neuropathy",
+          "Chronic hyperglycemia impairs childhood growth/maturation and damages retinal, renal, cardiovascular, and peripheral nerve tissues."
+        ],
+        [
+          "B",
+          "Precocious puberty, gigantism, and congenital adrenal hyperplasia",
+          "Poorly controlled diabetes causes growth failure and delayed maturation rather than gigantism or precocious puberty."
+        ],
+        [
+          "C",
+          "Autosomal recessive enzyme deficiency and cranial suture craniosynostosis",
+          "Enzyme deficiencies and craniosynostosis are congenital conditions rather than chronic diabetic complications."
+        ],
+        [
+          "D",
+          "Hyperparathyroidism and osteogenic sarcoma of the distal femur",
+          "Hyperparathyroidism and bone sarcomas are unrelated to chronic microvascular complications of diabetes."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Long-term effects of pediatric diabetes include growth failure, delayed maturation, recurrent infections, neuropathy, cardiovascular disease, and retinal and renal microvascular disease.",
+      "fc": [
+        "Long-Term Effects & Complications of Pediatric DM",
+        "Growth/Development: failure to grow at normal rate, delayed maturation, recurrent infections | Microvascular/Macrovascular: neuropathy, retinopathy, nephropathy, cardiovascular disease | Acute complications: hypoglycemia, hyperglycemia, DKA, coma, K+ imbalances",
+        "Ch. 33 Section V.C-D"
+      ]
+    },
+    {
+      "i": 83,
+      "t": "s",
+      "d": 3,
+      "c": 6,
+      "j": 5,
+      "st": "The nurse is teaching the parents of an infant newly diagnosed with type 1 diabetes mellitus about safe insulin therapy and laboratory monitoring. Which instructions should the nurse include? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Label diluted insulin clearly to avoid dosage errors and always keep a spare bottle available",
+          "Infants may need diluted insulin; clear labeling and spare vials prevent dosing errors."
+        ],
+        [
+          "B",
+          "Schedule glycosylated hemoglobin (HbA1c) testing every 3 months, aiming for a reference value <6%",
+          "HbA1c reflects 3-month glycemic control and should be evaluated quarterly with a target below 6%."
+        ],
+        [
+          "C",
+          "Obtain a MedicAlert bracelet listing the child's prescribed insulin type and daily dosage",
+          "Medical identification alerts emergency responders to the child's insulin dependence and dosing regimen."
+        ],
+        [
+          "D",
+          "Withhold all insulin whenever the infant develops an acute viral illness or infection",
+          "Illness and infection increase insulin requirements; withholding insulin precipitates life-threatening diabetic ketoacidosis."
+        ],
+        [
+          "E",
+          "Administer the morning insulin dose as usual before surgery when the infant is NPO",
+          "When a child is NPO for a procedure, verify morning insulin with the provider."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Insulin safety includes clearly labeled diluted insulin for infants, spare vials, MedicAlert bracelet, HbA1c <6% every 3 months, never withholding insulin during illness, and verifying NPO doses.",
+      "fc": [
+        "Pediatric Insulin Therapy & HbA1c Rules",
+        "Diluted insulin for infants: label clearly; always keep spare bottle; wear MedicAlert bracelet | HbA1c: check every 3 months (reference interval < 6%) | NEVER withhold insulin during illness/infection/stress; verify NPO doses with PHCP",
+        "Ch. 33 Section V.G.1-9"
+      ]
+    },
+    {
+      "i": 84,
+      "t": "m",
+      "d": 3,
+      "c": 6,
+      "j": 5,
+      "st": "A 10-year-old child with type 1 diabetes mellitus is scheduled for an outpatient tonsillectomy and will be NPO (nothing by mouth) starting at midnight. Which action should the nurse take regarding the morning insulin dose?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Verify with the primary health care provider whether to withhold morning insulin and when to resume it",
+          "When a child is NPO for a procedure, morning insulin must be verified with the PHCP."
+        ],
+        [
+          "B",
+          "Administer the full usual morning dose of rapid-acting and long-acting insulin at 6 AM",
+          "Administering full rapid-acting insulin to a fasting NPO child causes severe preoperative hypoglycemia."
+        ],
+        [
+          "C",
+          "Instruct the parents to permanently discontinue insulin for 48 hours before any surgery",
+          "Completely omitting basal insulin in type 1 diabetes precipitates dangerous surgical diabetic ketoacidosis."
+        ],
+        [
+          "D",
+          "Give 8 ounces of orange juice with the morning insulin 1 hour before anesthesia",
+          "Oral liquids violate NPO anesthesia safety guidelines and risk intraoperative pulmonary aspiration."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "When a child with diabetes is NPO for a special procedure, the nurse must verify with the PHCP the need to withhold morning insulin and when food, fluids, and insulin resume.",
+      "fc": [
+        "NPO Procedure Insulin Verification",
+        "When child is NPO for a special procedure: verify with PHCP need to withhold morning insulin | Also clarify when food, fluids, and insulin are to be resumed | Contrast with sick days: never withhold insulin during illness without PHCP order",
+        "Ch. 33 Section V.G.4"
+      ]
+    },
+    {
+      "i": 85,
+      "t": "m",
+      "d": 2,
+      "c": 5,
+      "j": 5,
+      "st": "The nurse is teaching a 9-year-old child with type 1 diabetes mellitus how to lessen the pain of fingerstick blood glucose monitoring. Which technique should the nurse demonstrate?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Warm the finger under water and puncture just to the side of the ring finger pad",
+          "Warming enhances blood flow and the side of the ring finger has fewer nerve endings."
+        ],
+        [
+          "B",
+          "Puncture directly in the center of the index finger pad using maximum lancet depth",
+          "The center of the index finger pad is densely innervated and causes maximal puncture pain."
+        ],
+        [
+          "C",
+          "Clean the finger with rubbing alcohol and puncture while the skin is still wet",
+          "Puncturing wet alcohol stings intensely and can hemolyze or dilute the capillary blood sample."
+        ],
+        [
+          "D",
+          "Press the lancet device firmly into the skin to obtain a large drop of blood",
+          "Pressing lightly prevents deep painful punctures while micro-sample meters require only tiny blood drops."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "To lessen blood glucose monitoring pain, warm the finger under water, puncture the side of the ring finger or thumb pad, press the lancet lightly, and use micro-sample meters.",
+      "fc": [
+        "Lessening Pain of Blood Glucose Monitoring (Box 33.2)",
+        "Hold finger under warm water for a few seconds before puncture | Use ring finger or thumb; puncture just to the SIDE of the finger pad | Press lancet lightly against skin; use monitors requiring small blood samples",
+        "Ch. 33 Box 33.2"
+      ]
+    },
+    {
+      "i": 86,
+      "t": "m",
+      "d": 3,
+      "c": 7,
+      "j": 5,
+      "st": "An adolescent with type 1 diabetes mellitus obtains a fingerstick blood glucose reading of 412 mg/dL, which seems unusually high given the child's current asymptomatic status. Which action should the nurse instruct the adolescent to take first?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Reread instructions, reassess technique, check test strip expiration dates, and repeat the test",
+          "Unreasonable glucose readings require verifying technique, meter calibration, and strip expiration dates before repeating."
+        ],
+        [
+          "B",
+          "Immediately inject a double dose of regular insulin to bring the reading down quickly",
+          "Administering extra insulin based on a potentially erroneous reading risks life-threatening hypoglycemic coma."
+        ],
+        [
+          "C",
+          "Ignore the high reading and retest at the same time the following morning",
+          "Ignoring a markedly elevated reading could miss impending diabetic ketoacidosis if the result is accurate."
+        ],
+        [
+          "D",
+          "Test a first-voided urine specimen for glucose instead of repeating the blood test",
+          "Blood glucose monitoring is far more accurate than unreliable urine glucose testing."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "If blood glucose results do not seem reasonable, instruct the child and parents to reread instructions, reassess technique, check test strip expiration dates, and repeat the test.",
+      "fc": [
+        "Blood Glucose Meter Accuracy & Troubleshooting",
+        "Blood glucose monitoring is more accurate than urine glucose testing | Wash hands before/after; calibrate monitor per manufacturer; check strip expiration date | Unreasonable result: reread instructions, check technique/strips, and repeat test",
+        "Ch. 33 Section V.H.2, 6-10"
+      ]
+    },
+    {
+      "i": 87,
+      "t": "m",
+      "d": 3,
+      "c": 7,
+      "j": 2,
+      "st": "The nurse is educating the parents of a child with type 1 diabetes mellitus about the role of urine testing in diabetes management. Which statement accurately reflects nursing guidelines for urine testing?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Urine glucose testing is unreliable, but urine must be tested for ketones when ill or glucose exceeds 200 mg/dL",
+          "Urine ketone testing on a second-voided specimen detects impending ketoacidosis during illness or hyperglycemia >200 mg/dL."
+        ],
+        [
+          "B",
+          "First-voided morning urine glucose testing is the gold standard for adjusting daily insulin doses",
+          "Blood glucose monitoring is much more accurate than urine glucose testing, and second-voided specimens are best."
+        ],
+        [
+          "C",
+          "Urine ketone testing is only necessary when blood glucose drops below 70 mg/dL",
+          "Ketones develop during insulin deficiency and hyperglycemia (>200 mg/dL) or illness rather than hypoglycemia."
+        ],
+        [
+          "D",
+          "Trace urinary ketones are a normal expected finding after every high-protein meal",
+          "The presence of urinary ketones indicates fat breakdown and impending diabetic ketoacidosis."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Urine glucose testing is unreliable, but urine must be tested for ketones (using a second-voided specimen) when the child is ill or blood glucose is consistently >200 mg/dL.",
+      "fc": [
+        "Urine Ketone Testing Safety Alert",
+        "Urine glucose testing is unreliable; second-voided urine specimen is most accurate | Test urine for KETONES when child is ill OR blood glucose consistently > 200 mg/dL | Presence of urinary ketones indicates impending ketoacidosis",
+        "Ch. 33 Section V.I.1-3 & Safety Alert"
+      ]
+    },
+    {
+      "i": 88,
+      "t": "m",
+      "d": 2,
+      "c": 6,
+      "j": 5,
+      "st": "The parents of a 7-year-old child with type 1 diabetes mellitus ask how to prepare for a severe hypoglycemic episode in which the child becomes semiconscious and cannot swallow safely. Which emergency medication should the nurse teach the parents to administer?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Intramuscular or subcutaneous glucagon",
+          "Glucagon is given IM or SC when a hypoglycemic child is unconscious or semiconscious."
+        ],
+        [
+          "B",
+          "Subcutaneous regular insulin",
+          "Administering insulin during hypoglycemia fatally worsens neuroglycopenia and brain injury."
+        ],
+        [
+          "C",
+          "Oral orange juice poured slowly into the back of the throat",
+          "Pouring liquids into the mouth of a semiconscious child poses a severe pulmonary aspiration hazard."
+        ],
+        [
+          "D",
+          "Rectal sodium polystyrene sulfonate suspension",
+          "Sodium polystyrene sulfonate lowers potassium and has no effect on blood glucose levels."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Parents must be instructed in administering glucagon intramuscularly or subcutaneously if the child has a hypoglycemic reaction and is unable to consume anything orally (semiconscious/unconscious).",
+      "fc": [
+        "Emergency Glucagon Administration",
+        "Indication: hypoglycemic child is semiconscious/unconscious and cannot take oral glucose | Route: intramuscular (IM) or subcutaneous (SC) by trained parents | Hospital alternative: IV dextrose if unable to take oral glucose",
+        "Ch. 33 Section V.G.7 & Box 33.4"
+      ]
+    },
+    {
+      "i": 89,
+      "t": "s",
+      "d": 2,
+      "c": 8,
+      "j": 1,
+      "st": "A 10-year-old child with type 1 diabetes mellitus returns from gym class reporting dizziness and hunger. Which clinical manifestations indicate hypoglycemia (blood glucose less than 70 mg/dL)? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Sweating, tremors, pallor, and anxiety",
+          "Adrenergic sympathetic activation during hypoglycemia produces diaphoresis, shakiness, and acute anxiety."
+        ],
+        [
+          "B",
+          "Headache, nausea, lethargy, confusion, and slurred speech",
+          "Cerebral glucose deprivation (neuroglycopenia) causes headache, lethargy, confusion, and slurred speech."
+        ],
+        [
+          "C",
+          "Tingling sensation around the mouth and intense hunger",
+          "Perioral paresthesias and sudden hunger are classic early autonomic cues of blood glucose <70 mg/dL."
+        ],
+        [
+          "D",
+          "Fruity acetone breath odor and deep Kussmaul respirations",
+          "Fruity breath and Kussmaul respirations are hallmark signs of hyperglycemic diabetic ketoacidosis."
+        ],
+        [
+          "E",
+          "Flushed, dry skin with extreme polyuria and polydipsia",
+          "Flushed dry skin and polyuria characterize hyperglycemia rather than acute hypoglycemia."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Hypoglycemia (<70 mg/dL [4 mmol/L]) results from excess insulin, inadequate food, or excessive activity, causing headache, nausea, sweating, tremors, lethargy, hunger, confusion, slurred speech, and perioral tingling.",
+      "fc": [
+        "Hypoglycemia Threshold & Cues",
+        "Definition: blood glucose < 70 mg/dL (4 mmol/L); Causes: too much insulin, too little food, excess activity | Autonomic cues: sweating, tremors, hunger, anxiety, tingling around mouth | Neuroglycopenic cues: headache, nausea, lethargy, confusion, slurred speech",
+        "Ch. 33 Section V.J.1-2"
+      ]
+    },
+    {
+      "i": 90,
+      "t": "s",
+      "d": 3,
+      "c": 6,
+      "j": 5,
+      "st": "A conscious 8-year-old child with type 1 diabetes mellitus has a blood glucose reading of 58 mg/dL (3.2 mmol/L). Which rapid-acting food items from Box 33.3 are appropriate to treat this episode? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "1/2 cup of orange juice or 2 to 3 glucose tablets",
+          "Half a cup of orange juice or 2-3 glucose tablets provides fast-absorbing simple carbohydrate."
+        ],
+        [
+          "B",
+          "1 teaspoon of honey or 1 small box of raisins",
+          "A teaspoon of honey or small box of raisins rapidly elevates blood glucose in conscious children."
+        ],
+        [
+          "C",
+          "8 oz of milk or 3 to 4 hard candies (such as Life Savers)",
+          "Eight ounces of milk, 3-4 hard candies, or 4 sugar cubes are approved rapid glucose sources."
+        ],
+        [
+          "D",
+          "1 cup of sugar-free diet soda",
+          "Diet carbonated beverages contain artificial sweeteners with zero glucose and will not treat hypoglycemia."
+        ],
+        [
+          "E",
+          "2 slices of plain grilled turkey breast",
+          "Protein alone without simple carbohydrate does not rapidly raise falling blood glucose levels."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Approved rapid-acting hypoglycemia items include 1/2 cup orange juice/regular soda, 8 oz milk, small box of raisins, 3-4 hard candies/Life Savers, 4 sugar cubes, 1 candy bar, 1 tsp honey, or 2-3 glucose tablets.",
+      "fc": [
+        "Food Items to Treat Hypoglycemia (Box 33.3)",
+        "1/2 cup orange juice or regular soda; 8 oz milk; 1 small box raisins | 3-4 hard candies or Life Savers; 4 sugar cubes (1 Tbsp sugar); 1 candy bar | 1 tsp honey; 2-3 glucose tablets",
+        "Ch. 33 Box 33.3"
+      ]
+    },
+    {
+      "i": 91,
+      "t": "s",
+      "d": 4,
+      "c": 6,
+      "j": 5,
+      "st": "The nurse is caring for a child older than 2 years with type 1 diabetes mellitus who has a blood glucose level of 60 mg/dL (3.4 mmol/L). Which nursing interventions should the nurse implement? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Give 1 teaspoon of honey immediately, followed by a complex carbohydrate and protein snack",
+          "Rapid-releasing glucose must be followed by complex carbohydrate and protein to sustain blood glucose."
+        ],
+        [
+          "B",
+          "Prepare to administer subcutaneous glucagon if unconsciousness occurs",
+          "If the child becomes unconscious and cannot swallow, glucagon or IV dextrose is required."
+        ],
+        [
+          "C",
+          "Check vital signs, retest blood glucose, and give an extra snack if the next meal is >30 minutes away",
+          "Retesting blood glucose and providing a snack when meals are >30 minutes away prevents rebound hypoglycemia."
+        ],
+        [
+          "D",
+          "Administer a small dose of regular insulin to stabilize glucose transport",
+          "Insulin lowers blood glucose further and is strictly contraindicated during acute hypoglycemia."
+        ],
+        [
+          "E",
+          "Encourage brisk hallway ambulation for 15 minutes before retesting blood glucose",
+          "Physical activity consumes circulating glucose and worsens acute hypoglycemia in diabetic pediatric clients."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Hypoglycemia care: give rapid glucose + complex carb/protein, check VS, retest glucose, give snack if meal >30 min away; if unconscious, apply glucose paste to gums and retest in 15 min, or give glucagon/IV dextrose.",
+      "fc": [
+        "Interventions for Hypoglycemia (Box 33.4 & PQ 9)",
+        "Conscious: rapid glucose -> follow with complex carb + protein (bread/peanut butter cracker) | Retest glucose; give extra snack if next meal > 30 min away or activity planned | Unconscious: cake frosting/glucose paste on gums, retest in 15 min; glucagon or IV dextrose",
+        "Ch. 33 Box 33.4 & PQ 9"
+      ]
+    },
+    {
+      "i": 92,
+      "t": "m",
+      "d": 5,
+      "c": 6,
+      "j": 5,
+      "st": "A 7-year-old child with type 1 diabetes mellitus becomes unconscious at home during a severe hypoglycemic reaction. After squeezing glucose paste onto the child's gums, when should the parent retest the blood glucose level?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "In 15 minutes, administering additional glucose or glucagon if the reading remains low",
+          "Apply glucose paste to gums and retest in 15 minutes; give glucagon if low."
+        ],
+        [
+          "B",
+          "In 60 minutes after allowing the child to sleep undisturbed",
+          "Waiting 60 minutes during unconscious hypoglycemia risks permanent hypoglycemic brain damage."
+        ],
+        [
+          "C",
+          "Immediately after pouring 8 ounces of apple juice into the child's mouth",
+          "Oral liquids must never be poured into an unconscious child's mouth due to aspiration."
+        ],
+        [
+          "D",
+          "In 2 hours after administering the child's scheduled evening insulin dose",
+          "Scheduled evening insulin must never be administered during an acute unconscious hypoglycemic episode."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "If a hypoglycemic child becomes unconscious, squeeze cake frosting or glucose paste onto the gums and retest blood glucose in 15 minutes; if still low or unconscious, give glucagon.",
+      "fc": [
+        "Unconscious Hypoglycemia Protocol (Box 33.4)",
+        "Squeeze cake frosting or glucose paste onto gums (never pour liquids) | Retest blood glucose level in 15 minutes and monitor closely | If reading remains low or child stays unconscious -> administer glucagon (or IV dextrose in hospital)",
+        "Ch. 33 Box 33.4"
+      ]
+    },
+    {
+      "i": 93,
+      "t": "s",
+      "d": 3,
+      "c": 3,
+      "j": 5,
+      "st": "The clinic nurse is reviewing sick day rules with the parents of a 6-year-old child who has type 1 diabetes mellitus and a mild viral upper respiratory infection. Which instructions should the nurse provide? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Always give insulin even if the child lacks an appetite, and encourage liquids to clear ketones",
+          "Illness raises stress hormones and insulin needs, while fluids help flush accumulated urinary ketones."
+        ],
+        [
+          "B",
+          "Test blood glucose at least every 4 hours and test for urinary ketones with each voiding",
+          "Frequent glucose and every-void ketone monitoring detects impending diabetic ketoacidosis early."
+        ],
+        [
+          "C",
+          "Notify the PHCP if moderate/large ketones, vomiting, fruity breath, or deep rapid respirations occur",
+          "Moderate/large ketonuria, vomiting, Kussmaul respirations, or decreased consciousness indicate impending DKA."
+        ],
+        [
+          "D",
+          "Hold all insulin doses until the child resumes eating three full solid meals",
+          "Withholding insulin during illness precipitates severe hyperglycemia and life-threatening diabetic ketoacidosis."
+        ],
+        [
+          "E",
+          "Encourage vigorous outdoor exercise during illness to burn off excess blood glucose",
+          "Rest is recommended during illness, especially if urinary ketones are present."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Sick day rules: always give insulin, test glucose at least every 4 hours, test urine ketones with every void, encourage fluids and rest, and call PHCP for ketones, vomiting, fruity breath, or Kussmaul respirations.",
+      "fc": [
+        "Sick Day Rules for a Diabetic Child (Boxes 33.5-33.6 & PQ 2)",
+        "ALWAYS give insulin even if poor appetite; follow usual meal plan; encourage liquids & rest | Test blood glucose >= q4h; test urine ketones with EACH voiding | Call PHCP: blood glucose > 200, moderate/high ketones, vomiting > 1x, fruity breath, deep rapid respirations",
+        "Ch. 33 Boxes 33.5-33.6 & PQ 2"
+      ]
+    },
+    {
+      "i": 94,
+      "t": "m",
+      "d": 3,
+      "c": 6,
+      "j": 5,
+      "st": "The parents of a 6-year-old child with type 1 diabetes mellitus call the clinic reporting that the child has a mild cold, a blood glucose of 235 mg/dL, and small urinary ketones, but is alert and tolerating fluids. Which instruction should the nurse give?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Encourage the child to drink liquids to aid in clearing ketones and continue insulin as prescribed",
+          "Liquids are essential to clear urinary ketones, and prescribed insulin must be continued during illness."
+        ],
+        [
+          "B",
+          "Hold the next scheduled dose of insulin until the urinary ketones clear completely",
+          "Holding insulin during ketonuria worsens insulin deficiency and accelerates progression to diabetic ketoacidosis."
+        ],
+        [
+          "C",
+          "Administer a double dose of regular insulin at home without provider orders",
+          "Parents should never arbitrarily double insulin doses without specific primary health care provider instructions."
+        ],
+        [
+          "D",
+          "Restrict oral fluids for 4 hours so the next urine specimen is more concentrated",
+          "Restricting fluids worsens dehydration and impairs renal clearance of ketone bodies."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "During illness with ketonuria, liquids are essential to aid in clearing ketones, insulin must be continued, and blood glucose/ketones must be monitored closely.",
+      "fc": [
+        "Managing Ketonuria on Sick Days (Box 33.6 & PQ 2)",
+        "Encourage liquids to aid in clearing urinary ketones | Continue prescribed insulin; encourage rest when ketones are present | Notify PHCP if moderate/large ketones, vomiting, or DKA signs develop",
+        "Ch. 33 Box 33.6 & PQ 2"
+      ]
+    },
+    {
+      "i": 95,
+      "t": "m",
+      "d": 2,
+      "c": 8,
+      "j": 1,
+      "st": "An adolescent with type 1 diabetes mellitus is admitted to the emergency department with suspected diabetic ketoacidosis (DKA). Which laboratory and physical assessment findings are characteristic of DKA?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Blood glucose >300 mg/dL, positive ketones, Kussmaul's respirations, fruity breath, and decreasing LOC",
+          "DKA features blood glucose >300 mg/dL, positive serum/urine ketones, Kussmaul's respirations, acetone breath, and lethargy."
+        ],
+        [
+          "B",
+          "Blood glucose <60 mg/dL, negative ketones, sweating, tremors, and hypertension",
+          "Low blood glucose with sweating and tremors indicates acute hypoglycemia rather than diabetic ketoacidosis."
+        ],
+        [
+          "C",
+          "Blood glucose of 140 mg/dL, bradypnea, peripheral edema, and bounding pulses",
+          "DKA presents with severe dehydration (hypotension) and deep rapid Kussmaul's respirations rather than edema."
+        ],
+        [
+          "D",
+          "Normal blood glucose of 90 mg/dL, hyperactive reflexes, and positive Trousseau's sign",
+          "Normal glucose and hypocalcemic tetany are inconsistent with severe insulin-deficient diabetic ketoacidosis."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Diabetic ketoacidosis (blood glucose >300 mg/dL [17.14 mmol/L], positive urine/serum ketones) presents with hyperglycemia signs, Kussmaul's respirations, acetone (fruity) breath, lethargy, and decreasing LOC.",
+      "fc": [
+        "Diabetic Ketoacidosis (DKA) Manifestations (Safety Alert & PQ 4)",
+        "Blood glucose > 300 mg/dL (17.14 mmol/L) + positive urine & serum ketones | Kussmaul's respirations (deep, rapid) + acetone (fruity) breath odor | Dehydration, increasing lethargy, and decreasing level of consciousness",
+        "Ch. 33 Section V.L.1, Safety Alert & PQ 4"
+      ]
+    },
+    {
+      "i": 96,
+      "t": "m",
+      "d": 5,
+      "c": 6,
+      "j": 5,
+      "st": "A 10-year-old child is brought to the emergency department with abdominal pain, lethargy, Kussmaul's respirations, and a blood glucose of 485 mg/dL, confirming diabetic ketoacidosis. Which intravenous infusion should the nurse prepare to administer first?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Normal saline (0.9% sodium chloride) infusion",
+          "Restoring circulating blood volume with normal saline is the initial priority step in resolving DKA."
+        ],
+        [
+          "B",
+          "5% dextrose in water (D5W) infusion",
+          "Dextrose solutions are added only later once blood glucose decreases to an appropriate target level."
+        ],
+        [
+          "C",
+          "Intravenous NPH intermediate-acting insulin infusion",
+          "Only regular insulin is administered intravenously; NPH insulin is never given by the IV route."
+        ],
+        [
+          "D",
+          "Intravenous potassium chloride bolus prior to fluid resuscitation",
+          "Potassium is added only after initial hydration confirms adequate urinary output and potassium levels."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Initial treatment of DKA focuses on restoring circulating blood volume with IV infusions of 0.9% or 0.45% saline before IV regular insulin and later dextrose addition.",
+      "fc": [
+        "Initial DKA Fluid & Insulin Resuscitation (PQ 6)",
+        "Step 1: Restore circulating volume with IV 0.9% (normal) or 0.45% saline | Step 2: Correct hyperglycemia with IV REGULAR insulin (never NPH IV) | Step 3: Add IV dextrose when blood glucose reaches an appropriate level",
+        "Ch. 33 Section V.L.2.a-c, k & PQ 6"
+      ]
+    },
+    {
+      "i": 97,
+      "t": "m",
+      "d": 5,
+      "c": 6,
+      "j": 2,
+      "st": "A child with diabetic ketoacidosis is receiving continuous intravenous regular insulin and normal saline. Why must the nurse monitor serum potassium levels closely during intravenous insulin therapy?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Intravenous insulin shifts potassium out of the bloodstream into cells, causing serum potassium to drop",
+          "As insulin lowers blood glucose, potassium moves intracellularly, potentially causing life-threatening hypokalemia."
+        ],
+        [
+          "B",
+          "Regular insulin stimulates renal tubular potassium retention, causing rapid hyperkalemia",
+          "Insulin drives potassium into cells and lowers serum levels rather than causing renal potassium retention."
+        ],
+        [
+          "C",
+          "Normal saline chelates serum potassium into an inactive complex excreted in stool",
+          "Normal saline restores vascular volume; intracellular potassium shifting is driven by intravenous regular insulin."
+        ],
+        [
+          "D",
+          "Ketone clearance releases large amounts of potassium from adipose tissue into plasma",
+          "Correcting acidosis and giving insulin shifts potassium into cells, requiring replacement once voiding is confirmed."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "During DKA treatment, monitor serum potassium closely because IV insulin shifts potassium into cells and lowers serum potassium, often requiring replacement once adequate voiding is confirmed.",
+      "fc": [
+        "Potassium Shifts During DKA Treatment",
+        "Monitor serum potassium closely during IV regular insulin infusion | Insulin lowers blood glucose AND drives potassium into cells (risks hypokalemia) | Ensure child is VOIDNG adequately before administering IV potassium (prevents hyperkalemia)",
+        "Ch. 33 Section V.L.2.h-i"
+      ]
+    },
+    {
+      "i": 98,
+      "t": "m",
+      "d": 4,
+      "c": 6,
+      "j": 4,
+      "st": "A child being treated for diabetic ketoacidosis with intravenous normal saline and regular insulin now has a blood glucose level that has decreased from 510 mg/dL to 220 mg/dL. Which prescription change should the nurse anticipate?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Addition of intravenous dextrose to the infusion fluid while continuing insulin to clear ketones",
+          "IV dextrose is added when blood glucose reaches an appropriate level to prevent hypoglycemia."
+        ],
+        [
+          "B",
+          "Immediate discontinuation of all intravenous fluids and insulin therapy",
+          "Stopping insulin prematurely before ketones and acidosis resolve causes rebound diabetic ketoacidosis."
+        ],
+        [
+          "C",
+          "Administration of subcutaneous glucagon to raise blood glucose back above 400 mg/dL",
+          "Glucagon treats severe hypoglycemia and would dangerously worsen hyperglycemia and ketosis."
+        ],
+        [
+          "D",
+          "Switching from intravenous regular insulin to intravenous glargine insulin",
+          "Regular insulin is the only insulin administered intravenously; dextrose is added to prevent hypoglycemia."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "In diabetic ketoacidosis management, IV dextrose is added as prescribed when the blood glucose reaches an appropriate level to prevent hypoglycemia while continuing ketone clearance.",
+      "fc": [
+        "Adding Dextrose During DKA Recovery",
+        "Continue IV regular insulin until acidosis and ketosis resolve | Add IV dextrose as prescribed when blood glucose reaches an appropriate level | Prevents iatrogenic hypoglycemia and cerebral edema during DKA correction",
+        "Ch. 33 Section V.L.2.k"
+      ]
+    },
+    {
+      "i": 99,
+      "t": "s",
+      "d": 4,
+      "c": 8,
+      "j": 5,
+      "st": "The nurse is caring for a 12-year-old child admitted to the pediatric intensive care unit with severe diabetic ketoacidosis. Which nursing interventions are essential during acute management? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Monitor vital signs, urine output, mental status, and blood glucose levels frequently",
+          "Close surveillance tracks volume resuscitation, detects cerebral edema, and guides insulin titration."
+        ],
+        [
+          "B",
+          "Administer oxygen as prescribed and monitor closely for signs of fluid overload",
+          "Supplemental oxygen supports tissue oxygenation while fluid overload monitoring prevents pulmonary or cerebral edema."
+        ],
+        [
+          "C",
+          "Identify and treat the underlying precipitating cause of hyperglycemia (such as infection)",
+          "Eliminating triggers such as occult infection prevents recurrent metabolic decompensation."
+        ],
+        [
+          "D",
+          "Administer intravenous potassium immediately before obtaining initial urine output",
+          "Potassium must never be administered intravenously until adequate urine output and renal function are verified."
+        ],
+        [
+          "E",
+          "Administer intravenous NPH insulin bolus every 2 hours until urine ketones clear",
+          "NPH insulin is never administered intravenously; only regular insulin is given IV."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "DKA management includes restoring volume (0.9%/0.45% saline), IV regular insulin, oxygen, frequent VS/urine/mental status/glucose/K+ checks, confirming voiding before K+, fluid overload checks, adding dextrose, and treating causes.",
+      "fc": [
+        "Comprehensive DKA Nursing Interventions",
+        "IV 0.9% or 0.45% saline + IV regular insulin + prescribed oxygen | Monitor VS, urine output, mental status, blood glucose, K+ (void before K+), fluid overload | Add IV dextrose when glucose drops; treat underlying cause of hyperglycemia",
+        "Ch. 33 Section V.L.2.a-l"
+      ]
+    },
+    {
+      "i": 100,
+      "t": "m",
+      "d": 5,
+      "c": 8,
+      "j": 3,
+      "st": "A 9-year-old child receiving aggressive intravenous fluid and insulin therapy for severe diabetic ketoacidosis suddenly develops a severe headache, bradycardia, and decreasing level of consciousness despite improving blood glucose levels. Which complication should the nurse suspect first?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Cerebral edema with increased intracranial pressure requiring immediate provider notification",
+          "Sudden headache, bradycardia, and declining consciousness during DKA rehydration indicate life-threatening cerebral edema/ICP."
+        ],
+        [
+          "B",
+          "Expected drowsiness resulting from normal ketone clearance and metabolic recovery",
+          "Decreasing level of consciousness with bradycardia is a critical neurological emergency rather than normal recovery."
+        ],
+        [
+          "C",
+          "Acute hyperglycemic rebound requiring a rapid bolus of intravenous normal saline",
+          "Rapid fluid boluses worsen cerebral edema; mental status deterioration requires immediate PHCP intervention."
+        ],
+        [
+          "D",
+          "Mild symptomatic hypoglycemia that should be treated with 8 ounces of oral milk",
+          "Oral fluids are unsafe with decreasing consciousness, and bradycardia with headache points to cerebral edema."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "During DKA treatment, the nurse must monitor mental status, vital signs, and fluid overload closely to detect cerebral hypoperfusion or cerebral edema/increased ICP early.",
+      "fc": [
+        "Mental Status & Fluid Overload Surveillance in DKA",
+        "Monitor mental status, vital signs, and fluid overload closely during DKA therapy | Headache, bradycardia, and decreasing LOC = acute cerebral edema / increased ICP | Protect against cerebral, coronary, and renal hypoperfusion",
+        "Ch. 33 Section V.L.2.a, d, j & Box 32.1"
+      ]
+    }
+  ]
+}
