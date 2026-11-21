@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NCLEX-RN CAT Simulator — UWorld-Style Prep Portal</title>
+  <title>NCLEX-RN CAT Simulator — UWorld-Style Prep Template</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -11,7 +11,7 @@
   <header id="topBar" class="top-bar hidden">
     <div class="brand-group">
       <div class="brand-badge">NCLEX-RN CAT</div>
-      <span id="topUnitBadge" class="sub-badge">Ready</span>
+      <span id="topUnitBadge" class="sub-badge">Template Portal</span>
     </div>
     <div id="examHud" class="exam-hud hidden">
       <span id="qProgressLabel" class="hud-pill">Item 1</span>
@@ -22,8 +22,8 @@
     </div>
     <div id="portalNavGroup" class="nav-group">
       <button class="nav-btn active" data-view="dashboard" type="button">Dashboard</button>
+      <button class="nav-btn" data-view="importer" type="button">Load Unit .json</button>
       <button class="nav-btn" data-view="flashcards" type="button">Flashcards</button>
-      <button class="nav-btn" data-view="builder" type="button">Unit Builder</button>
       <button class="nav-btn" data-view="qa" type="button">QA Tests</button>
       <span id="candidateTag" class="candidate-tag"></span>
       <button id="logoutBtn" class="btn btn-ghost btn-sm" type="button">Sign Out</button>
@@ -35,7 +35,7 @@
     <div class="login-card">
       <div class="portal-kicker">COMPUTERIZED ADAPTIVE TESTING PORTAL</div>
       <h1>NCLEX-RN Examination &amp; Practice Suite</h1>
-      <p class="muted">Sign in with candidate credentials to access adaptive units, attempt records, score cards, and PDF flashcards.</p>
+      <p class="muted">Sign in to select any uploaded topic unit, run adaptive CAT exams, review score cards, and study PDF flashcards.</p>
 
       <div id="resumeBanner" class="resume-banner hidden">
         <div>
@@ -82,14 +82,15 @@
 
   <!-- MAIN APP CONTAINER -->
   <main id="appShell" class="app-container hidden">
-    <!-- DASHBOARD VIEW -->
+    <!-- DASHBOARD & PRE-TEST UNIT SELECTOR VIEW -->
     <section id="dashboardView" class="view-section">
       <div class="hero-strip">
         <div>
-          <h2>Topic Performance &amp; Attempt Dashboard</h2>
-          <p class="muted">Track every attempt, ability score (0.00 NCLEX-RN passing standard), timing, and retake any unit anytime.</p>
+          <h2>Topic Performance &amp; CAT Exam Launcher</h2>
+          <p class="muted">Select any unit from GitHub <code>data/</code> or local uploads, check readiness, and start or retake an adaptive test.</p>
         </div>
         <div class="backup-actions">
+          <button id="refreshGithubBtn" class="btn btn-ghost btn-sm" type="button">Refresh GitHub Units</button>
           <button id="exportProgressBtn" class="btn btn-ghost btn-sm" type="button">Backup History (.json)</button>
           <label class="btn btn-ghost btn-sm file-label">
             Restore History
@@ -100,8 +101,35 @@
 
       <div id="kpiGrid" class="kpi-grid"></div>
 
+      <!-- PRE-TEST UNIT SELECTOR DROPDOWN CARD -->
+      <div class="card launcher-card">
+        <div class="section-header-row">
+          <div>
+            <div class="eyebrow">PRE-TEST UNIT SELECTION</div>
+            <h3>Choose Topic Unit Before Starting Exam</h3>
+          </div>
+          <span id="githubDiscoveryStatus" class="small-muted">Checking unit sources...</span>
+        </div>
+
+        <div class="launcher-row">
+          <div class="field launcher-select-wrap">
+            <label for="preTestUnitSelect">Available Study Units (GitHub <code>data/</code> &amp; Uploaded <code>.json</code>)</label>
+            <select id="preTestUnitSelect" class="select-input"></select>
+          </div>
+          <div class="launcher-btn-wrap">
+            <button id="launchBriefingFromSelectBtn" class="btn btn-primary" type="button" disabled>
+              Configure &amp; Start CAT Exam &rarr;
+            </button>
+          </div>
+        </div>
+
+        <div id="selectedUnitPreview" class="validation-box">
+          No units loaded yet. Click <strong>Load Unit .json</strong> above or add a <code>.json</code> file to your GitHub <code>data/</code> folder.
+        </div>
+      </div>
+
       <div class="section-header-row">
-        <h3>Uploaded Units &amp; Multi-Unit Mock</h3>
+        <h3>All Discovered &amp; Uploaded Topic Cards</h3>
         <span id="unitCatalogStatus" class="small-muted"></span>
       </div>
       <div id="unitsGrid" class="units-grid"></div>
@@ -282,7 +310,7 @@
         </div>
 
         <div class="fc-stage">
-          <div id="flashcardBox" class="flashcard-3d" tabindex="0" title="Click or press Space to flip">
+          <div id="flashcardBox" class="flashcard-3d" tabindex="0" title="Click to flip">
             <div class="fc-face fc-front">
               <div class="fc-top-meta">
                 <span id="fcCardIndex">Card 1 of 1</span>
@@ -310,49 +338,43 @@
       </div>
     </section>
 
-    <!-- 4-BATCH UNIT BUILDER & JSON VALIDATOR VIEW -->
-    <section id="builderView" class="view-section hidden">
+    <!-- TEMPLATE .JSON IMPORTER & COMPACT AUTO-EXPANDER VIEW -->
+    <section id="importerView" class="view-section hidden">
       <div class="card">
-        <h2>Reusable Unit Builder (Merge 4 Gemini Batches into 100-Q JSON)</h2>
-        <p class="muted">Paste the JSON output from each of the 4 Gemini batches below. The validator checks structure, answer keys, rationales, and flashcards before merging.</p>
+        <div class="eyebrow">PLUG-AND-PLAY .JSON UNIT LOADER</div>
+        <h2>Load &amp; Validate Unit <code>.json</code> File</h2>
+        <p class="muted">
+          Upload a <code>.json</code> file or paste the 1-shot Compact JSON output from Gemini. The template automatically expands compact codes, validates all NCLEX-RN rules, and integrates the unit into your exam selector.
+        </p>
 
-        <div class="config-grid">
-          <div class="field">
-            <label for="builderTitle">Unit Title</label>
-            <input id="builderTitle" type="text" placeholder="e.g., Acid-Base Balance" />
-          </div>
-          <div class="field">
-            <label for="builderId">Unit Slug / File ID</label>
-            <input id="builderId" type="text" placeholder="e.g., acid-base-balance" />
-          </div>
+        <div id="jsonFileDropZone" class="drop-zone" tabindex="0">
+          <strong>Drop your unit <code>.json</code> file here, or click to browse</strong>
+          <div class="small-muted">Supports both 1-Shot Compact JSON (Workaround A) and Full NCLEX Schema JSON</div>
+          <input id="jsonFileInput" type="file" accept=".json,application/json" hidden />
         </div>
 
-        <div class="batch-grid">
-          <div class="field">
-            <label for="batch1Input">Batch 1 (Q1–25)</label>
-            <textarea id="batch1Input" class="batch-textarea" placeholder="Paste Batch 1 JSON here..."></textarea>
-          </div>
-          <div class="field">
-            <label for="batch2Input">Batch 2 (Q26–50)</label>
-            <textarea id="batch2Input" class="batch-textarea" placeholder="Paste Batch 2 JSON here..."></textarea>
-          </div>
-          <div class="field">
-            <label for="batch3Input">Batch 3 (Q51–75)</label>
-            <textarea id="batch3Input" class="batch-textarea" placeholder="Paste Batch 3 JSON here..."></textarea>
-          </div>
-          <div class="field">
-            <label for="batch4Input">Batch 4 (Q76–100)</label>
-            <textarea id="batch4Input" class="batch-textarea" placeholder="Paste Batch 4 JSON here..."></textarea>
-          </div>
+        <div class="field" style="margin-top:16px;">
+          <label for="rawJsonPasteInput">Or Paste Raw JSON Output Directly</label>
+          <textarea id="rawJsonPasteInput" class="batch-textarea" placeholder='Paste the {"u": "...", "q": [...]} output from Gemini here...'></textarea>
         </div>
 
         <div class="launch-row">
-          <button id="validateMergeBtn" class="btn btn-primary" type="button">Validate &amp; Merge Batches</button>
-          <button id="saveLocalUnitBtn" class="btn btn-secondary" type="button" disabled>Save to Browser &amp; Use Now</button>
-          <button id="downloadUnitJsonBtn" class="btn btn-ghost" type="button" disabled>Download .json for GitHub</button>
+          <button id="validateIntegrateBtn" class="btn btn-primary" type="button">Validate &amp; Integrate into Exam Portal</button>
+          <button id="downloadNormalizedBtn" class="btn btn-secondary" type="button" disabled>Download Clean .json for GitHub data/</button>
         </div>
 
-        <div id="builderReport" class="validation-box hidden"></div>
+        <div id="importerReport" class="validation-box hidden"></div>
+
+        <div class="rules-box" style="margin-top:22px;">
+          <h4>Optional: GitHub Repository <code>data/</code> Auto-Discovery Override</h4>
+          <p class="small-muted">
+            When hosted on GitHub Pages, the app detects your repository automatically from the URL. If you are previewing locally and want to pull <code>.json</code> files from your GitHub <code>data/</code> folder, enter <code>username/repo-name</code> below:
+          </p>
+          <div class="password-row" style="max-width:460px;">
+            <input id="repoOverrideInput" type="text" placeholder="e.g., yourusername/nclex-cat" />
+            <button id="saveRepoOverrideBtn" class="btn btn-ghost btn-sm" type="button">Save &amp; Sync</button>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -360,10 +382,9 @@
     <section id="qaView" class="view-section hidden">
       <div class="card">
         <h2>Pre-Deployment Automated QA Test Suite</h2>
-        <p class="muted">Runs automated checks across CAT stopping rules (early pass/fail at 85+, max at 100), SATA partial-credit math, JSON schema validation, and session persistence.</p>
+        <p class="muted">Verifies CAT stopping rules, SATA NGN partial credit, Compact JSON auto-expansion, schema validation, and session persistence.</p>
         <div class="launch-row">
           <button id="runQaBtn" class="btn btn-primary" type="button">Run All Automated QA Tests</button>
-          <button id="seedSampleAttemptBtn" class="btn btn-secondary" type="button">Seed Demo Attempt (Fluids &amp; Electrolytes)</button>
         </div>
         <div id="qaResultsList" class="qa-results"></div>
       </div>
