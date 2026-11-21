@@ -322,6 +322,27 @@ input[type="password"],
   margin-bottom: 20px;
 }
 
+.launcher-card {
+  border-left: 5px solid var(--primary);
+}
+
+.launcher-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 14px;
+}
+
+.launcher-select-wrap {
+  flex: 1;
+  min-width: 260px;
+  margin-bottom: 0;
+}
+
+.launcher-btn-wrap {
+  padding-bottom: 1px;
+}
+
 .hero-strip,
 .section-header-row,
 .briefing-top,
@@ -402,6 +423,28 @@ input[type="password"],
 .pill-fail {
   background: var(--danger-bg);
   color: var(--danger);
+}
+
+.pill-source {
+  background: #e0f2fe;
+  color: #0369a1;
+}
+
+/* DROP ZONE */
+.drop-zone {
+  border: 2px dashed #94a3b8;
+  border-radius: 12px;
+  padding: 26px 18px;
+  text-align: center;
+  background: var(--surface-alt);
+  cursor: pointer;
+  transition: 0.15s ease;
+}
+
+.drop-zone:hover,
+.drop-zone.dragover {
+  border-color: var(--primary);
+  background: #eff6ff;
 }
 
 /* TABLE */
@@ -807,16 +850,10 @@ canvas {
 }
 
 /* BUILDER & QA */
-.batch-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 14px;
-}
-
 .batch-textarea {
-  min-height: 150px;
+  min-height: 170px;
   font-family: "Courier New", Courier, monospace;
-  font-size: 0.8rem;
+  font-size: 0.82rem;
 }
 
 .qa-results {
