@@ -1,22 +1,24 @@
 /* ============================================================================
- * NCLEX-RN CAT SIMULATOR — CORE APPLICATION ENGINE
+ * NCLEX-RN CAT TEMPLATE ENGINE
+ * - Automatic GitHub data/ folder discovery (zero units.json required)
+ * - 1-Shot Compact JSON Auto-Expander + Full Schema Validator
+ * - Pre-Test Unit Selector Dropdown + Multi-Attempt Dashboard + Score Card
  * ============================================================================ */
 
 const STORAGE_KEYS = {
-  SESSION: "nclex_cat_session_v1",
-  HISTORY: "nclex_cat_history_v1",
-  LOCAL_UNITS: "nclex_cat_local_units_v1",
-  ACTIVE_EXAM: "nclex_cat_active_exam_v1"
+  SESSION: "nclex_cat_session_v2",
+  HISTORY: "nclex_cat_history_v2",
+  LOCAL_UNITS: "nclex_cat_local_units_v2",
+  GH_INDEX_CACHE: "nclex_cat_gh_index_v2",
+  GH_REPO_OVERRIDE: "nclex_cat_gh_repo_v2",
+  ACTIVE_EXAM: "nclex_cat_active_exam_v2"
 };
 
-// Default credentials: candidate / Nclex2026!
-// SHA-256 of "Nclex2026!" = 5d0d20b69d3c3f9e73f9a9d2213d5e941e7f939a409338340b712b6b33d620c1
-// (Computed dynamically on first check if needed, with fallback hash below)
 const AUTH_CONFIG = {
   username: "candidate",
   candidateName: "RN Candidate",
   candidateId: "RN-2026-085",
-  passwordSha256: "" // Populated via sha256("Nclex2026!") at runtime
+  passwordSha256: "" // Default "Nclex2026!" hashed on runtime
 };
 
 const DIFFICULTY_LOGITS = {
@@ -27,7 +29,7 @@ const DIFFICULTY_LOGITS = {
   5: 1.5
 };
 
-const PASSING_LOGIT = 0.0; // Official 2026 NCLEX-RN passing standard = 0.00 logits
+const PASSING_LOGIT = 0.0;
 
 const NCLEX_CATEGORIES = [
   "Management of Care",
@@ -38,6 +40,15 @@ const NCLEX_CATEGORIES = [
   "Pharmacological and Parenteral Therapies",
   "Reduction of Risk Potential",
   "Physiological Adaptation"
+];
+
+const CJMM_SKILLS = [
+  "Recognize Cues",
+  "Analyze Cues",
+  "Prioritize Hypotheses",
+  "Generate Solutions",
+  "Take Action",
+  "Evaluate Outcomes"
 ];
 
 const NORMAL_LABS = [
@@ -55,9 +66,10 @@ const NORMAL_LABS = [
 
 const state = {
   authenticated: false,
-  catalog: [],
-  loadedUnits: {}, // unitId -> unitObject
+  discoveredGithubFiles: [], // [{ fileName, slug, displayTitle, downloadUrl }]
+  loadedUnits: {}, // unitId -> normalized unitObject
   history: [],
+  selectedDropdownUnitId: "",
   briefingUnitId: null,
   selectedTimerSeconds: 18000,
   confirmBeforeLock: true,
@@ -66,7 +78,8 @@ const state = {
   highlightActive: false,
   break2hShown: false,
   break35hShown: false,
-  pendingAdvanceAction: null
+  pendingAdvanceAction: null,
+  lastValidatedNormalizedUnit: null
 };
 
 /* ---------------- CRYPTO & STORAGE HELPERS ---------------- */
@@ -102,40 +115,285 @@ function saveLocalUnits(obj) {
   localStorage.setItem(STORAGE_KEYS.LOCAL_UNITS, JSON.stringify(obj));
 }
 
-/* ---------------- DATA LOADING ---------------- */
-async function initCatalog() {
-  state.history = loadHistory();
-  const localUnits = loadLocalUnits();
+function slugify(str) {
+  return String(str || "")
+    .toLowerCase()
+    .replace(/\.json$/i, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "") || `unit-${Date.now()}`;
+}
 
-  try {
-    const res = await fetch("./data/units.json");
-    if (res.ok) {
-      const idx = await res.json();
-      for (const item of idx.units || []) {
-        try {
-          const uRes = await fetch(`./data/${item.file}`);
-          if (uRes.ok) {
-            const unitData = await uRes.json();
-            state.loadedUnits[unitData.unitId] = unitData;
-          }
-        } catch (err) {
-          console.warn("Could not load unit file:", item.file, err);
-        }
-      }
-    }
-  } catch (err) {
-    console.warn("Running without remote units.json (e.g., local file mode):", err);
+function titleFromFilename(fileName) {
+  return String(fileName || "")
+    .replace(/\.json$/i, "")
+    .split(/[-_]+/)
+    .map((w) => (w ? w[0].toUpperCase() + w.slice(1) : ""))
+    .join(" ");
+}
+
+/* ---------------- COMPACT JSON AUTO-EXPANDER ---------------- */
+function normalizeUnitPayload(rawObj, fallbackTitle = "Uploaded NCLEX Unit") {
+  if (!rawObj || typeof rawObj !== "object") return null;
+
+  // Detect 1-Shot Compact Schema (Workaround A: keys "u" and "q")
+  const isCompact = Array.isArray(rawObj.q) && !Array.isArray(rawObj.questions);
+  if (!isCompact) {
+    const unitTitle = String(rawObj.unitTitle || rawObj.u || fallbackTitle).trim();
+    const unitId = slugify(rawObj.unitId || unitTitle);
+    return {
+      unitId,
+      unitTitle,
+      examTrack: rawObj.examTrack || "NCLEX-RN",
+      passingLogit: PASSING_LOGIT,
+      source: rawObj.source || "Local Upload",
+      questions: Array.isArray(rawObj.questions) ? rawObj.questions : []
+    };
   }
 
+  const unitTitle = String(rawObj.u || fallbackTitle).trim();
+  const unitId = slugify(rawObj.unitId || unitTitle);
+
+  const expandedQuestions = (rawObj.q || []).map((item, idx) => {
+    const qType = item.t === "s" || item.t === "sata" ? "sata" : "mcq";
+    const catIdx = Number(item.c) - 1;
+    const category =
+      NCLEX_CATEGORIES[catIdx] ||
+      (typeof item.c === "string" ? item.c : "Physiological Adaptation");
+
+    const cjmmIdx = Number(item.j) - 1;
+    const cjmmSkill =
+      CJMM_SKILLS[cjmmIdx] ||
+      (typeof item.j === "string" ? item.j : "Analyze Cues");
+
+    const options = Array.isArray(item.o)
+      ? item.o.map((opt) =>
+          Array.isArray(opt)
+            ? { id: String(opt[0]), text: String(opt[1] ?? ""), rationale: String(opt[2] ?? "") }
+            : opt
+        )
+      : [];
+
+    let exhibit = null;
+    if (item.ex && typeof item.ex === "object") {
+      exhibit = {
+        title: item.ex.title || item.ex.t || "Clinical Exhibit",
+        rows: Array.isArray(item.ex.rows) ? item.ex.rows : Array.isArray(item.ex.r) ? item.ex.r : []
+      };
+    }
+
+    let flashcard = { front: "", back: "", pdfReference: unitTitle };
+    if (Array.isArray(item.fc)) {
+      const bullets = String(item.fc[1] ?? "")
+        .split(/\s*\|\s*/)
+        .map((line) => line.trim())
+        .filter(Boolean)
+        .map((line) => (line.startsWith("•") ? line : `• ${line}`))
+        .join("\n");
+      flashcard = {
+        front: String(item.fc[0] ?? ""),
+        back: bullets,
+        pdfReference: String(item.fc[2] ?? unitTitle)
+      };
+    } else if (item.fc && typeof item.fc === "object") {
+      flashcard = item.fc;
+    }
+
+    return {
+      id: item.i ?? idx + 1,
+      type: qType,
+      difficulty: Number(item.d) || 3,
+      clientNeedsCategory: category,
+      clinicalJudgmentSkill: cjmmSkill,
+      stem: String(item.st ?? ""),
+      exhibit,
+      options,
+      correctOptionIds: Array.isArray(item.a) ? item.a.map(String) : [],
+      educationalObjective: String(item.obj ?? ""),
+      flashcard
+    };
+  });
+
+  return {
+    unitId,
+    unitTitle,
+    examTrack: "NCLEX-RN",
+    passingLogit: PASSING_LOGIT,
+    source: "Local Upload",
+    questions: expandedQuestions
+  };
+}
+
+/* ---------------- SCHEMA VALIDATOR ---------------- */
+function validateUnitData(unitObj) {
+  const errors = [];
+  const warnings = [];
+
+  if (!unitObj || typeof unitObj !== "object") {
+    return { valid: false, errors: ["Unit payload is not a valid JSON object."], warnings };
+  }
+  if (!unitObj.unitTitle || String(unitObj.unitTitle).trim().length < 2) {
+    errors.push("Missing unit title.");
+  }
+  const qs = unitObj.questions;
+  if (!Array.isArray(qs) || qs.length === 0) {
+    errors.push("Questions list is empty or missing.");
+    return { valid: false, errors, warnings };
+  }
+  if (qs.length < 85) {
+    warnings.push(`Contains ${qs.length} items (85–100 recommended for full single-unit NCLEX CAT stamina).`);
+  }
+
+  qs.forEach((q, i) => {
+    const label = `Item #${i + 1}`;
+    if (!q.stem || typeof q.stem !== "string") errors.push(`${label}: missing question stem.`);
+    if (!["mcq", "sata"].includes(q.type)) errors.push(`${label}: invalid format "${q.type}".`);
+    if (![1, 2, 3, 4, 5].includes(Number(q.difficulty))) errors.push(`${label}: difficulty must be 1–5.`);
+    if (!Array.isArray(q.options) || q.options.length < 4) {
+      errors.push(`${label}: requires at least 4 answer options.`);
+    }
+    if (!Array.isArray(q.correctOptionIds) || q.correctOptionIds.length === 0) {
+      errors.push(`${label}: missing correctOptionIds.`);
+    } else if (Array.isArray(q.options)) {
+      const validIds = new Set(q.options.map((o) => String(o.id)));
+      const invalidRefs = q.correctOptionIds.filter((cid) => !validIds.has(String(cid)));
+      if (invalidRefs.length) {
+        errors.push(`${label}: answer key references missing option ID(s): ${invalidRefs.join(", ")}.`);
+      }
+    }
+    if (!q.flashcard || !q.flashcard.front || !q.flashcard.back) {
+      errors.push(`${label}: missing attached PDF flashcard.`);
+    }
+  });
+
+  return { valid: errors.length === 0, errors, warnings };
+}
+
+/* ---------------- GITHUB DATA/ AUTO-DISCOVERY ---------------- */
+function detectGithubRepo() {
+  const override = (localStorage.getItem(STORAGE_KEYS.GH_REPO_OVERRIDE) || "").trim();
+  if (override && override.includes("/")) {
+    const [owner, repo] = override.split("/");
+    return { owner: owner.trim(), repo: repo.trim(), isLivePages: false };
+  }
+
+  const host = window.location.hostname || "";
+  if (host.endsWith(".github.io")) {
+    const owner = host.split(".")[0];
+    const parts = (window.location.pathname || "").split("/").filter(Boolean);
+    const repo = parts.length > 0 ? parts[0] : `${owner}.github.io`;
+    return { owner, repo, isLivePages: true };
+  }
+  return null;
+}
+
+async function discoverGithubDataFolder(forceRefresh = false) {
+  const repoInfo = detectGithubRepo();
+  const statusEl = document.getElementById("githubDiscoveryStatus");
+
+  // Load any locally uploaded units first
+  const localUnits = loadLocalUnits();
   Object.values(localUnits).forEach((u) => {
+    u.source = "Browser Storage";
     state.loadedUnits[u.unitId] = u;
   });
 
-  state.catalog = Object.values(state.loadedUnits).map((u) => ({
-    unitId: u.unitId,
-    unitTitle: u.unitTitle,
-    questionCount: (u.questions || []).length
-  }));
+  if (!repoInfo) {
+    if (statusEl) {
+      statusEl.textContent = "Local preview mode (use Load Unit .json or set GitHub repo override).";
+    }
+    return;
+  }
+
+  const apiUrl = `https://api.github.com/repos/${repoInfo.owner}/${repoInfo.repo}/contents/data`;
+  try {
+    const res = await fetch(apiUrl, { cache: forceRefresh ? "no-store" : "default" });
+    if (res.ok) {
+      const entries = await res.json();
+      const jsonFiles = (Array.isArray(entries) ? entries : [])
+        .filter((f) => f.type === "file" && f.name.toLowerCase().endsWith(".json"))
+        .map((f) => ({
+          fileName: f.name,
+          slug: slugify(f.name),
+          displayTitle: titleFromFilename(f.name),
+          downloadUrl: f.download_url
+        }));
+
+      state.discoveredGithubFiles = jsonFiles;
+      localStorage.setItem(STORAGE_KEYS.GH_INDEX_CACHE, JSON.stringify(jsonFiles));
+      if (statusEl) {
+        statusEl.textContent = `Synced with GitHub (${repoInfo.owner}/${repoInfo.repo}/data): ${jsonFiles.length} file(s) found.`;
+      }
+      return;
+    }
+  } catch (err) {
+    console.warn("GitHub API discovery fallback to cache:", err);
+  }
+
+  // Fallback to cached GitHub file list if API rate limit or offline
+  try {
+    const cached = JSON.parse(localStorage.getItem(STORAGE_KEYS.GH_INDEX_CACHE) || "[]");
+    state.discoveredGithubFiles = cached;
+    if (statusEl) {
+      statusEl.textContent = cached.length
+        ? `Using cached GitHub unit list (${cached.length} file(s)).`
+        : "No GitHub data/ files detected yet.";
+    }
+  } catch {
+    state.discoveredGithubFiles = [];
+  }
+}
+
+async function ensureUnitLoaded(unitId) {
+  if (!unitId || unitId === "__ALL__") return true;
+  if (state.loadedUnits[unitId]) return true;
+
+  const ghEntry = state.discoveredGithubFiles.find((f) => f.slug === unitId);
+  if (!ghEntry) return false;
+
+  const repoInfo = detectGithubRepo();
+  const fetchUrl =
+    repoInfo && repoInfo.isLivePages
+      ? `./data/${encodeURIComponent(ghEntry.fileName)}`
+      : ghEntry.downloadUrl;
+
+  const res = await fetch(fetchUrl);
+  if (!res.ok) return false;
+
+  const rawJson = await res.json();
+  const normalized = normalizeUnitPayload(rawJson, ghEntry.displayTitle);
+  if (!normalized) return false;
+
+  normalized.unitId = ghEntry.slug;
+  normalized.source = "GitHub data/";
+  state.loadedUnits[normalized.unitId] = normalized;
+  return true;
+}
+
+function getAllCatalogEntries() {
+  const map = new Map();
+
+  state.discoveredGithubFiles.forEach((f) => {
+    const loaded = state.loadedUnits[f.slug];
+    map.set(f.slug, {
+      unitId: f.slug,
+      unitTitle: loaded ? loaded.unitTitle : f.displayTitle,
+      source: "GitHub data/",
+      questionCount: loaded ? loaded.questions.length : null
+    });
+  });
+
+  Object.values(state.loadedUnits).forEach((u) => {
+    if (!map.has(u.unitId)) {
+      map.set(u.unitId, {
+        unitId: u.unitId,
+        unitTitle: u.unitTitle,
+        source: u.source || "Browser Storage",
+        questionCount: (u.questions || []).length
+      });
+    }
+  });
+
+  return Array.from(map.values());
 }
 
 function getAllCombinedQuestions() {
@@ -152,50 +410,16 @@ function getAllCombinedQuestions() {
   return combined;
 }
 
-/* ---------------- SCHEMA VALIDATOR ---------------- */
-function validateUnitData(unitObj) {
-  const errors = [];
-  const warnings = [];
-
-  if (!unitObj || typeof unitObj !== "object") {
-    return { valid: false, errors: ["Unit payload is not a valid object."], warnings };
-  }
-  if (!unitObj.unitTitle || String(unitObj.unitTitle).trim().length < 2) {
-    errors.push("Missing unitTitle.");
-  }
-  const qs = unitObj.questions;
-  if (!Array.isArray(qs) || qs.length === 0) {
-    errors.push("Questions array is empty or missing.");
-    return { valid: false, errors, warnings };
-  }
-  if (qs.length < 85) {
-    warnings.push(`Unit currently has ${qs.length} questions (85+ recommended for full NCLEX-RN single-unit CAT length).`);
-  }
-
-  qs.forEach((q, i) => {
-    const label = `Q#${i + 1}`;
-    if (!q.stem || typeof q.stem !== "string") errors.push(`${label}: missing stem.`);
-    if (!["mcq", "sata"].includes(q.type)) errors.push(`${label}: invalid type "${q.type}".`);
-    if (![1, 2, 3, 4, 5].includes(Number(q.difficulty))) errors.push(`${label}: difficulty must be 1–5.`);
-    if (!Array.isArray(q.options) || q.options.length < 4) errors.push(`${label}: needs at least 4 options.`);
-    if (!Array.isArray(q.correctOptionIds) || q.correctOptionIds.length === 0) {
-      errors.push(`${label}: missing correctOptionIds.`);
-    }
-    if (!q.flashcard || !q.flashcard.front || !q.flashcard.back) {
-      errors.push(`${label}: missing flashcard front/back.`);
-    }
-  });
-
-  return { valid: errors.length === 0, errors, warnings };
-}
-
 /* ---------------- CAT & NGN SCORING ENGINE ---------------- */
 function scoreQuestion(question, selectedIds) {
   const correctSet = new Set(question.correctOptionIds || []);
   const chosenSet = new Set(selectedIds || []);
 
   if (question.type === "mcq") {
-    const isFull = chosenSet.size === 1 && correctSet.size === 1 && [...chosenSet].every((id) => correctSet.has(id));
+    const isFull =
+      chosenSet.size === 1 &&
+      correctSet.size === 1 &&
+      [...chosenSet].every((id) => correctSet.has(id));
     return {
       earned: isFull ? 1 : 0,
       max: 1,
@@ -204,7 +428,6 @@ function scoreQuestion(question, selectedIds) {
     };
   }
 
-  // SATA NGN Plus/Minus rule: +1 per right selection, -1 per wrong selection, floored at 0
   let raw = 0;
   chosenSet.forEach((id) => {
     raw += correctSet.has(id) ? 1 : -1;
@@ -221,17 +444,12 @@ function scoreQuestion(question, selectedIds) {
 
 function updateAbilityEstimate(currentTheta, qDifficulty, scoreRatio) {
   const diffLogit = DIFFICULTY_LOGITS[qDifficulty] ?? 0;
-  // Rasch probability p = 1 / (1 + exp(-(theta - b)))
   const p = 1 / (1 + Math.exp(-(currentTheta - diffLogit)));
-  // Step size tapers slightly as more items are answered
-  const stepScale = 0.45;
-  const delta = stepScale * (scoreRatio - p);
-  const nextTheta = Math.max(-3.0, Math.min(3.0, Number((currentTheta + delta).toFixed(3))));
-  return nextTheta;
+  const delta = 0.45 * (scoreRatio - p);
+  return Math.max(-3.0, Math.min(3.0, Number((currentTheta + delta).toFixed(3))));
 }
 
 function computeStandardError(answeredCount) {
-  // Decreases as item count increases; reaches ~0.24 around 85–100 items
   return Number((1.45 / Math.sqrt(Math.max(1, answeredCount) + 6)).toFixed(3));
 }
 
@@ -239,7 +457,6 @@ function selectNextQuestion(pool, usedIds, targetTheta) {
   const remaining = pool.filter((q) => !usedIds.has(String(q.id)));
   if (!remaining.length) return null;
 
-  // Add slight jitter so repeated retakes vary question selection while staying near targetTheta
   let best = remaining[0];
   let bestScore = Infinity;
 
@@ -256,14 +473,13 @@ function selectNextQuestion(pool, usedIds, targetTheta) {
 
 function evaluateStoppingRule(exam) {
   const n = exam.responses.length;
-  const maxQuestions = exam.maxQuestions; // 100 single-unit, up to 150 multi-unit
+  const maxQuestions = exam.maxQuestions;
   const minQuestions = Math.min(85, maxQuestions);
   const se = computeStandardError(n);
   const ciHalfWidth = 1.96 * se;
   const lower95 = exam.theta - ciHalfWidth;
   const upper95 = exam.theta + ciHalfWidth;
 
-  // Rule 3: Run Out of Time (R.O.O.T.)
   if (exam.remainingSeconds <= 0) {
     if (n < minQuestions) {
       return {
@@ -279,12 +495,10 @@ function evaluateStoppingRule(exam) {
     };
   }
 
-  // Before minimum items (85), never stop early
   if (n < minQuestions) {
     return { shouldStop: false, passed: null, ruleTriggered: null };
   }
 
-  // Rule 1: 95% Confidence Interval Rule (from minQuestions up to maxQuestions - 1)
   if (n < maxQuestions) {
     if (lower95 > PASSING_LOGIT) {
       return {
@@ -303,7 +517,6 @@ function evaluateStoppingRule(exam) {
     return { shouldStop: false, passed: null, ruleTriggered: null };
   }
 
-  // Rule 2: Maximum Length Reached
   return {
     shouldStop: true,
     passed: exam.theta >= PASSING_LOGIT,
@@ -321,7 +534,7 @@ function showView(viewId) {
     "examView",
     "scoreCardView",
     "flashcardsView",
-    "builderView",
+    "importerView",
     "qaView"
   ].forEach((id) => {
     const el = document.getElementById(id);
@@ -343,7 +556,7 @@ function showView(viewId) {
   document.getElementById("portalNavGroup").classList.toggle("hidden", inExam);
 
   document.querySelectorAll(".nav-btn").forEach((btn) => {
-    btn.classList.toggle("active", btn.dataset.view === `${viewId.replace("View", "")}`);
+    btn.classList.toggle("active", btn.dataset.view === viewId.replace("View", ""));
   });
 }
 
@@ -366,7 +579,7 @@ async function handleLoginSubmit(e) {
     if (document.getElementById("rememberUserChk").checked) {
       localStorage.setItem(STORAGE_KEYS.SESSION, JSON.stringify({ user: userInput }));
     }
-    renderDashboard();
+    await renderDashboard();
     showView("dashboardView");
   } else {
     errEl.textContent = "Invalid username or password. Default: candidate / Nclex2026!";
@@ -382,7 +595,8 @@ function checkInterruptedExam() {
     if (saved && saved.responses) {
       const banner = document.getElementById("resumeBanner");
       banner.classList.remove("hidden");
-      document.getElementById("resumeMeta").textContent = `${saved.unitTitle} — Item ${saved.responses.length + 1} • ${formatSeconds(saved.remainingSeconds)} left`;
+      document.getElementById("resumeMeta").textContent =
+        `${saved.unitTitle} — Item ${saved.responses.length + 1} • ${formatSeconds(saved.remainingSeconds)} left`;
       document.getElementById("resumeExamBtn").onclick = () => {
         state.authenticated = true;
         document.getElementById("candidateTag").textContent = `${AUTH_CONFIG.candidateName} (${AUTH_CONFIG.candidateId})`;
@@ -395,8 +609,9 @@ function checkInterruptedExam() {
   }
 }
 
-/* ---------------- DASHBOARD & ATTEMPTS ---------------- */
-function renderDashboard() {
+/* ---------------- DASHBOARD & PRE-TEST UNIT SELECTOR ---------------- */
+async function renderDashboard() {
+  const entries = getAllCatalogEntries();
   const totalAttempts = state.history.length;
   const passes = state.history.filter((h) => h.passed).length;
   const passRate = totalAttempts ? `${Math.round((passes / totalAttempts) * 100)}%` : "—";
@@ -406,22 +621,55 @@ function renderDashboard() {
   );
 
   document.getElementById("kpiGrid").innerHTML = `
-    <div class="kpi-card"><div class="kpi-label">Uploaded Units</div><div class="kpi-val">${state.catalog.length}</div></div>
+    <div class="kpi-card"><div class="kpi-label">Available Units</div><div class="kpi-val">${entries.length}</div></div>
     <div class="kpi-card"><div class="kpi-label">Total Attempts</div><div class="kpi-val">${totalAttempts}</div></div>
     <div class="kpi-card"><div class="kpi-label">Pass Rate</div><div class="kpi-val">${passRate}</div></div>
-    <div class="kpi-card"><div class="kpi-label">PDF Flashcards</div><div class="kpi-val">${totalFlashcards}</div></div>
+    <div class="kpi-card"><div class="kpi-label">Loaded Flashcards</div><div class="kpi-val">${totalFlashcards}</div></div>
   `;
 
+  // Populate Pre-Test Unit Selector Dropdown
+  const selectEl = document.getElementById("preTestUnitSelect");
+  selectEl.innerHTML = "";
+
+  if (!entries.length) {
+    selectEl.innerHTML = `<option value="">-- No units found yet (Load a .json file or add to GitHub data/) --</option>`;
+    document.getElementById("launchBriefingFromSelectBtn").disabled = true;
+    document.getElementById("selectedUnitPreview").innerHTML =
+      `No units loaded yet. Click <strong>Load Unit .json</strong> in the top bar or drop a <code>.json</code> file into your GitHub <code>data/</code> folder.`;
+  } else {
+    entries.forEach((entry) => {
+      const opt = document.createElement("option");
+      opt.value = entry.unitId;
+      const qLabel = entry.questionCount ? `${entry.questionCount} Qs` : "Fetch from GitHub";
+      opt.textContent = `${entry.unitTitle} (${qLabel} • ${entry.source})`;
+      selectEl.appendChild(opt);
+    });
+
+    if (entries.length >= 2) {
+      const multiOpt = document.createElement("option");
+      multiOpt.value = "__ALL__";
+      multiOpt.textContent = `All Units Combined Mock (85–150 Qs • All ${entries.length} Topics)`;
+      selectEl.appendChild(multiOpt);
+    }
+
+    if (state.selectedDropdownUnitId && Array.from(selectEl.options).some((o) => o.value === state.selectedDropdownUnitId)) {
+      selectEl.value = state.selectedDropdownUnitId;
+    } else {
+      state.selectedDropdownUnitId = selectEl.value;
+    }
+
+    await handleDropdownUnitSelection(selectEl.value);
+  }
+
   document.getElementById("unitCatalogStatus").textContent =
-    state.catalog.length >= 2
+    entries.length >= 2
       ? "Multi-Unit Comprehensive Mock (85–150 Qs) unlocked!"
-      : "Upload 2+ units to unlock 85–150 Q multi-unit mock.";
+      : "Add 2+ units to unlock 85–150 Q multi-unit mock.";
 
   const unitsGrid = document.getElementById("unitsGrid");
   unitsGrid.innerHTML = "";
 
-  // Individual Topic Cards
-  state.catalog.forEach((meta) => {
+  entries.forEach((meta) => {
     const unitAttempts = state.history.filter((h) => h.unitId === meta.unitId);
     const latest = unitAttempts[0];
     const bestTheta = unitAttempts.length
@@ -433,8 +681,9 @@ function renderDashboard() {
     card.innerHTML = `
       <div>
         <h4>${escapeHtml(meta.unitTitle)}</h4>
-        <div class="small-muted">${meta.questionCount} questions &bull; CAT Window: 85–${Math.min(100, meta.questionCount)}</div>
+        <div class="small-muted">${meta.questionCount ? `${meta.questionCount} questions` : "Ready to fetch from GitHub"}</div>
         <div class="unit-meta">
+          <span class="pill pill-source">${escapeHtml(meta.source)}</span>
           <span class="pill">Attempts: ${unitAttempts.length}</span>
           <span class="pill">Best &theta;: ${bestTheta}</span>
           ${
@@ -453,29 +702,63 @@ function renderDashboard() {
     unitsGrid.appendChild(card);
   });
 
-  // Multi-Unit Mock Card (when 2+ units exist)
-  if (state.catalog.length >= 2) {
-    const totalPool = getAllCombinedQuestions().length;
-    const multiCard = document.createElement("div");
-    multiCard.className = "unit-card";
-    multiCard.innerHTML = `
-      <div>
-        <h4>Comprehensive Multi-Unit Mock</h4>
-        <div class="small-muted">${totalPool} combined questions &bull; CAT Window: 85–150</div>
-        <div class="unit-meta"><span class="pill">All Units Mixed</span></div>
-      </div>
-      <div class="launch-row">
-        <button class="btn btn-secondary btn-sm start-unit-btn" data-uid="__ALL__" type="button">Start Multi-Unit CAT</button>
-      </div>
-    `;
-    unitsGrid.appendChild(multiCard);
-  }
-
   unitsGrid.querySelectorAll(".start-unit-btn").forEach((btn) => {
-    btn.addEventListener("click", () => openBriefing(btn.dataset.uid));
+    btn.addEventListener("click", async () => {
+      await openBriefing(btn.dataset.uid);
+    });
   });
 
   renderAttemptHistoryTable();
+}
+
+async function handleDropdownUnitSelection(unitId) {
+  state.selectedDropdownUnitId = unitId;
+  const previewEl = document.getElementById("selectedUnitPreview");
+  const launchBtn = document.getElementById("launchBriefingFromSelectBtn");
+
+  if (!unitId) {
+    launchBtn.disabled = true;
+    return;
+  }
+
+  previewEl.innerHTML = `<span class="small-muted">Fetching &amp; validating unit schema...</span>`;
+  launchBtn.disabled = true;
+
+  if (unitId === "__ALL__") {
+    for (const f of state.discoveredGithubFiles) {
+      await ensureUnitLoaded(f.slug);
+    }
+    const allQs = getAllCombinedQuestions();
+    previewEl.innerHTML = `
+      <strong>Selected: Comprehensive Multi-Unit Mock</strong> &bull; ${allQs.length} combined questions across ${Object.keys(state.loadedUnits).length} units &bull;
+      <span style="color:var(--success);font-weight:700;">Ready for 85–150 Q CAT</span>
+    `;
+    launchBtn.disabled = allQs.length < 10;
+    return;
+  }
+
+  const ok = await ensureUnitLoaded(unitId);
+  const unit = state.loadedUnits[unitId];
+  if (!ok || !unit) {
+    previewEl.innerHTML = `<span style="color:var(--danger);font-weight:700;">Could not load unit file. Check network or re-upload the .json file.</span>`;
+    return;
+  }
+
+  const check = validateUnitData(unit);
+  const unitAttempts = state.history.filter((h) => h.unitId === unitId);
+  const mcqCount = unit.questions.filter((q) => q.type === "mcq").length;
+  const sataCount = unit.questions.filter((q) => q.type === "sata").length;
+
+  previewEl.innerHTML = `
+    <strong>${escapeHtml(unit.unitTitle)}</strong> (${unit.questions.length} items: ${mcqCount} MCQ, ${sataCount} SATA) &bull;
+    Past Attempts: <strong>${unitAttempts.length}</strong> &bull;
+    ${
+      check.valid
+        ? `<span style="color:var(--success);font-weight:700;">Schema Validated &amp; Integrated</span>`
+        : `<span style="color:var(--danger);font-weight:700;">Validation Errors: ${escapeHtml(check.errors[0])}</span>`
+    }
+  `;
+  launchBtn.disabled = !check.valid || unit.questions.length < 10;
 }
 
 function renderAttemptHistoryTable() {
@@ -513,7 +796,15 @@ function renderAttemptHistoryTable() {
 }
 
 /* ---------------- PRE-EXAM BRIEFING ---------------- */
-function openBriefing(unitId) {
+async function openBriefing(unitId) {
+  if (unitId === "__ALL__") {
+    for (const f of state.discoveredGithubFiles) {
+      await ensureUnitLoaded(f.slug);
+    }
+  } else {
+    await ensureUnitLoaded(unitId);
+  }
+
   state.briefingUnitId = unitId;
   const isMulti = unitId === "__ALL__";
   const unitTitle = isMulti ? "Comprehensive Multi-Unit Mock" : state.loadedUnits[unitId]?.unitTitle || "Unit";
@@ -522,15 +813,15 @@ function openBriefing(unitId) {
   const check = validateUnitData({ unitTitle, questions });
   document.getElementById("briefTitle").textContent = unitTitle;
   document.getElementById("briefSubtitle").textContent = isMulti
-    ? `Adaptive pool across ${state.catalog.length} units (${questions.length} total items).`
+    ? `Adaptive pool across ${Object.keys(state.loadedUnits).length} units (${questions.length} total items).`
     : `Single-unit NCLEX-RN CAT simulation (${questions.length} items).`;
 
   const vBox = document.getElementById("validationReport");
   vBox.innerHTML = `
     <strong>Pre-Exam Readiness Check:</strong> ${questions.length} items loaded
     (${questions.filter((q) => q.type === "mcq").length} MCQ, ${questions.filter((q) => q.type === "sata").length} SATA).
-    ${check.valid ? `<span style="color:var(--success);font-weight:700;"> &bull; Schema Verified</span>` : `<span style="color:var(--danger);font-weight:700;"> &bull; ${check.errors.join(" ")}</span>`}
-    ${check.warnings.length ? `<div class="small-muted">${check.warnings.join(" ")}</div>` : ""}
+    ${check.valid ? `<span style="color:var(--success);font-weight:700;"> &bull; Schema Verified</span>` : `<span style="color:var(--danger);font-weight:700;"> &bull; ${escapeHtml(check.errors.join(" "))}</span>`}
+    ${check.warnings.length ? `<div class="small-muted">${escapeHtml(check.warnings.join(" "))}</div>` : ""}
   `;
 
   document.getElementById("agreeRulesChk").checked = false;
@@ -604,7 +895,6 @@ function startTimerInterval() {
     state.exam.remainingSeconds = Math.max(0, state.exam.remainingSeconds - 1);
     state.exam.elapsedSeconds += 1;
 
-    // Scheduled break notices (2h = 7200s elapsed, 3.5h = 12600s elapsed; clock never pauses)
     if (!state.break2hShown && state.exam.elapsedSeconds >= 7200) {
       state.break2hShown = true;
       document.getElementById("breakNotice").classList.remove("hidden");
@@ -798,8 +1088,7 @@ function finishExam(overrideDecision = null) {
 /* ---------------- SCORE CARD & REVIEW ---------------- */
 function renderScoreCard(record) {
   document.getElementById("scUnitTitle").textContent = `${record.unitTitle} — Score Card`;
-  document.getElementById("scMetaLine").textContent =
-    `${record.dateLabel} • ${record.ruleTriggered}`;
+  document.getElementById("scMetaLine").textContent = `${record.dateLabel} • ${record.ruleTriggered}`;
 
   const vBadge = document.getElementById("scVerdictBadge");
   vBadge.textContent = record.passed ? "PASS" : "FAIL";
@@ -833,8 +1122,8 @@ function renderScoreCard(record) {
   document.getElementById("reviewAllBtn").onclick = () => renderReviewList(record, false);
   document.getElementById("reviewMissedBtn").onclick = () => renderReviewList(record, true);
   document.getElementById("retakeFromScoreBtn").onclick = () => openBriefing(record.unitId);
-  document.getElementById("backDashFromScoreBtn").onclick = () => {
-    renderDashboard();
+  document.getElementById("backDashFromScoreBtn").onclick = async () => {
+    await renderDashboard();
     showView("dashboardView");
   };
 
@@ -855,13 +1144,11 @@ function drawAbilityChart(thetaHistory) {
   const plotW = w - padL - padR;
   const plotH = h - padT - padB;
 
-  // Map theta [-2.5, +2.5] to y
   const minY = -2.5;
   const maxY = 2.5;
   const toY = (val) => padT + plotH * (1 - (val - minY) / (maxY - minY));
   const passY = toY(PASSING_LOGIT);
 
-  // Passing line (0.00)
   ctx.strokeStyle = "#15803d";
   ctx.setLineDash([6, 4]);
   ctx.beginPath();
@@ -962,11 +1249,15 @@ function renderReviewList(record, missedOnly) {
 let fcDeck = [];
 let fcIndex = 0;
 
-function initFlashcardsTab() {
+async function initFlashcardsTab() {
+  for (const f of state.discoveredGithubFiles) {
+    await ensureUnitLoaded(f.slug);
+  }
+  const entries = getAllCatalogEntries();
   const sel = document.getElementById("fcUnitSelect");
-  sel.innerHTML = state.catalog
-    .map((c) => `<option value="${c.unitId}">${escapeHtml(c.unitTitle)}</option>`)
-    .join("");
+  sel.innerHTML = entries.length
+    ? entries.map((c) => `<option value="${c.unitId}">${escapeHtml(c.unitTitle)}</option>`).join("")
+    : `<option value="">No units loaded yet</option>`;
   buildFlashcardDeck();
 }
 
@@ -991,7 +1282,7 @@ function buildFlashcardDeck() {
 function renderFlashcard() {
   if (!fcDeck.length) {
     document.getElementById("fcCardIndex").textContent = "0 of 0";
-    document.getElementById("fcFrontText").textContent = "No flashcards match this filter.";
+    document.getElementById("fcFrontText").textContent = "Load a unit .json file to study its linked PDF flashcards.";
     document.getElementById("fcBackText").textContent = "";
     return;
   }
@@ -1003,11 +1294,9 @@ function renderFlashcard() {
   document.getElementById("fcBackText").textContent = card.back;
 }
 
-/* ---------------- 4-BATCH UNIT BUILDER ---------------- */
-let mergedCandidateUnit = null;
-
+/* ---------------- TEMPLATE .JSON IMPORTER ---------------- */
 function cleanJsonString(raw) {
-  return raw
+  return String(raw || "")
     .trim()
     .replace(/^```json\s*/i, "")
     .replace(/^```\s*/i, "")
@@ -1015,61 +1304,46 @@ function cleanJsonString(raw) {
     .trim();
 }
 
-function handleValidateAndMerge() {
-  const title = document.getElementById("builderTitle").value.trim() || "New NCLEX Unit";
-  const slug =
-    (document.getElementById("builderId").value.trim() || title)
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, "-")
-      .replace(/^-|-$/g, "") || `unit-${Date.now()}`;
-
-  const boxes = ["batch1Input", "batch2Input", "batch3Input", "batch4Input"];
-  const allQs = [];
-  const reportEl = document.getElementById("builderReport");
+function processAndIntegrateJson(rawText, fallbackName = "Uploaded NCLEX Unit") {
+  const reportEl = document.getElementById("importerReport");
   reportEl.classList.remove("hidden");
 
-  for (let i = 0; i < boxes.length; i++) {
-    const raw = document.getElementById(boxes[i]).value.trim();
-    if (!raw) continue;
-    try {
-      const parsed = JSON.parse(cleanJsonString(raw));
-      const arr = Array.isArray(parsed) ? parsed : parsed.questions;
-      if (!Array.isArray(arr)) {
-        reportEl.innerHTML = `<span style="color:var(--danger)">Batch ${i + 1}: Could not find a "questions" array.</span>`;
-        return;
-      }
-      arr.forEach((q, idx) => {
-        allQs.push({ ...q, id: allQs.length + 1 });
-      });
-    } catch (err) {
-      reportEl.innerHTML = `<span style="color:var(--danger)">Batch ${i + 1} JSON Parse Error: ${escapeHtml(err.message)}</span>`;
-      return;
-    }
-  }
-
-  const candidate = {
-    unitId: slug,
-    unitTitle: title,
-    examTrack: "NCLEX-RN",
-    passingLogit: PASSING_LOGIT,
-    questions: allQs
-  };
-
-  const check = validateUnitData(candidate);
-  if (!check.valid) {
-    mergedCandidateUnit = null;
-    document.getElementById("saveLocalUnitBtn").disabled = true;
-    document.getElementById("downloadUnitJsonBtn").disabled = true;
-    reportEl.innerHTML = `<strong>Validation Failed:</strong><ul>${check.errors.map((e) => `<li>${escapeHtml(e)}</li>`).join("")}</ul>`;
+  let parsed;
+  try {
+    parsed = JSON.parse(cleanJsonString(rawText));
+  } catch (err) {
+    state.lastValidatedNormalizedUnit = null;
+    document.getElementById("downloadNormalizedBtn").disabled = true;
+    reportEl.innerHTML = `<strong style="color:var(--danger)">JSON Syntax Error:</strong> ${escapeHtml(err.message)}`;
     return;
   }
 
-  mergedCandidateUnit = candidate;
-  document.getElementById("saveLocalUnitBtn").disabled = false;
-  document.getElementById("downloadUnitJsonBtn").disabled = false;
+  const normalized = normalizeUnitPayload(parsed, fallbackName);
+  const check = validateUnitData(normalized);
+
+  if (!check.valid) {
+    state.lastValidatedNormalizedUnit = null;
+    document.getElementById("downloadNormalizedBtn").disabled = true;
+    reportEl.innerHTML = `
+      <strong style="color:var(--danger)">Validation Failed (${check.errors.length} issue(s)):</strong>
+      <ul>${check.errors.slice(0, 12).map((e) => `<li>${escapeHtml(e)}</li>`).join("")}</ul>
+    `;
+    return;
+  }
+
+  normalized.source = "Browser Storage";
+  const localUnits = loadLocalUnits();
+  localUnits[normalized.unitId] = normalized;
+  saveLocalUnits(localUnits);
+  state.loadedUnits[normalized.unitId] = normalized;
+  state.selectedDropdownUnitId = normalized.unitId;
+  state.lastValidatedNormalizedUnit = normalized;
+
+  document.getElementById("downloadNormalizedBtn").disabled = false;
   reportEl.innerHTML = `
-    <strong style="color:var(--success)">Merge &amp; Validation Passed!</strong> Total questions: <strong>${allQs.length}</strong>.
-    ${check.warnings.length ? `<div class="small-muted">${check.warnings.join(" ")}</div>` : ""}
+    <strong style="color:var(--success)">Validated &amp; Integrated: "${escapeHtml(normalized.unitTitle)}"</strong>
+    (${normalized.questions.length} items ready in the Pre-Test Unit Dropdown).
+    ${check.warnings.length ? `<div class="small-muted">${escapeHtml(check.warnings.join(" "))}</div>` : ""}
   `;
 }
 
@@ -1086,14 +1360,14 @@ function runQaTests() {
 
   // Test 2: SATA partial credit + floor at 0
   const sampleSata = { type: "sata", difficulty: 4, options: [], correctOptionIds: ["A", "C", "D"] };
-  const partial = scoreQuestion(sampleSata, ["A", "C", "E"]); // 2 - 1 = 1 of 3
-  const floored = scoreQuestion(sampleSata, ["B", "E"]); // -2 floored to 0
+  const partial = scoreQuestion(sampleSata, ["A", "C", "E"]);
+  const floored = scoreQuestion(sampleSata, ["B", "E"]);
   results.push({
     name: "SATA NGN Scoring (2 right - 1 wrong = 1/3; all wrong floored to 0)",
     pass: partial.earned === 1 && partial.max === 3 && floored.earned === 0
   });
 
-  // Test 3: Ability increases on right answer at higher difficulty
+  // Test 3: Ability adaptation
   const upTheta = updateAbilityEstimate(0.0, 4, 1);
   const downTheta = updateAbilityEstimate(0.0, 2, 0);
   results.push({
@@ -1113,14 +1387,40 @@ function runQaTests() {
     pass: rootEarly.shouldStop && rootEarly.passed === false
   });
 
-  // Test 5: Unit validator catches missing flashcard
-  const badUnit = validateUnitData({
-    unitTitle: "Broken Unit",
-    questions: [{ stem: "Test?", type: "mcq", difficulty: 3, options: [1, 2, 3, 4], correctOptionIds: ["A"] }]
-  });
+  // Test 5: 1-Shot Compact JSON Auto-Expander (Workaround A)
+  const compactSample = {
+    u: "Test Electrolytes",
+    q: [
+      {
+        i: 1,
+        t: "s",
+        d: 4,
+        c: 8,
+        j: 1,
+        st: "Which signs indicate hypocalcemia? Select all that apply.",
+        ex: null,
+        o: [
+          ["A", "Trousseau sign", "Correct."],
+          ["B", "Chvostek sign", "Correct."],
+          ["C", "Constipation", "Incorrect."],
+          ["D", "Lethargy", "Incorrect."],
+          ["E", "Hyporeflexia", "Incorrect."]
+        ],
+        a: ["A", "B"],
+        obj: "Hypocalcemia increases neuromuscular excitability.",
+        fc: ["Hypocalcemia Signs", "Positive Trousseau | Positive Chvostek", "Section 2"]
+      }
+    ]
+  };
+  const expanded = normalizeUnitPayload(compactSample);
+  const checkExpanded = validateUnitData(expanded);
   results.push({
-    name: "Unit Schema Validator Catches Missing Flashcard",
-    pass: !badUnit.valid
+    name: "Compact JSON Auto-Expander & Schema Validator",
+    pass:
+      checkExpanded.valid &&
+      expanded.questions[0].type === "sata" &&
+      expanded.questions[0].clientNeedsCategory === "Physiological Adaptation" &&
+      expanded.questions[0].flashcard.back.includes("• Positive Trousseau")
   });
 
   document.getElementById("qaResultsList").innerHTML = results
@@ -1176,7 +1476,6 @@ function openUtilityModal(mode) {
       if (k === "C") screen.value = "0";
       else if (k === "=") {
         try {
-          // Safe arithmetic characters only
           if (/^[0-9+\-*/.() ]+$/.test(screen.value)) {
             screen.value = String(Function(`"use strict";return (${screen.value})`)());
           }
@@ -1214,24 +1513,39 @@ function bindEvents() {
   });
 
   document.querySelectorAll(".nav-btn").forEach((btn) => {
-    btn.addEventListener("click", () => {
+    btn.addEventListener("click", async () => {
       const v = btn.dataset.view;
       if (v === "dashboard") {
-        renderDashboard();
+        await renderDashboard();
         showView("dashboardView");
+      } else if (v === "importer") {
+        showView("importerView");
       } else if (v === "flashcards") {
-        initFlashcardsTab();
+        await initFlashcardsTab();
         showView("flashcardsView");
-      } else if (v === "builder") {
-        showView("builderView");
       } else if (v === "qa") {
         showView("qaView");
       }
     });
   });
 
-  document.getElementById("backToDashBtn").addEventListener("click", () => {
-    renderDashboard();
+  // Pre-Test Unit Selector Dropdown events
+  document.getElementById("preTestUnitSelect").addEventListener("change", async (e) => {
+    await handleDropdownUnitSelection(e.target.value);
+  });
+
+  document.getElementById("launchBriefingFromSelectBtn").addEventListener("click", async () => {
+    const uid = document.getElementById("preTestUnitSelect").value;
+    if (uid) await openBriefing(uid);
+  });
+
+  document.getElementById("refreshGithubBtn").addEventListener("click", async () => {
+    await discoverGithubDataFolder(true);
+    await renderDashboard();
+  });
+
+  document.getElementById("backToDashBtn").addEventListener("click", async () => {
+    await renderDashboard();
     showView("dashboardView");
   });
 
@@ -1294,7 +1608,7 @@ function bindEvents() {
     }
   });
 
-  // Stem highlighter & strikethrough tools
+  // Stem highlighter
   document.getElementById("toolHighlightBtn").addEventListener("click", () => {
     state.highlightActive = !state.highlightActive;
     document.getElementById("toolHighlightBtn").classList.toggle("active", state.highlightActive);
@@ -1336,7 +1650,6 @@ function bindEvents() {
     document.getElementById("utilityModal").classList.add("hidden");
   });
 
-  // Tab switch / focus loss detection during active exam
   document.addEventListener("visibilitychange", () => {
     if (document.hidden && state.exam) {
       state.exam.focusWarnings += 1;
@@ -1348,7 +1661,10 @@ function bindEvents() {
   });
 
   // Flashcard controls
-  document.getElementById("fcUnitSelect").addEventListener("change", buildFlashcardDeck);
+  document.getElementById("fcUnitSelect").addEventListener("change", async (e) => {
+    await ensureUnitLoaded(e.target.value);
+    buildFlashcardDeck();
+  });
   document.getElementById("fcFilterSelect").addEventListener("change", buildFlashcardDeck);
   document.getElementById("flashcardBox").addEventListener("click", () => {
     document.getElementById("flashcardBox").classList.toggle("flipped");
@@ -1369,32 +1685,59 @@ function bindEvents() {
     renderFlashcard();
   });
 
-  // Builder controls
-  document.getElementById("validateMergeBtn").addEventListener("click", handleValidateAndMerge);
-  document.getElementById("saveLocalUnitBtn").addEventListener("click", () => {
-    if (!mergedCandidateUnit) return;
-    const localUnits = loadLocalUnits();
-    localUnits[mergedCandidateUnit.unitId] = mergedCandidateUnit;
-    saveLocalUnits(localUnits);
-    state.loadedUnits[mergedCandidateUnit.unitId] = mergedCandidateUnit;
-    state.catalog = Object.values(state.loadedUnits).map((u) => ({
-      unitId: u.unitId,
-      unitTitle: u.unitTitle,
-      questionCount: (u.questions || []).length
-    }));
-    renderDashboard();
-    showView("dashboardView");
+  // .json Importer (Dropzone + File Picker + Raw Paste)
+  const dropZone = document.getElementById("jsonFileDropZone");
+  const fileInp = document.getElementById("jsonFileInput");
+
+  dropZone.addEventListener("click", () => fileInp.click());
+  dropZone.addEventListener("dragover", (e) => {
+    e.preventDefault();
+    dropZone.classList.add("dragover");
+  });
+  dropZone.addEventListener("dragleave", () => dropZone.classList.remove("dragover"));
+  dropZone.addEventListener("drop", (e) => {
+    e.preventDefault();
+    dropZone.classList.remove("dragover");
+    const file = e.dataTransfer.files[0];
+    if (file) readUploadedJsonFile(file);
+  });
+  fileInp.addEventListener("change", (e) => {
+    const file = e.target.files[0];
+    if (file) readUploadedJsonFile(file);
   });
 
-  document.getElementById("downloadUnitJsonBtn").addEventListener("click", () => {
-    if (!mergedCandidateUnit) return;
-    const blob = new Blob([JSON.stringify(mergedCandidateUnit, null, 2)], { type: "application/json" });
+  function readUploadedJsonFile(file) {
+    const reader = new FileReader();
+    reader.onload = () => {
+      document.getElementById("rawJsonPasteInput").value = reader.result;
+      processAndIntegrateJson(reader.result, titleFromFilename(file.name));
+    };
+    reader.readAsText(file);
+  }
+
+  document.getElementById("validateIntegrateBtn").addEventListener("click", () => {
+    const raw = document.getElementById("rawJsonPasteInput").value;
+    processAndIntegrateJson(raw);
+  });
+
+  document.getElementById("downloadNormalizedBtn").addEventListener("click", () => {
+    if (!state.lastValidatedNormalizedUnit) return;
+    const blob = new Blob([JSON.stringify(state.lastValidatedNormalizedUnit, null, 2)], {
+      type: "application/json"
+    });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = `${mergedCandidateUnit.unitId}.json`;
+    a.download = `${state.lastValidatedNormalizedUnit.unitId}.json`;
     a.click();
     URL.revokeObjectURL(url);
+  });
+
+  document.getElementById("saveRepoOverrideBtn").addEventListener("click", async () => {
+    const val = document.getElementById("repoOverrideInput").value.trim();
+    localStorage.setItem(STORAGE_KEYS.GH_REPO_OVERRIDE, val);
+    await discoverGithubDataFolder(true);
+    await renderDashboard();
   });
 
   // Backup & Restore progress
@@ -1412,13 +1755,13 @@ function bindEvents() {
     const file = e.target.files[0];
     if (!file) return;
     const reader = new FileReader();
-    reader.onload = () => {
+    reader.onload = async () => {
       try {
         const parsed = JSON.parse(reader.result);
         if (Array.isArray(parsed)) {
           state.history = parsed;
           saveHistory();
-          renderDashboard();
+          await renderDashboard();
         }
       } catch {
         alert("Invalid backup JSON file.");
@@ -1427,34 +1770,18 @@ function bindEvents() {
     reader.readAsText(file);
   });
 
-  // QA controls
   document.getElementById("runQaBtn").addEventListener("click", runQaTests);
-  document.getElementById("seedSampleAttemptBtn").addEventListener("click", () => {
-    const demo = {
-      id: `demo_${Date.now()}`,
-      dateLabel: new Date().toLocaleString(),
-      unitId: "fluids-electrolytes",
-      unitTitle: "Fluids & Electrolytes",
-      passed: true,
-      ruleTriggered: "95% Confidence Interval Rule — Clearly Above Passing Standard at Q86",
-      theta: 0.34,
-      thetaHistory: [0, 0.22, 0.38, 0.19, 0.34],
-      elapsedSeconds: 5120,
-      totalAllocatedSeconds: 18000,
-      focusWarnings: 0,
-      responses: []
-    };
-    state.history.unshift(demo);
-    saveHistory();
-    renderDashboard();
-  });
-
   document.getElementById("printScoreBtn").addEventListener("click", () => window.print());
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
+  state.history = loadHistory();
   bindEvents();
-  await initCatalog();
+
+  const savedOverride = localStorage.getItem(STORAGE_KEYS.GH_REPO_OVERRIDE) || "";
+  if (savedOverride) document.getElementById("repoOverrideInput").value = savedOverride;
+
+  await discoverGithubDataFolder(false);
 
   try {
     const savedSess = JSON.parse(localStorage.getItem(STORAGE_KEYS.SESSION) || "{}");
