@@ -1,0 +1,4584 @@
+{
+  "u": "Chapter 8: Fluids and Electrolytes",
+  "cov": {
+    "totalPdfTopics": 15,
+    "coveredPdfTopics": 15,
+    "coveragePercent": 100,
+    "unmappedTopics": [],
+    "topicBreakdown": [
+      {
+        "topic": "I.A-D. Electrolytes, Compartments, Third-Spacing, and Edema",
+        "questionIds": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "questionCount": 6,
+        "targetWeightPct": 6
+      },
+      {
+        "topic": "I.E-G. Body Fluid Composition, Transport, Osmolality, and Active Transport",
+        "questionIds": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "questionCount": 6,
+        "targetWeightPct": 6
+      },
+      {
+        "topic": "I.H-II. Body Fluid Intake and Output and Maintaining Homeostasis",
+        "questionIds": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "questionCount": 4,
+        "targetWeightPct": 4
+      },
+      {
+        "topic": "III. Fluid Volume Deficit",
+        "questionIds": [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "questionCount": 8,
+        "targetWeightPct": 8
+      },
+      {
+        "topic": "IV. Fluid Volume Excess",
+        "questionIds": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "questionCount": 8,
+        "targetWeightPct": 8
+      },
+      {
+        "topic": "V. Hypokalemia",
+        "questionIds": [
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "questionCount": 11,
+        "targetWeightPct": 11
+      },
+      {
+        "topic": "VI. Hyperkalemia",
+        "questionIds": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53
+        ],
+        "questionCount": 10,
+        "targetWeightPct": 10
+      },
+      {
+        "topic": "VII. Hyponatremia",
+        "questionIds": [
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61
+        ],
+        "questionCount": 8,
+        "targetWeightPct": 8
+      },
+      {
+        "topic": "VIII. Hypernatremia",
+        "questionIds": [
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68
+        ],
+        "questionCount": 7,
+        "targetWeightPct": 7
+      },
+      {
+        "topic": "IX. Hypocalcemia",
+        "questionIds": [
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77
+        ],
+        "questionCount": 9,
+        "targetWeightPct": 9
+      },
+      {
+        "topic": "X. Hypercalcemia",
+        "questionIds": [
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84
+        ],
+        "questionCount": 7,
+        "targetWeightPct": 7
+      },
+      {
+        "topic": "XI. Hypomagnesemia",
+        "questionIds": [
+          85,
+          86,
+          87,
+          88,
+          89,
+          90
+        ],
+        "questionCount": 6,
+        "targetWeightPct": 6
+      },
+      {
+        "topic": "XII. Hypermagnesemia",
+        "questionIds": [
+          91,
+          92,
+          93,
+          94
+        ],
+        "questionCount": 4,
+        "targetWeightPct": 4
+      },
+      {
+        "topic": "XIII. Hypophosphatemia",
+        "questionIds": [
+          95,
+          96,
+          97
+        ],
+        "questionCount": 3,
+        "targetWeightPct": 3
+      },
+      {
+        "topic": "XIV. Hyperphosphatemia",
+        "questionIds": [
+          98,
+          99,
+          100
+        ],
+        "questionCount": 3,
+        "targetWeightPct": 3
+      }
+    ]
+  },
+  "q": [
+    {
+      "i": 1,
+      "t": "m",
+      "d": 1,
+      "c": 8,
+      "j": 1,
+      "sub": "I.A-D. Electrolytes, Compartments, Third-Spacing, and Edema",
+      "st": "A nursing student is reviewing basic electrolyte chemistry from Chapter 8 before clinical rounds. Which statement accurately describes a cation?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "An atom that has gained electrons and carries a negative electrical charge",
+          "An atom gaining electrons becomes a negatively charged anion rather than a cation."
+        ],
+        [
+          "B",
+          "An ion that has lost electrons and carries a positive electrical charge",
+          "Losing negatively charged electrons leaves more protons than electrons, creating a positive cation."
+        ],
+        [
+          "C",
+          "An uncharged particle located inside the central nucleus of an element",
+          "A neutron is an uncharged nuclear particle, whereas a cation is positively charged."
+        ],
+        [
+          "D",
+          "Two or more atoms combined together that do not dissociate in water",
+          "Two or more combined atoms form a molecule, which may or may not ionize."
+        ]
+      ],
+      "a": [
+        "B"
+      ],
+      "obj": "A cation is an ion that loses electrons and carries a positive electrical charge.",
+      "fc": [
+        "Cation vs. Anion (Box 8.1)",
+        "Cation: loses electrons, carries positive charge (+) | Anion: gains electrons, carries negative charge (-) | 1 mEq of any cation reacts with 1 mEq of an anion",
+        "I.A-D. Electrolytes, Compartments, Third-Spacing, and Edema"
+      ]
+    },
+    {
+      "i": 2,
+      "t": "m",
+      "d": 1,
+      "c": 8,
+      "j": 2,
+      "sub": "I.A-D. Electrolytes, Compartments, Third-Spacing, and Edema",
+      "st": "The nurse reviews laboratory principles regarding electrolyte combining activity in human body fluids. How many milliequivalents (mEq) of an anion are required to react chemically with 1 mEq of a cation?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "0.5 mEq of an anion",
+          "Half a milliequivalent leaves unpaired positive charges and violates chemical electroneutrality in fluids."
+        ],
+        [
+          "B",
+          "1.0 mEq of an anion",
+          "One milliequivalent of any cation always reacts chemically with exactly 1 mEq of anion."
+        ],
+        [
+          "C",
+          "2.0 mEq of an anion",
+          "Two milliequivalents of an anion would create excess negative charge and disrupt homeostasis."
+        ],
+        [
+          "D",
+          "10.0 mEq of an anion",
+          "Milliequivalents measure combining power on a one-to-one basis rather than a ten-to-one ratio."
+        ]
+      ],
+      "a": [
+        "B"
+      ],
+      "obj": "One milliequivalent of any cation always reacts chemically with 1 mEq of an anion.",
+      "fc": [
+        "Milliequivalent Combining Activity",
+        "mEq expresses chemical combining activity of electrolytes | 1 mEq cation always reacts with 1 mEq anion | Total cations equal total anions for homeostasis",
+        "I.A-D. Electrolytes, Compartments, Third-Spacing, and Edema"
+      ]
+    },
+    {
+      "i": 3,
+      "t": "m",
+      "d": 1,
+      "c": 8,
+      "j": 1,
+      "sub": "I.A-D. Electrolytes, Compartments, Third-Spacing, and Edema",
+      "st": "According to normal adult body fluid distribution, which compartment contains the largest percentage of total body fluid?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Intracellular compartment",
+          "The intracellular compartment holds 70% of adult body fluid, representing the largest reservoir."
+        ],
+        [
+          "B",
+          "Interstitial compartment",
+          "Interstitial fluid accounts for 22% of adult body fluid within the extracellular compartment."
+        ],
+        [
+          "C",
+          "Intravascular compartment",
+          "Intravascular plasma inside blood vessels accounts for only 6% of total adult fluid."
+        ],
+        [
+          "D",
+          "Transcellular compartment",
+          "Transcellular fluid in cerebrospinal, synovial, ocular, and lymphatic spaces represents only 2%."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "In the average adult, intracellular fluid accounts for 70% of total body fluid and extracellular fluid accounts for 30%.",
+      "fc": [
+        "Adult Body Fluid Compartments (Fig. 8.1)",
+        "Intracellular fluid (ICF): 70% | Extracellular fluid (ECF): 30% total | ECF breakdown: Interstitial 22%, Intravascular 6%, Transcellular 2%",
+        "I.A-D. Electrolytes, Compartments, Third-Spacing, and Edema"
+      ]
+    },
+    {
+      "i": 4,
+      "t": "s",
+      "d": 2,
+      "c": 8,
+      "j": 1,
+      "sub": "I.A-D. Electrolytes, Compartments, Third-Spacing, and Edema",
+      "st": "The nurse is teaching a newly licensed nurse about the components of the extracellular fluid compartment. Which fluids are classified as part of the transcellular fluid subcompartment? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Cerebrospinal fluid",
+          "Fluid within the cerebrospinal canals is a classic component of the 2% transcellular compartment."
+        ],
+        [
+          "B",
+          "Intravascular plasma",
+          "Intravascular plasma circulates inside blood vessels and comprises its own 6% extracellular subcompartment."
+        ],
+        [
+          "C",
+          "Synovial joint fluid",
+          "Fluid lubricating synovial joints is categorized under the specialized transcellular extracellular fluid subcompartment."
+        ],
+        [
+          "D",
+          "Intraocular eye fluid",
+          "Fluid inside the eye is included among the specialized transcellular fluids of the body."
+        ],
+        [
+          "E",
+          "Intracellular cytoplasm",
+          "Intracellular fluid resides inside body cells and makes up 70% of total fluid."
+        ]
+      ],
+      "a": [
+        "A",
+        "C",
+        "D"
+      ],
+      "obj": "Transcellular fluid accounts for 2% of body fluid and includes cerebrospinal, lymphatic, synovial, and ocular fluids.",
+      "fc": [
+        "Transcellular Fluid Examples (Fig. 8.1)",
+        "Accounts for 2% of adult total body fluid | Includes cerebrospinal canals and lymphatic tissues | Includes synovial joints and fluid of the eye",
+        "I.A-D. Electrolytes, Compartments, Third-Spacing, and Edema"
+      ]
+    },
+    {
+      "i": 5,
+      "t": "m",
+      "d": 5,
+      "c": 7,
+      "j": 2,
+      "sub": "I.A-D. Electrolytes, Compartments, Third-Spacing, and Edema",
+      "st": "A client who sustained extensive abdominal burns 12 hours ago has stable daily weight and balanced intake and output records, yet develops tachycardia and oliguria. Which pathophysiological process explains these findings?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Third-spacing of extracellular fluid into burned soft tissues",
+          "Trapped third-space fluid causes intravascular hypovolemia without altering total weight or recorded output."
+        ],
+        [
+          "B",
+          "Excessive antidiuretic hormone suppression by the pituitary gland",
+          "Suppressed antidiuretic hormone causes polyuria rather than oliguria and tachycardia following major burns."
+        ],
+        [
+          "C",
+          "Increased venous hydrostatic pressure drawing interstitial fluid into capillaries",
+          "Burn injury increases capillary permeability and shifts fluid out of vessels into tissues."
+        ],
+        [
+          "D",
+          "Rapid cellular uptake of non-dissociating solutes such as urea and creatinine",
+          "Urea and creatinine do not dissociate in solution and do not sequester intravascular volume."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Third-spacing traps extracellular fluid in body spaces, causing intravascular hypovolemia that may not alter weight or intake and output records.",
+      "fc": [
+        "Third-Spacing Assessment",
+        "Trapped ECF in pleural, peritoneal, bowel, or burned soft tissues | Unavailable for physiological circulation | May not show on weight or I&O until organ malfunction",
+        "I.A-D. Electrolytes, Compartments, Third-Spacing, and Edema"
+      ]
+    },
+    {
+      "i": 6,
+      "t": "s",
+      "d": 2,
+      "c": 8,
+      "j": 2,
+      "sub": "I.A-D. Electrolytes, Compartments, Third-Spacing, and Edema",
+      "st": "A client with end-stage liver failure and heart failure presents with severe generalized edema. Which clinical characteristics describe generalized edema (anasarca)? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Excessive accumulation of fluid in the interstitial space throughout the body",
+          "Anasarca represents widespread interstitial fluid accumulation distributed throughout the body rather than focal sites."
+        ],
+        [
+          "B",
+          "Associated with underlying cardiac, renal, or liver failure",
+          "Systemic organ dysfunction in cardiac, renal, or liver failure commonly precipitates generalized anasarca."
+        ],
+        [
+          "C",
+          "Driven by alterations in oncotic pressure, hydrostatic pressure, capillary permeability, or lymphatics",
+          "Disruptions in capillary filtration forces or lymphatic drainage cause excess fluid to accumulate interstitially."
+        ],
+        [
+          "D",
+          "Occurs exclusively after minor localized skin abrasions",
+          "Minor local injuries produce localized inflammatory edema rather than widespread systemic interstitial anasarca."
+        ],
+        [
+          "E",
+          "Reflects isolated intracellular dehydration without interstitial fluid expansion",
+          "Edema involves excess fluid in the extracellular interstitial space rather than intracellular dehydration."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Generalized edema, or anasarca, is widespread interstitial fluid accumulation caused by cardiac, renal, or liver failure.",
+      "fc": [
+        "Edema Classifications",
+        "Localized edema: trauma, surgery, local inflammation, or burns | Generalized edema (anasarca): widespread interstitial accumulation | Anasarca causes: cardiac, renal, or liver failure",
+        "I.A-D. Electrolytes, Compartments, Third-Spacing, and Edema"
+      ]
+    },
+    {
+      "i": 7,
+      "t": "m",
+      "d": 1,
+      "c": 3,
+      "j": 1,
+      "sub": "I.E-G. Body Fluid Composition, Transport, Osmolality, and Active Transport",
+      "st": "The nurse is conducting a community health seminar on hydration across the lifespan. Which client population has the lowest proportion of total body water and requires close monitoring for fluid imbalances?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Older adults",
+          "Older adults have only 55% total body water, leaving minimal reserve against losses."
+        ],
+        [
+          "B",
+          "Healthy middle-aged adults",
+          "Healthy adults have approximately 60% total body water and greater reserve than elders."
+        ],
+        [
+          "C",
+          "Full-term newborn infants",
+          "Infants have 80% total body water, which is the highest proportion among age groups."
+        ],
+        [
+          "D",
+          "Adolescent athletes",
+          "Adolescents approximate the adult 60% body water proportion rather than the 55% level."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Total body fluid comprises 80% of body weight in infants, 60% in adults, and 55% in older adults.",
+      "fc": [
+        "Total Body Water Across Lifespan",
+        "Infant: 80% of body weight | Adult: 60% of body weight | Older adult: 55% of body weight (least proportion; high imbalance risk)",
+        "I.E-G. Body Fluid Composition, Transport, Osmolality, and Active Transport"
+      ]
+    },
+    {
+      "i": 8,
+      "t": "s",
+      "d": 1,
+      "c": 8,
+      "j": 1,
+      "sub": "I.E-G. Body Fluid Composition, Transport, Osmolality, and Active Transport",
+      "st": "The nurse is reviewing laboratory constituents of body fluids with a newly hired graduate nurse. Which substances remain intact and do NOT dissociate into ions when dissolved in body water? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Glucose",
+          "Glucose is a non-electrolyte molecule that remains intact without dissociating into charged ions."
+        ],
+        [
+          "B",
+          "Sodium chloride",
+          "Sodium chloride is an electrolyte that dissociates into positive sodium and negative chloride ions."
+        ],
+        [
+          "C",
+          "Urea",
+          "Urea remains dissolved as an intact non-dissociating molecule rather than separating into ions."
+        ],
+        [
+          "D",
+          "Creatinine",
+          "Creatinine does not ionize or split into simpler charged particles when dissolved in fluids."
+        ],
+        [
+          "E",
+          "Potassium chloride",
+          "Potassium chloride is an electrolyte salt that ionizes into potassium cations and chloride anions."
+        ]
+      ],
+      "a": [
+        "A",
+        "C",
+        "D"
+      ],
+      "obj": "Non-electrolytes such as glucose, urea, and creatinine do not dissociate into ions when dissolved in body fluids.",
+      "fc": [
+        "Body Fluid Constituents",
+        "Water is the largest single fluid constituent | Non-dissociating solutes: glucose, urea, creatinine | Dissociating solutes (electrolytes): sodium chloride, potassium",
+        "I.E-G. Body Fluid Composition, Transport, Osmolality, and Active Transport"
+      ]
+    },
+    {
+      "i": 9,
+      "t": "m",
+      "d": 1,
+      "c": 8,
+      "j": 2,
+      "sub": "I.E-G. Body Fluid Composition, Transport, Osmolality, and Active Transport",
+      "st": "When intravenous 0.45% sodium chloride is infused into a client with cellular dehydration, water moves from the intravascular space into the intracellular space. Which transport process drives this water movement?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Osmosis",
+          "Osmosis pulls water across a selectively permeable membrane from lower to higher solute concentration."
+        ],
+        [
+          "B",
+          "Filtration",
+          "Filtration moves both water and solutes via hydrostatic pressure from higher to lower pressure."
+        ],
+        [
+          "C",
+          "Active transport",
+          "Active transport requires cellular metabolic energy to pump solutes against a concentration gradient."
+        ],
+        [
+          "D",
+          "Simple diffusion",
+          "Diffusion describes the passive spread of dissolved solute particles rather than bulk solvent."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Osmosis is the passive movement of solvent across a selectively permeable membrane from lower to higher solute concentration.",
+      "fc": [
+        "Osmosis vs. Diffusion vs. Filtration",
+        "Osmosis: water moves from lower to higher solute concentration | Diffusion: solute spreads from higher to lower concentration | Filtration: hydrostatic pressure pushes fluid and solutes",
+        "I.E-G. Body Fluid Composition, Transport, Osmolality, and Active Transport"
+      ]
+    },
+    {
+      "i": 10,
+      "t": "m",
+      "d": 3,
+      "c": 8,
+      "j": 2,
+      "sub": "I.E-G. Body Fluid Composition, Transport, Osmolality, and Active Transport",
+      "st": "The nurse is explaining capillary fluid dynamics to a client with peripheral edema. What normally occurs at the venous end of a systemic capillary bed?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Osmotic pressure exceeds hydrostatic pressure, drawing fluid back into the capillary",
+          "At the venous end, higher osmotic pull draws interstitial fluid and solutes into capillaries."
+        ],
+        [
+          "B",
+          "Hydrostatic pressure exceeds osmotic pressure, pushing fluid into the interstitial space",
+          "Higher hydrostatic pressure drives fluid out of the capillary at the arterial end."
+        ],
+        [
+          "C",
+          "Active transport pumps plasma proteins out of the capillary into lymph channels",
+          "Lymph channels passively return excess interstitial fluid and solutes without active protein pumping."
+        ],
+        [
+          "D",
+          "Equal hydrostatic and osmotic pressures completely halt all fluid exchange across the membrane",
+          "Fluid continuously enters the venous capillary due to the predominance of plasma osmotic pressure."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "At the arterial capillary end hydrostatic pressure pushes fluid out, whereas at the venous end osmotic pressure pulls fluid in.",
+      "fc": [
+        "Capillary Hydrostatic vs. Osmotic Pressure",
+        "Arterial end: hydrostatic > osmotic pressure (fluid moves out) | Venous end: osmotic > hydrostatic pressure (fluid moves in) | Lymph channels return remaining interstitial fluid",
+        "I.E-G. Body Fluid Composition, Transport, Osmolality, and Active Transport"
+      ]
+    },
+    {
+      "i": 11,
+      "t": "m",
+      "d": 1,
+      "c": 7,
+      "j": 1,
+      "sub": "I.E-G. Body Fluid Composition, Transport, Osmolality, and Active Transport",
+      "st": "The nurse reviews a client's morning serum osmolality result of 285 mOsm/kg (285 mmol/kg). How should the nurse interpret this laboratory value?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Within the normal adult reference range of 275 to 295 mOsm/kg",
+          "Normal plasma osmolality is 275 to 295 mOsm/kg, indicating balanced solute-to-water concentration."
+        ],
+        [
+          "B",
+          "Critically elevated, indicating severe hypertonic dehydration",
+          "Values above 295 mOsm/kg indicate hyperosmolality and fluid volume deficit rather than normal hydration."
+        ],
+        [
+          "C",
+          "Abnormally low, indicating hypotonic water intoxication",
+          "Values below 275 mOsm/kg reflect hypo-osmolality and fluid volume excess rather than normal status."
+        ],
+        [
+          "D",
+          "Invalid unless measured simultaneously with a 24-hour urine creatinine",
+          "Serum osmolality is directly interpreted against the 275 to 295 mOsm/kg reference range."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "The normal plasma osmolality range is 275 to 295 mOsm/kg (275 to 295 mmol/kg).",
+      "fc": [
+        "Normal Serum Osmolality",
+        "Measures osmotically active particles per kg of water | Normal plasma osmolality: 275 to 295 mOsm/kg | Elevated in dehydration; decreased in fluid overload",
+        "I.E-G. Body Fluid Composition, Transport, Osmolality, and Active Transport"
+      ]
+    },
+    {
+      "i": 12,
+      "t": "s",
+      "d": 2,
+      "c": 8,
+      "j": 1,
+      "sub": "I.E-G. Body Fluid Composition, Transport, Osmolality, and Active Transport",
+      "st": "A client's cells must move specific substances from an area of lower concentration to an area of higher concentration using cellular metabolic energy. Which substances rely on active transport across cell membranes? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Sodium ions",
+          "Sodium ions are actively pumped out of cells against concentration gradients using metabolic energy."
+        ],
+        [
+          "B",
+          "Potassium ions",
+          "Potassium ions are actively transported into cells against concentration gradients to maintain excitability."
+        ],
+        [
+          "C",
+          "Calcium and iron ions",
+          "Both calcium and iron ions require active transport mechanisms to cross cellular membranes."
+        ],
+        [
+          "D",
+          "Albumin plasma proteins",
+          "Large plasma proteins remain inside capillaries for oncotic pressure rather than crossing cell membranes."
+        ],
+        [
+          "E",
+          "Free distilled water molecules",
+          "Water molecules move passively across semipermeable membranes via osmosis rather than active transport."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Active transport uses cellular metabolic energy to move sodium, potassium, calcium, iron, hydrogen, sugars, and amino acids against gradients.",
+      "fc": [
+        "Active Transport Substances",
+        "Moves solutes from lower to higher concentration using metabolic energy | Actively transported ions: sodium, potassium, calcium, iron, hydrogen | Other active solutes: some sugars and amino acids",
+        "I.E-G. Body Fluid Composition, Transport, Osmolality, and Active Transport"
+      ]
+    },
+    {
+      "i": 13,
+      "t": "m",
+      "d": 2,
+      "c": 8,
+      "j": 2,
+      "sub": "I.H-II. Body Fluid Intake and Output and Maintaining Homeostasis",
+      "st": "The nurse is calculating daily fluid intake for a client receiving enteral nutrition providing 2,000 calories per day. Approximately how much water is generated internally through metabolic oxidation of these nutrients?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "200 mL",
+          "Metabolism releases roughly 10 mL of water per 100 calories, yielding 200 mL."
+        ],
+        [
+          "B",
+          "50 mL",
+          "Fifty milliliters underestimates metabolic oxidation, which produces 10 mL of water per 100 calories."
+        ],
+        [
+          "C",
+          "500 mL",
+          "Five hundred milliliters exceeds normal daily metabolic water production of approximately 300 mL."
+        ],
+        [
+          "D",
+          "1,000 mL",
+          "One thousand milliliters reflects typical ingested food moisture rather than endogenous metabolic oxidation water."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Metabolic oxidation of food releases about 10 mL of water per 100 calories, totaling approximately 300 mL daily.",
+      "fc": [
+        "Daily Fluid Intake Sources (Fig. 8.2)",
+        "Ingested water: 1200-1500 mL | Ingested food: 800-1100 mL | Metabolic oxidation: 300 mL (~10 mL per 100 kcal); Total: 2300-2900 mL",
+        "I.H-II. Body Fluid Intake and Output and Maintaining Homeostasis"
+      ]
+    },
+    {
+      "i": 14,
+      "t": "m",
+      "d": 1,
+      "c": 7,
+      "j": 1,
+      "sub": "I.H-II. Body Fluid Intake and Output and Maintaining Homeostasis",
+      "st": "The nurse reviews a provider's progress note documenting 'insensible fluid loss of approximately 1,100 mL over 24 hours' in a febrile, tachypneic client. Through which routes does insensible fluid loss occur?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Skin perspiration and water vapor expired from the lungs",
+          "Insensible fluid loss occurs unnoticeably through skin evaporation and expired lung water vapor."
+        ],
+        [
+          "B",
+          "Renal urine output and liquid stool elimination",
+          "Urine (1500 mL) and gastrointestinal stool (100 mL) represent measurable sensible fluid outputs."
+        ],
+        [
+          "C",
+          "Surgical wound drains and nasogastric tube suction",
+          "Wound drainage and nasogastric suction are quantifiable sensible losses rather than insensible losses."
+        ],
+        [
+          "D",
+          "Third-space peritoneal ascites and pleural effusions",
+          "Third-spacing is internal extracellular fluid sequestration rather than insensible evaporative fluid excretion."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Insensible fluid loss occurs daily without awareness through the skin (600-800 mL) and lungs (400-600 mL).",
+      "fc": [
+        "Daily Fluid Output & Insensible Loss (Fig. 8.2)",
+        "Kidneys: 1500 mL; GI tract: 100 mL | Insensible skin loss: 600-800 mL (increases with fever) | Insensible lung loss: 400-600 mL (increases with tachypnea)",
+        "I.H-II. Body Fluid Intake and Output and Maintaining Homeostasis"
+      ]
+    },
+    {
+      "i": 15,
+      "t": "m",
+      "d": 2,
+      "c": 7,
+      "j": 2,
+      "sub": "I.H-II. Body Fluid Intake and Output and Maintaining Homeostasis",
+      "st": "A client admitted with severe acute diarrhea asks why the nursing staff is checking serum electrolytes and vital signs every 4 hours. Which physiological rationale guides the nurse's response?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Large volumes of electrolyte-rich fluid secreted into the bowel are lost instead of reabsorbed",
+          "Normally almost all secreted gastrointestinal fluid is reabsorbed, so diarrhea causes rapid depletion."
+        ],
+        [
+          "B",
+          "Diarrhea stimulates excessive pituitary antidiuretic hormone release that causes acute water intoxication",
+          "Severe diarrhea depletes extracellular water and electrolytes rather than causing water overload."
+        ],
+        [
+          "C",
+          "The gastrointestinal tract normally excretes 1,500 mL of water daily that increases during illness",
+          "The gastrointestinal tract normally excretes only 100 mL daily while kidneys excrete 1,500 mL."
+        ],
+        [
+          "D",
+          "Diarrhea prevents metabolic oxidation of carbohydrates and eliminates endogenous water production",
+          "Diarrhea causes direct gastrointestinal fluid and electrolyte loss rather than halting cellular metabolism."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Because large volumes of electrolyte-containing fluid are secreted into the gastrointestinal tract, severe diarrhea causes rapid fluid and electrolyte loss.",
+      "fc": [
+        "Gastrointestinal Fluid Balance & Diarrhea Alert",
+        "Large volumes of electrolyte fluid enter GI tract and are normally reabsorbed | Normal GI stool output is only 100 mL/day | Severe diarrhea places client at high risk for fluid/electrolyte imbalance",
+        "I.H-II. Body Fluid Intake and Output and Maintaining Homeostasis"
+      ]
+    },
+    {
+      "i": 16,
+      "t": "s",
+      "d": 3,
+      "c": 8,
+      "j": 2,
+      "sub": "I.H-II. Body Fluid Intake and Output and Maintaining Homeostasis",
+      "st": "The nurse is caring for a client with syndrome of inappropriate antidiuretic hormone secretion (SIADH) and adrenal insufficiency. How do antidiuretic hormone (ADH) and aldosterone normally maintain homeostasis? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Pituitary ADH regulates extracellular osmotic pressure by controlling renal water reabsorption",
+          "Secreted by the pituitary gland, ADH alters kidney water reabsorption to maintain osmotic pressure."
+        ],
+        [
+          "B",
+          "Adrenal aldosterone regulates extracellular fluid volume by controlling renal sodium reabsorption",
+          "Secreted by the adrenal glands, aldosterone promotes kidney sodium reabsorption to preserve fluid volume."
+        ],
+        [
+          "C",
+          "The kidneys play the primary role in adjusting water and electrolyte excretion",
+          "Normal kidneys serve as the major organ regulating daily water and electrolyte elimination."
+        ],
+        [
+          "D",
+          "Pituitary aldosterone directly stimulates intestinal calcium absorption during hypocalcemia",
+          "Aldosterone is secreted by the adrenal glands to regulate sodium rather than intestinal calcium."
+        ],
+        [
+          "E",
+          "Adrenal ADH promotes rapid potassium excretion in the distal convoluted tubule",
+          "ADH is a pituitary hormone regulating water reabsorption rather than an adrenal potassium-wasting hormone."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Homeostasis relies on the kidneys, adrenal aldosterone (renal sodium reabsorption), and pituitary ADH (renal water reabsorption).",
+      "fc": [
+        "Hormonal & Renal Homeostasis",
+        "Kidneys: primary regulators of water and electrolyte excretion | Adrenal aldosterone: controls ECF volume via renal sodium reabsorption | Pituitary ADH: controls ECF osmotic pressure via renal water reabsorption",
+        "I.H-II. Body Fluid Intake and Output and Maintaining Homeostasis"
+      ]
+    },
+    {
+      "i": 17,
+      "t": "m",
+      "d": 1,
+      "c": 8,
+      "j": 2,
+      "sub": "III. Fluid Volume Deficit",
+      "st": "A client with uncontrolled diabetes insipidus is excreting 6 liters of dilute urine daily and has a serum sodium of 154 mEq/L (154 mmol/L). Which type of fluid volume deficit is occurring?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Hypertonic dehydration",
+          "Water loss exceeds electrolyte loss in diabetes insipidus, drawing intracellular water out of cells."
+        ],
+        [
+          "B",
+          "Isotonic dehydration",
+          "Isotonic dehydration involves equal water and electrolyte loss without elevating serum sodium levels."
+        ],
+        [
+          "C",
+          "Hypotonic dehydration",
+          "Hypotonic dehydration occurs when electrolyte loss exceeds water loss, causing cellular swelling."
+        ],
+        [
+          "D",
+          "Isotonic overhydration",
+          "Isotonic overhydration represents extracellular fluid volume excess rather than a water-depleting fluid deficit."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Hypertonic dehydration occurs when water loss exceeds electrolyte loss (e.g., diabetes insipidus, fever, ketoacidosis), causing cellular shrinkage.",
+      "fc": [
+        "Types of Fluid Volume Deficit",
+        "Isotonic (hypovolemia): equal water/electrolyte loss (most common) | Hypertonic: water loss > electrolyte loss -> cellular shrinkage | Hypotonic: electrolyte loss > water loss -> cellular swelling",
+        "III. Fluid Volume Deficit"
+      ]
+    },
+    {
+      "i": 18,
+      "t": "m",
+      "d": 3,
+      "c": 8,
+      "j": 2,
+      "sub": "III. Fluid Volume Deficit",
+      "st": "A client with chronic malnutrition and kidney disease received excessive hypotonic fluid replacement and now exhibits plasma volume depletion with intracellular swelling. Which fluid imbalance does the nurse recognize?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Hypotonic dehydration",
+          "Electrolyte loss exceeds water loss, shifting fluid from plasma into cells and causing swelling."
+        ],
+        [
+          "B",
+          "Hypertonic dehydration",
+          "Hypertonic dehydration pulls water out of cells into the plasma, resulting in cellular shrinkage."
+        ],
+        [
+          "C",
+          "Isotonic dehydration",
+          "Isotonic dehydration causes proportional intravascular loss without osmotic fluid shifts into body cells."
+        ],
+        [
+          "D",
+          "Hypertonic overhydration",
+          "Hypertonic overhydration results from excessive sodium intake that expands extracellular fluid volume."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Hypotonic dehydration occurs when electrolyte loss exceeds water loss, shifting fluid into cells and reducing plasma volume.",
+      "fc": [
+        "Hypotonic Dehydration",
+        "Cause: chronic illness, excessive hypotonic replacement, kidney disease, malnutrition | Mechanism: electrolyte loss > water loss | Fluid shifts from plasma/interstitial space into cells (cells swell)",
+        "III. Fluid Volume Deficit"
+      ]
+    },
+    {
+      "i": 19,
+      "t": "m",
+      "d": 2,
+      "c": 7,
+      "j": 3,
+      "sub": "III. Fluid Volume Deficit",
+      "st": "The nurse is reviewing the medical records of four assigned clients. Which client is at greatest risk for developing an isotonic fluid volume deficit?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "A client with a newly created ileostomy draining liquid stool",
+          "Continuous liquid drainage from an ileostomy causes excessive loss of isotonic gastrointestinal fluids."
+        ],
+        [
+          "B",
+          "A client with heart failure receiving daily fluid restriction",
+          "Heart failure predisposes the client to fluid volume excess rather than isotonic fluid deficit."
+        ],
+        [
+          "C",
+          "A client receiving long-term oral corticosteroid therapy for asthma",
+          "Long-term corticosteroid therapy promotes sodium and water retention, causing isotonic fluid volume excess."
+        ],
+        [
+          "D",
+          "A client receiving frequent surgical wound irrigations with sterile water",
+          "Frequent hypotonic wound irrigations risk hypotonic overhydration rather than fluid volume deficit."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Clients with ileostomies, gastrointestinal suctioning, vomiting, or diarrhea are at high risk for fluid volume deficit.",
+      "fc": [
+        "Risk Factors for Fluid Volume Deficit",
+        "High risk: ileostomy, GI suction, vomiting, diarrhea, excessive diaphoresis | Inadequate intake or third-space fluid shifts | Contrast with FVE risks: heart failure, corticosteroids, hypotonic irrigation",
+        "III. Fluid Volume Deficit"
+      ]
+    },
+    {
+      "i": 20,
+      "t": "s",
+      "d": 3,
+      "c": 8,
+      "j": 1,
+      "sub": "III. Fluid Volume Deficit",
+      "st": "The nurse is assessing a client admitted with severe gastroenteritis and suspected fluid volume deficit. Which cardiovascular and integumentary findings support this clinical condition? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Thready, increased pulse rate with diminished peripheral pulses",
+          "Compensatory sympathetic stimulation increases heart rate while reduced volume weakens peripheral pulses."
+        ],
+        [
+          "B",
+          "Orthostatic hypotension and flat neck veins in dependent positions",
+          "Depleted intravascular volume lowers standing blood pressure and prevents jugular venous distention."
+        ],
+        [
+          "C",
+          "Poor skin turgor with tenting and dry mucous membranes",
+          "Interstitial and cellular dehydration reduces skin elasticity and dries oral mucous membranes."
+        ],
+        [
+          "D",
+          "Bounding peripheral pulses and distended hand veins",
+          "Bounding pulses and distended veins indicate intravascular fluid volume excess rather than deficit."
+        ],
+        [
+          "E",
+          "Pitting edema in the lower dependent extremities",
+          "Dependent pitting edema reflects interstitial fluid overload rather than extracellular fluid depletion."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Cardiovascular and integumentary cues of fluid volume deficit include thready tachycardia, orthostatic hypotension, flat neck veins, dry mucosa, and tenting.",
+      "fc": [
+        "Fluid Volume Deficit Assessment (Table 8.1)",
+        "CV: thready tachycardia, orthostatic hypotension, flat neck/hand veins, low CVP | Integumentary: dry/pale/cool skin, poor turgor (tenting), dry mouth | GI/Renal: oliguria, constipation, weight loss, thirst",
+        "III. Fluid Volume Deficit"
+      ]
+    },
+    {
+      "i": 21,
+      "t": "m",
+      "d": 5,
+      "c": 7,
+      "j": 2,
+      "sub": "III. Fluid Volume Deficit",
+      "st": "The nurse reviews the laboratory results for an older adult client admitted from a long-term care facility with lethargy and poor oral intake. Which laboratory profile confirms fluid volume deficit?",
+      "ex": {
+        "t": "Client Laboratory Panel",
+        "r": [
+          [
+            "Serum Osmolality",
+            "308 mOsm/kg"
+          ],
+          [
+            "Hematocrit",
+            "54%"
+          ],
+          [
+            "Blood Urea Nitrogen (BUN)",
+            "34 mg/dL"
+          ],
+          [
+            "Urine Specific Gravity",
+            "1.035"
+          ]
+        ]
+      },
+      "o": [
+        [
+          "A",
+          "Hemoconcentration across all four values consistent with fluid volume deficit",
+          "Loss of body water concentrates blood cells, solutes, urea, and urine, elevating values."
+        ],
+        [
+          "B",
+          "Hemodilution across all four values consistent with water intoxication",
+          "Water intoxication dilutes serum solutes and lowers osmolality, hematocrit, BUN, and specific gravity."
+        ],
+        [
+          "C",
+          "Isolated acute renal tubular necrosis with normal intravascular volume",
+          "Elevated hematocrit and serum osmolality confirm systemic hemoconcentration rather than isolated renal necrosis."
+        ],
+        [
+          "D",
+          "Syndrome of inappropriate antidiuretic hormone secretion with hypervolemia",
+          "SIADH causes water retention with decreased serum osmolality and low hematocrit rather than hemoconcentration."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Fluid volume deficit causes hemoconcentration: increased serum osmolality, hematocrit, BUN, serum sodium, and urine specific gravity.",
+      "fc": [
+        "Fluid Volume Deficit Lab Findings (Table 8.1)",
+        "Increased serum osmolality (>295 mOsm/kg) | Increased hematocrit and increased BUN | Increased serum sodium and increased urine specific gravity",
+        "III. Fluid Volume Deficit"
+      ]
+    },
+    {
+      "i": 22,
+      "t": "m",
+      "d": 4,
+      "c": 6,
+      "j": 4,
+      "sub": "III. Fluid Volume Deficit",
+      "st": "The nurse is planning intravenous fluid replacement for three clients with distinct types of dehydration. Which pairing of dehydration type and prescribed intravenous solution tonicity is clinically appropriate?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Isotonic dehydration treated with isotonic solution; hypertonic dehydration treated with hypotonic solution",
+          "Isotonic fluids restore proportional intravascular loss, while hypotonic fluids rehydrate shrunken dehydrated cells."
+        ],
+        [
+          "B",
+          "Hypertonic dehydration treated with hypertonic solution; hypotonic dehydration treated with hypotonic solution",
+          "Giving hypertonic fluids in hypertonic dehydration worsens shrinkage, and hypotonic fluids worsen swelling."
+        ],
+        [
+          "C",
+          "Hypotonic dehydration treated with hypotonic solution; isotonic dehydration treated with hypertonic solution",
+          "Hypotonic dehydration requires hypertonic solutions to draw water out of swollen cells back into plasma."
+        ],
+        [
+          "D",
+          "Isotonic dehydration treated with hypotonic solution; hypertonic dehydration treated with hypertonic solution",
+          "Mismatched tonicity exacerbates fluid shifts rather than restoring equilibrium across body fluid compartments."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Generally, isotonic dehydration is treated with isotonic solutions, hypertonic dehydration with hypotonic solutions, and hypotonic dehydration with hypertonic solutions.",
+      "fc": [
+        "IV Solution Selection by Dehydration Type",
+        "Isotonic dehydration -> Isotonic IV solution | Hypertonic dehydration -> Hypotonic IV solution | Hypotonic dehydration -> Hypertonic IV solution",
+        "III. Fluid Volume Deficit"
+      ]
+    },
+    {
+      "i": 23,
+      "t": "m",
+      "d": 3,
+      "c": 8,
+      "j": 2,
+      "sub": "III. Fluid Volume Deficit",
+      "st": "A client with severe fluid volume deficit is noted to have hypoactive bowel sounds, constipation, decreased central venous pressure (CVP), and increased respiratory rate and depth. What causes the increased respiratory rate and depth?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Tissue hypoperfusion and cellular hypoxia stimulating respiratory compensation",
+          "Decreased circulating blood volume impairs oxygen delivery, triggering compensatory deeper and faster respirations."
+        ],
+        [
+          "B",
+          "Alveolar flooding from elevated pulmonary capillary hydrostatic pressure",
+          "Alveolar flooding with moist crackles occurs in fluid volume excess rather than fluid deficit."
+        ],
+        [
+          "C",
+          "Direct irritation of the phrenic nerve by elevated urinary specific gravity",
+          "Concentrated urine reflects renal water conservation and does not directly irritate the nerve."
+        ],
+        [
+          "D",
+          "Acute bronchial constriction triggered by decreased gastrointestinal peristalsis",
+          "Slowed gastrointestinal motility causes constipation rather than bronchospasm or increased respiratory depth."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Fluid volume deficit causes increased rate and depth of respirations due to inadequate tissue perfusion and cellular hypoxia.",
+      "fc": [
+        "FVD Respiratory & GI Cues (Table 8.1)",
+        "Respiratory: increased rate and depth of respirations, dyspnea | GI: decreased motility, diminished bowel sounds, constipation | CV: decreased CVP, thready pulse, postural hypotension",
+        "III. Fluid Volume Deficit"
+      ]
+    },
+    {
+      "i": 24,
+      "t": "s",
+      "d": 2,
+      "c": 6,
+      "j": 5,
+      "sub": "III. Fluid Volume Deficit",
+      "st": "The nurse is caring for a client admitted with moderate dehydration secondary to acute bacterial gastroenteritis and fever. Which nursing interventions should be included in the plan of care? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Administer prescribed antiemetic, antidiarrheal, antimicrobial, and antipyretic medications",
+          "Treating fever, vomiting, diarrhea, and infection eliminates the underlying causes of fluid loss."
+        ],
+        [
+          "B",
+          "Provide oral rehydration therapy if tolerated or intravenous fluids if severe",
+          "Oral or intravenous replacement restores depleted fluid compartment volumes to normal physiological ranges."
+        ],
+        [
+          "C",
+          "Monitor strict intake and output along with serial serum electrolyte values",
+          "Tracking fluid balance and electrolytes evaluates rehydration effectiveness and detects secondary electrolyte imbalances."
+        ],
+        [
+          "D",
+          "Restrict daily fluid intake to 1,000 mL to prevent rebound pulmonary edema",
+          "Fluid restriction is indicated for fluid volume excess and would worsen life-threatening dehydration."
+        ],
+        [
+          "E",
+          "Administer loop diuretics to stimulate renal blood flow and urine output",
+          "Diuretics promote further water and electrolyte excretion and are contraindicated in fluid deficit."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Interventions for fluid volume deficit include preventing further losses, oral/IV rehydration, I&O monitoring, electrolyte tracking, and symptom-control medications.",
+      "fc": [
+        "Fluid Volume Deficit Interventions",
+        "Prevent further losses; give oral or IV fluid replacement | Monitor I&O and serum electrolyte values closely | Administer prescribed antidiarrheal, antimicrobial, antiemetic, antipyretic drugs",
+        "III. Fluid Volume Deficit"
+      ]
+    },
+    {
+      "i": 25,
+      "t": "m",
+      "d": 1,
+      "c": 8,
+      "j": 2,
+      "sub": "IV. Fluid Volume Excess",
+      "st": "A client receives rapid intravenous administration of 3% sodium chloride and develops extracellular volume expansion accompanied by intracellular fluid contraction. Which type of fluid volume excess has occurred?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Hypertonic overhydration",
+          "Excessive sodium intake pulls water out of cells, expanding extracellular and contracting intracellular volume."
+        ],
+        [
+          "B",
+          "Isotonic overhydration",
+          "Isotonic overhydration expands only the extracellular compartment without shifting fluid out of cells."
+        ],
+        [
+          "C",
+          "Hypotonic overhydration",
+          "Hypotonic overhydration (water intoxication) shifts excess water into cells, expanding all fluid compartments."
+        ],
+        [
+          "D",
+          "Isotonic dehydration",
+          "Isotonic dehydration reflects proportional water and sodium loss rather than hypertonic saline overload."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Hypertonic overhydration is rare, caused by excessive sodium intake/hypertonic saline/sodium bicarbonate, expanding ECF and contracting ICF.",
+      "fc": [
+        "Types of Fluid Volume Excess",
+        "Isotonic (hypervolemia): ECF expands only (no ICF shift) | Hypertonic: rare; high Na+ pulls water from ICF -> ECF expands, ICF contracts | Hypotonic (water intoxication): water enters ICF -> all compartments expand",
+        "IV. Fluid Volume Excess"
+      ]
+    },
+    {
+      "i": 26,
+      "t": "m",
+      "d": 3,
+      "c": 8,
+      "j": 2,
+      "sub": "IV. Fluid Volume Excess",
+      "st": "A client undergoing transurethral prostate resection receives continuous bladder irrigation with large volumes of sterile hypotonic fluid and develops confusion and dilutional hyponatremia. Which condition does the nurse suspect?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Hypotonic overhydration (water intoxication)",
+          "Absorption of hypotonic irrigation fluid expands all fluid compartments and dilutes serum electrolytes."
+        ],
+        [
+          "B",
+          "Hypertonic overhydration",
+          "Hypertonic overhydration results from excessive sodium load rather than absorption of hypotonic irrigant."
+        ],
+        [
+          "C",
+          "Hypertonic dehydration",
+          "Hypertonic dehydration causes hemoconcentration and hypernatremia rather than dilutional electrolyte depletion."
+        ],
+        [
+          "D",
+          "Isotonic hypovolemia",
+          "Isotonic hypovolemia reflects circulating volume depletion rather than systemic absorption of irrigation fluid."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Hypotonic overhydration (water intoxication) results from SIADH, heart failure, or hypotonic fluid replacement/irrigation, expanding all compartments.",
+      "fc": [
+        "Hypotonic Overhydration (Water Intoxication)",
+        "Causes: SIADH, heart failure, early kidney disease, hypotonic IV/wound irrigation | Fluid moves into ICF -> all compartments expand | Causes dilutional electrolyte imbalances",
+        "IV. Fluid Volume Excess"
+      ]
+    },
+    {
+      "i": 27,
+      "t": "s",
+      "d": 2,
+      "c": 7,
+      "j": 3,
+      "sub": "IV. Fluid Volume Excess",
+      "st": "The nurse is admitting four clients to the medical-surgical unit. Which clients are at highest risk for developing fluid volume excess? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "A client with acute kidney injury and oliguria",
+          "Impaired renal water and sodium excretion directly predisposes clients with acute kidney injury."
+        ],
+        [
+          "B",
+          "A client with chronic kidney disease",
+          "Chronic kidney disease limits fluid elimination, placing the client at high risk for hypervolemia."
+        ],
+        [
+          "C",
+          "A client with decompensated heart failure",
+          "Reduced cardiac pumping efficiency causes venous congestion and renal fluid retention in heart failure."
+        ],
+        [
+          "D",
+          "A client with severe vomiting and nasogastric suction",
+          "Vomiting and nasogastric suction cause fluid and electrolyte loss, risking fluid volume deficit."
+        ],
+        [
+          "E",
+          "A client with diabetes insipidus excreting dilute urine",
+          "Excessive free water excretion in diabetes insipidus leads to hypertonic fluid volume deficit."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Clients with acute kidney injury, chronic kidney disease, and heart failure are at high risk for fluid volume excess.",
+      "fc": [
+        "High-Risk Conditions for Fluid Volume Excess",
+        "Acute kidney injury (AKI) | Chronic kidney disease (CKD) | Heart failure (also long-term corticosteroids, SIADH, uncontrolled IVs)",
+        "IV. Fluid Volume Excess"
+      ]
+    },
+    {
+      "i": 28,
+      "t": "s",
+      "d": 3,
+      "c": 8,
+      "j": 1,
+      "sub": "IV. Fluid Volume Excess",
+      "st": "The nurse assesses a client with heart failure who developed acute fluid volume excess after receiving rapid intravenous infusions. Which clinical findings should the nurse expect? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Bounding, increased pulse and elevated blood pressure",
+          "Expanded intravascular volume increases cardiac preload, producing a bounding pulse and elevated pressure."
+        ],
+        [
+          "B",
+          "Distended neck and hand veins with elevated central venous pressure",
+          "Increased systemic venous volume causes visible jugular and hand vein distention and high CVP."
+        ],
+        [
+          "C",
+          "Moist crackles on lung auscultation and shallow tachypnea",
+          "Elevated pulmonary capillary hydrostatic pressure forces fluid into alveoli, causing dyspnea and crackles."
+        ],
+        [
+          "D",
+          "Flat neck veins with severe skin tenting",
+          "Flat neck veins and skin tenting indicate fluid volume deficit rather than fluid excess."
+        ],
+        [
+          "E",
+          "Decreased urinary specific gravity with cool, pale, dry skin",
+          "Cool, pale, dry skin reflects hypovolemic fluid deficit rather than intravascular fluid overload."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Fluid volume excess manifests with bounding pulse, hypertension, distended veins, elevated CVP, moist crackles, ascites, diarrhea, and weight gain.",
+      "fc": [
+        "Fluid Volume Excess Assessment (Table 8.1)",
+        "CV: bounding tachycardia, elevated BP, distended neck/hand veins, elevated CVP | Resp/GI: shallow tachypnea, moist crackles, diarrhea, ascites, weight gain | Neuro/Integ: headache, visual changes, paresthesias, pitting edema",
+        "IV. Fluid Volume Excess"
+      ]
+    },
+    {
+      "i": 29,
+      "t": "m",
+      "d": 5,
+      "c": 7,
+      "j": 2,
+      "sub": "IV. Fluid Volume Excess",
+      "st": "The nurse reviews laboratory results for a client with chronic kidney disease admitted with pitting edema and jugular venous distention. Which laboratory pattern confirms fluid volume excess?",
+      "ex": {
+        "t": "Admission Serum & Urine Panel",
+        "r": [
+          [
+            "Serum Osmolality",
+            "262 mOsm/kg"
+          ],
+          [
+            "Hematocrit",
+            "31%"
+          ],
+          [
+            "Blood Urea Nitrogen (BUN)",
+            "7 mg/dL"
+          ],
+          [
+            "Urine Specific Gravity",
+            "1.004"
+          ]
+        ]
+      },
+      "o": [
+        [
+          "A",
+          "Hemodilution across all parameters consistent with fluid volume excess",
+          "Excess retained water dilutes serum osmolality, hematocrit, BUN, sodium, and urine specific gravity."
+        ],
+        [
+          "B",
+          "Hemoconcentration consistent with acute isotonic dehydration",
+          "Dehydration elevates serum osmolality, hematocrit, BUN, and urine specific gravity rather than lowering."
+        ],
+        [
+          "C",
+          "Hypertonic dehydration secondary to osmotic diuresis",
+          "Hypertonic dehydration increases serum osmolality above 295 mOsm/kg and elevates urine specific gravity."
+        ],
+        [
+          "D",
+          "Pseudohyperkalemia caused by traumatic venipuncture hemolysis",
+          "These values measure water-to-solute dilution rather than artifactual red cell lysis during venipuncture."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Fluid volume excess produces hemodilution: decreased serum osmolality, hematocrit, BUN, serum sodium, and urine specific gravity.",
+      "fc": [
+        "Fluid Volume Excess Lab Findings (Table 8.1)",
+        "Decreased serum osmolality (<275 mOsm/kg) | Decreased hematocrit and decreased BUN | Decreased serum sodium and decreased urine specific gravity",
+        "IV. Fluid Volume Excess"
+      ]
+    },
+    {
+      "i": 30,
+      "t": "m",
+      "d": 3,
+      "c": 6,
+      "j": 4,
+      "sub": "IV. Fluid Volume Excess",
+      "st": "A client with acute fluid volume excess is prescribed diuretic therapy. Which type of diuretic may be prescribed initially to remove excess fluid while preventing severe electrolyte imbalances?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Osmotic diuretic",
+          "Osmotic diuretics may be prescribed initially in fluid volume excess to prevent electrolyte imbalances."
+        ],
+        [
+          "B",
+          "High-ceiling loop diuretic bolus",
+          "Potent loop diuretics rapidly waste potassium and sodium, risking severe acute electrolyte disturbances."
+        ],
+        [
+          "C",
+          "Thiazide diuretic combined with sodium bicarbonate",
+          "Sodium bicarbonate adds excess sodium load and worsens hypertonic fluid volume overload."
+        ],
+        [
+          "D",
+          "Intravenous 3% hypertonic saline infusion",
+          "Hypertonic saline expands intravascular volume further and is contraindicated in fluid volume excess."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "In fluid volume excess, osmotic diuretics may be prescribed initially to promote fluid excretion while preventing severe electrolyte imbalances.",
+      "fc": [
+        "Fluid Volume Excess Interventions",
+        "Administer diuretics (osmotic diuretics initially to prevent severe electrolyte imbalances) | Restrict fluid and sodium intake as prescribed | Monitor daily weight, I&O, and serum electrolytes",
+        "IV. Fluid Volume Excess"
+      ]
+    },
+    {
+      "i": 31,
+      "t": "m",
+      "d": 3,
+      "c": 8,
+      "j": 2,
+      "sub": "IV. Fluid Volume Excess",
+      "st": "The nurse compares urinary output findings between two clients diagnosed with fluid volume excess: Client A has heart failure with intact kidneys, and Client B has end-stage renal disease. How does urine output differ between these clients?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Client A has increased urine output as kidneys compensate, whereas Client B has decreased urine output",
+          "Intact kidneys increase urine excretion to eliminate excess fluid, while damaged kidneys produce oliguria."
+        ],
+        [
+          "B",
+          "Both clients exhibit complete anuria regardless of underlying renal perfusion",
+          "Clients with healthy kidneys increase urinary output when compensating for intravascular fluid overload."
+        ],
+        [
+          "C",
+          "Client A has decreased urine output, whereas Client B excretes large volumes of concentrated urine",
+          "End-stage renal failure impairs filtration and decreases urine output rather than increasing output."
+        ],
+        [
+          "D",
+          "Both clients maintain fixed urinary outputs of exactly 1,500 mL every 24 hours",
+          "Urinary output in fluid volume excess varies substantially depending on whether renal function is intact."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "In fluid volume excess, urine output increases if the kidneys can compensate, but decreases if kidney damage is the underlying cause.",
+      "fc": [
+        "Renal Cues in Fluid Volume Excess (Table 8.1)",
+        "Intact kidneys compensating -> increased urine output | Kidney damage as primary cause -> decreased urine output | Always monitor I&O and daily weight trends",
+        "IV. Fluid Volume Excess"
+      ]
+    },
+    {
+      "i": 32,
+      "t": "m",
+      "d": 5,
+      "c": 8,
+      "j": 3,
+      "sub": "IV. Fluid Volume Excess",
+      "st": "A client with chronic heart failure receiving intravenous 0.9% sodium chloride at 150 mL/hr develops sudden dyspnea, orthopnea, moist basilar crackles, and a blood pressure of 178/96 mm Hg. Which complication has developed?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Isotonic overhydration precipitating acute heart failure and pulmonary edema",
+          "Rapid extracellular expansion in poor cardiac function precipitates acute heart failure and pulmonary edema."
+        ],
+        [
+          "B",
+          "Hypotonic dehydration causing intracellular cerebral edema",
+          "Hypotonic dehydration presents with hypotension and flat neck veins rather than hypertension and crackles."
+        ],
+        [
+          "C",
+          "Hyperkalemia-induced ascending flaccid respiratory paralysis",
+          "Moist crackles and hypertension indicate pulmonary vascular congestion rather than neuromuscular flaccid paralysis."
+        ],
+        [
+          "D",
+          "Hypocalcemic laryngospasm secondary to rapid saline dilution",
+          "Laryngospasm causes stridor and tetany rather than basilar moist crackles and jugular distention."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Severe isotonic overhydration in a client with poor cardiac function can precipitate decompensated heart failure and pulmonary edema.",
+      "fc": [
+        "Complications of Isotonic Overhydration",
+        "Expands extracellular fluid compartment only | Causes circulatory overload and interstitial edema | Can trigger heart failure and pulmonary edema in poor cardiac function",
+        "IV. Fluid Volume Excess"
+      ]
+    },
+    {
+      "i": 33,
+      "t": "m",
+      "d": 1,
+      "c": 7,
+      "j": 1,
+      "sub": "V. Hypokalemia",
+      "st": "The nurse reviews morning electrolyte results for a client receiving furosemide and identifies a serum potassium level of 3.1 mEq/L (3.1 mmol/L). What is the normal adult reference range for serum potassium?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "3.5 to 5.0 mEq/L (3.5 to 5.0 mmol/L)",
+          "Normal serum potassium is 3.5 to 5.0 mEq/L; values below 3.5 indicate hypokalemia."
+        ],
+        [
+          "B",
+          "1.8 to 2.6 mEq/L (0.74 to 1.07 mmol/L)",
+          "The range of 1.8 to 2.6 mEq/L represents normal adult serum magnesium levels."
+        ],
+        [
+          "C",
+          "9.0 to 10.5 mg/dL (2.25 to 2.75 mmol/L)",
+          "The range of 9.0 to 10.5 mg/dL is the normal reference range for calcium."
+        ],
+        [
+          "D",
+          "135 to 145 mEq/L (135 to 145 mmol/L)",
+          "The range of 135 to 145 mEq/L reflects normal serum sodium concentration rather than potassium."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "The normal adult serum potassium level is 3.5 to 5.0 mEq/L (3.5 to 5.0 mmol/L); hypokalemia is below 3.5 mEq/L.",
+      "fc": [
+        "Normal Serum Potassium Range",
+        "Normal serum potassium: 3.5 to 5.0 mEq/L (3.5 to 5.0 mmol/L) | Hypokalemia: < 3.5 mEq/L (potentially life-threatening) | Hyperkalemia: > 5.0 mEq/L",
+        "V. Hypokalemia"
+      ]
+    },
+    {
+      "i": 34,
+      "t": "s",
+      "d": 2,
+      "c": 7,
+      "j": 2,
+      "sub": "V. Hypokalemia",
+      "st": "The nurse is reviewing the medical records of several clients on a medical unit. Which clients are at risk for developing hypokalemia? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "A client with Cushing's syndrome and elevated aldosterone secretion",
+          "Excess aldosterone in Cushing's syndrome promotes renal potassium wasting, leading to serum hypokalemia."
+        ],
+        [
+          "B",
+          "A client receiving continuous nasogastric suctioning after bowel surgery",
+          "Prolonged nasogastric suction removes potassium-rich gastric secretions, causing total body potassium deficit."
+        ],
+        [
+          "C",
+          "A client receiving frequent nebulized albuterol and intravenous insulin",
+          "Both inhaled albuterol and hyperinsulinism shift extracellular potassium into cells, lowering serum levels."
+        ],
+        [
+          "D",
+          "A client with Addison's disease and adrenal insufficiency",
+          "Adrenal insufficiency in Addison's disease decreases aldosterone, causing potassium retention and serum hyperkalemia."
+        ],
+        [
+          "E",
+          "A client who sustained massive crush trauma with tissue destruction",
+          "Massive tissue damage releases intracellular potassium into the bloodstream, precipitating acute serum hyperkalemia."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Hypokalemia results from GI/renal losses (NG suction, diuretics, Cushing's), poor intake, dilution, or intracellular shifts (alkalosis, insulin, albuterol).",
+      "fc": [
+        "Causes of Hypokalemia",
+        "Loss: diuretics, corticosteroids, albuterol, Cushing's, vomiting/diarrhea, NG suction | Intracellular shift: alkalosis, hyperinsulinism | Intake/Dilution: NPO/fasting, water intoxication, K+-free IVs",
+        "V. Hypokalemia"
+      ]
+    },
+    {
+      "i": 35,
+      "t": "s",
+      "d": 5,
+      "c": 8,
+      "j": 1,
+      "sub": "V. Hypokalemia",
+      "st": "A client with severe vomiting and diarrhea for 3 days has a serum potassium level of 2.5 mEq/L (2.5 mmol/L). Which electrocardiogram (ECG) changes should the nurse monitor for? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Prominent U waves following the T waves",
+          "Prominent U waves are a hallmark electrocardiographic manifestation of significant serum potassium depletion."
+        ],
+        [
+          "B",
+          "ST segment depression",
+          "Depression of the ST segment commonly develops on the cardiac monitor during hypokalemia."
+        ],
+        [
+          "C",
+          "Shallow, flat, or inverted T waves",
+          "Repolarization delay in hypokalemia produces shallow, flattened, or inverted T waves on ECG."
+        ],
+        [
+          "D",
+          "Tall peaked T waves",
+          "Tall peaked T waves are characteristic of hyperkalemia and hypomagnesemia rather than hypokalemia."
+        ],
+        [
+          "E",
+          "Widened QRS complexes",
+          "QRS widening occurs in hyperkalemia and hypermagnesemia rather than serum potassium depletion."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Hypokalemia causes ST depression, shallow/flat/inverted T waves, and prominent U waves on the electrocardiogram.",
+      "fc": [
+        "Hypokalemia ECG Changes (Tables 8.2 & 8.3)",
+        "ST segment depression | Shallow, flat, or inverted T waves | Prominent U waves following T waves",
+        "V. Hypokalemia"
+      ]
+    },
+    {
+      "i": 36,
+      "t": "m",
+      "d": 3,
+      "c": 8,
+      "j": 2,
+      "sub": "V. Hypokalemia",
+      "st": "A client admitted after 3 days of gastroenteritis reports leg and abdominal cramping and profound weakness. Assessment reveals shallow respirations, a thready irregular pulse, hypoactive bowel sounds, and prominent U waves on telemetry. Which condition do these cues indicate?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Hypokalemia",
+          "Gastrointestinal fluid loss, muscle weakness, shallow respirations, ileus, and U waves indicate hypokalemia."
+        ],
+        [
+          "B",
+          "Hypercalcemia",
+          "Hypercalcemia presents with shortened ST segments, widened T waves, and hypertension on assessment."
+        ],
+        [
+          "C",
+          "Hypermagnesemia",
+          "Hypermagnesemia produces prolonged PR intervals, widened QRS complexes, and absent deep tendon reflexes."
+        ],
+        [
+          "D",
+          "Hypernatremia",
+          "Hypernatremia causes extreme thirst and agitation rather than prominent U waves and hyporeflexia."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Clinical cues of hypokalemia include thready irregular pulse, shallow respirations, muscle weakness, hyporeflexia, hypoactive bowel sounds, and U waves.",
+      "fc": [
+        "Clinical Judgment: Analyze Cues (Hypokalemia)",
+        "History: vomiting/diarrhea, diuretics, NG suction | Cues: weakness, leg/abdominal cramps, shallow respirations, thready pulse | Monitor: prominent U waves, ST depression, flat/inverted T waves",
+        "V. Hypokalemia"
+      ]
+    },
+    {
+      "i": 37,
+      "t": "s",
+      "d": 3,
+      "c": 6,
+      "j": 5,
+      "sub": "V. Hypokalemia",
+      "st": "The nurse is preparing to administer a prescribed oral potassium chloride liquid supplement to a client with mild hypokalemia. Which nursing actions are appropriate? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Administer the oral potassium supplement with or after a meal rather than on an empty stomach",
+          "Oral potassium supplements irritate the gastric mucosa and should never be taken without food."
+        ],
+        [
+          "B",
+          "Dilute the liquid potassium chloride in juice or another pleasant-tasting liquid",
+          "Liquid potassium chloride has a strong unpleasant taste and requires dilution in another liquid."
+        ],
+        [
+          "C",
+          "Hold the dose and notify the provider if abdominal pain, distention, or GI bleeding occurs",
+          "Gastrointestinal pain, distention, nausea, vomiting, diarrhea, or bleeding warrants discontinuing the oral supplement."
+        ],
+        [
+          "D",
+          "Administer the undiluted potassium concentrate first thing in the morning before breakfast",
+          "Giving undiluted oral potassium on an empty stomach causes severe nausea, vomiting, and irritation."
+        ],
+        [
+          "E",
+          "Instruct the client to take double doses if mild leg cramping persists",
+          "Doubling oral potassium doses without provider prescription risks dangerous iatrogenic serum potassium elevation."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Oral potassium supplements should never be taken on an empty stomach, and liquid forms should be diluted in juice or another liquid.",
+      "fc": [
+        "Oral Potassium Administration",
+        "Never give on an empty stomach (causes N/V) | Dilute unpleasant-tasting liquid KCl in juice or another liquid | Hold/report abdominal pain, distention, N/V, diarrhea, or GI bleeding",
+        "V. Hypokalemia"
+      ]
+    },
+    {
+      "i": 38,
+      "t": "s",
+      "d": 4,
+      "c": 6,
+      "j": 4,
+      "sub": "V. Hypokalemia",
+      "st": "The nurse is planning to administer intravenous potassium chloride to a client with heart failure and a serum potassium of 2.8 mEq/L (2.8 mmol/L). Which nursing actions are essential for safe administration? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Administer the diluted solution via an electronic intravenous infusion pump",
+          "Intravenous potassium must always be diluted and controlled with an electronic infusion pump device."
+        ],
+        [
+          "B",
+          "Assess renal function before starting and monitor urine output during infusion",
+          "Adequate renal function and urine output (>= 30 mL/hr) prevent life-threatening iatrogenic hyperkalemia."
+        ],
+        [
+          "C",
+          "Verify that the potassium concentration does not exceed 1 mEq per 10 mL of solution",
+          "Proper dilution (maximum 1 mEq/10 mL) reduces severe venous irritation, phlebitis, and toxicity."
+        ],
+        [
+          "D",
+          "Administer the potassium through a small hand vein without cardiac monitoring",
+          "High-concentration potassium irritates small peripheral veins and requires central access or close monitoring."
+        ],
+        [
+          "E",
+          "Administer a 10 mEq bolus by slow intravenous push over 5 minutes",
+          "Potassium is never given by IV push, intramuscular, or subcutaneous routes due to arrest."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "IV potassium is never given IV push/IM/SC; it must be diluted (<=1 mEq/10 mL), labeled, infused via pump, with renal/I&O and site monitoring.",
+      "fc": [
+        "IV Potassium Safety Rules (Box 8.2 & Alert)",
+        "NEVER IV push, IM, or SC; safest via central line | Max dilution: 1 mEq/10 mL; rotate/invert bag; label clearly | Use infusion pump; check renal function & I&O before/during",
+        "V. Hypokalemia"
+      ]
+    },
+    {
+      "i": 39,
+      "t": "m",
+      "d": 4,
+      "c": 6,
+      "j": 5,
+      "sub": "V. Hypokalemia",
+      "st": "A client in the intensive care unit is prescribed intravenous potassium chloride at 15 mEq/hr (15 mmol/hr) via a central venous catheter. Which precaution is mandatory for this infusion rate?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Place the client on continuous cardiac monitoring and use an infusion device",
+          "Infusion rates exceeding 10 mEq/hr require continuous cardiac monitoring and an electronic infusion pump."
+        ],
+        [
+          "B",
+          "Request a prescription increase to 25 mEq/hr to correct the deficit faster",
+          "Intravenous potassium infusion rates must never exceed 20 mEq/hr under any clinical circumstances."
+        ],
+        [
+          "C",
+          "Administer the infusion through a small peripheral hand vein without a pump",
+          "Rates above 10 mEq/hr require a central line, infusion pump, and continuous monitoring."
+        ],
+        [
+          "D",
+          "Stop monitoring urine output once the infusion rate exceeds 10 mEq/hr",
+          "Continuous intake and output monitoring remains essential throughout any intravenous potassium replacement therapy."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "The recommended IV potassium rate is 5 to 10 mEq/hr (never exceeding 20 mEq/hr); rates >10 mEq/hr require continuous cardiac monitoring and an infusion device.",
+      "fc": [
+        "IV Potassium Infusion Rates (Box 8.2)",
+        "Recommended rate: 5 to 10 mEq/hr | Absolute maximum: NEVER exceed 20 mEq/hr under any circumstances | Rate > 10 mEq/hr: requires cardiac monitor + infusion device",
+        "V. Hypokalemia"
+      ]
+    },
+    {
+      "i": 40,
+      "t": "m",
+      "d": 3,
+      "c": 6,
+      "j": 5,
+      "sub": "V. Hypokalemia",
+      "st": "While caring for a client receiving a prepared intravenous bag containing potassium chloride, the nurse observes the bag hanging undisturbed for 2 hours. Which action should the nurse perform periodically during the infusion?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Gently rotate and invert the intravenous bag to ensure even potassium distribution",
+          "Rotating and inverting the bag prevents potassium pooling and accidental concentrated bolus delivery."
+        ],
+        [
+          "B",
+          "Inject 20 mEq of additional potassium directly into the hanging bag port",
+          "Adding potassium to a hanging bag risks uneven mixing and fatal concentrated bolus delivery."
+        ],
+        [
+          "C",
+          "Disconnect the infusion pump and regulate the drip rate manually by gravity",
+          "Potassium infusions must remain on an electronic infusion device to prevent runaway rate errors."
+        ],
+        [
+          "D",
+          "Flush the peripheral intravenous line rapidly with normal saline every hour",
+          "Flushing a potassium line pushes concentrated potassium in the tubing rapidly into circulation."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Before administering and frequently during infusion, rotate and invert the IV bag to ensure potassium is evenly distributed throughout the solution.",
+      "fc": [
+        "IV Potassium Bag Handling (Box 8.2)",
+        "Rotate and invert bag before and frequently during infusion | Prevents potassium layering and bolus toxicity | Safest infused via central line due to high infiltration risk",
+        "V. Hypokalemia"
+      ]
+    },
+    {
+      "i": 41,
+      "t": "m",
+      "d": 5,
+      "c": 6,
+      "j": 5,
+      "sub": "V. Hypokalemia",
+      "st": "During routine rounds, the nurse assesses the peripheral intravenous site of a client receiving potassium chloride and notes erythema, warmth, tenderness, and mild swelling along the vein. What is the nurse's priority action?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Stop the potassium infusion immediately",
+          "Potassium causes severe phlebitis and tissue necrosis upon infiltration, requiring immediate infusion cessation."
+        ],
+        [
+          "B",
+          "Slow the infusion rate by 50% and apply a warm compress over the site",
+          "Continuing a potassium infusion into an inflamed or infiltrated vein causes severe tissue injury."
+        ],
+        [
+          "C",
+          "Flush the catheter with 10 mL of sterile saline to verify patency",
+          "Flushing an infiltrated or phlebitic potassium catheter forces irritating solution further into tissue."
+        ],
+        [
+          "D",
+          "Elevate the extremity and reassess the insertion site in 2 hours",
+          "Delaying discontinuation exposes the client to worsening chemical phlebitis and severe tissue necrosis."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Potassium infusions irritate veins; if phlebitis or infiltration occurs, the nurse must stop the infusion immediately.",
+      "fc": [
+        "IV Potassium Site Monitoring (Box 8.2)",
+        "IV potassium causes phlebitis and tissue damage if infiltrated | Assess IV site frequently for phlebitis or infiltration | If either occurs, stop the infusion immediately",
+        "V. Hypokalemia"
+      ]
+    },
+    {
+      "i": 42,
+      "t": "m",
+      "d": 2,
+      "c": 2,
+      "j": 4,
+      "sub": "V. Hypokalemia",
+      "st": "A client with hypokalemia exhibits generalized skeletal muscle weakness, leg cramps, and deep tendon hyporeflexia. Which nursing intervention best promotes client safety?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Implement fall precautions and assist the client with ambulation and transfers",
+          "Skeletal muscle weakness and orthostatic hypotension place the hypokalemic client at high fall risk."
+        ],
+        [
+          "B",
+          "Encourage independent brisk hallway ambulation to relieve leg cramps",
+          "Unassisted ambulation with muscle weakness and orthostatic hypotension increases the risk of falls."
+        ],
+        [
+          "C",
+          "Administer a prescribed potassium-losing loop diuretic before physical therapy",
+          "Potassium-losing diuretics worsen hypokalemia and should be held or replaced with potassium-sparing agents."
+        ],
+        [
+          "D",
+          "Place the client in high-Fowler's position with bedrails lowered for easy exit",
+          "Lowering bedrails in a weak, lethargic client increases the hazard of an unassisted fall."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "The nurse must institute fall and safety measures for clients experiencing skeletal muscle weakness from hypokalemia.",
+      "fc": [
+        "Hypokalemia Safety & Diuretic Management",
+        "Institute safety/fall measures for skeletal muscle weakness | Discontinue K+-losing diuretics; consider K+-sparing diuretics | Teach foods high in potassium",
+        "V. Hypokalemia"
+      ]
+    },
+    {
+      "i": 43,
+      "t": "m",
+      "d": 4,
+      "c": 8,
+      "j": 3,
+      "sub": "V. Hypokalemia",
+      "st": "A client with severe hypokalemia has shallow, ineffective respirations, diminished breath sounds, and absent bowel sounds with abdominal distention. Which physiological mechanism explains the respiratory finding?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Profound weakness of the skeletal muscles of respiration",
+          "Hypokalemia impairs neuromuscular excitability, weakening the diaphragm and intercostal respiratory skeletal muscles."
+        ],
+        [
+          "B",
+          "Acute pulmonary edema caused by elevated left ventricular preload",
+          "Hypokalemia causes weak pulses and orthostatic hypotension rather than hypervolemic pulmonary vascular edema."
+        ],
+        [
+          "C",
+          "Bronchospasm induced by hyperactive parasympathetic vagal tone",
+          "Hypokalemia decreases smooth muscle motility rather than causing vagally mediated bronchial smooth constriction."
+        ],
+        [
+          "D",
+          "Mechanical compression of the lungs by severe colonic diarrhea",
+          "Hypokalemia causes paralytic ileus and constipation rather than hypermotile colonic watery diarrhea."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "In hypokalemia, shallow, ineffective respirations result from profound weakness of the skeletal muscles of respiration.",
+      "fc": [
+        "Hypokalemia Neuromuscular & GI Effects (Table 8.2)",
+        "Respiratory: shallow, ineffective respirations from respiratory muscle weakness | GI: decreased motility, hypoactive/absent bowel sounds, paralytic ileus | Neuro: hyporeflexia, paresthesias, loss of tactile discrimination",
+        "V. Hypokalemia"
+      ]
+    },
+    {
+      "i": 44,
+      "t": "m",
+      "d": 3,
+      "c": 7,
+      "j": 2,
+      "sub": "VI. Hyperkalemia",
+      "st": "An asymptomatic client admitted for routine hernia repair has a morning serum potassium report of 6.4 mEq/L (6.4 mmol/L) with a normal electrocardiogram. Which action should the nurse take first?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Suspect pseudohyperkalemia from cell lysis and arrange to redraw the specimen",
+          "Elevated serum potassium without clinical or ECG signs suggests sample hemolysis, requiring redraw."
+        ],
+        [
+          "B",
+          "Prepare the client for immediate emergent hemodialysis",
+          "Emergent dialysis is unwarranted before ruling out pseudohyperkalemia in an asymptomatic surgical client."
+        ],
+        [
+          "C",
+          "Administer intravenous calcium gluconate and regular insulin immediately",
+          "Treating artifactual hyperkalemia with insulin and calcium can cause dangerous hypokalemia and hypercalcemia."
+        ],
+        [
+          "D",
+          "Administer rectal sodium polystyrene sulfonate enema stat",
+          "Verifying a true elevation via redraw precedes administering potassium-lowering cation-exchange resin medications."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Pseudohyperkalemia occurs from specimen collection cell lysis; an elevated level without clinical symptoms should be redrawn and evaluated.",
+      "fc": [
+        "Pseudohyperkalemia",
+        "Caused by blood specimen collection methods and cell lysis | Suspect when K+ > 5.0 mEq/L occurs without clinical or ECG signs | Action: redraw and re-evaluate blood specimen",
+        "VI. Hyperkalemia"
+      ]
+    },
+    {
+      "i": 45,
+      "t": "s",
+      "d": 2,
+      "c": 7,
+      "j": 2,
+      "sub": "VI. Hyperkalemia",
+      "st": "The nurse is evaluating clients for risk of hyperkalemia. Which clinical conditions predispose a client to a serum potassium level exceeding 5.0 mEq/L (5.0 mmol/L)? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Massive traumatic burn injury with extensive tissue destruction",
+          "Cell destruction in trauma and burns releases abundant intracellular potassium into the extracellular space."
+        ],
+        [
+          "B",
+          "Addison's disease (adrenal insufficiency)",
+          "Aldosterone deficiency in Addison's disease impairs renal potassium excretion, causing serum hyperkalemia."
+        ],
+        [
+          "C",
+          "Acute metabolic or respiratory acidosis",
+          "Excess hydrogen ions enter cells in acidosis, forcing intracellular potassium out into serum."
+        ],
+        [
+          "D",
+          "Prolonged nasogastric suctioning and excessive loop diuretic use",
+          "Nasogastric suction and loop diuretics deplete body potassium stores and cause hypokalemia."
+        ],
+        [
+          "E",
+          "Overuse of osmotic laxatives and prolonged vomiting",
+          "Laxative overuse and vomiting cause gastrointestinal potassium loss and hypokalemia rather than hyperkalemia."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Hyperkalemia arises from excess intake (salt substitutes), decreased excretion (renal disease, Addison's, K+-sparing diuretics), or ICF-to-ECF shifts (trauma, burns, acidosis, hyperuricemia).",
+      "fc": [
+        "Causes of Hyperkalemia",
+        "Excess intake: K+ supplements, salt substitutes, rapid K+ IVs | Decreased excretion: kidney disease, Addison's disease, K+-sparing diuretics | ICF-to-ECF shift: trauma/burns, acidosis, hyperuricemia, hypercatabolism",
+        "VI. Hyperkalemia"
+      ]
+    },
+    {
+      "i": 46,
+      "t": "s",
+      "d": 5,
+      "c": 8,
+      "j": 1,
+      "sub": "VI. Hyperkalemia",
+      "st": "A client with chronic kidney disease has a serum potassium level of 5.7 mEq/L (5.7 mmol/L). Which electrocardiographic changes should the nurse anticipate on the cardiac monitor? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Tall, peaked T waves",
+          "Tall, peaked T waves are an early hallmark electrocardiographic sign of elevated serum potassium."
+        ],
+        [
+          "B",
+          "Widened QRS complexes",
+          "Slowed intraventricular conduction in hyperkalemia produces widened QRS complexes on the cardiac monitor."
+        ],
+        [
+          "C",
+          "Flat P waves and prolonged PR intervals",
+          "Atrial conduction delay in hyperkalemia flattens P waves and prolongs the PR interval."
+        ],
+        [
+          "D",
+          "Prominent U waves",
+          "Prominent U waves occur in hypokalemia rather than elevated serum potassium states."
+        ],
+        [
+          "E",
+          "Shortened ST segment",
+          "A shortened ST segment is characteristic of hypercalcemia rather than elevated serum potassium."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Hyperkalemia produces tall peaked T waves, flat P waves, widened QRS complexes, and prolonged PR intervals on the ECG.",
+      "fc": [
+        "Hyperkalemia ECG Changes (Tables 8.2 & 8.3)",
+        "Tall peaked T waves | Flat P waves | Widened QRS complexes and prolonged PR intervals",
+        "VI. Hyperkalemia"
+      ]
+    },
+    {
+      "i": 47,
+      "t": "m",
+      "d": 4,
+      "c": 8,
+      "j": 2,
+      "sub": "VI. Hyperkalemia",
+      "st": "A client with acute kidney injury and a serum potassium of 6.8 mEq/L (6.8 mmol/L) initially had muscle twitches and tingling around the mouth, and now exhibits ascending flaccid paralysis in the arms and legs. What does this progression indicate?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Lethal hyperkalemia that is advancing toward trunk, head, and respiratory muscle paralysis",
+          "Ascending flaccid paralysis is a late hyperkalemia sign that compromises respiratory muscles at lethal levels."
+        ],
+        [
+          "B",
+          "Spontaneous resolution of neuromuscular irritability as potassium normalizes",
+          "Progression from twitches to flaccid paralysis signals worsening toxicity rather than clinical improvement."
+        ],
+        [
+          "C",
+          "Development of secondary hypocalcemic tetany requiring oral vitamin D",
+          "Tetany causes rigid muscle spasms rather than ascending flaccid paralysis of the extremities."
+        ],
+        [
+          "D",
+          "Benign peripheral neuropathy caused by prolonged bedrest",
+          "Ascending flaccid paralysis in severe hyperkalemia is a life-threatening neuromuscular clinical emergency."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Early hyperkalemia causes twitches, cramps, and perioral/extremity paresthesias; late lethal hyperkalemia causes ascending flaccid paralysis affecting respiratory muscles.",
+      "fc": [
+        "Hyperkalemia Neuromuscular Progression (Table 8.2)",
+        "Early: muscle twitches, cramps, paresthesias (hands, feet, around mouth) | Late: profound weakness, ascending flaccid paralysis in arms/legs | Lethal levels: trunk, head, and respiratory muscles become paralyzed",
+        "VI. Hyperkalemia"
+      ]
+    },
+    {
+      "i": 48,
+      "t": "m",
+      "d": 5,
+      "c": 6,
+      "j": 5,
+      "sub": "VI. Hyperkalemia",
+      "st": "A client with a serum potassium of 7.1 mEq/L (7.1 mmol/L) exhibits widened QRS complexes and bradycardia on the cardiac monitor. Which prescribed medication should the nurse prepare to administer first to avert myocardial excitability and cardiac arrest?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Intravenous calcium gluconate",
+          "Intravenous calcium immediately antagonizes potassium-induced myocardial excitability to prevent lethal cardiac arrest."
+        ],
+        [
+          "B",
+          "Oral sodium polystyrene sulfonate",
+          "Sodium polystyrene sulfonate acts slowly via gastrointestinal exchange and does not immediately stabilize myocardium."
+        ],
+        [
+          "C",
+          "Subcutaneous regular insulin without dextrose",
+          "Insulin shifts potassium slowly and requires hypertonic glucose to prevent severe acute hypoglycemia."
+        ],
+        [
+          "D",
+          "Oral potassium-sparing spironolactone",
+          "Potassium-sparing spironolactone impairs renal potassium excretion and would fatally worsen severe hyperkalemia."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "In severe hyperkalemia, intravenous calcium is administered to immediately avert myocardial excitability and cardiac arrest.",
+      "fc": [
+        "Emergency Hyperkalemia Treatment",
+        "Severe ECG changes -> IV calcium (averts myocardial excitability) | Shift K+ into cells -> IV hypertonic glucose with regular insulin | Eliminate K+ -> diuretics (if renal intact), sodium polystyrene sulfonate, dialysis",
+        "VI. Hyperkalemia"
+      ]
+    },
+    {
+      "i": 49,
+      "t": "m",
+      "d": 4,
+      "c": 6,
+      "j": 2,
+      "sub": "VI. Hyperkalemia",
+      "st": "The nurse is preparing to administer intravenous hypertonic glucose with regular insulin to a client with severe hyperkalemia. What is the therapeutic mechanism of this intervention?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "It promotes the movement of excess potassium from the extracellular fluid into the cells",
+          "Insulin accompanied by hypertonic glucose drives extracellular potassium into cells, lowering serum levels."
+        ],
+        [
+          "B",
+          "It binds potassium ions in the bowel for elimination in the stool",
+          "Cation-exchange resins like sodium polystyrene sulfonate bind intestinal potassium rather than intravenous insulin."
+        ],
+        [
+          "C",
+          "It increases glomerular filtration rate to double urinary potassium excretion",
+          "Insulin shifts potassium intracellularly rather than increasing renal potassium clearance in the nephron."
+        ],
+        [
+          "D",
+          "It directly chelates free serum potassium into an inactive urinary complex",
+          "Potassium is transported across cell membranes rather than chelated in the circulating bloodstream."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Intravenous hypertonic glucose with regular insulin lowers serum potassium by moving excess potassium into the cells.",
+      "fc": [
+        "Insulin + Hypertonic Glucose in Hyperkalemia",
+        "Moves excess potassium from ECF into ICF | Hypertonic glucose prevents insulin-induced hypoglycemia | Monitor serum potassium and blood glucose closely",
+        "VI. Hyperkalemia"
+      ]
+    },
+    {
+      "i": 50,
+      "t": "m",
+      "d": 3,
+      "c": 6,
+      "j": 2,
+      "sub": "VI. Hyperkalemia",
+      "st": "A client with end-stage renal disease and a serum potassium of 6.1 mEq/L (6.1 mmol/L) is prescribed oral sodium polystyrene sulfonate. How does this medication lower serum potassium when renal function is impaired?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "It acts as a cation-exchange resin promoting gastrointestinal sodium absorption and potassium excretion",
+          "Sodium polystyrene sulfonate exchanges sodium ions for potassium ions in the bowel for excretion."
+        ],
+        [
+          "B",
+          "It stimulates renal tubular secretion of potassium in the distal nephron",
+          "This medication works in the gastrointestinal tract and is specifically used in renal impairment."
+        ],
+        [
+          "C",
+          "It shifts extracellular potassium permanently into skeletal muscle cells",
+          "Intracellular shifting is achieved with insulin and glucose rather than gastrointestinal cation-exchange resins."
+        ],
+        [
+          "D",
+          "It blocks aldosterone receptors in the adrenal cortex to halt potassium retention",
+          "Blocking aldosterone causes potassium retention rather than promoting fecal potassium elimination in stool."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "When renal function is impaired, sodium polystyrene sulfonate (oral or rectal) acts as a cation-exchange resin promoting GI sodium absorption and potassium excretion.",
+      "fc": [
+        "Sodium Polystyrene Sulfonate",
+        "Used in hyperkalemia when renal function is impaired | Administered via oral or rectal route | Cation-exchange resin: promotes GI Na+ absorption and fecal K+ excretion",
+        "VI. Hyperkalemia"
+      ]
+    },
+    {
+      "i": 51,
+      "t": "m",
+      "d": 4,
+      "c": 6,
+      "j": 4,
+      "sub": "VI. Hyperkalemia",
+      "st": "A client with hyperkalemia requires a packed red blood cell transfusion for acute gastrointestinal bleeding. Which blood bank specification should the nurse verify before initiating the transfusion?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Request fresh blood units rather than older stored blood units",
+          "Stored red blood cells break down over time and release potassium, worsening hyperkalemia."
+        ],
+        [
+          "B",
+          "Infuse the oldest available blood units to preserve fresh inventory",
+          "Older stored blood contains elevated free potassium from cell lysis and harms hyperkalemic clients."
+        ],
+        [
+          "C",
+          "Add 10 mEq of potassium chloride to the blood tubing to prevent hemolysis",
+          "Potassium must never be added to blood products or administered to a hyperkalemic client."
+        ],
+        [
+          "D",
+          "Administer a potassium-sparing diuretic prior to hanging the transfusion",
+          "Potassium-sparing diuretics impair renal potassium excretion and dangerously worsen existing serum hyperkalemia."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Clients with a potassium imbalance requiring blood transfusions should receive fresh blood because stored blood breaks down and releases potassium.",
+      "fc": [
+        "Blood Transfusions in Potassium Imbalances",
+        "Administer fresh blood whenever possible | Breakdown of older stored red blood cells releases potassium | Stored blood can dangerously elevate serum potassium levels",
+        "VI. Hyperkalemia"
+      ]
+    },
+    {
+      "i": 52,
+      "t": "s",
+      "d": 2,
+      "c": 3,
+      "j": 5,
+      "sub": "VI. Hyperkalemia",
+      "st": "The nurse is providing discharge teaching to a client with chronic kidney disease who is taking a potassium-sparing diuretic. Which instructions should the nurse include to prevent recurrent hyperkalemia? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Avoid using salt substitutes and potassium-containing products",
+          "Commercial salt substitutes replace sodium with potassium chloride and can precipitate fatal hyperkalemia."
+        ],
+        [
+          "B",
+          "Follow a potassium-restricted diet and avoid foods high in potassium",
+          "Limiting dietary potassium intake reduces exogenous potassium load when renal excretion is impaired."
+        ],
+        [
+          "C",
+          "Keep scheduled laboratory appointments for frequent serum potassium monitoring",
+          "Regular serum potassium monitoring detects rising levels early during potassium-sparing diuretic therapy."
+        ],
+        [
+          "D",
+          "Take over-the-counter potassium supplements if mild leg fatigue occurs",
+          "Self-administering potassium supplements while on a potassium-sparing diuretic risks lethal cardiac dysrhythmias."
+        ],
+        [
+          "E",
+          "Increase intake of potassium-rich dried fruits and citrus juices",
+          "High-potassium foods elevate serum potassium and must be restricted in hyperkalemia-prone clients."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Clients at risk for hyperkalemia must follow a potassium-restricted diet, avoid salt substitutes, and have serum potassium monitored closely.",
+      "fc": [
+        "Hyperkalemia Client Teaching & Prevention",
+        "Initiate potassium-restricted diet; avoid high-K+ foods | Avoid salt substitutes and potassium-containing substances | Monitor serum K+ closely when taking K+-sparing diuretics",
+        "VI. Hyperkalemia"
+      ]
+    },
+    {
+      "i": 53,
+      "t": "m",
+      "d": 3,
+      "c": 8,
+      "j": 1,
+      "sub": "VI. Hyperkalemia",
+      "st": "A client with hyperkalemia exhibits hyperactive bowel sounds and frequent watery diarrhea alongside a heart rate of 48 beats/min. How does the nurse interpret the gastrointestinal findings?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Expected neuromuscular smooth muscle irritability caused by elevated serum potassium",
+          "Hyperkalemia increases gastrointestinal motility, producing hyperactive bowel sounds and frequent watery diarrhea."
+        ],
+        [
+          "B",
+          "Early paralytic ileus requiring immediate nasogastric decompression",
+          "Paralytic ileus and hypoactive bowel sounds occur in hypokalemia rather than serum hyperkalemia."
+        ],
+        [
+          "C",
+          "Bowel ischemia caused by severe hypercalcemic vasoconstriction",
+          "Hypercalcemia decreases gastrointestinal motility and causes constipation rather than watery diarrhea."
+        ],
+        [
+          "D",
+          "Unrelated viral infection requiring discontinuation of cardiac telemetry",
+          "Cardiac telemetry must be maintained continuously because hyperkalemia can trigger sudden cardiac arrest."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Hyperkalemia increases gastrointestinal motility, causing hyperactive bowel sounds and diarrhea, while slowing heart rate and causing dysrhythmias.",
+      "fc": [
+        "Hyperkalemia GI & CV Cues (Table 8.2)",
+        "GI: increased motility, hyperactive bowel sounds, diarrhea | CV: slow, weak, irregular heart rate, decreased BP, dysrhythmias | Safety Alert: monitor closely for life-threatening cardiac arrest",
+        "VI. Hyperkalemia"
+      ]
+    },
+    {
+      "i": 54,
+      "t": "m",
+      "d": 1,
+      "c": 7,
+      "j": 1,
+      "sub": "VII. Hyponatremia",
+      "st": "The nurse reviews a client's serum electrolyte report and notes a sodium level of 128 mEq/L (128 mmol/L). What is the normal adult serum sodium reference range?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "135 to 145 mEq/L (135 to 145 mmol/L)",
+          "Normal adult serum sodium is 135 to 145 mEq/L; values below 135 indicate hyponatremia."
+        ],
+        [
+          "B",
+          "3.5 to 5.0 mEq/L (3.5 to 5.0 mmol/L)",
+          "The range of 3.5 to 5.0 mEq/L is the normal reference range for potassium."
+        ],
+        [
+          "C",
+          "3.0 to 4.5 mg/dL (0.97 to 1.45 mmol/L)",
+          "The range of 3.0 to 4.5 mg/dL represents normal adult serum phosphorus levels."
+        ],
+        [
+          "D",
+          "275 to 295 mOsm/kg (275 to 295 mmol/kg)",
+          "The range of 275 to 295 mOsm/kg measures normal plasma osmolality rather than sodium."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "The normal serum sodium level is 135 to 145 mEq/L (135 to 145 mmol/L); hyponatremia is below 135 mEq/L.",
+      "fc": [
+        "Normal Serum Sodium Range",
+        "Normal serum sodium: 135 to 145 mEq/L (135 to 145 mmol/L) | Hyponatremia: < 135 mEq/L (often paired with fluid imbalances) | Hypernatremia: > 145 mEq/L",
+        "VII. Hyponatremia"
+      ]
+    },
+    {
+      "i": 55,
+      "t": "s",
+      "d": 2,
+      "c": 7,
+      "j": 2,
+      "sub": "VII. Hyponatremia",
+      "st": "The nurse is identifying clients at risk for developing hyponatremia (serum sodium less than 135 mEq/L). Which clients are predisposed to this imbalance? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "A client taking high-dose loop or thiazide diuretics",
+          "Diuretics promote renal sodium excretion, making diuretic therapy a common cause of hyponatremia."
+        ],
+        [
+          "B",
+          "A client with syndrome of inappropriate antidiuretic hormone secretion (SIADH)",
+          "Excessive water retention in SIADH dilutes serum sodium concentration, causing dilutional hyponatremia."
+        ],
+        [
+          "C",
+          "A client rescued from a freshwater near-drowning",
+          "Aspiration and absorption of hypotonic freshwater markedly dilutes serum sodium levels in blood."
+        ],
+        [
+          "D",
+          "A client with Cushing's syndrome or hyperaldosteronism",
+          "Excess aldosterone and corticosteroids promote renal sodium retention, leading to serum hypernatremia."
+        ],
+        [
+          "E",
+          "A client with untreated diabetes insipidus",
+          "Free water loss in diabetes insipidus concentrates serum sodium, resulting in hypernatremia."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Hyponatremia results from increased sodium loss (diuretics, GI loss, low aldosterone), poor intake, or dilution (SIADH, freshwater drowning, hyperglycemia, heart failure).",
+      "fc": [
+        "Causes of Hyponatremia",
+        "Loss: diuretics, vomiting, diarrhea, GI drainage, diaphoresis, low aldosterone | Intake: fasting/NPO, low-salt diet | Dilution: SIADH, hypotonic fluids/irrigation, freshwater drowning, hyperglycemia, heart failure",
+        "VII. Hyponatremia"
+      ]
+    },
+    {
+      "i": 56,
+      "t": "m",
+      "d": 3,
+      "c": 8,
+      "j": 2,
+      "sub": "VII. Hyponatremia",
+      "st": "A client with heart failure receiving high doses of a diuretic has a serum sodium of 129 mEq/L (129 mmol/L), flat neck veins, generalized muscle weakness, and diminished deep tendon reflexes. Which additional assessment finding should the nurse expect?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Hyperactive bowel sounds and decreased urinary specific gravity",
+          "Hyponatremia increases gastrointestinal motility (hyperactive bowel sounds) and lowers urine specific gravity."
+        ],
+        [
+          "B",
+          "Spontaneous muscle twitches and extreme thirst",
+          "Spontaneous muscle twitches and extreme thirst are clinical manifestations of serum hypernatremia."
+        ],
+        [
+          "C",
+          "Decreased urinary output with elevated urinary specific gravity",
+          "Hyponatremia causes increased urinary output and decreased urinary specific gravity rather than oliguria."
+        ],
+        [
+          "D",
+          "Dry, flushed skin with sticky oral mucous membranes",
+          "Dry, flushed skin and a sticky tongue characterize hypernatremia rather than serum hyponatremia."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Hyponatremia presents with generalized muscle weakness, diminished DTRs, hyperactive bowel sounds, nausea, increased urine output, and low urine specific gravity.",
+      "fc": [
+        "Hyponatremia Assessment (Table 8.4)",
+        "Neuro/MS: headache, personality changes, confusion, seizures, coma, weakness, diminished DTRs | GI/Renal: nausea, hyperactive bowel sounds, diarrhea, increased urine output | Labs: Na+ < 135 mEq/L, decreased urine specific gravity",
+        "VII. Hyponatremia"
+      ]
+    },
+    {
+      "i": 57,
+      "t": "m",
+      "d": 4,
+      "c": 8,
+      "j": 2,
+      "sub": "VII. Hyponatremia",
+      "st": "The nurse compares two clients with a serum sodium of 127 mEq/L (127 mmol/L): Client 1 is hypovolemic from vomiting, and Client 2 is hypervolemic from heart failure. How do their cardiovascular assessments differ?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Client 1 has a thready pulse, hypotension, and flat neck veins, whereas Client 2 has a bounding pulse and elevated CVP",
+          "Cardiovascular signs reflect underlying vascular volume—depleted in hypovolemia and expanded in hypervolemia."
+        ],
+        [
+          "B",
+          "Client 1 has hypertension and distended neck veins, whereas Client 2 has postural hypotension and low CVP",
+          "Hypovolemia produces low blood pressure and flat veins, whereas hypervolemia elevates blood pressure."
+        ],
+        [
+          "C",
+          "Both clients exhibit identical bradycardia and normal central venous pressure regardless of fluid status",
+          "Heart rate is rapid in both states, whereas pulse quality, blood pressure, and CVP differ."
+        ],
+        [
+          "D",
+          "Client 1 has bounding peripheral pulses, whereas Client 2 has absent radial pulses and flat neck veins",
+          "Bounding pulses indicate volume expansion in Client 2 rather than depletion in Client 1."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "In hyponatremia, hypovolemia causes thready tachycardia, hypotension, and flat veins, whereas hypervolemia causes bounding tachycardia and normal/elevated BP and CVP.",
+      "fc": [
+        "Volume-Dependent CV Signs in Hyponatremia (Table 8.4)",
+        "Normovolemic: rapid pulse, normal BP | Hypovolemic: thready weak rapid pulse, hypotension, flat neck veins, normal/low CVP | Hypervolemic: rapid bounding pulse, normal/elevated BP, normal/elevated CVP",
+        "VII. Hyponatremia"
+      ]
+    },
+    {
+      "i": 58,
+      "t": "m",
+      "d": 5,
+      "c": 6,
+      "j": 5,
+      "sub": "VII. Hyponatremia",
+      "st": "A client is admitted to the intensive care unit with severe chronic hyponatremia (serum sodium 116 mEq/L [116 mmol/L]) and confusion. Why must the nurse carefully regulate the rate of sodium correction?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Rapid serum sodium elevation places the client at high risk for osmotic demyelination injury",
+          "Correcting severe hyponatremia too rapidly shifts water out of brain cells, inducing osmotic demyelination."
+        ],
+        [
+          "B",
+          "Slow sodium replacement triggers acute adrenal crisis and severe hyperkalemia",
+          "Controlled gradual correction safely restores osmotic equilibrium without precipitating acute adrenal insufficiency."
+        ],
+        [
+          "C",
+          "Rapid sodium infusion causes immediate precipitation of calcium phosphate crystals in the kidneys",
+          "The primary neurological hazard of rapid hyponatremia correction is osmotic demyelination brain injury."
+        ],
+        [
+          "D",
+          "Gradual correction induces irreversible metabolic alkalosis and respiratory depression",
+          "Gradual correction protects central nervous system myelin rather than causing severe metabolic alkalosis."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Severe hyponatremia requires close inpatient monitoring to avoid rapid serum sodium shifts, which place the client at risk for osmotic demyelination injury.",
+      "fc": [
+        "Osmotic Demyelination Injury Prevention",
+        "Severe hyponatremia requires hospitalization and close neuro/Na+ monitoring | Avoid rapid serum sodium shifts during correction | Rapid correction risks irreversible osmotic demyelination injury",
+        "VII. Hyponatremia"
+      ]
+    },
+    {
+      "i": 59,
+      "t": "m",
+      "d": 5,
+      "c": 6,
+      "j": 3,
+      "sub": "VII. Hyponatremia",
+      "st": "A client taking lithium carbonate for bipolar disorder is admitted with severe vomiting, diarrhea, and a serum sodium of 126 mEq/L (126 mmol/L). Which priority assessment and intervention should the nurse implement?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Monitor the serum lithium level closely because hyponatremia diminishes lithium excretion and precipitates toxicity",
+          "Low serum sodium reduces renal lithium clearance, placing the client at immediate toxicity risk."
+        ],
+        [
+          "B",
+          "Administer an extra dose of lithium to stabilize neuronal membrane excitability",
+          "Administering additional lithium during hyponatremia would worsen life-threatening acute lithium drug toxicity."
+        ],
+        [
+          "C",
+          "Restrict all sodium intake to maintain serum sodium below 130 mEq/L",
+          "Sodium restriction worsens hyponatremia and further impairs renal excretion of lithium carbonate."
+        ],
+        [
+          "D",
+          "Administer a thiazide diuretic to enhance urinary clearance of lithium",
+          "Thiazide diuretics increase sodium loss and exacerbate both hyponatremia and lithium drug toxicity."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Hyponatremia precipitates lithium toxicity by diminishing renal lithium excretion; the nurse must closely monitor serum lithium levels.",
+      "fc": [
+        "Hyponatremia & Lithium Toxicity Safety Alert",
+        "Hyponatremia diminishes renal excretion of lithium | Precipitates acute lithium toxicity | Action: monitor serum lithium levels closely and restore sodium balance",
+        "VII. Hyponatremia"
+      ]
+    },
+    {
+      "i": 60,
+      "t": "m",
+      "d": 4,
+      "c": 6,
+      "j": 4,
+      "sub": "VII. Hyponatremia",
+      "st": "The nurse is reviewing prescriptions for two clients with hyponatremia: Client A has hypovolemic hyponatremia from gastrointestinal losses, and Client B has hypervolemic hyponatremia from fluid overload. Which treatments align with each client's volume status?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "IV sodium chloride for Client A; osmotic diuretics to excrete water rather than sodium for Client B",
+          "Hypovolemic hyponatremia needs IV sodium chloride, whereas hypervolemic hyponatremia needs osmotic water diuresis."
+        ],
+        [
+          "B",
+          "Osmotic diuretics for Client A; hypotonic 0.45% sodium chloride infusion for Client B",
+          "Diuretics worsen hypovolemia in Client A, while hypotonic fluids worsen overload in Client B."
+        ],
+        [
+          "C",
+          "High-dose loop diuretics for Client A; unrestricted oral water intake for Client B",
+          "Unrestricted water worsens hypervolemic hyponatremia, and diuretics worsen hypovolemic volume depletion."
+        ],
+        [
+          "D",
+          "Intravenous D5W for Client A; intravenous 0.9% sodium chloride bolus for Client B",
+          "D5W dilutes sodium further in Client A, while saline boluses worsen overload in Client B."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Hypovolemic hyponatremia is treated with IV sodium chloride infusions, whereas hypervolemic hyponatremia is treated with osmotic diuretics to excrete water.",
+      "fc": [
+        "Targeted Hyponatremia Interventions",
+        "Hypovolemic hyponatremia -> IV sodium chloride infusions | Hypervolemic hyponatremia -> osmotic diuretics (excrete water > sodium) | SIADH cause -> medications that antagonize ADH",
+        "VII. Hyponatremia"
+      ]
+    },
+    {
+      "i": 61,
+      "t": "m",
+      "d": 4,
+      "c": 8,
+      "j": 3,
+      "sub": "VII. Hyponatremia",
+      "st": "A client with severe hyponatremia (serum sodium 120 mEq/L [120 mmol/L]) develops shallow, ineffective respiratory movements. What is the underlying cause of this respiratory finding?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "A late manifestation resulting from generalized skeletal muscle weakness",
+          "Severe hyponatremia impairs neuromuscular conduction, causing skeletal muscle weakness that compromises respiratory effort."
+        ],
+        [
+          "B",
+          "Acute pulmonary embolism triggered by hypernatremic hemoconcentration",
+          "Hyponatremia involves low serum sodium concentration rather than hypernatremic vascular blood hemoconcentration."
+        ],
+        [
+          "C",
+          "Hyperactive diaphragmatic tetany caused by elevated ionized calcium",
+          "Tetany produces rigid muscle spasms rather than shallow, weak skeletal respiratory muscle movements."
+        ],
+        [
+          "D",
+          "Direct bronchodilation from excessive pituitary antidiuretic hormone",
+          "Antidiuretic hormone acts on renal collecting ducts rather than causing bronchial smooth dilation."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "In hyponatremia, shallow, ineffective respiratory movement is a late manifestation caused by generalized skeletal muscle weakness.",
+      "fc": [
+        "Hyponatremia Respiratory & CNS Cues (Table 8.4)",
+        "Respiratory: shallow, ineffective movement (late sign from muscle weakness) | CNS: headache, personality changes, confusion, seizures, coma | Neuromuscular: weakness worse in extremities, diminished DTRs",
+        "VII. Hyponatremia"
+      ]
+    },
+    {
+      "i": 62,
+      "t": "s",
+      "d": 2,
+      "c": 7,
+      "j": 2,
+      "sub": "VIII. Hypernatremia",
+      "st": "The nurse reviews the medical histories of assigned clients to identify those at risk for hypernatremia (serum sodium exceeding 145 mEq/L). Which clients are at risk? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "A client with untreated diabetes insipidus losing large volumes of water",
+          "Excessive free water loss in diabetes insipidus concentrates serum sodium above 145 mEq/L."
+        ],
+        [
+          "B",
+          "A client receiving long-term high-dose corticosteroid therapy",
+          "Corticosteroids decrease renal sodium excretion, promoting sodium retention and serum hypernatremia."
+        ],
+        [
+          "C",
+          "A client with Cushing's syndrome or primary hyperaldosteronism",
+          "Excess mineralocorticoid activity in Cushing's syndrome and hyperaldosteronism increases renal sodium reabsorption."
+        ],
+        [
+          "D",
+          "Excessive ingestion of solute-free distilled water",
+          "Excessive intake of solute-free water dilutes serum sodium and causes hyponatremia."
+        ],
+        [
+          "E",
+          "A client receiving excessive intravenous 0.45% hypotonic saline",
+          "Excessive hypotonic saline dilutes serum sodium and causes hyponatremia rather than hypernatremia."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Hypernatremia is caused by decreased Na+ excretion (corticosteroids, Cushing's, hyperaldosteronism, renal disease), high Na+ intake, NPO status, or water loss (DI, fever).",
+      "fc": [
+        "Causes of Hypernatremia",
+        "Decreased Na+ excretion: corticosteroids, Cushing's, kidney disease, hyperaldosteronism | Increased water loss: fever, hyperventilation, diaphoresis, watery diarrhea, diabetes insipidus | Increased Na+ intake or NPO status",
+        "VIII. Hypernatremia"
+      ]
+    },
+    {
+      "i": 63,
+      "t": "m",
+      "d": 2,
+      "c": 8,
+      "j": 1,
+      "sub": "VIII. Hypernatremia",
+      "st": "A client is admitted with a serum sodium level of 156 mEq/L (156 mmol/L) following 3 days of high fever and inability to drink fluids. Which clinical manifestation is the most common finding in hypernatremia?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Altered cerebral function such as agitation, confusion, or lethargy",
+          "Cellular dehydration of brain neurons makes altered cerebral function the most common manifestation."
+        ],
+        [
+          "B",
+          "Hyperactive bowel sounds with frequent explosive diarrhea",
+          "Hyperactive bowel sounds and diarrhea occur in hyponatremia and hyperkalemia rather than hypernatremia."
+        ],
+        [
+          "C",
+          "Polyuria with a markedly decreased urinary specific gravity",
+          "Hypernatremia triggers renal water conservation, resulting in oliguria and elevated specific gravity."
+        ],
+        [
+          "D",
+          "Positive Chvostek's and Trousseau's signs with carpal spasm",
+          "Chvostek's and Trousseau's signs indicate hypocalcemia or hypomagnesemia rather than elevated sodium."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Altered cerebral function is the most common manifestation of hypernatremia, accompanied by extreme thirst, dry sticky mucous membranes, and flushed skin.",
+      "fc": [
+        "Hypernatremia Primary Cues (Table 8.4)",
+        "Most common manifestation: altered cerebral function | GI/Integumentary: extreme thirst, dry/sticky tongue and mucosa, dry flushed skin | Renal/Labs: oliguria, Na+ > 145 mEq/L, increased urine specific gravity",
+        "VIII. Hypernatremia"
+      ]
+    },
+    {
+      "i": 64,
+      "t": "m",
+      "d": 4,
+      "c": 8,
+      "j": 2,
+      "sub": "VIII. Hypernatremia",
+      "st": "The nurse compares neurological findings in two clients with hypernatremia: Client 1 is hypovolemic, and Client 2 is hypervolemic. How does central nervous system presentation differ between these volume states?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Client 1 exhibits agitation, confusion, and seizures, whereas Client 2 exhibits lethargy, stupor, and coma",
+          "Hypovolemic hypernatremia causes agitation and seizures, whereas hypervolemic hypernatremia causes lethargy and coma."
+        ],
+        [
+          "B",
+          "Client 1 exhibits deep coma, whereas Client 2 exhibits hyperactive euphoria and mania",
+          "Hypovolemic hypernatremia produces agitation and seizures rather than initial deep unresponsive coma."
+        ],
+        [
+          "C",
+          "Both clients exhibit identical hyperactive deep tendon reflexes throughout all stages",
+          "Early hypernatremia causes muscle twitches, while late hypernatremia causes diminished or absent reflexes."
+        ],
+        [
+          "D",
+          "Neither client develops central nervous system changes until serum sodium exceeds 180 mEq/L",
+          "Altered cerebral function is the earliest and most common clinical finding in hypernatremia."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "In hypernatremia, normovolemia/hypovolemia produces agitation, confusion, and seizures, whereas hypervolemia produces lethargy, stupor, and coma.",
+      "fc": [
+        "CNS & Neuromuscular Cues in Hypernatremia (Table 8.4)",
+        "Normovolemic/hypovolemic CNS: agitation, confusion, seizures | Hypervolemic CNS: lethargy, stupor, coma | Neuromuscular: early muscle twitches -> late weakness and diminished/absent DTRs",
+        "VIII. Hypernatremia"
+      ]
+    },
+    {
+      "i": 65,
+      "t": "m",
+      "d": 3,
+      "c": 6,
+      "j": 5,
+      "sub": "VIII. Hypernatremia",
+      "st": "A client with type 2 diabetes mellitus and hypernatremia (serum sodium 152 mEq/L [152 mmol/L]) is prescribed an intravenous infusion of 5% dextrose in water (D5W) to lower serum sodium. Which priority nursing assessment is required during this infusion?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Monitor blood glucose levels closely because D5W may precipitate hyperglycemia",
+          "Dextrose metabolism leaves free water to lower sodium, but poses a hyperglycemia risk."
+        ],
+        [
+          "B",
+          "Administer potassium chloride boluses to prevent dextrose-induced hyperkalemia",
+          "Intravenous potassium is never given by bolus and is not added without hypokalemia."
+        ],
+        [
+          "C",
+          "Restrict all oral and intravenous fluid intake while infusing D5W",
+          "D5W is administered specifically to replenish free water and correct hypernatremic cellular dehydration."
+        ],
+        [
+          "D",
+          "Expect urinary specific gravity to increase above 1.040 as sodium normalizes",
+          "As free water is restored, urinary specific gravity decreases toward normal rather than rising."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "When IV D5W is prescribed to lower serum sodium in hypernatremia, clients with diabetes require close blood glucose monitoring for hyperglycemia.",
+      "fc": [
+        "IV D5W in Hypernatremia",
+        "D5W lowers serum sodium by providing free water once dextrose is metabolized | In clients with diabetes, monitor blood glucose closely for hyperglycemia | Also restrict sodium intake and give sodium-losing diuretics if renal retention exists",
+        "VIII. Hypernatremia"
+      ]
+    },
+    {
+      "i": 66,
+      "t": "m",
+      "d": 3,
+      "c": 6,
+      "j": 4,
+      "sub": "VIII. Hypernatremia",
+      "st": "A client develops hypernatremia due to inadequate renal sodium excretion from hyperaldosteronism and exhibits peripheral edema and elevated blood pressure. Which interventions should the nurse anticipate?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Administer diuretics that promote sodium loss and restrict sodium and fluid intake",
+          "When inadequate renal excretion causes hypernatremia, sodium-wasting diuretics and sodium/fluid restriction reduce overload."
+        ],
+        [
+          "B",
+          "Infuse rapid boluses of 0.9% sodium chloride to flush excess sodium through the kidneys",
+          "Administering isotonic saline adds further sodium and volume, worsening hypervolemic serum hypernatremia."
+        ],
+        [
+          "C",
+          "Administer potassium-sparing diuretics combined with high-sodium broths",
+          "High-sodium broths directly increase serum sodium concentration and exacerbate existing serum hypernatremia."
+        ],
+        [
+          "D",
+          "Encourage unrestricted intake of isotonic sports drinks and canned soups",
+          "Canned soups and electrolyte drinks are high in sodium and contraindicated in hypernatremia."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "When hypernatremia is caused by inadequate renal sodium excretion, interventions include diuretics that promote sodium loss plus sodium and fluid restriction.",
+      "fc": [
+        "Hypernatremia Management by Etiology",
+        "Fluid loss cause -> IV infusions (e.g., D5W) | Inadequate renal Na+ excretion -> diuretics promoting sodium loss | Restrict sodium and fluid intake as prescribed",
+        "VIII. Hypernatremia"
+      ]
+    },
+    {
+      "i": 67,
+      "t": "m",
+      "d": 1,
+      "c": 8,
+      "j": 1,
+      "sub": "VIII. Hypernatremia",
+      "st": "The nurse assesses the skin and oral cavity of an older adult client admitted with hypernatremic dehydration. Which integumentary findings are characteristic of hypernatremia?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Dry, flushed skin and a dry, sticky tongue and mucous membranes",
+          "Intracellular water depletion in hypernatremia produces dry, flushed skin and a sticky tongue."
+        ],
+        [
+          "B",
+          "Cool, clammy, diaphoretic skin with excessive salivation",
+          "Cool, diaphoretic skin and hypersalivation are inconsistent with hypernatremic cellular water loss."
+        ],
+        [
+          "C",
+          "Generalized bullous skin blisters with dependent pitting edema",
+          "Bullous lesions are unrelated to hypernatremia, and edema is absent unless hypervolemia coexists."
+        ],
+        [
+          "D",
+          "Jaundiced sclera with pale, moist palmar creases",
+          "Jaundice reflects hepatobiliary dysfunction rather than elevated serum sodium concentration in blood."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Integumentary manifestations of hypernatremia include dry and sticky tongue and mucous membranes, dry and flushed skin, and variable edema.",
+      "fc": [
+        "Hypernatremia Integumentary Cues (Table 8.4)",
+        "Dry and sticky tongue and mucous membranes | Dry and flushed skin | Edema present or absent depending on vascular volume status",
+        "VIII. Hypernatremia"
+      ]
+    },
+    {
+      "i": 68,
+      "t": "m",
+      "d": 4,
+      "c": 8,
+      "j": 3,
+      "sub": "VIII. Hypernatremia",
+      "st": "A client with hypervolemic hypernatremia (serum sodium 154 mEq/L [154 mmol/L]) develops sudden dyspnea, orthopnea, and pink-tinged frothy sputum. Which cardiovascular complication has occurred?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Pulmonary edema secondary to hypervolemic vascular overload",
+          "Hypernatremia accompanied by hypervolemia expands intravascular volume and precipitates acute pulmonary edema."
+        ],
+        [
+          "B",
+          "Hypovolemic shock caused by massive osmotic diuresis",
+          "Pink frothy sputum and orthopnea indicate pulmonary vascular congestion rather than hypovolemic shock."
+        ],
+        [
+          "C",
+          "Complete heart block induced by shortened ST segments",
+          "Shortened ST segments occur in hypercalcemia rather than hypernatremic vascular fluid volume overload."
+        ],
+        [
+          "D",
+          "Laryngospasm resulting from positive Chvostek's irritability",
+          "Hypocalcemic laryngospasm causes inspiratory stridor rather than frothy pulmonary vascular fluid edema."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "In hypernatremia, heart rate and blood pressure respond to vascular volume status, and pulmonary edema develops if hypervolemia is present.",
+      "fc": [
+        "Hypernatremia Cardiovascular Risk (Table 8.4)",
+        "Heart rate and blood pressure vary with vascular volume status | Pulmonary edema occurs if hypervolemia is present | Monitor lung sounds, respiratory status, and daily weights",
+        "VIII. Hypernatremia"
+      ]
+    },
+    {
+      "i": 69,
+      "t": "m",
+      "d": 1,
+      "c": 7,
+      "j": 1,
+      "sub": "IX. Hypocalcemia",
+      "st": "The nurse reviews a client's morning laboratory panel and notes a total serum calcium level of 7.8 mg/dL (1.95 mmol/L). What is the normal adult serum calcium reference range?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "9.0 to 10.5 mg/dL (2.25 to 2.75 mmol/L)",
+          "Normal total serum calcium is 9.0 to 10.5 mg/dL; values below indicate hypocalcemia."
+        ],
+        [
+          "B",
+          "4.64 to 5.28 mg/dL (1.16 to 1.32 mmol/L)",
+          "The range of 4.64 to 5.28 mg/dL represents normal adult ionized calcium levels."
+        ],
+        [
+          "C",
+          "3.0 to 4.5 mg/dL (0.97 to 1.45 mmol/L)",
+          "The range of 3.0 to 4.5 mg/dL is the normal reference range for phosphorus."
+        ],
+        [
+          "D",
+          "1.8 to 2.6 mEq/L (0.74 to 1.07 mmol/L)",
+          "The range of 1.8 to 2.6 mEq/L reflects normal serum magnesium rather than calcium."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "The normal total serum calcium level is 9.0 to 10.5 mg/dL (2.25 to 2.75 mmol/L); normal adult ionized calcium is 4.64 to 5.28 mg/dL.",
+      "fc": [
+        "Normal Serum Calcium Ranges",
+        "Total serum calcium: 9.0 to 10.5 mg/dL (2.25 to 2.75 mmol/L) | Ionized calcium (adult): 4.64 to 5.28 mg/dL | Hypocalcemia: < 9.0 mg/dL; Hypercalcemia: > 10.5 mg/dL",
+        "IX. Hypocalcemia"
+      ]
+    },
+    {
+      "i": 70,
+      "t": "s",
+      "d": 2,
+      "c": 7,
+      "j": 2,
+      "sub": "IX. Hypocalcemia",
+      "st": "The nurse is assessing clients for risk of hypocalcemia. Which clinical conditions predispose a client to a serum calcium level lower than 9.0 mg/dL (2.25 mmol/L)? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Lactose intolerance and malabsorption syndromes such as Crohn's disease",
+          "Avoidance of dairy products and intestinal malabsorption impair gastrointestinal dietary calcium absorption."
+        ],
+        [
+          "B",
+          "Acute pancreatitis and hyperphosphatemia",
+          "Pancreatitis saponifies calcium and elevated phosphorus reciprocally lowers serum calcium levels in blood."
+        ],
+        [
+          "C",
+          "Surgical removal or accidental destruction of the parathyroid glands",
+          "Loss of parathyroid hormone eliminates bone calcium mobilization and renal calcium tubular reabsorption."
+        ],
+        [
+          "D",
+          "Excessive oral intake of vitamin D supplements",
+          "Excessive vitamin D increases intestinal calcium absorption and causes hypercalcemia rather than hypocalcemia."
+        ],
+        [
+          "E",
+          "Prolonged immobility and metastatic bone malignancy",
+          "Immobility and bone metastases release calcium from bone into blood, causing hypercalcemia."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Hypocalcemia results from poor GI absorption (lactose intolerance, Crohn's, low vitamin D), excess loss, or low ionized calcium (alkalosis, pancreatitis, high phosphorus, parathyroid removal).",
+      "fc": [
+        "Causes of Hypocalcemia",
+        "Poor absorption: lactose intolerance, Crohn's, celiac, low vitamin D, ESKD | Excess loss: polyuric renal phase, diarrhea, steatorrhea, GI drainage | Low ionized Ca2+: alkalosis, pancreatitis, hyperphosphatemia, parathyroid removal",
+        "IX. Hypocalcemia"
+      ]
+    },
+    {
+      "i": 71,
+      "t": "m",
+      "d": 3,
+      "c": 8,
+      "j": 1,
+      "sub": "IX. Hypocalcemia",
+      "st": "During assessment of a client 24 hours after a total thyroidectomy, the nurse inflates a blood pressure cuff on the upper arm above systolic pressure for 3 minutes and observes carpal spasm of the hand. How should the nurse document this finding?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Positive Trousseau's sign indicating hypocalcemia",
+          "Carpal spasm induced by inflating a blood pressure cuff above systolic indicates Trousseau's sign."
+        ],
+        [
+          "B",
+          "Positive Chvostek's sign indicating hypercalcemia",
+          "Chvostek's sign is facial muscle twitching upon tapping the facial nerve in hypocalcemia."
+        ],
+        [
+          "C",
+          "Normal radial nerve compression response requiring no intervention",
+          "Carpal spasm during cuff inflation is an abnormal neuromuscular excitability sign requiring evaluation."
+        ],
+        [
+          "D",
+          "Negative Trousseau's sign ruling out parathyroid gland injury",
+          "The presence of carpal spasm constitutes a positive rather than negative Trousseau's sign."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Trousseau's sign is carpal spasm induced by inflating a blood pressure cuff above systolic pressure for a few minutes, indicating hypocalcemia.",
+      "fc": [
+        "Tests for Hypocalcemia (Fig. 8.3)",
+        "Chvostek's sign: facial muscle contraction when tapping facial nerve in front of ear | Trousseau's sign: carpal spasm when BP cuff inflated above systolic BP | Both indicate neuromuscular irritability (hypocalcemia/hypomagnesemia)",
+        "IX. Hypocalcemia"
+      ]
+    },
+    {
+      "i": 72,
+      "t": "s",
+      "d": 5,
+      "c": 8,
+      "j": 1,
+      "sub": "IX. Hypocalcemia",
+      "st": "A client with Crohn's disease has a serum calcium level of 8.0 mg/dL (2.0 mmol/L). Which assessment and electrocardiographic findings should the nurse expect? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Prolonged ST segment and prolonged QT interval on the electrocardiogram",
+          "Hypocalcemia delays ventricular repolarization, prolonging both the ST segment and QT interval."
+        ],
+        [
+          "B",
+          "Paresthesias and numbness around the lips, nose, ears, and limbs",
+          "Perioral and acral paresthesias are classic early sensory manifestations of serum hypocalcemia."
+        ],
+        [
+          "C",
+          "Hyperactive deep tendon reflexes, muscle twitches, and tetany",
+          "Low ionized calcium lowers the nerve depolarization threshold, producing hyperreflexia and tetany."
+        ],
+        [
+          "D",
+          "Shortened ST segment and widened T wave on the electrocardiogram",
+          "A shortened ST segment and widened T wave occur in hypercalcemia rather than hypocalcemia."
+        ],
+        [
+          "E",
+          "Hypoactive bowel sounds with severe abdominal distention and constipation",
+          "Hypocalcemia increases gastric motility and causes diarrhea rather than hypoactive bowel constipation."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Hypocalcemia causes prolonged ST/QT intervals, perioral/limb paresthesias, hyperactive DTRs, twitches, tetany, seizures, hypotension, and diarrhea.",
+      "fc": [
+        "Hypocalcemia Assessment & ECG (Tables 8.3 & 8.5)",
+        "ECG: prolonged ST segment, prolonged QT interval | Neuro/MS: paresthesias (lips, nose, ears, limbs), hyperactive DTRs, tetany, seizures | CV/GI: hypotension, bradycardia, hyperactive bowel sounds, diarrhea",
+        "IX. Hypocalcemia"
+      ]
+    },
+    {
+      "i": 73,
+      "t": "m",
+      "d": 4,
+      "c": 7,
+      "j": 2,
+      "sub": "IX. Hypocalcemia",
+      "st": "A client with hepatic cirrhosis has a total serum calcium of 7.8 mg/dL and a serum albumin of 2.0 g/dL. Using the corrected calcium formula, what is the client's corrected serum calcium level?",
+      "ex": {
+        "t": "Serum Chemistry Results",
+        "r": [
+          [
+            "Total Serum Calcium",
+            "7.8 mg/dL"
+          ],
+          [
+            "Serum Albumin",
+            "2.0 g/dL"
+          ],
+          [
+            "Formula",
+            "Corrected Ca = Serum Ca + 0.8 x (4 - Serum Albumin)"
+          ]
+        ]
+      },
+      "o": [
+        [
+          "A",
+          "9.4 mg/dL",
+          "Adding 0.8 multiplied by (4 minus 2.0), which equals 1.6, to 7.8 yields 9.4."
+        ],
+        [
+          "B",
+          "6.2 mg/dL",
+          "Subtracting 1.6 instead of adding it erroneously lowers the corrected serum calcium value."
+        ],
+        [
+          "C",
+          "8.6 mg/dL",
+          "Adding only 0.8 fails to multiply the correction factor by the 2.0 albumin deficit."
+        ],
+        [
+          "D",
+          "11.0 mg/dL",
+          "Adding 3.2 doubles the albumin correction factor and overestimates the corrected calcium level."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "When serum albumin is low, corrected calcium is calculated as: serum calcium + 0.8(4 - serum albumin), or ionized calcium (4.64-5.28 mg/dL) is checked.",
+      "fc": [
+        "Corrected Calcium Calculation",
+        "Check albumin if total Ca2+ is low | Formula: Corrected Ca = Serum Ca + 0.8 x (4 - Serum Albumin) | Alternative: measure ionized calcium (normal adult: 4.64 to 5.28 mg/dL)",
+        "IX. Hypocalcemia"
+      ]
+    },
+    {
+      "i": 74,
+      "t": "m",
+      "d": 4,
+      "c": 6,
+      "j": 5,
+      "sub": "IX. Hypocalcemia",
+      "st": "The nurse is preparing to administer intravenous calcium gluconate to a client with acute symptomatic hypocalcemia. Which nursing actions are essential during administration?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Warm the solution to body temperature, administer slowly, and monitor ECG and IV site",
+          "Warming to body temperature and slow infusion with ECG/site monitoring prevent dysrhythmias and necrosis."
+        ],
+        [
+          "B",
+          "Administer the solution cold via rapid intravenous push over 30 seconds",
+          "Rapid or cold intravenous calcium administration can induce severe bradycardia, block, or arrest."
+        ],
+        [
+          "C",
+          "Mix calcium gluconate in the same syringe with sodium bicarbonate",
+          "Calcium precipitates when mixed with bicarbonate and must be infused separately with site observation."
+        ],
+        [
+          "D",
+          "Discontinue cardiac telemetry once the first 2 mL of calcium enters the vein",
+          "Continuous electrocardiographic monitoring is mandatory throughout intravenous calcium infusion to detect dysrhythmias."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "When administering IV calcium, warm the solution to body temperature, administer slowly, monitor ECG, observe for infiltration, and monitor for hypercalcemia.",
+      "fc": [
+        "IV Calcium Administration Precautions",
+        "Warm injection solution to body temperature before administration | Administer slowly while monitoring ECG | Observe IV site for infiltration and monitor for hypercalcemia",
+        "IX. Hypocalcemia"
+      ]
+    },
+    {
+      "i": 75,
+      "t": "m",
+      "d": 3,
+      "c": 6,
+      "j": 2,
+      "sub": "IX. Hypocalcemia",
+      "st": "A client with chronic kidney disease and hypocalcemia is prescribed oral aluminum hydroxide and vitamin D supplements. How does aluminum hydroxide help raise the client's serum calcium level?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "It reduces serum phosphorus levels, producing a reciprocal increase in serum calcium",
+          "Aluminum hydroxide binds phosphorus, lowering serum phosphorus and causing a countereffect elevating calcium."
+        ],
+        [
+          "B",
+          "It directly supplies elemental calcium carbonate for intestinal absorption",
+          "Aluminum hydroxide contains aluminum rather than calcium and raises calcium indirectly via phosphorus."
+        ],
+        [
+          "C",
+          "It stimulates parathyroid hormone secretion from the anterior pituitary gland",
+          "Parathyroid hormone is secreted by the parathyroid glands rather than stimulated by aluminum hydroxide."
+        ],
+        [
+          "D",
+          "It inhibits renal tubular excretion of ionized calcium in the collecting duct",
+          "Aluminum hydroxide acts in the gastrointestinal tract to reduce phosphorus rather than blocking excretion."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Aluminum hydroxide reduces phosphorus levels to reciprocally increase calcium, while vitamin D aids intestinal calcium absorption.",
+      "fc": [
+        "Medications Increasing Calcium Levels",
+        "Aluminum hydroxide: reduces phosphorus, causing countereffect of increasing calcium | Vitamin D: aids intestinal absorption of calcium | Keep 10% calcium gluconate available for acute calcium deficit",
+        "IX. Hypocalcemia"
+      ]
+    },
+    {
+      "i": 76,
+      "t": "s",
+      "d": 3,
+      "c": 2,
+      "j": 4,
+      "sub": "IX. Hypocalcemia",
+      "st": "The nurse is developing a plan of care for a client with severe hypocalcemia (serum calcium 7.2 mg/dL [1.80 mmol/L]) who has positive Chvostek's and Trousseau's signs. Which safety interventions should the nurse implement? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Provide a quiet environment to minimize external sensory stimuli",
+          "Reducing noise and bright lights decreases neuromuscular irritability and lowers seizure risk."
+        ],
+        [
+          "B",
+          "Initiate seizure precautions including padded side rails and suction equipment",
+          "Severe hypocalcemia lowers the seizure threshold, requiring immediate padded-rail seizure precautions."
+        ],
+        [
+          "C",
+          "Keep 10% calcium gluconate readily available at the bedside for acute treatment",
+          "Bedside availability of 10% calcium gluconate enables rapid reversal of acute laryngospasm or tetany."
+        ],
+        [
+          "D",
+          "Administer oral sodium phosphate enemas to stimulate bowel motility",
+          "Phosphate enemas elevate serum phosphorus and further reduce ionized calcium, worsening tetany."
+        ],
+        [
+          "E",
+          "Encourage vigorous weight-bearing exercises to stimulate osteoblastic bone formation",
+          "Vigorous exercise in a severely hypocalcemic client risks pathological fractures and tetany-induced injury."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Safety care for hypocalcemia includes a quiet environment, seizure precautions, bedside 10% calcium gluconate, gentle handling for fracture risk, and high-calcium foods.",
+      "fc": [
+        "Hypocalcemia Safety Precautions",
+        "Provide quiet environment to reduce stimuli | Initiate seizure precautions; keep 10% calcium gluconate available | Move carefully (pathological fracture risk); teach high-calcium foods",
+        "IX. Hypocalcemia"
+      ]
+    },
+    {
+      "i": 77,
+      "t": "m",
+      "d": 5,
+      "c": 8,
+      "j": 3,
+      "sub": "IX. Hypocalcemia",
+      "st": "A client with severe hypocalcemia develops inspiratory stridor, carpopedal spasm, and decreasing oxygen saturation. What is the physiological cause of this acute respiratory emergency?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Laryngeal muscle tetany and seizures compromising respiratory movement",
+          "Although lungs are not directly affected, muscle tetany and seizures cause respiratory arrest."
+        ],
+        [
+          "B",
+          "Profound flaccid paralysis of the diaphragm from hyperkalemic depolarization",
+          "Hypocalcemia causes hyperexcitable muscle tetany rather than flaccid diaphragmatic skeletal paralysis."
+        ],
+        [
+          "C",
+          "Alveolar pulmonary edema from elevated left atrial hydrostatic pressure",
+          "Inspiratory stridor and carpopedal spasm reflect neuromuscular tetany rather than cardiogenic pulmonary edema."
+        ],
+        [
+          "D",
+          "Mucus plugging caused by severe hypernatremic airway dehydration",
+          "Acute stridor with carpal spasm points directly to hypocalcemic tetany rather than dehydration."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "In hypocalcemia, respiratory failure or arrest can result from decreased respiratory movement caused by muscle tetany or seizures.",
+      "fc": [
+        "Hypocalcemia Respiratory Risk (Table 8.5)",
+        "Lungs are not directly affected by hypocalcemia | Respiratory failure/arrest can result from muscle tetany (laryngospasm) or seizures | Keep 10% calcium gluconate readily available",
+        "IX. Hypocalcemia"
+      ]
+    },
+    {
+      "i": 78,
+      "t": "s",
+      "d": 2,
+      "c": 7,
+      "j": 2,
+      "sub": "X. Hypercalcemia",
+      "st": "The nurse is reviewing the medical records of clients on an oncology and medical unit. Which clients are at risk for developing hypercalcemia (serum calcium greater than 10.5 mg/dL)? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "A client with metastatic breast cancer causing bone destruction",
+          "Malignant bone metastases accelerate bone resorption, releasing large amounts of calcium into blood."
+        ],
+        [
+          "B",
+          "A client with primary hyperparathyroidism or hyperthyroidism",
+          "Both hyperparathyroidism and hyperthyroidism stimulate osteoclastic bone resorption, elevating serum calcium."
+        ],
+        [
+          "C",
+          "A client on prolonged bedrest and immobility following spinal trauma",
+          "Prolonged immobility promotes skeletal calcium mobilization into the circulation, causing serum hypercalcemia."
+        ],
+        [
+          "D",
+          "End-stage kidney disease with vitamin D deficiency",
+          "Vitamin D deficiency in end-stage kidney disease impairs calcium absorption and causes hypocalcemia."
+        ],
+        [
+          "E",
+          "A client with acute pancreatitis and malabsorption steatorrhea",
+          "Pancreatitis and steatorrhea bind and excrete calcium, causing hypocalcemia rather than hypercalcemia."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Hypercalcemia is caused by excess Ca2+/vitamin D intake, thiazides, renal disease, bone resorption (hyperparathyroidism, hyperthyroidism, malignancy, immobility), and dehydration/lithium.",
+      "fc": [
+        "Causes of Hypercalcemia",
+        "Bone resorption: hyperparathyroidism, hyperthyroidism, metastatic malignancy, immobility | Decreased excretion: thiazide diuretics, kidney disease | Other: excess Ca2+/vitamin D intake, dehydration, lithium, adrenal insufficiency",
+        "X. Hypercalcemia"
+      ]
+    },
+    {
+      "i": 79,
+      "t": "s",
+      "d": 5,
+      "c": 8,
+      "j": 1,
+      "sub": "X. Hypercalcemia",
+      "st": "A client with metastatic lung cancer is admitted with a serum calcium level of 13.4 mg/dL (3.35 mmol/L). Which assessment and electrocardiographic findings should the nurse expect? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Profound skeletal muscle weakness and diminished or absent deep tendon reflexes",
+          "Elevated serum calcium depresses neuromuscular excitability, causing profound muscle weakness and hyporeflexia."
+        ],
+        [
+          "B",
+          "Disorientation, lethargy progressing to coma, and severe constipation",
+          "Hypercalcemia slows central nervous system and gastrointestinal activity, causing lethargy and constipation."
+        ],
+        [
+          "C",
+          "Shortened ST segment, widened T wave, and heart block on the electrocardiogram",
+          "Accelerated ventricular repolarization shortens the ST segment, widens T waves, and causes block."
+        ],
+        [
+          "D",
+          "Hyperactive deep tendon reflexes with positive Chvostek's sign",
+          "Hyperactive reflexes and positive Chvostek's sign indicate hypocalcemia rather than elevated calcium."
+        ],
+        [
+          "E",
+          "Hyperactive bowel sounds with frequent cramping and watery diarrhea",
+          "Increased gastrointestinal motility and diarrhea occur in hypocalcemia rather than elevated serum calcium."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Hypercalcemia causes shortened ST segment, widened T wave, heart block, hypertension, bounding pulses, profound muscle weakness, absent DTRs, lethargy, and constipation.",
+      "fc": [
+        "Hypercalcemia Assessment & ECG (Tables 8.3 & 8.5)",
+        "ECG: shortened ST segment, widened T wave, heart block | Neuro/MS: disorientation, lethargy, coma, profound weakness, absent DTRs | GI/CV: anorexia, constipation, hypertension, bounding pulses (late bradycardia/arrest)",
+        "X. Hypercalcemia"
+      ]
+    },
+    {
+      "i": 80,
+      "t": "m",
+      "d": 3,
+      "c": 2,
+      "j": 4,
+      "sub": "X. Hypercalcemia",
+      "st": "A client admitted with severe hypercalcemia (serum calcium 12.8 mg/dL [3.20 mmol/L]) asks to walk to the bathroom. Which nursing action is the highest priority for client safety?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Assist the client with ambulation and move the client slowly and carefully",
+          "Calcium imbalances weaken bone density, placing the client at risk for pathological fractures."
+        ],
+        [
+          "B",
+          "Encourage the client to ambulate independently to reverse immobility-induced bone loss",
+          "Unassisted ambulation in a weak hypercalcemic client risks falls and devastating pathological fractures."
+        ],
+        [
+          "C",
+          "Perform vigorous passive range-of-motion exercises to restore deep tendon reflexes",
+          "Forceful manipulation of weakened bones can precipitate pathological fractures in hypercalcemic clients."
+        ],
+        [
+          "D",
+          "Place the client in Trendelenburg position to increase cerebral calcium perfusion",
+          "Trendelenburg positioning does not treat hypercalcemia and impairs respiratory excursion in weak clients."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "A client with a calcium imbalance is at risk for a pathological fracture; the nurse must move the client carefully and slowly and assist with ambulation.",
+      "fc": [
+        "Calcium Imbalance Fracture Safety Alert",
+        "Both hypocalcemia and hypercalcemia risk pathological fractures | Move the client carefully and slowly | Assist the client with ambulation and monitor for fracture signs",
+        "X. Hypercalcemia"
+      ]
+    },
+    {
+      "i": 81,
+      "t": "s",
+      "d": 4,
+      "c": 6,
+      "j": 4,
+      "sub": "X. Hypercalcemia",
+      "st": "The nurse is implementing medical prescriptions for a client with acute hypercalcemia (serum calcium 13.8 mg/dL [3.45 mmol/L]). Which interventions should the nurse anticipate? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Administer intravenous isotonic saline solutions to promote renal calcium excretion",
+          "Isotonic saline expands intravascular volume and enhances glomerular filtration and urinary calcium excretion."
+        ],
+        [
+          "B",
+          "Discontinue calcium-containing intravenous solutions, oral calcium, vitamin D, and thiazide diuretics",
+          "Stopping exogenous calcium, vitamin D, and calcium-retaining thiazides halts further calcium elevation."
+        ],
+        [
+          "C",
+          "Administer calcitonin, bisphosphonates, phosphorus, or NSAIDs to inhibit bone resorption",
+          "These medications inhibit osteoclastic bone resorption and lower circulating serum calcium concentrations."
+        ],
+        [
+          "D",
+          "Administer intravenous 10% calcium gluconate to stabilize cardiac membranes",
+          "Calcium gluconate increases serum calcium and is contraindicated in clients with hypercalcemia."
+        ],
+        [
+          "E",
+          "Encourage high-calcium dairy foods to prevent rebound hypocalcemic tetany",
+          "Clients with hypercalcemia must avoid foods high in calcium to prevent worsening hypercalcemia."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Hypercalcemia interventions include isotonic saline, stopping Ca2+/vitamin D/thiazides, bone resorption inhibitors (calcitonin, bisphosphonates, phosphorus, NSAIDs), dialysis, and straining urine.",
+      "fc": [
+        "Hypercalcemia Interventions",
+        "Give isotonic saline; stop Ca2+, vitamin D, and thiazide diuretics | Give bone resorption inhibitors: phosphorus, calcitonin, bisphosphonates, ASA/NSAIDs | Strain urine for stones; prepare for dialysis if severe; avoid high-Ca2+ foods",
+        "X. Hypercalcemia"
+      ]
+    },
+    {
+      "i": 82,
+      "t": "m",
+      "d": 4,
+      "c": 6,
+      "j": 3,
+      "sub": "X. Hypercalcemia",
+      "st": "A client with hypercalcemia has been taking hydrochlorothiazide (a thiazide diuretic) for hypertension. Why does the health care provider discontinue hydrochlorothiazide and prescribe a loop diuretic instead?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Thiazide diuretics decrease calcium excretion, whereas loop diuretics enhance renal calcium excretion",
+          "Thiazide diuretics promote calcium retention, whereas loop diuretics increase urinary calcium renal clearance."
+        ],
+        [
+          "B",
+          "Thiazide diuretics cause severe hyperkalemia, whereas loop diuretics retain potassium",
+          "Loop diuretics waste potassium rather than retain it, and are chosen for calciuresis."
+        ],
+        [
+          "C",
+          "Thiazide diuretics bind dietary phosphorus in the bowel, elevating ionized calcium",
+          "Thiazides act on the distal renal tubule rather than binding phosphorus in bowel."
+        ],
+        [
+          "D",
+          "Loop diuretics directly stimulate calcitonin release from the thyroid gland",
+          "Loop diuretics promote renal calcium excretion rather than stimulating thyroid calcitonin hormone release."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "In hypercalcemia, thiazide diuretics are discontinued because they decrease calcium excretion and replaced with diuretics that enhance calcium excretion.",
+      "fc": [
+        "Diuretic Selection in Hypercalcemia",
+        "Thiazide diuretics -> decrease renal Ca2+ excretion (cause hypercalcemia) | Replace thiazides with diuretics that enhance renal Ca2+ excretion | Combine with isotonic saline hydration to prevent kidney stones",
+        "X. Hypercalcemia"
+      ]
+    },
+    {
+      "i": 83,
+      "t": "m",
+      "d": 5,
+      "c": 8,
+      "j": 2,
+      "sub": "X. Hypercalcemia",
+      "st": "A client with severe untreated hypercalcemia (serum calcium 15.2 mg/dL [3.80 mmol/L]) initially presented with tachycardia, and now develops progressive bradycardia and second-degree heart block on telemetry. How does the nurse interpret this change?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Progression from the early phase to the late phase of hypercalcemia, risking cardiac arrest",
+          "Hypercalcemia causes early tachycardia, followed by late bradycardia and heart block risking arrest."
+        ],
+        [
+          "B",
+          "Rapid correction of serum calcium into the normal range",
+          "Bradycardia and heart block indicate worsening late-stage cardiac toxicity rather than electrolyte normalization."
+        ],
+        [
+          "C",
+          "Development of hypokalemic U waves requiring intravenous potassium bolus",
+          "Heart block and bradycardia in severe hypercalcemia reflect calcium-induced block rather than hypokalemia."
+        ],
+        [
+          "D",
+          "Normal physiological sleep response requiring no provider notification",
+          "Progressive bradycardia with heart block in severe hypercalcemia is a life-threatening cardiac emergency."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Hypercalcemia produces an increased heart rate in the early phase, followed by bradycardia that can lead to cardiac arrest in late phases.",
+      "fc": [
+        "Hypercalcemia Cardiac Progression (Table 8.5)",
+        "Early phase: increased heart rate, elevated BP, bounding pulses | Late phase: bradycardia, heart block, risk of cardiac arrest | Respiratory: ineffective movement from profound muscle weakness",
+        "X. Hypercalcemia"
+      ]
+    },
+    {
+      "i": 84,
+      "t": "m",
+      "d": 3,
+      "c": 6,
+      "j": 4,
+      "sub": "X. Hypercalcemia",
+      "st": "A client with severe hypercalcemia secondary to refractory hyperparathyroidism fails to respond to isotonic saline, calcitonin, and bisphosphonate therapy. Which intervention should the nurse prepare the client for next?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Hemodialysis to rapidly lower the critically elevated serum calcium level",
+          "Dialysis is indicated for severe hypercalcemia when hydration and medications fail to reduce levels."
+        ],
+        [
+          "B",
+          "Oral vitamin D supplementation to enhance renal calcium clearance",
+          "Vitamin D increases intestinal calcium absorption and would worsen life-threatening acute serum hypercalcemia."
+        ],
+        [
+          "C",
+          "Intravenous 10% calcium gluconate infusion to stabilize myocardial membranes",
+          "Calcium gluconate is the antidote for hypermagnesemia and hypocalcemia, and is contraindicated here."
+        ],
+        [
+          "D",
+          "High-calcium dietary supplementation with dairy products at every meal",
+          "Dietary calcium must be strictly avoided in clients with elevated serum calcium levels."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "When medications and hydration fail to reduce severe hypercalcemia, the nurse prepares the client for dialysis.",
+      "fc": [
+        "Refractory Severe Hypercalcemia",
+        "First-line: isotonic saline, stop Ca2+/vitamin D/thiazides | Second-line: calcitonin, bisphosphonates, phosphorus, ASA/NSAIDs | Refractory severe hypercalcemia: prepare client for dialysis",
+        "X. Hypercalcemia"
+      ]
+    },
+    {
+      "i": 85,
+      "t": "m",
+      "d": 1,
+      "c": 7,
+      "j": 1,
+      "sub": "XI. Hypomagnesemia",
+      "st": "The nurse reviews a client's laboratory results and identifies a serum magnesium level of 1.2 mEq/L (0.49 mmol/L). What is the normal adult serum magnesium reference range?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "1.8 to 2.6 mEq/L (0.74 to 1.07 mmol/L)",
+          "Normal adult serum magnesium is 1.8 to 2.6 mEq/L; values below indicate hypomagnesemia."
+        ],
+        [
+          "B",
+          "3.5 to 5.0 mEq/L (3.5 to 5.0 mmol/L)",
+          "The range of 3.5 to 5.0 mEq/L is the normal reference range for potassium."
+        ],
+        [
+          "C",
+          "3.0 to 4.5 mg/dL (0.97 to 1.45 mmol/L)",
+          "The range of 3.0 to 4.5 mg/dL represents normal adult serum phosphorus levels."
+        ],
+        [
+          "D",
+          "9.0 to 10.5 mg/dL (2.25 to 2.75 mmol/L)",
+          "The range of 9.0 to 10.5 mg/dL is the normal reference range for calcium."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "The normal serum magnesium level is 1.8 to 2.6 mEq/L (0.74 to 1.07 mmol/L); hypomagnesemia is below 1.8 mEq/L.",
+      "fc": [
+        "Normal Serum Magnesium Range",
+        "Normal serum magnesium: 1.8 to 2.6 mEq/L (0.74 to 1.07 mmol/L) | Hypomagnesemia: < 1.8 mEq/L | Hypermagnesemia: > 2.6 mEq/L",
+        "XI. Hypomagnesemia"
+      ]
+    },
+    {
+      "i": 86,
+      "t": "s",
+      "d": 2,
+      "c": 7,
+      "j": 2,
+      "sub": "XI. Hypomagnesemia",
+      "st": "The nurse is assessing clients on a medical unit for risk of hypomagnesemia. Which clients are at risk for developing a serum magnesium level lower than 1.8 mEq/L (0.74 mmol/L)? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "A client with chronic alcoholism and poor nutritional intake",
+          "Chronic alcoholism increases renal magnesium excretion and is compounded by poor dietary intake."
+        ],
+        [
+          "B",
+          "A client with Crohn's disease, celiac disease, or chronic diarrhea",
+          "Malabsorption syndromes and diarrhea impair gastrointestinal magnesium absorption and deplete body magnesium stores."
+        ],
+        [
+          "C",
+          "A client receiving intravenous insulin therapy for severe hyperglycemia",
+          "Insulin administration and hyperglycemia shift extracellular magnesium into cells, lowering serum magnesium levels."
+        ],
+        [
+          "D",
+          "Overuse of magnesium-containing laxatives and antacids",
+          "Excessive intake of magnesium-containing laxatives and antacids elevates serum magnesium and causes hypermagnesemia."
+        ],
+        [
+          "E",
+          "A client with end-stage renal disease taking daily magnesium-containing antacids",
+          "Renal insufficiency paired with magnesium antacids causes magnesium retention and serum magnesium elevation."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Hypomagnesemia is caused by low intake/malabsorption (alcoholism, malnutrition, Crohn's, celiac, diarrhea), diuretics, or intracellular shift (hyperglycemia, insulin, sepsis).",
+      "fc": [
+        "Causes of Hypomagnesemia",
+        "Poor intake/absorption: malnutrition, vomiting/diarrhea, celiac, Crohn's | Increased excretion: diuretics, chronic alcoholism | Intracellular shift: hyperglycemia, insulin administration, sepsis",
+        "XI. Hypomagnesemia"
+      ]
+    },
+    {
+      "i": 87,
+      "t": "s",
+      "d": 3,
+      "c": 8,
+      "j": 1,
+      "sub": "XI. Hypomagnesemia",
+      "st": "A client admitted with alcohol withdrawal has a serum magnesium level of 1.1 mEq/L (0.45 mmol/L). Which assessment and electrocardiographic findings should the nurse anticipate? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Hyperreflexia, muscle twitches, paresthesias, and positive Trousseau's and Chvostek's signs",
+          "Hypomagnesemia increases neuromuscular excitability, producing hyperreflexia, tetany, seizures, and Trousseau's/Chvostek's signs."
+        ],
+        [
+          "B",
+          "Tachycardia and hypertension",
+          "Sympathetic nervous system stimulation in hypomagnesemia elevates heart rate and arterial blood pressure."
+        ],
+        [
+          "C",
+          "Tall T waves and depressed ST segments on the electrocardiogram",
+          "Hypomagnesemia produces tall T waves and ST segment depression on cardiac telemetry monitoring."
+        ],
+        [
+          "D",
+          "Prolonged PR interval and widened QRS complexes on telemetry",
+          "Prolonged PR intervals and widened QRS complexes characterize hypermagnesemia rather than low magnesium."
+        ],
+        [
+          "E",
+          "Diminished deep tendon reflexes, bradycardia, and hypotension",
+          "Diminished reflexes, bradycardia, and hypotension characterize hypermagnesemia rather than low serum magnesium."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Hypomagnesemia manifests with tachycardia, hypertension, shallow respirations, hyperreflexia, positive Trousseau's/Chvostek's signs, tetany, seizures, tall T waves, and depressed ST segments.",
+      "fc": [
+        "Hypomagnesemia Assessment & ECG (Tables 8.3 & 8.6)",
+        "ECG: tall T waves, depressed ST segments | CV/Resp: tachycardia, hypertension, shallow respirations | Neuro/MS: hyperreflexia, twitches, positive Trousseau's/Chvostek's, tetany, seizures, confusion",
+        "XI. Hypomagnesemia"
+      ]
+    },
+    {
+      "i": 88,
+      "t": "m",
+      "d": 4,
+      "c": 6,
+      "j": 5,
+      "sub": "XI. Hypomagnesemia",
+      "st": "A critically ill client with a serum magnesium of 1.0 mEq/L (0.41 mmol/L) is prescribed intravenous magnesium sulfate. Which nursing actions are essential during this infusion?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Initiate seizure precautions and monitor serum magnesium and deep tendon reflexes frequently",
+          "Seizure precautions protect against hypomagnesemic seizures, while reflex checks detect iatrogenic hypermagnesemia toxicity."
+        ],
+        [
+          "B",
+          "Request that the route be changed to deep intramuscular injection to avoid IV irritation",
+          "Intramuscular magnesium sulfate causes severe pain and tissue damage and should be avoided."
+        ],
+        [
+          "C",
+          "Administer oral magnesium oxide simultaneously to accelerate rapid normalization",
+          "Oral magnesium preparations frequently cause diarrhea that increases gastrointestinal magnesium stool loss."
+        ],
+        [
+          "D",
+          "Discontinue calcium monitoring because magnesium replacement independently normalizes calcium",
+          "Hypocalcemia frequently accompanies hypomagnesemia, requiring simultaneous assessment and restoration of serum calcium."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "IV magnesium sulfate requires seizure precautions, frequent serum Mg2+ checks, and monitoring for diminished DTRs (sign of hypermagnesemia); avoid IM injections.",
+      "fc": [
+        "Hypomagnesemia Interventions",
+        "Frequently coexists with hypocalcemia -> also restore serum calcium | Oral Mg2+ may cause diarrhea and worsen Mg2+ loss | IV MgSO4 (avoid painful IM): seizure precautions, check Mg2+ and DTRs frequently",
+        "XI. Hypomagnesemia"
+      ]
+    },
+    {
+      "i": 89,
+      "t": "m",
+      "d": 3,
+      "c": 7,
+      "j": 2,
+      "sub": "XI. Hypomagnesemia",
+      "st": "A client admitted with severe chronic alcoholism and hypomagnesemia continues to have positive Trousseau's and Chvostek's signs after initial magnesium replacement. Which additional electrolyte imbalance should the nurse suspect?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Coexisting hypocalcemia requiring simultaneous serum calcium restoration",
+          "Hypocalcemia frequently accompanies hypomagnesemia and produces identical positive neuromuscular irritability assessment signs."
+        ],
+        [
+          "B",
+          "Iatrogenic hypernatremia from normal saline carrier fluid",
+          "Hypernatremia causes extreme thirst and confusion rather than positive Trousseau's and Chvostek's signs."
+        ],
+        [
+          "C",
+          "Isolated hyperphosphatemia from rapid magnesium infusion",
+          "Magnesium replacement does not directly induce hyperphosphatemia or carpopedal neuromuscular tetany spasm."
+        ],
+        [
+          "D",
+          "Dilutional hyperkalemia from alcohol-induced diuresis",
+          "Chronic alcoholism causes renal electrolyte depletion rather than dilutional serum potassium elevation."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Because hypocalcemia frequently accompanies hypomagnesemia, nursing interventions must also aim to restore normal serum calcium levels.",
+      "fc": [
+        "Hypomagnesemia & Coexisting Hypocalcemia",
+        "Hypocalcemia frequently accompanies hypomagnesemia | Both cause hyperreflexia, tetany, and positive Chvostek's/Trousseau's signs | Interventions must also restore normal serum calcium levels",
+        "XI. Hypomagnesemia"
+      ]
+    },
+    {
+      "i": 90,
+      "t": "m",
+      "d": 4,
+      "c": 6,
+      "j": 6,
+      "sub": "XI. Hypomagnesemia",
+      "st": "During an intravenous magnesium sulfate infusion for hypomagnesemia, the nurse notes that the client's patellar deep tendon reflexes have become sluggish and diminished. What is the nurse's priority action?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Stop or hold the magnesium infusion and notify the provider of suspected hypermagnesemia",
+          "Diminished deep tendon reflexes during IV magnesium administration indicate developing hypermagnesemia overdose toxicity."
+        ],
+        [
+          "B",
+          "Increase the magnesium infusion rate because sluggish reflexes indicate worsening deficit",
+          "Hypomagnesemia causes hyperreflexia, whereas diminished reflexes signal excessive serum magnesium levels."
+        ],
+        [
+          "C",
+          "Administer an oral magnesium-containing laxative to maintain steady levels",
+          "Adding oral magnesium during developing hypermagnesemia would precipitate severe respiratory muscle arrest."
+        ],
+        [
+          "D",
+          "Document the finding as a normal therapeutic endpoint and continue the infusion",
+          "Diminished reflexes are an early warning sign of magnesium overdose requiring immediate cessation."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "During IV magnesium administration, diminished deep tendon reflexes suggest hypermagnesemia and require stopping the infusion and notifying the provider.",
+      "fc": [
+        "Monitoring IV Magnesium Sulfate Therapy",
+        "Monitor deep tendon reflexes (DTRs) frequently during IV MgSO4 | Diminished or absent DTRs = early sign of hypermagnesemia | Hold infusion, check Mg2+ level, and keep calcium gluconate available",
+        "XI. Hypomagnesemia"
+      ]
+    },
+    {
+      "i": 91,
+      "t": "m",
+      "d": 2,
+      "c": 7,
+      "j": 2,
+      "sub": "XII. Hypermagnesemia",
+      "st": "A client with chronic kidney disease presents to the emergency department with lethargy, bradycardia, and a serum magnesium level of 3.8 mEq/L (1.56 mmol/L). Which home medication history most likely contributed to this imbalance?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Frequent daily use of magnesium-containing antacids and laxatives",
+          "In renal insufficiency, impaired excretion of magnesium-containing antacids and laxatives causes hypermagnesemia."
+        ],
+        [
+          "B",
+          "Daily morning administration of furosemide and potassium chloride",
+          "Loop diuretics increase renal magnesium excretion and predispose to hypomagnesemia rather than hypermagnesemia."
+        ],
+        [
+          "C",
+          "Regular use of calcium carbonate tablets with vitamin D",
+          "Calcium and vitamin D supplementation predisposes to hypercalcemia rather than elevated serum magnesium."
+        ],
+        [
+          "D",
+          "Daily low-dose aspirin and inhaled albuterol therapy",
+          "Aspirin and albuterol do not cause renal magnesium retention or elevated serum magnesium."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Hypermagnesemia is caused by renal insufficiency (decreased excretion) or excessive magnesium intake (Mg2+-containing antacids, laxatives, or IV overdose).",
+      "fc": [
+        "Causes of Hypermagnesemia",
+        "Serum Mg2+ > 2.6 mEq/L (1.07 mmol/L) | Decreased renal excretion: renal insufficiency | Increased intake: Mg2+-containing antacids/laxatives, excessive IV Mg2+",
+        "XII. Hypermagnesemia"
+      ]
+    },
+    {
+      "i": 92,
+      "t": "s",
+      "d": 3,
+      "c": 8,
+      "j": 1,
+      "sub": "XII. Hypermagnesemia",
+      "st": "The nurse is assessing a client with a serum magnesium level of 4.2 mEq/L (1.73 mmol/L). Which clinical and electrocardiographic manifestations should the nurse expect? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Bradycardia, hypotension, and risk of cardiac arrest if severe",
+          "Elevated serum magnesium depresses cardiac conduction and vascular tone, causing bradycardia and hypotension."
+        ],
+        [
+          "B",
+          "Diminished or absent deep tendon reflexes and skeletal muscle weakness",
+          "Hypermagnesemia blocks neuromuscular transmission, resulting in hyporeflexia and progressive skeletal muscle weakness."
+        ],
+        [
+          "C",
+          "Drowsiness and lethargy progressing to coma, with respiratory insufficiency",
+          "Central nervous system depression and respiratory muscle weakness cause lethargy, coma, and insufficiency."
+        ],
+        [
+          "D",
+          "Hyperactive deep tendon reflexes and positive Chvostek's sign",
+          "Hyperreflexia and positive Chvostek's sign occur in hypomagnesemia rather than elevated serum magnesium."
+        ],
+        [
+          "E",
+          "Hypertension, tachycardia, and positive Trousseau's sign",
+          "Hypertension, tachycardia, and positive Trousseau's sign occur in hypomagnesemia rather than hypermagnesemia."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Hypermagnesemia causes bradycardia, hypotension, respiratory insufficiency, absent DTRs, muscle weakness, drowsiness/coma, prolonged PR interval, and widened QRS.",
+      "fc": [
+        "Hypermagnesemia Assessment & ECG (Tables 8.3 & 8.6)",
+        "ECG: prolonged PR interval, widened QRS complexes | CV/Resp: bradycardia, hypotension, arrest, respiratory insufficiency | Neuro/MS: diminished/absent DTRs, weakness, drowsiness/lethargy -> coma",
+        "XII. Hypermagnesemia"
+      ]
+    },
+    {
+      "i": 93,
+      "t": "m",
+      "d": 5,
+      "c": 6,
+      "j": 5,
+      "sub": "XII. Hypermagnesemia",
+      "st": "A client receiving intravenous magnesium sulfate develops a respiratory rate of 8 breaths/min, absent patellar reflexes, and a serum magnesium level of 5.6 mEq/L (2.30 mmol/L). Which antidote should the nurse administer immediately as prescribed?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Intravenous calcium gluconate",
+          "Calcium gluconate is the specific antidote for magnesium overdose and reverses cardiac toxicity."
+        ],
+        [
+          "B",
+          "Intravenous potassium chloride",
+          "Potassium chloride does not antagonize magnesium toxicity and can worsen cardiac conduction block."
+        ],
+        [
+          "C",
+          "Subcutaneous regular insulin with dextrose",
+          "Insulin shifts potassium into cells and has no therapeutic effect on magnesium overdose."
+        ],
+        [
+          "D",
+          "Oral sodium polystyrene sulfonate",
+          "Sodium polystyrene sulfonate removes potassium in the bowel rather than reversing acute hypermagnesemia."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Calcium gluconate (or calcium chloride) is the antidote for magnesium overdose to reverse the toxic effects of magnesium on cardiac muscle.",
+      "fc": [
+        "Hypermagnesemia Antidote Safety Alert",
+        "Calcium gluconate is the antidote for magnesium overdose | IV calcium gluconate or calcium chloride reverses cardiac muscle effects | Also give diuretics (if renal intact) and avoid Mg2+ antacids/laxatives",
+        "XII. Hypermagnesemia"
+      ]
+    },
+    {
+      "i": 94,
+      "t": "s",
+      "d": 3,
+      "c": 3,
+      "j": 5,
+      "sub": "XII. Hypermagnesemia",
+      "st": "The nurse is providing discharge instructions to a client with stage 4 chronic kidney disease who recently recovered from hypermagnesemia. Which teaching points should the nurse include? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Avoid over-the-counter antacids and laxatives that contain magnesium",
+          "Magnesium-containing antacids and laxatives are poorly excreted in renal insufficiency and trigger hypermagnesemia."
+        ],
+        [
+          "B",
+          "Restrict dietary intake of foods high in magnesium",
+          "Limiting high-magnesium foods prevents exogenous magnesium accumulation when renal clearance is impaired."
+        ],
+        [
+          "C",
+          "Take prescribed diuretics as directed to promote renal magnesium excretion",
+          "Prescribed diuretics assist the kidneys in excreting excess magnesium and preventing recurrence."
+        ],
+        [
+          "D",
+          "Use Milk of Magnesia nightly to prevent uremic constipation",
+          "Milk of Magnesia contains magnesium hydroxide and can precipitate fatal hypermagnesemia in kidney disease."
+        ],
+        [
+          "E",
+          "Increase intake of magnesium-rich nuts and whole grains for muscle strength",
+          "Increasing dietary magnesium elevates serum magnesium levels and is contraindicated in renal insufficiency."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "To prevent hypermagnesemia, clients must restrict dietary magnesium-containing foods and avoid magnesium-containing laxatives and antacids.",
+      "fc": [
+        "Hypermagnesemia Prevention & Teaching",
+        "Restrict dietary intake of magnesium-containing foods | Avoid laxatives and antacids containing magnesium | Diuretics may be prescribed to enhance renal Mg2+ excretion",
+        "XII. Hypermagnesemia"
+      ]
+    },
+    {
+      "i": 95,
+      "t": "m",
+      "d": 2,
+      "c": 7,
+      "j": 2,
+      "sub": "XIII. Hypophosphatemia",
+      "st": "The nurse reviews a client's laboratory report and notes a serum phosphorus (phosphate) level of 1.8 mg/dL (0.58 mmol/L) alongside a serum calcium of 11.1 mg/dL (2.78 mmol/L). Which condition most likely caused this phosphorus level, and how does it relate to calcium?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Malnutrition or aluminum/magnesium antacids; phosphorus and calcium have a reciprocal relationship",
+          "Malnutrition and aluminum/magnesium antacids cause hypophosphatemia, which reciprocally elevates serum calcium levels."
+        ],
+        [
+          "B",
+          "Renal insufficiency or tumor lysis syndrome; phosphorus and calcium rise together proportionally",
+          "Renal insufficiency and tumor lysis syndrome cause hyperphosphatemia rather than low serum phosphorus."
+        ],
+        [
+          "C",
+          "Hypoparathyroidism; phosphorus and calcium move in the exact same direction",
+          "Hypoparathyroidism causes hyperphosphatemia, and phosphorus always moves inversely to serum calcium levels."
+        ],
+        [
+          "D",
+          "Overuse of phosphate-containing enemas; phosphorus and calcium have no physiological interaction",
+          "Phosphate enemas cause hyperphosphatemia, whereas phosphorus and calcium maintain a strict reciprocal relationship."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Normal phosphorus is 3.0 to 4.5 mg/dL; hypophosphatemia (<3.0 mg/dL) results from malnutrition, hyperparathyroidism, Al/Mg antacids, or alkalosis, and reciprocally raises calcium.",
+      "fc": [
+        "Hypophosphatemia & Reciprocal Relationship",
+        "Normal phosphorus: 3.0 to 4.5 mg/dL (0.97 to 1.45 mmol/L) | Causes: malnutrition, hyperparathyroidism, malignancy, Al/Mg antacids, hyperglycemia, respiratory alkalosis | Reciprocal relationship: low phosphorus -> high calcium",
+        "XIII. Hypophosphatemia"
+      ]
+    },
+    {
+      "i": 96,
+      "t": "m",
+      "d": 3,
+      "c": 8,
+      "j": 1,
+      "sub": "XIII. Hypophosphatemia",
+      "st": "A client admitted for malnutrition has a serum phosphorus level of 2.6 mg/dL (0.84 mmol/L) and reports feeling completely normal with no physical complaints. How does the nurse interpret this clinical presentation?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Expected, because mild hypophosphatemia is often asymptomatic until levels drop very low",
+          "Individuals with mild hypophosphatemia frequently have no symptoms until serum phosphorus falls low."
+        ],
+        [
+          "B",
+          "Suspicious for laboratory error, because levels below 3.0 mg/dL always cause immediate tetany",
+          "Neuromuscular tetany is driven by hypocalcemia rather than mild asymptomatic serum phosphorus depletion."
+        ],
+        [
+          "C",
+          "Indicative of acute hyperparathyroid crisis requiring emergency surgery",
+          "Asymptomatic mild hypophosphatemia in malnutrition is managed with oral phosphorus and vitamin D."
+        ],
+        [
+          "D",
+          "Proof that serum phosphorus levels below 3.0 mg/dL require no clinical intervention",
+          "Untreated hypophosphatemia can progress to critically low levels (<1.0 mg/dL) with severe complications."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "An individual with mild hypophosphatemia may not experience symptoms; clinical manifestations often do not appear until phosphorus drops very low.",
+      "fc": [
+        "Hypophosphatemia Clinical Presentation Alert",
+        "Mild hypophosphatemia (< 3.0 mg/dL) may produce NO symptoms | Symptoms often appear only when phosphorus drops very low | Assess Table 8.5 manifestations and monitor serial labs",
+        "XIII. Hypophosphatemia"
+      ]
+    },
+    {
+      "i": 97,
+      "t": "s",
+      "d": 4,
+      "c": 6,
+      "j": 5,
+      "sub": "XIII. Hypophosphatemia",
+      "st": "A client with severe malnutrition develops a critical serum phosphorus level of 0.8 mg/dL (0.26 mmol/L) with muscle weakness, and intravenous phosphorus replacement is prescribed. Which nursing actions are essential? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Assess renal system function before administering intravenous phosphorus",
+          "Adequate renal function must be confirmed prior to phosphorus infusion to prevent fatal hyperphosphatemia."
+        ],
+        [
+          "B",
+          "Administer intravenous phosphorus slowly to prevent acute hyperphosphatemia",
+          "Rapid intravenous phosphorus infusion causes severe hyperphosphatemia and precipitous hypocalcemic neuromuscular tetany."
+        ],
+        [
+          "C",
+          "Move the client carefully and monitor for signs of a pathological fracture",
+          "Phosphate depletion weakens bone mineralization, requiring careful handling to prevent pathological skeletal fractures."
+        ],
+        [
+          "D",
+          "Instruct the client to increase calcium-rich foods while taking oral phosphorus",
+          "Clients with hypophosphatemia should increase phosphorus foods while decreasing calcium-containing food intake."
+        ],
+        [
+          "E",
+          "Continue daily aluminum hydroxide antacids to protect gastric mucosa during therapy",
+          "Aluminum hydroxide antacids bind phosphorus in the bowel and must be discontinued immediately."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "IV phosphorus (<1 mg/dL) must be given slowly after assessing renal function; also discontinue causative meds, prevent fractures, and increase phosphorus/decrease calcium foods.",
+      "fc": [
+        "Hypophosphatemia Interventions",
+        "IV phosphorus (< 1 mg/dL): assess renal system first and infuse SLOWLY | Oral phosphorus given with vitamin D; stop Al/Mg antacids | Move carefully (fracture risk); increase phosphorus foods, decrease calcium foods",
+        "XIII. Hypophosphatemia"
+      ]
+    },
+    {
+      "i": 98,
+      "t": "s",
+      "d": 3,
+      "c": 7,
+      "j": 2,
+      "sub": "XIV. Hyperphosphatemia",
+      "st": "The nurse is reviewing laboratory reports for clients at risk for hyperphosphatemia (serum phosphorus exceeding 4.5 mg/dL). Which clinical conditions cause hyperphosphatemia? Select all that apply.",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Chronic or acute renal insufficiency with decreased phosphorus excretion",
+          "Impaired renal clearance is the most common cause of phosphorus accumulation above 4.5."
+        ],
+        [
+          "B",
+          "Tumor lysis syndrome following chemotherapy initiation",
+          "Rapid malignant cell lysis releases large quantities of intracellular phosphate into the bloodstream."
+        ],
+        [
+          "C",
+          "Overuse of phosphate-containing laxatives or enemas",
+          "Excessive absorption of phosphate-containing enemas or laxatives causes acute elevated serum phosphorus."
+        ],
+        [
+          "D",
+          "Chronic starvation and aluminum hydroxide antacid overuse",
+          "Starvation and aluminum hydroxide antacids deplete serum phosphorus and cause low phosphorus levels."
+        ],
+        [
+          "E",
+          "Primary hyperparathyroidism with excessive renal phosphate wasting",
+          "Hyperparathyroidism increases renal phosphate excretion and causes hypophosphatemia rather than elevated serum phosphorus."
+        ]
+      ],
+      "a": [
+        "A",
+        "B",
+        "C"
+      ],
+      "obj": "Hyperphosphatemia (>4.5 mg/dL) is caused by renal insufficiency, tumor lysis syndrome, phosphate-containing laxatives/enemas, high dietary intake, and hypoparathyroidism.",
+      "fc": [
+        "Causes of Hyperphosphatemia",
+        "Serum phosphorus > 4.5 mg/dL (1.45 mmol/L) | Causes: renal insufficiency, tumor lysis syndrome, hypoparathyroidism | Exogenous: high phosphorus diet or overuse of phosphate laxatives/enemas",
+        "XIV. Hyperphosphatemia"
+      ]
+    },
+    {
+      "i": 99,
+      "t": "m",
+      "d": 4,
+      "c": 8,
+      "j": 2,
+      "sub": "XIV. Hyperphosphatemia",
+      "st": "A client with stage 5 chronic kidney disease has a serum phosphorus level of 6.8 mg/dL (2.20 mmol/L) and reports numbness around the mouth and muscle cramps. Why do clinical manifestations of hyperphosphatemia center on neuromuscular irritability?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Elevated serum phosphorus reciprocally lowers serum calcium, producing hypocalcemia",
+          "Most body systems tolerate elevated phosphorus well, so symptoms stem from secondary hypocalcemia."
+        ],
+        [
+          "B",
+          "Excess phosphate directly depolarizes skeletal muscle motor end-plates",
+          "Hyperphosphatemia induces neuromuscular irritability indirectly by decreasing ionized serum calcium levels in blood."
+        ],
+        [
+          "C",
+          "Elevated phosphorus stimulates excess parathyroid hormone release that causes tetany",
+          "Hypocalcemia triggers neuromuscular tetany rather than elevated serum phosphorus acting directly on muscles."
+        ],
+        [
+          "D",
+          "Phosphate ions bind potassium in plasma, causing acute hypokalemic cramping",
+          "Phosphorus interacts reciprocally with calcium rather than binding circulating serum potassium ions."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Most body systems tolerate elevated serum phosphorus well; clinical problems in hyperphosphatemia center on the resulting hypocalcemia.",
+      "fc": [
+        "Pathophysiology of Hyperphosphatemia",
+        "Most body systems tolerate high phosphorus levels well | Increase in serum phosphorus causes reciprocal decrease in serum calcium | Clinical problems and management center on resulting hypocalcemia",
+        "XIV. Hyperphosphatemia"
+      ]
+    },
+    {
+      "i": 100,
+      "t": "m",
+      "d": 3,
+      "c": 6,
+      "j": 5,
+      "sub": "XIV. Hyperphosphatemia",
+      "st": "The nurse is teaching a client with chronic kidney disease and hyperphosphatemia how to take prescribed oral phosphate-binding medications. Which instruction is essential for therapeutic effectiveness?",
+      "ex": null,
+      "o": [
+        [
+          "A",
+          "Take phosphate-binding medications with meals or immediately after meals",
+          "Phosphate binders must be present in the gastrointestinal tract with food to bind phosphorus."
+        ],
+        [
+          "B",
+          "Take phosphate-binding medications at bedtime on an empty stomach",
+          "Taking phosphate binders on an empty stomach prevents them from binding dietary food phosphorus."
+        ],
+        [
+          "C",
+          "Use over-the-counter sodium phosphate enemas if the binder causes constipation",
+          "Phosphate-containing enemas and laxatives are strictly contraindicated because they worsen elevated serum phosphorus."
+        ],
+        [
+          "D",
+          "Follow a high-phosphorus diet to offset fecal excretion caused by the medication",
+          "Clients with hyperphosphatemia must decrease dietary intake of high-phosphorus foods alongside binder therapy."
+        ]
+      ],
+      "a": [
+        "A"
+      ],
+      "obj": "Phosphate-binding medications increase fecal phosphorus excretion by binding dietary phosphorus and must be taken with meals or immediately after meals.",
+      "fc": [
+        "Hyperphosphatemia Interventions & Phosphate Binders",
+        "Take phosphate-binding medications WITH meals or immediately AFTER meals | Manage hypocalcemia and decrease high-phosphorus foods | Avoid phosphate-containing laxatives and enemas",
+        "XIV. Hyperphosphatemia"
+      ]
+    }
+  ]
+}
